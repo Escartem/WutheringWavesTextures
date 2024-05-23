@@ -1,0 +1,9 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T_DefaultNormal_N
+Emissive=T_Decal_30013
+Other[0]=T_Decal_60601
+Other[1]=T_Twist_50001
+Other[2]=T_Normal_Flowmap_40002
+Other[3]=T_Dilie_003
+Other[4]=T_Ring_30059
+Other[5]=T_Ice_20000

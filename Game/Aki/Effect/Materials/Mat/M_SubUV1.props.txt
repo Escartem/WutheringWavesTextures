@@ -1,0 +1,117 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=V Offset }
+                    ParameterInfos[1] = { Name=Dissolve }
+                    ParameterInfos[2] = { Name=Depth }
+                    ParameterInfos[3] = { Name=Smooth }
+                    ParameterInfos[4] = { Name=U Offset }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Dissolve UV }
+                    ParameterInfos[1] = { Name=Dissolve Edge Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Main_Texture }
+                    ParameterInfos[1] = { Name=Dissolve Tex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[5] = { 0, 1, 0, 5, 0 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Main_Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Dissolve Tex
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=V Offset, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Dissolve, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Depth, Group=None }
+    CollectedScalarParameters[3] = { Value=5, Name=Smooth, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=U Offset, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Dissolve UV
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Dissolve Edge Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultColorWhite_D
+    }
+}

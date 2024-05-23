@@ -1,0 +1,169 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_D.T_DefaultColorBlack_D'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[16] =
+                {
+                    ParameterInfos[0] = { Name=Mask_U_Offset }
+                    ParameterInfos[1] = { Name=Distortion_U_Speed }
+                    ParameterInfos[2] = { Name=Flow_V_Offset }
+                    ParameterInfos[3] = { Name=Mask_U_Tiling }
+                    ParameterInfos[4] = { Name=Distortion_U_Offset }
+                    ParameterInfos[5] = { Name=Flow_U_Tiling }
+                    ParameterInfos[6] = { Name=FlowIntensity }
+                    ParameterInfos[7] = { Name=Distortion_V_Offset }
+                    ParameterInfos[8] = { Name=Flow_U_Offset }
+                    ParameterInfos[9] = { Name=Distortion_U_Tiling }
+                    ParameterInfos[10] = { Name=Mask_V_Offset }
+                    ParameterInfos[11] = { Name=Mask_V_Tiling }
+                    ParameterInfos[12] = { Name=Mask_Rotation }
+                    ParameterInfos[13] = { Name=Distortion_V_Speed }
+                    ParameterInfos[14] = { Name=Distortion_V_Tiling }
+                    ParameterInfos[15] = { Name=Flow_V_Tiling }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Intensity }
+                    ParameterInfos[1] = { Name=FlowSpeed }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=MaskTex }
+                    ParameterInfos[1] = { Name=FlowTex }
+                    ParameterInfos[2] = { Name=RefractionTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[16] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 0
+            ScalarValues[2] = 0
+            ScalarValues[3] = 1
+            ScalarValues[4] = 0
+            ScalarValues[5] = 1
+            ScalarValues[6] = 1
+            ScalarValues[7] = 0
+            ScalarValues[8] = 0
+            ScalarValues[9] = 1
+            ScalarValues[10] = 0
+            ScalarValues[11] = 1
+            ScalarValues[12] = 0
+            ScalarValues[13] = 0
+            ScalarValues[14] = 1
+            ScalarValues[15] = 1
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_D.T_DefaultColorBlack_D'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_D.T_DefaultColorBlack_D'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = MaskTex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_D.T_DefaultColorBlack_D'
+        Name = FlowTex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+        Name = RefractionTex
+        Group = None
+    }
+}
+CollectedScalarParameters[16] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Mask_U_Offset, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Distortion_U_Speed, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Flow_V_Offset, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Mask_U_Tiling, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Distortion_U_Offset, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Flow_U_Tiling, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=FlowIntensity, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=Distortion_V_Offset, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=Flow_U_Offset, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Distortion_U_Tiling, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=Mask_V_Offset, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=Mask_V_Tiling, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=Mask_Rotation, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=Distortion_V_Speed, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=Distortion_V_Tiling, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=Flow_V_Tiling, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Intensity
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = FlowSpeed
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultNormal_N
+    }
+}

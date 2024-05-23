@@ -1,0 +1,14 @@
+Diffuse=DefaultDiffuse
+Normal=DemoBox_Normals
+Other[0]=T_Tile_300123
+Other[1]=T_Tile_006
+Other[2]=T_Tile_20003
+Other[3]=T_Mask_10011
+Other[4]=T_Tile_300185_2
+Other[5]=DebugNumberStrip
+Other[6]=Gradient
+Other[7]=Greyscale
+Other[8]=DemoBox
+Other[9]=DebugNumberPeriod
+Other[10]=T_DefaultColorWhite_D
+Other[11]=T_DefaultColorWhite_Linear_D

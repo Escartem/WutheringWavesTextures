@@ -1,0 +1,5 @@
+Diffuse=T_DefaultColorBlack_D
+Normal=T_DefaultNormal_N
+Other[0]=T_Normal_007
+Other[1]=T_Mask_50001
+Other[2]=T_DefaultColorWhite_D

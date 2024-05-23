@@ -1,0 +1,6 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T_DefaultNormal_N
+Other[0]=T_Tile_160006
+Other[1]=T_Color_30016
+Other[2]=T_Tile_30012
+Other[3]=T_Default_SceneMask_M

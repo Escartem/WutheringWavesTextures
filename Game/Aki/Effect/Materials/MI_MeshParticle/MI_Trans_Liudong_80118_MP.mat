@@ -1,0 +1,6 @@
+Diffuse=T_DefaultColorWhite_D
+Other[0]=T_Hit_30001_3
+Other[1]=T_Tile_300185
+Other[2]=T_Normal_30002
+Other[3]=T_Mask_30054
+Other[4]=T_Dissolve_30004

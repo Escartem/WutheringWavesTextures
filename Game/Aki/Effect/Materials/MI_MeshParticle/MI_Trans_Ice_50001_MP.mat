@@ -1,0 +1,17 @@
+Diffuse=DefaultDiffuse
+Normal=Jiyan_Stone_Ice_Normal
+Other[0]=Jiyan_Stone_Ice_D
+Other[1]=Effect_Ice_Mix
+Other[2]=Jiyan_Stone_Ice_Crack
+Other[3]=T_Noise001
+Other[4]=T_Cloud_30006
+Other[5]=BlendFunc_DefBase
+Other[6]=BlendFunc_DefBlend
+Other[7]=DebugNumberStrip
+Other[8]=Gradient
+Other[9]=Greyscale
+Other[10]=DemoBox
+Other[11]=DemoBox_Normals
+Other[12]=DebugNumberPeriod
+Other[13]=T_DefaultColorWhite_D
+Other[14]=T_DefaultColorWhite_Linear_D

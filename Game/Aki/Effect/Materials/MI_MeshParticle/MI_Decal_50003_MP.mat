@@ -1,0 +1,6 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T_DefaultNormal_N
+Emissive=T_Cloud_30006
+Other[0]=T_Dilie_006
+Other[1]=T_Mask_10030
+Other[2]=T_Ice_20000

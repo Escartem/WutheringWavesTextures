@@ -1,0 +1,183 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_Caustic_001.T_Caustic_001'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=FlowDesaturation }
+                    ParameterInfos[1] = { Name=Noise_Flow_Intensity }
+                    ParameterInfos[2] = { Name=Noise_Intensity }
+                    ParameterInfos[3] = { Name=FlowRotation Angle }
+                    ParameterInfos[4] = { Name=Alpha Rotation }
+                    ParameterInfos[5] = { Name=Rotation Angle }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=Flow_UV }
+                    ParameterInfos[1] = { Name=Flow_Refine }
+                    ParameterInfos[2] = { Name=Refine }
+                    ParameterInfos[3] = { Name=Mask UV }
+                    ParameterInfos[4] = { Name=NoiseA_UV }
+                    ParameterInfos[5] = { Name=Mian_UV }
+                    ParameterInfos[6] = { Name=UVClamp }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=MainTex }
+                    ParameterInfos[1] = { Name=T_Noise }
+                    ParameterInfos[2] = { Name=T_Mask }
+                    ParameterInfos[3] = { Name=Flow_Tex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[6] = { 0, 0, 0, 0, 0, 0 }
+        VectorValues[7] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+            VectorValues[1] = { R=1, G=1, B=1, A=0.5 }
+            VectorValues[2] = { R=1, G=1, B=1, A=0.5 }
+            VectorValues[3] = { R=1, G=1, B=0, A=0 }
+            VectorValues[4] = { R=1, G=1, B=0, A=0 }
+            VectorValues[5] = { R=1, G=1, B=0, A=0 }
+            VectorValues[6] = { R=1, G=1, B=0, A=0 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_Caustic_001.T_Caustic_001'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_Caustic_001.T_Caustic_001'
+            TextureValues[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_Caustic_001.T_Caustic_001'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = MainTex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_Caustic_001.T_Caustic_001'
+        Name = T_Noise
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_Caustic_001.T_Caustic_001'
+        Name = T_Mask
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Flow_Tex
+        Group = None
+    }
+}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=FlowDesaturation, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Noise_Flow_Intensity, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Noise_Intensity, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=FlowRotation Angle, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Alpha Rotation, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Rotation Angle, Group=None }
+}
+CollectedVectorParameters[7] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Flow_UV
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=0.5 }
+        Name = Flow_Refine
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=0.5 }
+        Name = Refine
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Mask UV
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = NoiseA_UV
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Mian_UV
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = UVClamp
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Caustic_001
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultColorWhite_D
+    }
+}

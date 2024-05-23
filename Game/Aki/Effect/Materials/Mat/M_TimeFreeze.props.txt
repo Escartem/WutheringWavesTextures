@@ -1,0 +1,181 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Effect/Texture/Color/T_TimeFreeze_MatcapMask_M.T_TimeFreeze_MatcapMask_M'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Effect/Texture/Mask/T_Mask_020.T_Mask_020'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[11] =
+                {
+                    ParameterInfos[0] = { Name=CenterPow }
+                    ParameterInfos[1] = { Name=Rotation }
+                    ParameterInfos[2] = { Name=RimRange }
+                    ParameterInfos[3] = { Name=DetailPow }
+                    ParameterInfos[4] = { Name=MaskPow }
+                    ParameterInfos[5] = { Name=RimDensity }
+                    ParameterInfos[6] = { Name=UseNormal2 }
+                    ParameterInfos[7] = { Name=CenterContrast }
+                    ParameterInfos[8] = { Name=SpecularContrast }
+                    ParameterInfos[9] = { Name=SpecularPow }
+                    ParameterInfos[10] = { Name=NoiseSize }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=SecondUVScaleSpeed }
+                    ParameterInfos[1] = { Name=SecondTint }
+                    ParameterInfos[2] = { Name=SpecularColor }
+                    ParameterInfos[3] = { Name=NoiseUVScaleSpeed }
+                    ParameterInfos[4] = { Name=NormalBias }
+                    ParameterInfos[5] = { Name=CenterColor }
+                    ParameterInfos[6] = { Name=MainColor }
+                    ParameterInfos[7] = { Name=RimColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=MatcapMaskTex }
+                    ParameterInfos[1] = { Name=NormalNoiseTex }
+                    ParameterInfos[2] = { Name=SecondTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[11] = { 1, 0, 0.5, 1, 1, 1, 0, 0, 0, 1, 0 }
+        VectorValues[8] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+            VectorValues[1] = { R=1, G=1, B=1, A=1 }
+            VectorValues[2] = { R=1, G=1, B=1, A=0 }
+            VectorValues[3] = { R=1, G=1, B=0, A=0 }
+            VectorValues[4] = { R=0, G=0, B=0, A=1 }
+            VectorValues[5] = { R=0, G=0, B=0, A=0 }
+            VectorValues[6] = { R=0.283785, G=0.517412, B=0.791667, A=0 }
+            VectorValues[7] = { R=2, G=2, B=2, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Effect/Texture/Color/T_TimeFreeze_MatcapMask_M.T_TimeFreeze_MatcapMask_M'
+            TextureValues[1] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+            TextureValues[2] = Texture2D'/Game/Aki/Effect/Texture/Mask/T_Mask_020.T_Mask_020'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Effect/Texture/Color/T_TimeFreeze_MatcapMask_M.T_TimeFreeze_MatcapMask_M'
+        ReferencedTextures[1] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Effect/Texture/Mask/T_Mask_020.T_Mask_020'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Effect/Texture/Color/T_TimeFreeze_MatcapMask_M.T_TimeFreeze_MatcapMask_M'
+        Name = MatcapMaskTex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        Name = NormalNoiseTex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Effect/Texture/Mask/T_Mask_020.T_Mask_020'
+        Name = SecondTex
+        Group = None
+    }
+}
+CollectedScalarParameters[11] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=CenterPow, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Rotation, Group=None }
+    CollectedScalarParameters[2] = { Value=0.5, Name=RimRange, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=DetailPow, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=MaskPow, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=RimDensity, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=UseNormal2, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=CenterContrast, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=SpecularContrast, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=SpecularPow, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=NoiseSize, Group=None }
+}
+CollectedVectorParameters[8] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = SecondUVScaleSpeed
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = SecondTint
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = SpecularColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = NoiseUVScaleSpeed
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = NormalBias
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = CenterColor
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0.283785, G=0.517412, B=0.791667, A=0 }
+        Name = MainColor
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=2, G=2, B=2, A=1 }
+        Name = RimColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

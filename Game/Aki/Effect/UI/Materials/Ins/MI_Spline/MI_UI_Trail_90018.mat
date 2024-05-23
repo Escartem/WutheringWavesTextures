@@ -1,0 +1,5 @@
+Diffuse=T_DefaultColorWhite_D
+Other[0]=T_UI_Mask_30053
+Other[1]=T_UI_Mask_21005
+Other[2]=T_UI_Mask_Clamp_90013
+Other[3]=LGUIPreset_WhiteSolid

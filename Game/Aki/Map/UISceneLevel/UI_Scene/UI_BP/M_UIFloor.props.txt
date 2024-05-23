@@ -1,0 +1,149 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Map/UISceneLevel/UI_Scene/UI_Texture/T_FloorMap.T_FloorMap'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/T_CloudNoise_Curl.T_CloudNoise_Curl'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[12] =
+                {
+                    ParameterInfos[0] = { Name=Radius }
+                    ParameterInfos[1] = { Name=Reflection Intensity }
+                    ParameterInfos[2] = { Name=BottomFakeIntensity }
+                    ParameterInfos[3] = { Name=FloorRadius }
+                    ParameterInfos[4] = { Name=Hardness }
+                    ParameterInfos[5] = { Name=FloorHardness }
+                    ParameterInfos[6] = { Name=BottomIntensityPow }
+                    ParameterInfos[7] = { Name=FadeHardness }
+                    ParameterInfos[8] = { Name=FadeRadius }
+                    ParameterInfos[9] = { Name=FloorIntensity }
+                    ParameterInfos[10] = { Name=DisortionStrength }
+                    ParameterInfos[11] = { Name=UpperLightIntensity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=UVDisortion }
+                    ParameterInfos[1] = { Name=UpperLightColor }
+                    ParameterInfos[2] = { Name=FloorMap_Color }
+                    ParameterInfos[3] = { Name=FloorMapUV }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=DisortionMap }
+                    ParameterInfos[1] = { Name=FloorMap }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[12] = { 0, 1, 1, 0.1, 0, 0.5, 1, 0.5, 0.48, 1, 0.1, 1 }
+        VectorValues[4] =
+        {
+            VectorValues[0] = { R=4, G=4, B=0, A=0 }
+            VectorValues[1] = { R=1, G=1, B=1, A=0 }
+            VectorValues[2] = { R=1, G=1, B=1, A=1 }
+            VectorValues[3] = { R=1, G=1, B=0, A=0 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/T_CloudNoise_Curl.T_CloudNoise_Curl'
+            TextureValues[1] = Texture2D'/Game/Aki/Map/UISceneLevel/UI_Scene/UI_Texture/T_FloorMap.T_FloorMap'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Map/UISceneLevel/UI_Scene/UI_Texture/T_FloorMap.T_FloorMap'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/T_CloudNoise_Curl.T_CloudNoise_Curl'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/T_CloudNoise_Curl.T_CloudNoise_Curl'
+        Name = DisortionMap
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Map/UISceneLevel/UI_Scene/UI_Texture/T_FloorMap.T_FloorMap'
+        Name = FloorMap
+        Group = None
+    }
+}
+CollectedScalarParameters[12] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Radius, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Reflection Intensity, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=BottomFakeIntensity, Group=None }
+    CollectedScalarParameters[3] = { Value=0.1, Name=FloorRadius, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Hardness, Group=None }
+    CollectedScalarParameters[5] = { Value=0.5, Name=FloorHardness, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=BottomIntensityPow, Group=None }
+    CollectedScalarParameters[7] = { Value=0.5, Name=FadeHardness, Group=None }
+    CollectedScalarParameters[8] = { Value=0.48, Name=FadeRadius, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=FloorIntensity, Group=None }
+    CollectedScalarParameters[10] = { Value=0.1, Name=DisortionStrength, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=UpperLightIntensity, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=4, G=4, B=0, A=0 }
+        Name = UVDisortion
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = UpperLightColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = FloorMap_Color
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = FloorMapUV
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 4
+        UVChannelIndex = 0
+        TextureName = T_CloudNoise_Curl
+    }
+}

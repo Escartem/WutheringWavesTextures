@@ -1,0 +1,9 @@
+Diffuse=T_DefaultColorBlack_Linear_D
+Other[0]=T_Trail_30039_2
+Other[1]=T_Tile_262
+Other[2]=T_Mask_10005
+Other[3]=T_Dissolve_30003
+Other[4]=T_Bailian_Circle_20000_VAT
+Other[5]=Gradient
+Other[6]=Greyscale
+Other[7]=T_DefaultColorWhite_D

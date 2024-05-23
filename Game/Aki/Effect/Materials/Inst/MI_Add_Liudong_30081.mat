@@ -1,0 +1,13 @@
+Diffuse=DefaultDiffuse
+Normal=DemoBox_Normals
+Other[0]=T_Trail_30039_2
+Other[1]=T_Tile_30003
+Other[2]=T_Trail_019
+Other[3]=T_Mask_10011
+Other[4]=DebugNumberStrip
+Other[5]=Gradient
+Other[6]=Greyscale
+Other[7]=DemoBox
+Other[8]=DebugNumberPeriod
+Other[9]=T_DefaultColorWhite_D
+Other[10]=T_DefaultColorWhite_Linear_D

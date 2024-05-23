@@ -1,0 +1,5 @@
+Diffuse=T_DefaultColorBlack_D
+Normal=T_Dilie_003N
+Emissive=T_IceDecle_30003
+Other[0]=T_Bullet_20001
+Other[1]=T_DefaultColorWhite_D

@@ -1,0 +1,310 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_MiscNoise_102.T_MiscNoise_102'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/CloudCard/Noise_Fire3.Noise_Fire3'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Scene/NewGacha/Textures/T_Star.T_Star'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[26] =
+                {
+                    ParameterInfos[0] = { Name=NebularAlpha }
+                    ParameterInfos[1] = { Name=BleedFalloff }
+                    ParameterInfos[2] = { Name=DissolveUVScale }
+                    ParameterInfos[3] = { Name=UpdownMaskPow }
+                    ParameterInfos[4] = { Name=Use_TextureU_for_Ramp }
+                    ParameterInfos[5] = { Name=LightVerticalOffset }
+                    ParameterInfos[6] = { Name=DissolveSpeed }
+                    ParameterInfos[7] = { Name=BottomFakeIntensity }
+                    ParameterInfos[8] = { Name=FakeLightPos }
+                    ParameterInfos[9] = { Name=BackFlowMask }
+                    ParameterInfos[10] = { Name=Vertical Gradient }
+                    ParameterInfos[11] = { Name=BottomIntensityPow }
+                    ParameterInfos[12] = { Name=LightAngleOffset }
+                    ParameterInfos[13] = { Name=Star_Alpha }
+                    ParameterInfos[14] = { Name=NoiseStrength }
+                    ParameterInfos[15] = { Name=UpperFakeIntensity }
+                    ParameterInfos[16] = { Name=DissolveIntensity }
+                    ParameterInfos[17] = { Name=BackFlowUVScale2 }
+                    ParameterInfos[18] = { Name=UpdownMaskAmount }
+                    ParameterInfos[19] = { Name=BackFlowUVSpeed }
+                    ParameterInfos[20] = { Name=HeightFalloff }
+                    ParameterInfos[21] = { Name=BackFlowUVScale1 }
+                    ParameterInfos[22] = { Name=LightHoriAngleOffset }
+                    ParameterInfos[23] = { Name=FogLightness }
+                    ParameterInfos[24] = { Name=FlowLayerIntensity }
+                    ParameterInfos[25] = { Name=RampCurve }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=NebularUV }
+                    ParameterInfos[1] = { Name=NoiseUV }
+                    ParameterInfos[2] = { Name=BottomFogColor }
+                    ParameterInfos[3] = { Name=NebularColor }
+                    ParameterInfos[4] = { Name=Star_Color }
+                    ParameterInfos[5] = { Name=StarMaskTexBaseUV }
+                    ParameterInfos[6] = { Name=StarTexBaseUV }
+                    ParameterInfos[7] = { Name=BleedColor }
+                    ParameterInfos[8] = { Name=FogColor }
+                    ParameterInfos[9] = { Name=Star_Color_Refine }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=FlowLayer1 }
+                    ParameterInfos[1] = { Name=NoiseTex }
+                    ParameterInfos[2] = { Name=FlowLayerMask1 }
+                    ParameterInfos[3] = { Name=FlowLayerDissolveTex }
+                    ParameterInfos[4] = { Name=StarMaskTex }
+                    ParameterInfos[5] = { Name=ColorTex }
+                    ParameterInfos[6] = { Name=StarTex }
+                    ParameterInfos[7] = { Name=Vertical RampMap }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[26] =
+        {
+            ScalarValues[0] = 10
+            ScalarValues[1] = 1
+            ScalarValues[2] = 22.7509
+            ScalarValues[3] = 1
+            ScalarValues[4] = 0
+            ScalarValues[5] = 0
+            ScalarValues[6] = 0.1
+            ScalarValues[7] = 1
+            ScalarValues[8] = -0.5
+            ScalarValues[9] = 0.3
+            ScalarValues[10] = 4
+            ScalarValues[11] = 1
+            ScalarValues[12] = -0.2
+            ScalarValues[13] = 1
+            ScalarValues[14] = 0
+            ScalarValues[15] = 1
+            ScalarValues[16] = 1
+            ScalarValues[17] = 22.7509
+            ScalarValues[18] = 1
+            ScalarValues[19] = 0.01
+            ScalarValues[20] = 1.4
+            ScalarValues[21] = 22.7509
+            ScalarValues[22] = -0.5
+            ScalarValues[23] = 3
+            ScalarValues[24] = 0
+            ScalarValues[25] = 0
+        }
+        VectorValues[10] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+            VectorValues[1] = { R=1, G=1, B=0, A=0 }
+            VectorValues[2] = { R=0, G=0.010454, B=0.041667, A=5 }
+            VectorValues[3] = { R=1, G=1, B=1, A=0 }
+            VectorValues[4] = { R=1, G=1, B=1, A=1 }
+            VectorValues[5] = { R=1, G=1, B=0, A=0 }
+            VectorValues[6] = { R=1, G=1, B=0, A=0 }
+            VectorValues[7] = { R=1, G=1, B=1, A=0 }
+            VectorValues[8] = { R=0.443137, G=0.443137, B=0.443137, A=1 }
+            VectorValues[9] = { R=1, G=1, B=1, A=0.5 }
+        }
+        TextureValues[8] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_MiscNoise_102.T_MiscNoise_102'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/CloudCard/Noise_Fire3.Noise_Fire3'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_MiscNoise_102.T_MiscNoise_102'
+            TextureValues[3] = Texture2D'/Game/Aki/Render/Common/T_MiscNoise_102.T_MiscNoise_102'
+            TextureValues[4] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[5] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[6] = Texture2D'/Game/Aki/Scene/NewGacha/Textures/T_Star.T_Star'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_MiscNoise_102.T_MiscNoise_102'
+        ReferencedTextures[3] = Texture2D'/Game/Aki/Scene/NewGacha/Textures/T_Star.T_Star'
+        ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        ReferencedTextures[5] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/CloudCard/Noise_Fire3.Noise_Fire3'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[8] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_MiscNoise_102.T_MiscNoise_102'
+        Name = FlowLayer1
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/GI/CloudCard/Noise_Fire3.Noise_Fire3'
+        Name = NoiseTex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_MiscNoise_102.T_MiscNoise_102'
+        Name = FlowLayerMask1
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_MiscNoise_102.T_MiscNoise_102'
+        Name = FlowLayerDissolveTex
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = StarMaskTex
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = ColorTex
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Aki/Scene/NewGacha/Textures/T_Star.T_Star'
+        Name = StarTex
+        Group = None
+    }
+    CollectedTextureParameters[7] = { Texture=None, Name=Vertical RampMap, Group=None }
+}
+CollectedScalarParameters[26] =
+{
+    CollectedScalarParameters[0] = { Value=10, Name=NebularAlpha, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=BleedFalloff, Group=None }
+    CollectedScalarParameters[2] = { Value=22.7509, Name=DissolveUVScale, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=UpdownMaskPow, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Use_TextureU_for_Ramp, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=LightVerticalOffset, Group=None }
+    CollectedScalarParameters[6] = { Value=0.1, Name=DissolveSpeed, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=BottomFakeIntensity, Group=None }
+    CollectedScalarParameters[8] = { Value=-0.5, Name=FakeLightPos, Group=None }
+    CollectedScalarParameters[9] = { Value=0.3, Name=BackFlowMask, Group=None }
+    CollectedScalarParameters[10] = { Value=4, Name=Vertical Gradient, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=BottomIntensityPow, Group=None }
+    CollectedScalarParameters[12] = { Value=-0.2, Name=LightAngleOffset, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=Star_Alpha, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=NoiseStrength, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=UpperFakeIntensity, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=DissolveIntensity, Group=None }
+    CollectedScalarParameters[17] = { Value=22.7509, Name=BackFlowUVScale2, Group=None }
+    CollectedScalarParameters[18] = { Value=1, Name=UpdownMaskAmount, Group=None }
+    CollectedScalarParameters[19] = { Value=0.01, Name=BackFlowUVSpeed, Group=None }
+    CollectedScalarParameters[20] = { Value=1.4, Name=HeightFalloff, Group=None }
+    CollectedScalarParameters[21] = { Value=22.7509, Name=BackFlowUVScale1, Group=None }
+    CollectedScalarParameters[22] =
+    {
+        Value = -0.5
+        Name = LightHoriAngleOffset
+        Group = None
+    }
+    CollectedScalarParameters[23] = { Value=3, Name=FogLightness, Group=None }
+    CollectedScalarParameters[24] = { Value=0, Name=FlowLayerIntensity, Group=None }
+    CollectedScalarParameters[25] = { Value=0, Name=RampCurve, Group=None }
+}
+CollectedVectorParameters[10] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = NebularUV
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = NoiseUV
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0.010454, B=0.041667, A=5 }
+        Name = BottomFogColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = NebularColor
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Star_Color
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = StarMaskTexBaseUV
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = StarTexBaseUV
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = BleedColor
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0.443137, G=0.443137, B=0.443137, A=1 }
+        Name = FogColor
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=1, G=1, B=1, A=0.5 }
+        Name = Star_Color_Refine
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = Noise_Fire3
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultColorWhite_D
+    }
+}

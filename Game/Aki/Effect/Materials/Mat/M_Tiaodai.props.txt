@@ -1,0 +1,223 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[30] =
+                {
+                    ParameterInfos[0] = { Name=$$_U_Offset }
+                    ParameterInfos[1] = { Name=$$$$_V_Tiling }
+                    ParameterInfos[2] = { Name=$$$$$$ }
+                    ParameterInfos[3] = { Name=B$$_V_Offset }
+                    ParameterInfos[4] = { Name=$$_U_Tiling }
+                    ParameterInfos[5] = { Name=$$$$_U_Tiling }
+                    ParameterInfos[6] = { Name=B$$_V_Tiling }
+                    ParameterInfos[7] = { Name=$$$_V_offset }
+                    ParameterInfos[8] = { Name=U_Speed }
+                    ParameterInfos[9] = { Name=$$$$_V_offset }
+                    ParameterInfos[10] = { Name=B$$_U_Tiling }
+                    ParameterInfos[11] = { Name=$$_V_offset }
+                    ParameterInfos[12] = { Name=$$$$V$$$$ }
+                    ParameterInfos[13] = { Name=$$$$_V_Tiling }
+                    ParameterInfos[14] = { Name=$$$$ }
+                    ParameterInfos[15] = { Name=$$$_V_Tiling }
+                    ParameterInfos[16] = { Name=$$$V$$$$ }
+                    ParameterInfos[17] = { Name=V_Speed }
+                    ParameterInfos[18] = { Name=$$_V_offset }
+                    ParameterInfos[19] = { Name=$$$_U_Offset }
+                    ParameterInfos[20] = { Name=$$_V_Tiling }
+                    ParameterInfos[21] = { Name=B$$_U_Offset }
+                    ParameterInfos[22] = { Name=$$$$_U_Tiling }
+                    ParameterInfos[23] = { Name=$$$$U$$$$ }
+                    ParameterInfos[24] = { Name=$$ }
+                    ParameterInfos[25] = { Name=$$$$_U_Offset }
+                    ParameterInfos[26] = { Name=$$_U_Offset }
+                    ParameterInfos[27] = { Name=$$$U$$$$ }
+                    ParameterInfos[28] = { Name=$$$$$$ }
+                    ParameterInfos[29] = { Name=$$$_U_Tiling }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=$$$color }
+                    ParameterInfos[1] = { Name=RGB$$ }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=$$$$ }
+                    ParameterInfos[1] = { Name=$$$$ }
+                    ParameterInfos[2] = { Name=$$$$ }
+                    ParameterInfos[3] = { Name=$$$ }
+                    ParameterInfos[4] = { Name=B$$$$ }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[30] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 1
+            ScalarValues[2] = 1
+            ScalarValues[3] = 0
+            ScalarValues[4] = 1
+            ScalarValues[5] = 1
+            ScalarValues[6] = 1
+            ScalarValues[7] = 0
+            ScalarValues[8] = 0
+            ScalarValues[9] = 0
+            ScalarValues[10] = 1
+            ScalarValues[11] = 0
+            ScalarValues[12] = 0.3
+            ScalarValues[13] = 1
+            ScalarValues[14] = 0.25
+            ScalarValues[15] = 1
+            ScalarValues[16] = 0.3
+            ScalarValues[17] = 0
+            ScalarValues[18] = 0
+            ScalarValues[19] = 0
+            ScalarValues[20] = 1
+            ScalarValues[21] = 0
+            ScalarValues[22] = 1
+            ScalarValues[23] = 0.3
+            ScalarValues[24] = 1
+            ScalarValues[25] = 0
+            ScalarValues[26] = 0
+            ScalarValues[27] = 0.3
+            ScalarValues[28] = 0
+            ScalarValues[29] = 1
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=35, G=8.32521, B=0.950963, A=0 }
+            VectorValues[1] = { R=0, G=1, B=0, A=0 }
+        }
+        TextureValues[5] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[4] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = $$$$
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = $$$$
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = $$$$
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = $$$
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = B$$$$
+        Group = None
+    }
+}
+CollectedScalarParameters[30] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=$$_U_Offset, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=$$$$_V_Tiling, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=$$$$$$, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=B$$_V_Offset, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=$$_U_Tiling, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=$$$$_U_Tiling, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=B$$_V_Tiling, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=$$$_V_offset, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=U_Speed, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=$$$$_V_offset, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=B$$_U_Tiling, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=$$_V_offset, Group=None }
+    CollectedScalarParameters[12] = { Value=0.3, Name=$$$$V$$$$, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=$$$$_V_Tiling, Group=None }
+    CollectedScalarParameters[14] = { Value=0.25, Name=$$$$, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=$$$_V_Tiling, Group=None }
+    CollectedScalarParameters[16] = { Value=0.3, Name=$$$V$$$$, Group=None }
+    CollectedScalarParameters[17] = { Value=0, Name=V_Speed, Group=None }
+    CollectedScalarParameters[18] = { Value=0, Name=$$_V_offset, Group=None }
+    CollectedScalarParameters[19] = { Value=0, Name=$$$_U_Offset, Group=None }
+    CollectedScalarParameters[20] = { Value=1, Name=$$_V_Tiling, Group=None }
+    CollectedScalarParameters[21] = { Value=0, Name=B$$_U_Offset, Group=None }
+    CollectedScalarParameters[22] = { Value=1, Name=$$$$_U_Tiling, Group=None }
+    CollectedScalarParameters[23] = { Value=0.3, Name=$$$$U$$$$, Group=None }
+    CollectedScalarParameters[24] = { Value=1, Name=$$, Group=None }
+    CollectedScalarParameters[25] = { Value=0, Name=$$$$_U_Offset, Group=None }
+    CollectedScalarParameters[26] = { Value=0, Name=$$_U_Offset, Group=None }
+    CollectedScalarParameters[27] = { Value=0.3, Name=$$$U$$$$, Group=None }
+    CollectedScalarParameters[28] = { Value=0, Name=$$$$$$, Group=None }
+    CollectedScalarParameters[29] = { Value=1, Name=$$$_U_Tiling, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=35, G=8.32521, B=0.950963, A=0 }
+        Name = $$$color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=1, B=0, A=0 }
+        Name = RGB$$
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultColorWhite_D
+    }
+}

@@ -1,0 +1,7 @@
+Diffuse=T_DefaultColorBlack_D
+Normal=T_Dilie_003N
+Emissive=T_Tile_10011
+Other[0]=T_Dilie_20003
+Other[1]=T_SenceDecal_30001_Bump
+Other[2]=T_Dissovlve_30005
+Other[3]=T_DefaultColorWhite_D

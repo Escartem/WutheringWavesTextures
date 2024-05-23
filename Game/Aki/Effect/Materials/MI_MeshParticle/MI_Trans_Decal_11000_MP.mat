@@ -1,0 +1,6 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T_DefaultNormal_N
+Emissive=T_Nebula_30020
+Other[0]=T_Tile_013
+Other[1]=T_Mask_Scan_001
+Other[2]=T_Ice_20000

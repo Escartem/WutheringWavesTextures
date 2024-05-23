@@ -1,0 +1,7 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T_Decal_80002N
+Emissive=T_Decal_80001
+Other[0]=T_Normal_007
+Other[1]=T_Mask_30013
+Other[2]=T_Ice_20000
+Other[3]=T_DefaultNormal_N

@@ -1,0 +1,7 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T_DefaultNormal_N
+Emissive=T_Water_001
+Other[0]=T_Water_002
+Other[1]=T_Normal_30002
+Other[2]=T_Tile_007
+Other[3]=T_Ice_20000

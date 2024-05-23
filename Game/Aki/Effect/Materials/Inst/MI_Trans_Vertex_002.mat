@@ -1,0 +1,12 @@
+Diffuse=DefaultDiffuse
+Normal=DemoBox_Normals
+Other[0]=T_Trail_30009_4
+Other[1]=T_Yangyang_Burst01_Weapon_UV1_VAT
+Other[2]=T_Line_010
+Other[3]=DebugNumberStrip
+Other[4]=Gradient
+Other[5]=Greyscale
+Other[6]=DemoBox
+Other[7]=DebugNumberPeriod
+Other[8]=T_DefaultColorWhite_D
+Other[9]=T_DefaultColorWhite_Linear_D

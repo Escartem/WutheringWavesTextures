@@ -1,0 +1,9 @@
+Diffuse=T_DefaultColorBlack_Linear_D
+Other[0]=T_UI_Aura_30036
+Other[1]=T_UI_Tile_90003
+Other[2]=T_DefaultColorWhite_D
+Other[3]=T_UI_Mask_037
+Other[4]=T_UI_Mask_023
+Other[5]=Gradient
+Other[6]=Greyscale
+Other[7]=LGUIPreset_WhiteSolid

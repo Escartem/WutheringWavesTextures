@@ -1,0 +1,302 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_Caustic_001.T_Caustic_001'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[25] =
+                {
+                    ParameterInfos[0] = { Name=Ref$$$$ }
+                    ParameterInfos[1] = { Name=jitterStrength }
+                    ParameterInfos[2] = { Name=Base Rotation }
+                    ParameterInfos[3] = { Name=$$$$$ }
+                    ParameterInfos[4] = { Name=Noise Strength }
+                    ParameterInfos[5] = { Name=E_Motion_DitherPow }
+                    ParameterInfos[6] = { Name=$$$$ }
+                    ParameterInfos[7] = { Name=$$$$$ }
+                    ParameterInfos[8] = { Name=Mask Rotation }
+                    ParameterInfos[9] = { Name=Opactiy }
+                    ParameterInfos[10] = { Name=$$$$$$$ }
+                    ParameterInfos[11] = { Name=E_Motion_NoiseSpeed }
+                    ParameterInfos[12] = { Name=E_MotionRange }
+                    ParameterInfos[13] = { Name=$$$$$ }
+                    ParameterInfos[14] = { Name=Mask Alpha Multiply }
+                    ParameterInfos[15] = { Name=$$$$UV$$ }
+                    ParameterInfos[16] = { Name=E_Motion_DitherMin }
+                    ParameterInfos[17] = { Name=$$$$$$ }
+                    ParameterInfos[18] = { Name=$$$$$$ }
+                    ParameterInfos[19] = { Name=Ref }
+                    ParameterInfos[20] = { Name=Second Rotation }
+                    ParameterInfos[21] = { Name=inverse }
+                    ParameterInfos[22] = { Name=$$$$$$$ }
+                    ParameterInfos[23] = { Name=E_Motion_DitherMax }
+                    ParameterInfos[24] = { Name=$$$$$$$ }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[14] =
+                {
+                    ParameterInfos[0] = { Name=Base UV }
+                    ParameterInfos[1] = { Name=BaseTex_S_O }
+                    ParameterInfos[2] = { Name=$$$$$ }
+                    ParameterInfos[3] = { Name=WPOVector }
+                    ParameterInfos[4] = { Name=Second_UVSwitch }
+                    ParameterInfos[5] = { Name=Base_UVSwitch }
+                    ParameterInfos[6] = { Name=Second Contorl }
+                    ParameterInfos[7] = { Name=Base Refine }
+                    ParameterInfos[8] = { Name=Second UV }
+                    ParameterInfos[9] = { Name=Mask UV }
+                    ParameterInfos[10] = { Name=$$$$$$$ }
+                    ParameterInfos[11] = { Name=Color }
+                    ParameterInfos[12] = { Name=Noise UV }
+                    ParameterInfos[13] = { Name=E_Motion_Emissive }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Noise }
+                    ParameterInfos[1] = { Name=Mask }
+                    ParameterInfos[2] = { Name=Main_Tex }
+                    ParameterInfos[3] = { Name=Second }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[25] =
+        {
+            ScalarValues[0] = 3000
+            ScalarValues[1] = 1500
+            ScalarValues[2] = 0
+            ScalarValues[3] = 0
+            ScalarValues[4] = 0.15
+            ScalarValues[5] = 0.5
+            ScalarValues[6] = 300
+            ScalarValues[7] = 1
+            ScalarValues[8] = 0
+            ScalarValues[9] = 0.09
+            ScalarValues[10] = 0
+            ScalarValues[11] = 0
+            ScalarValues[12] = 0.5
+            ScalarValues[13] = 1
+            ScalarValues[14] = 1
+            ScalarValues[15] = 0
+            ScalarValues[16] = -0.1
+            ScalarValues[17] = 1
+            ScalarValues[18] = 0
+            ScalarValues[19] = 0.655686
+            ScalarValues[20] = 0
+            ScalarValues[21] = 1
+            ScalarValues[22] = 10
+            ScalarValues[23] = 0.5
+            ScalarValues[24] = 1
+        }
+        VectorValues[14] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+            VectorValues[2] = { R=2, G=2, B=2, A=1 }
+            VectorValues[3] = { R=1, G=0, B=0, A=1 }
+            VectorValues[4] = { R=1, G=0, B=0, A=0 }
+            VectorValues[5] = { R=1, G=0, B=0, A=0 }
+            VectorValues[6] = { R=0, G=1, B=0, A=0 }
+            VectorValues[7] = { R=1, G=1, B=1, A=0.5 }
+            VectorValues[8] = { R=1, G=1, B=0, A=0 }
+            VectorValues[9] = { R=1, G=1, B=0, A=0 }
+            VectorValues[10] = { R=1, G=1, B=1, A=1 }
+            VectorValues[11] = { R=1, G=1, B=1, A=1 }
+            VectorValues[12] = { R=1, G=1, B=1, A=0 }
+            VectorValues[13] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_Caustic_001.T_Caustic_001'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        }
+    }
+    ReferencedTextures[5] =
+    {
+        ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+        ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+        ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/T_Caustic_001.T_Caustic_001'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_Caustic_001.T_Caustic_001'
+        Name = Noise
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Mask
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Main_Tex
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Second
+        Group = None
+    }
+}
+CollectedScalarParameters[25] =
+{
+    CollectedScalarParameters[0] = { Value=3000, Name=Ref$$$$, Group=None }
+    CollectedScalarParameters[1] = { Value=1500, Name=jitterStrength, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Base Rotation, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=$$$$$, Group=None }
+    CollectedScalarParameters[4] = { Value=0.15, Name=Noise Strength, Group=None }
+    CollectedScalarParameters[5] = { Value=0.5, Name=E_Motion_DitherPow, Group=None }
+    CollectedScalarParameters[6] = { Value=300, Name=$$$$, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=$$$$$, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=Mask Rotation, Group=None }
+    CollectedScalarParameters[9] = { Value=0.09, Name=Opactiy, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=$$$$$$$, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=E_Motion_NoiseSpeed, Group=None }
+    CollectedScalarParameters[12] = { Value=0.5, Name=E_MotionRange, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=$$$$$, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=Mask Alpha Multiply, Group=None }
+    CollectedScalarParameters[15] = { Value=0, Name=$$$$UV$$, Group=None }
+    CollectedScalarParameters[16] = { Value=-0.1, Name=E_Motion_DitherMin, Group=None }
+    CollectedScalarParameters[17] = { Value=1, Name=$$$$$$, Group=None }
+    CollectedScalarParameters[18] = { Value=0, Name=$$$$$$, Group=None }
+    CollectedScalarParameters[19] = { Value=0.655686, Name=Ref, Group=None }
+    CollectedScalarParameters[20] = { Value=0, Name=Second Rotation, Group=None }
+    CollectedScalarParameters[21] = { Value=1, Name=inverse, Group=None }
+    CollectedScalarParameters[22] = { Value=10, Name=$$$$$$$, Group=None }
+    CollectedScalarParameters[23] = { Value=0.5, Name=E_Motion_DitherMax, Group=None }
+    CollectedScalarParameters[24] = { Value=1, Name=$$$$$$$, Group=None }
+}
+CollectedVectorParameters[14] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Base UV
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = BaseTex_S_O
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=2, G=2, B=2, A=1 }
+        Name = $$$$$
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=0, B=0, A=1 }
+        Name = WPOVector
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = Second_UVSwitch
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = Base_UVSwitch
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0, G=1, B=0, A=0 }
+        Name = Second Contorl
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=1, G=1, B=1, A=0.5 }
+        Name = Base Refine
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Second UV
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Mask UV
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = $$$$$$$
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[12] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Noise UV
+        Group = None
+    }
+    CollectedVectorParameters[13] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = E_Motion_Emissive
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultColorWhite_D
+    }
+}

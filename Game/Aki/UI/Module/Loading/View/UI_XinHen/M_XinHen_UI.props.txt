@@ -1,0 +1,133 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_3XingStar_D.T_3XingStar_D'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_3XingStar_SDF.T_3XingStar_SDF'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_XingHenSoundNoise.T_XingHenSoundNoise'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_XingHenSoundNoise02.T_XingHenSoundNoise02'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=Min }
+                    ParameterInfos[1] = { Name=SoundWaveIntensity01 }
+                    ParameterInfos[2] = { Name=SoundWaveIntensity02 }
+                    ParameterInfos[3] = { Name=Max }
+                    ParameterInfos[4] = { Name=Percent }
+                    ParameterInfos[5] = { Name=SoundWaveSpeed02 }
+                    ParameterInfos[6] = { Name=SoundWaveTiling01 }
+                    ParameterInfos[7] = { Name=SDFStart }
+                    ParameterInfos[8] = { Name=SoundWaveSpeed01 }
+                    ParameterInfos[9] = { Name=SoundWaveTiling02 }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=SDFColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Noise }
+                    ParameterInfos[1] = { Name=D }
+                    ParameterInfos[2] = { Name=Noise02 }
+                    ParameterInfos[3] = { Name=SDF }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[10] = { 0, 1, 1, 1, 0, 0, 1, 0, 0, 1 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_XingHenSoundNoise.T_XingHenSoundNoise'
+            TextureValues[1] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_3XingStar_D.T_3XingStar_D'
+            TextureValues[2] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_XingHenSoundNoise02.T_XingHenSoundNoise02'
+            TextureValues[3] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_3XingStar_SDF.T_3XingStar_SDF'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_3XingStar_D.T_3XingStar_D'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_XingHenSoundNoise.T_XingHenSoundNoise'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_3XingStar_SDF.T_3XingStar_SDF'
+        ReferencedTextures[3] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_XingHenSoundNoise02.T_XingHenSoundNoise02'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_XingHenSoundNoise.T_XingHenSoundNoise'
+        Name = Noise
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_3XingStar_D.T_3XingStar_D'
+        Name = D
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_XingHenSoundNoise02.T_XingHenSoundNoise02'
+        Name = Noise02
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_3XingStar_SDF.T_3XingStar_SDF'
+        Name = SDF
+        Group = None
+    }
+}
+CollectedScalarParameters[10] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Min, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=SoundWaveIntensity01, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=SoundWaveIntensity02, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Max, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Percent, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=SoundWaveSpeed02, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=SoundWaveTiling01, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=SDFStart, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=SoundWaveSpeed01, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=SoundWaveTiling02, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = SDFColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

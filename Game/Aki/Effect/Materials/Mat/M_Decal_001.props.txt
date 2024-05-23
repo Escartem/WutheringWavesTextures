@@ -1,0 +1,251 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_D.T_DefaultColorBlack_D'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[22] =
+                {
+                    ParameterInfos[0] = { Name=$$$$ }
+                    ParameterInfos[1] = { Name=Roughness }
+                    ParameterInfos[2] = { Name=U_Offset }
+                    ParameterInfos[3] = { Name=Nomal_U_Tiling }
+                    ParameterInfos[4] = { Name=Metallic }
+                    ParameterInfos[5] = { Name=Desaturation }
+                    ParameterInfos[6] = { Name=DissolutionTex_V_Tiling }
+                    ParameterInfos[7] = { Name=V_Offset }
+                    ParameterInfos[8] = { Name=$$$ }
+                    ParameterInfos[9] = { Name=EmissiveIntensity }
+                    ParameterInfos[10] = { Name=UVRotationAngle }
+                    ParameterInfos[11] = { Name=DissolutionTex_V_Offset }
+                    ParameterInfos[12] = { Name=DissolutionTex_U_Tiling }
+                    ParameterInfos[13] = { Name=Diss }
+                    ParameterInfos[14] = { Name=Nomal_V_Tiling }
+                    ParameterInfos[15] = { Name=Nomal_V_Offset }
+                    ParameterInfos[16] = { Name=UVscale }
+                    ParameterInfos[17] = { Name=Main$$(0-1) }
+                    ParameterInfos[18] = { Name=Opacity }
+                    ParameterInfos[19] = { Name=DissolutionTex_U_Offset }
+                    ParameterInfos[20] = { Name=Lerp }
+                    ParameterInfos[21] = { Name=Nomal_U_Offset }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=EmissiveColor }
+                    ParameterInfos[1] = { Name=Dissolve Edge Color }
+                    ParameterInfos[2] = { Name=BaseRefine }
+                    ParameterInfos[3] = { Name=Color }
+                    ParameterInfos[4] = { Name=EmissiveRefine }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=TexHeigh }
+                    ParameterInfos[1] = { Name=TexEmissive }
+                    ParameterInfos[2] = { Name=TexBase }
+                    ParameterInfos[3] = { Name=TexNormal }
+                    ParameterInfos[4] = { Name=TexDissolve }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[22] =
+        {
+            ScalarValues[0] = -1
+            ScalarValues[1] = 1
+            ScalarValues[2] = 0
+            ScalarValues[3] = 1
+            ScalarValues[4] = 0
+            ScalarValues[5] = 0
+            ScalarValues[6] = 1
+            ScalarValues[7] = 0
+            ScalarValues[8] = -0.1
+            ScalarValues[9] = 1
+            ScalarValues[10] = 0
+            ScalarValues[11] = 0
+            ScalarValues[12] = 1
+            ScalarValues[13] = 0
+            ScalarValues[14] = 1
+            ScalarValues[15] = 0
+            ScalarValues[16] = 0
+            ScalarValues[17] = 0
+            ScalarValues[18] = 1
+            ScalarValues[19] = 0
+            ScalarValues[20] = 1
+            ScalarValues[21] = 0
+        }
+        VectorValues[5] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=0 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+            VectorValues[2] = { R=1, G=1, B=0, A=0 }
+            VectorValues[3] = { R=1, G=1, B=1, A=0 }
+            VectorValues[4] = { R=1, G=1, B=0, A=0 }
+        }
+        TextureValues[5] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_D.T_DefaultColorBlack_D'
+            TextureValues[4] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_D.T_DefaultColorBlack_D'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_D.T_DefaultColorBlack_D'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = TexHeigh
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = TexEmissive
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = TexBase
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_D.T_DefaultColorBlack_D'
+        Name = TexNormal
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_D.T_DefaultColorBlack_D'
+        Name = TexDissolve
+        Group = None
+    }
+}
+CollectedScalarParameters[22] =
+{
+    CollectedScalarParameters[0] = { Value=-1, Name=$$$$, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Roughness, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=U_Offset, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Nomal_U_Tiling, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Metallic, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Desaturation, Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = 1
+        Name = DissolutionTex_V_Tiling
+        Group = None
+    }
+    CollectedScalarParameters[7] = { Value=0, Name=V_Offset, Group=None }
+    CollectedScalarParameters[8] = { Value=-0.1, Name=$$$, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=EmissiveIntensity, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=UVRotationAngle, Group=None }
+    CollectedScalarParameters[11] =
+    {
+        Value = 0
+        Name = DissolutionTex_V_Offset
+        Group = None
+    }
+    CollectedScalarParameters[12] =
+    {
+        Value = 1
+        Name = DissolutionTex_U_Tiling
+        Group = None
+    }
+    CollectedScalarParameters[13] = { Value=0, Name=Diss, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=Nomal_V_Tiling, Group=None }
+    CollectedScalarParameters[15] = { Value=0, Name=Nomal_V_Offset, Group=None }
+    CollectedScalarParameters[16] = { Value=0, Name=UVscale, Group=None }
+    CollectedScalarParameters[17] = { Value=0, Name=Main$$(0-1), Group=None }
+    CollectedScalarParameters[18] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[19] =
+    {
+        Value = 0
+        Name = DissolutionTex_U_Offset
+        Group = None
+    }
+    CollectedScalarParameters[20] = { Value=1, Name=Lerp, Group=None }
+    CollectedScalarParameters[21] = { Value=0, Name=Nomal_U_Offset, Group=None }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = EmissiveColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Dissolve Edge Color
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = BaseRefine
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = EmissiveRefine
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultColorBlack_D
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultColorWhite_D
+    }
+}

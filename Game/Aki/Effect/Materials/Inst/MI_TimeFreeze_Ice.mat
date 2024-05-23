@@ -1,0 +1,4 @@
+Diffuse=DefaultTexture
+Normal=T_Normal_TimeFreeze
+Other[0]=T_TimeFreeze_MatcapMask_M
+Other[1]=T_Mask_020

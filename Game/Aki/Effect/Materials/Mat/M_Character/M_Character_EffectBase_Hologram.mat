@@ -1,0 +1,4 @@
+Diffuse=T_DefaultColorWhite_D
+Other[0]=BlendFunc_DefBase
+Other[1]=BlendFunc_DefBlend
+Other[2]=T_Caustic_001

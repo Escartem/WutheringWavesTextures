@@ -1,0 +1,10 @@
+Diffuse=DefaultDiffuse
+Normal=DemoBox_Normals
+Other[0]=T_Cylinder_Noise001_VAT
+Other[1]=DebugNumberStrip
+Other[2]=Gradient
+Other[3]=Greyscale
+Other[4]=DemoBox
+Other[5]=DebugNumberPeriod
+Other[6]=T_DefaultColorWhite_D
+Other[7]=T_DefaultColorWhite_Linear_D

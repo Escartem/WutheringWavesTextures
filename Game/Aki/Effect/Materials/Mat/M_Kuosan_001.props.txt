@@ -1,0 +1,165 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[15] =
+                {
+                    ParameterInfos[0] = { Name=MainTex_V_Offset }
+                    ParameterInfos[1] = { Name=DissolutionSoftness }
+                    ParameterInfos[2] = { Name=Mask$$ }
+                    ParameterInfos[3] = { Name=$$$$_U_Tiling }
+                    ParameterInfos[4] = { Name=DissolutionTex_V_Tiling }
+                    ParameterInfos[5] = { Name=DissolutionTex_V_Offset }
+                    ParameterInfos[6] = { Name=$$$$_V_Tiling }
+                    ParameterInfos[7] = { Name=DissolutionTex_U_Tiling }
+                    ParameterInfos[8] = { Name=$$$$ }
+                    ParameterInfos[9] = { Name=MainTex_U_Tiling }
+                    ParameterInfos[10] = { Name=Main$$(0-1) }
+                    ParameterInfos[11] = { Name=MainTex_V_Tiling }
+                    ParameterInfos[12] = { Name=DissolutionThreshold }
+                    ParameterInfos[13] = { Name=DissolutionTex_U_Offset }
+                    ParameterInfos[14] = { Name=MainTex_U_Offset }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=DissolutionColor }
+                    ParameterInfos[1] = { Name=RGB$$ }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=$$$$ }
+                    ParameterInfos[1] = { Name=Mask }
+                    ParameterInfos[2] = { Name=Diss }
+                    ParameterInfos[3] = { Name=Main_Tex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[15] = { 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 0.5, 0, 0 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=1, G=0.2, B=0, A=1 }
+            VectorValues[1] = { R=0, G=1, B=0, A=0 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = $$$$
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Mask
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Diss
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Main_Tex
+        Group = None
+    }
+}
+CollectedScalarParameters[15] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=MainTex_V_Offset, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=DissolutionSoftness, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=Mask$$, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=$$$$_U_Tiling, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 1
+        Name = DissolutionTex_V_Tiling
+        Group = None
+    }
+    CollectedScalarParameters[5] =
+    {
+        Value = 0
+        Name = DissolutionTex_V_Offset
+        Group = None
+    }
+    CollectedScalarParameters[6] = { Value=1, Name=$$$$_V_Tiling, Group=None }
+    CollectedScalarParameters[7] =
+    {
+        Value = 1
+        Name = DissolutionTex_U_Tiling
+        Group = None
+    }
+    CollectedScalarParameters[8] = { Value=0, Name=$$$$, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=MainTex_U_Tiling, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=Main$$(0-1), Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=MainTex_V_Tiling, Group=None }
+    CollectedScalarParameters[12] = { Value=0.5, Name=DissolutionThreshold, Group=None }
+    CollectedScalarParameters[13] =
+    {
+        Value = 0
+        Name = DissolutionTex_U_Offset
+        Group = None
+    }
+    CollectedScalarParameters[14] = { Value=0, Name=MainTex_U_Offset, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.2, B=0, A=1 }
+        Name = DissolutionColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=1, B=0, A=0 }
+        Name = RGB$$
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,10 @@
+Diffuse=T_DefaultColorBlack_Linear_D
+Other[0]=T_Aura_30072_3
+Other[1]=T_Tile_90001
+Other[2]=T_Tile_30002
+Other[3]=T_Mask_20009
+Other[4]=T_Tile_30185
+Other[5]=T_Tile_300188
+Other[6]=Gradient
+Other[7]=Greyscale
+Other[8]=T_DefaultColorWhite_D

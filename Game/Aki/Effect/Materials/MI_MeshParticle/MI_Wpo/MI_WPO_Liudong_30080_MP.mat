@@ -1,0 +1,11 @@
+Diffuse=T_DefaultColorBlack_Linear_D
+Other[0]=T_Tile_30012
+Other[1]=T_Color_30024
+Other[2]=T_Mask_30160
+Other[3]=T_Wenli_10037
+Other[4]=T_Wenli_40008
+Other[5]=T_Tile_056
+Other[6]=T_Trail_30009_4
+Other[7]=Gradient
+Other[8]=Greyscale
+Other[9]=T_DefaultColorWhite_D

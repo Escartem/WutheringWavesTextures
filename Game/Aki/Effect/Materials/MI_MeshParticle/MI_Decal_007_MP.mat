@@ -1,0 +1,5 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T_DefaultNormal_N
+Other[0]=T_Decal_50026
+Other[1]=T_Mask_30015
+Other[2]=T_Ice_20000
