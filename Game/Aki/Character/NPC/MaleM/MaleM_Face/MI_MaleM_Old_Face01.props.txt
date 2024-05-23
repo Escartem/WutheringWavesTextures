@@ -1,0 +1,100 @@
+Parent = MaterialInstanceConstant'/Game/Aki/Character/MaterialInstance/Material/MI_CharNPCDyeFace.MI_CharNPCDyeFace'
+ScalarParameterValues[3] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=AniSwitch_Face }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=SolidShadowStrength }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=FaceAniMap }
+        ParameterValue = Texture2D'/Game/Aki/Character/NPC/MaleM/EmotionTex/T_MaleM_Old_Face01_MIP_D.T_MaleM_Old_Face01_MIP_D'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=MainTex }
+        ParameterValue = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=MaskTex }
+        ParameterValue = Texture2D'/Game/Aki/Character/Role/CommonTexture/T_NPC_MaleMFace_Old_SDF.T_NPC_MaleMFace_Old_SDF'
+        ParameterName = None
+    }
+}
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=SubsurfaceColor }
+        ParameterValue = { R=0.3, G=0.3, B=0.3, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=SkinColor }
+        ParameterValue = { R=0.882353, G=0.784314, B=0.705882, A=0 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseFaceAniMap }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = T_MaleM_Old_Face01_MIP_D
+    }
+}

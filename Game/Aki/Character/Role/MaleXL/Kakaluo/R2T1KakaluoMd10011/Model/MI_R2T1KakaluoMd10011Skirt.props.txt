@@ -1,0 +1,230 @@
+Parent = MaterialInstanceConstant'/Game/Aki/Character/MaterialInstance/Material/MI_Char_Body.MI_Char_Body'
+ScalarParameterValues[17] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=SolidShadowStrength }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=MatCapInt }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=EdgeEnvBRDFIntensity }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=MetalEmissionStrength }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=MetalSpecularPower }
+        ParameterValue = 20
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=SpecularPower }
+        ParameterValue = 10
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=UvGradientProcess }
+        ParameterValue = 0.56
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=BaseSphereLightInt }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=ShdaowSphereLightInt }
+        ParameterValue = 0.7
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=ShowSphereLightMask }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=Param }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=RampInt }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=RampPosition }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=UVGradientSkinInt }
+        ParameterValue = 0.95
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=UVSaturationIntensity }
+        ParameterValue = 1.5
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=UseUVGradient_DYN }
+        ParameterValue = 1
+        ParameterName = None
+    }
+}
+TextureParameterValues[5] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=MainTex }
+        ParameterValue = Texture2D'/Game/Aki/Character/Role/MaleXL/Kakaluo/R2T1KakaluoMd10011/Model/T_R2T1KakaluoMd10011Skirt_D.T_R2T1KakaluoMd10011Skirt_D'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=MaskTex }
+        ParameterValue = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Normal_Roughness_Metallic }
+        ParameterValue = Texture2D'/Game/Aki/Character/Role/MaleXL/Kakaluo/R2T1KakaluoMd10011/Model/T_R2T1KakaluoMd10011Skirt_N.T_R2T1KakaluoMd10011Skirt_N'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=PBRCubeMap }
+        ParameterValue = TextureCube4'/Game/Aki/Character/Role/CommonTexture/CharacterCubeMaps/T_Env_01_CUBE.T_Env_01_CUBE'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=Ramp }
+        ParameterValue = Texture2D'/Game/Aki/Character/Role/MaleXL/Kakaluo/R2T1KakaluoMd10011/Model/T_R2T1KakaluoMd10011_Skin.T_R2T1KakaluoMd10011_Skin'
+        ParameterName = None
+    }
+}
+VectorParameterValues[3] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=SkinBaseColor }
+        ParameterValue = { R=0.701961, G=0.639216, B=0.564706, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=SkinBaseColorNight }
+        ParameterValue = { R=0.85098, G=0.835294, B=0.756863, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=SkinColor }
+        ParameterValue = { R=0.904661, G=0.806952, B=0.730461, A=0 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[7] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseToonMask }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseMainTexA }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseNormalMap }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = true
+            ParameterInfo = { Name=UsePBR }
+            bOverride = true
+        }
+        StaticSwitchParameters[4] =
+        {
+            Value = true
+            ParameterInfo = { Name=$$PBRMask }
+            bOverride = true
+        }
+        StaticSwitchParameters[5] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseUVGradient }
+            bOverride = true
+        }
+        StaticSwitchParameters[6] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseRampColor }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

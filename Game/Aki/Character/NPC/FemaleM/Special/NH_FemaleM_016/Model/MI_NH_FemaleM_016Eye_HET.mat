@@ -1,0 +1,8 @@
+Diffuse=T_DefaultColorWhite_D
+Emissive=T_HDMF_EM
+Other[0]=T_NH_FemaleM_016Eye_HET
+Other[1]=BlendFunc_DefBase
+Other[2]=BlendFunc_DefBlend
+Other[3]=T_EV_BlankWhite_01
+Other[4]=T_Caustic_001
+Other[5]=T_DefaultMaskGreen_M

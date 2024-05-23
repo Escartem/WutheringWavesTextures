@@ -1,0 +1,302 @@
+Parent = MaterialInstanceConstant'/Game/Aki/Character/MaterialInstance/Material/MI_Char_Hair.MI_Char_Hair'
+ScalarParameterValues[33] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=SolidShadowProcess }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=SolidShadowSaturation }
+        ParameterValue = 1.4
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=SolidShadowView }
+        ParameterValue = 0.8
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=ShadowProcess }
+        ParameterValue = 0.65
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=MaskShadowOffsetStrength }
+        ParameterValue = 0.468002
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=ShadowOffsetPower }
+        ParameterValue = 0.726713
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=ExtraShadowIntensity }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=ExtraShadowScale }
+        ParameterValue = 0.85
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=ExtraShadowWidth }
+        ParameterValue = 1.7
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=SpecStrength }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=R:OffsetPosition }
+        ParameterValue = 10
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=UvGradientProcess }
+        ParameterValue = 0.56
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=UvGradientScale }
+        ParameterValue = 1.54654
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=GradientIntensity }
+        ParameterValue = 1.79949
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=GradientPivort }
+        ParameterValue = 0.947619
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=GradientPower }
+        ParameterValue = 1.47496
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=GradientScaleMin }
+        ParameterValue = 0.77619
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=UseMainLightColor }
+        ParameterValue = 2.25355
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=ScaterIntensity }
+        ParameterValue = 2.11432
+        ParameterName = None
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = { Name=ScaterVCProcess }
+        ParameterValue = 2.78274
+        ParameterName = None
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = { Name=ScaterVCWidth }
+        ParameterValue = 2.83575
+        ParameterName = None
+    }
+    ScalarParameterValues[21] =
+    {
+        ParameterInfo = { Name=NdL_MaskProcess }
+        ParameterValue = 1.41338
+        ParameterName = None
+    }
+    ScalarParameterValues[22] =
+    {
+        ParameterInfo = { Name=ScaterMaskMax }
+        ParameterValue = 1.27344
+        ParameterName = None
+    }
+    ScalarParameterValues[23] =
+    {
+        ParameterInfo = { Name=ScaterMaskMin }
+        ParameterValue = 1.1258
+        ParameterName = None
+    }
+    ScalarParameterValues[24] =
+    {
+        ParameterInfo = { Name=BaseSphereLightInt }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[25] =
+    {
+        ParameterInfo = { Name=ShowSphereLightMask }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[26] =
+    {
+        ParameterInfo = { Name=Param }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[27] =
+    {
+        ParameterInfo = { Name=RampInt }
+        ParameterValue = 0.4
+        ParameterName = None
+    }
+    ScalarParameterValues[28] =
+    {
+        ParameterInfo = { Name=RampPosition }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[29] =
+    {
+        ParameterInfo = { Name=UVGradientSkinInt }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[30] =
+    {
+        ParameterInfo = { Name=UVSaturationIntensity }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[31] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[32] =
+    {
+        ParameterInfo = { Name=UseUVGradient_DYN }
+        ParameterValue = 1
+        ParameterName = None
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=MainTex }
+        ParameterValue = Texture2D'/Game/Aki/Character/Role/FemaleS/Anke/R2T1AnkeMd10011/Model/T_R2T1AnkeMd10011Hair_D.T_R2T1AnkeMd10011Hair_D'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=MaskTex }
+        ParameterValue = Texture2D'/Game/Aki/Character/Role/FemaleS/Anke/R2T1AnkeMd10011/Model/T_R2T1AnkeMd10011Hair_HM.T_R2T1AnkeMd10011Hair_HM'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Ramp }
+        ParameterValue = Texture2D'/Game/Aki/Character/Role/FemaleS/Anke/R2T1AnkeMd10011/Model/T_R2T1AnkeMd10011_Skin.T_R2T1AnkeMd10011_Skin'
+        ParameterName = None
+    }
+}
+VectorParameterValues[5] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=SubsurfaceColor }
+        ParameterValue = { R=0.5, G=0.5, B=0.5, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=ExtraShadowColor }
+        ParameterValue = { R=0.885417, G=0.816244, B=0.816244, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=SkinBaseColor }
+        ParameterValue = { R=0.7, G=0.685294, B=0.65, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=SkinBaseColorNight }
+        ParameterValue = { R=0.905882, G=0.886275, B=0.811765, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=SkinColor }
+        ParameterValue = { R=0.904661, G=0.806952, B=0.730461, A=0 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[3] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseToonMask }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseUVGradient }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseRampColor }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

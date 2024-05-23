@@ -1,0 +1,392 @@
+Parent = MaterialInstanceConstant'/Game/Aki/Character/MaterialInstance/Material/MI_Char_Body.MI_Char_Body'
+ScalarParameterValues[30] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=ShadowProcess }
+        ParameterValue = 0.6
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=SpecStrength }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=NormalStrength }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=MatCapInt }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=EdgeEnvBRDFIntensity }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=MetalEmissionStrength }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=MetalSpecularPower }
+        ParameterValue = 20
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=SpecularPower }
+        ParameterValue = 20
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=StockingIntensity }
+        ParameterValue = 0.7
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=StockingRangeMiddle }
+        ParameterValue = 0.48
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=StockingRangeMin }
+        ParameterValue = 0.7
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=StockingRangeMax }
+        ParameterValue = 1.05
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=AnistropyInt }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=AnistropyNormalInt }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=StockingLightRangeMax }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=StockingLightRangeMin }
+        ParameterValue = 0.4
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=UvGradientProcess }
+        ParameterValue = 0.26
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=UvGradientScale }
+        ParameterValue = 6.32872
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=BaseSphereLightInt }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = { Name=ShdaowSphereLightInt }
+        ParameterValue = 0.7
+        ParameterName = None
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = { Name=RampInt }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[21] =
+    {
+        ParameterInfo = { Name=RampPosition }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[22] =
+    {
+        ParameterInfo = { Name=UVGradientSkinInt }
+        ParameterValue = 0.95
+        ParameterName = None
+    }
+    ScalarParameterValues[23] =
+    {
+        ParameterInfo = { Name=UVSaturationIntensity }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[24] =
+    {
+        ParameterInfo = { Name=LightOffset_Pitch }
+        ParameterValue = -10
+        ParameterName = None
+    }
+    ScalarParameterValues[25] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[26] =
+    {
+        ParameterInfo = { Name=UseLightOffset_Pitch_DYN }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[27] =
+    {
+        ParameterInfo = { Name=UseUVGradient_DYN }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[28] =
+    {
+        ParameterInfo = { Name=UseSkinMask_DYN }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[29] =
+    {
+        ParameterInfo = { Name=UseLightOffset_Yaw_DYN }
+        ParameterValue = 1
+        ParameterName = None
+    }
+}
+TextureParameterValues[6] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=MainTex }
+        ParameterValue = Texture2D'/Game/Aki/Character/Role/FemaleM/Sanhua/R2T1SanhuaMd10011/Model/T_R2T1SanhuaMd10011Down_D.T_R2T1SanhuaMd10011Down_D'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=TypeMask }
+        ParameterValue = Texture2D'/Game/Aki/Character/Role/FemaleM/Sanhua/R2T1SanhuaMd10011/Model/T_R2T1SanhuaMd10011Down_ID.T_R2T1SanhuaMd10011Down_ID'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=MaskTex }
+        ParameterValue = None
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Normal_Roughness_Metallic }
+        ParameterValue = Texture2D'/Game/Aki/Character/Role/FemaleM/Sanhua/R2T1SanhuaMd10011/Model/T_R2T1SanhuaMd10011Down_N.T_R2T1SanhuaMd10011Down_N'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=PBRCubeMap }
+        ParameterValue = TextureCube4'/Game/Aki/Character/Role/CommonTexture/CharacterCubeMaps/T_Env_02_CUBE.T_Env_02_CUBE'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=Ramp }
+        ParameterValue = Texture2D'/Game/Aki/Character/Role/FemaleM/Sanhua/R2T1SanhuaMd10011/Model/T_R2T1SanhuaMd10011_Skin.T_R2T1SanhuaMd10011_Skin'
+        ParameterName = None
+    }
+}
+VectorParameterValues[8] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=StockingColor }
+        ParameterValue = { R=0.502886, G=0.417885, B=0.371238, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=StockingEdgeColor }
+        ParameterValue = { R=0.287441, G=0.274677, B=0.381326, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=StockingSkinColor }
+        ParameterValue = { R=2.26322, G=2.2468, B=3, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=AnistropyColor }
+        ParameterValue = { R=0.013702, G=0.013702, B=0.013702, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=StockingLightColor }
+        ParameterValue = { R=0, G=0, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterInfo = { Name=SkinBaseColor }
+        ParameterValue = { R=0.7, G=0.685294, B=0.65, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[6] =
+    {
+        ParameterInfo = { Name=SkinBaseColorNight }
+        ParameterValue = { R=0.905882, G=0.886275, B=0.811765, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[7] =
+    {
+        ParameterInfo = { Name=SkinColor }
+        ParameterValue = { R=0.904661, G=0.806952, B=0.730461, A=0 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[15] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseTypeMask }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseSkinMask }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseToonMask }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseMainTexA }
+            bOverride = true
+        }
+        StaticSwitchParameters[4] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseToonSpecular }
+            bOverride = true
+        }
+        StaticSwitchParameters[5] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseNormalMap }
+            bOverride = true
+        }
+        StaticSwitchParameters[6] =
+        {
+            Value = true
+            ParameterInfo = { Name=UsePBR }
+            bOverride = true
+        }
+        StaticSwitchParameters[7] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseDoubleSpecular }
+            bOverride = true
+        }
+        StaticSwitchParameters[8] =
+        {
+            Value = true
+            ParameterInfo = { Name=$$PBRMask }
+            bOverride = true
+        }
+        StaticSwitchParameters[9] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseStocking }
+            bOverride = true
+        }
+        StaticSwitchParameters[10] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseUVGradient }
+            bOverride = true
+        }
+        StaticSwitchParameters[11] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseRampColor }
+            bOverride = true
+        }
+        StaticSwitchParameters[12] =
+        {
+            Value = true
+            ParameterInfo = { Name=LightPitch(False=30,True=45) }
+            bOverride = true
+        }
+        StaticSwitchParameters[13] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseLightOffset_Pitch }
+            bOverride = true
+        }
+        StaticSwitchParameters[14] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseLightOffset_Yaw }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

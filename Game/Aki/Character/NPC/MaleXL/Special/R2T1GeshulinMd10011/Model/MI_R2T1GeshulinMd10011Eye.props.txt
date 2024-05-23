@@ -1,0 +1,202 @@
+Parent = Material3'/Game/Aki/Render/Shaders/Character/M_Char_Eye.M_Char_Eye'
+ScalarParameterValues[19] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=HeightLight_PositionX }
+        ParameterValue = 0.481429
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=HeightLight_PositionY }
+        ParameterValue = 0.777684
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=HeightLight_WidthX }
+        ParameterValue = 1.0717
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=HeightLight_WidthY }
+        ParameterValue = 0.995384
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=HeightLightRotate }
+        ParameterValue = 4
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=ParallaxHeight }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=EyeScale }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=AniScaleCenterX }
+        ParameterValue = 0.7
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=AniScaleCenterY }
+        ParameterValue = 0.7
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=AniSpeed }
+        ParameterValue = 15
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=SecondLight_PositionX }
+        ParameterValue = 0.192857
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=SecondLight_PositionY }
+        ParameterValue = 0.590477
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=SecondLight_WidthX }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=SecondLight_WidthY }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=LightDisable }
+        ParameterValue = 0.7
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=LightEmissiveInt }
+        ParameterValue = 1.5
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=UseProLight }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=EmissionStrength }
+        ParameterValue = 2.71575
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=MainTex }
+        ParameterValue = Texture2D'/Game/Aki/Character/NPC/MaleXL/Special/R2T1GeshulinMd10011/Model/T_R2T1GeshulinMd10011Eye_D.T_R2T1GeshulinMd10011Eye_D'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=HeightLightMap }
+        ParameterValue = Texture2D'/Game/Aki/Character/Role/CommonTexture/Eyes/T_EyesSecondHeightLight03_EG.T_EyesSecondHeightLight03_EG'
+        ParameterName = None
+    }
+}
+VectorParameterValues[3] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=HeightLight_Color }
+        ParameterValue = { R=0.703125, G=0.647204, B=0.459657, A=0.45 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=AniShapeColor }
+        ParameterValue = { R=20, G=15.6975, B=3.35288, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=HeightLightColor }
+        ParameterValue = { R=0.03, G=0.03, B=0.03, A=2 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[2] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseHeightLightShape }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseAlphaBlendMode }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.9375
+        UVChannelIndex = 0
+        TextureName = T_HDMF_EM
+    }
+}

@@ -1,0 +1,231 @@
+Parent = MaterialInstanceConstant'/Game/Aki/Character/MaterialInstance/Material/MI_MonsPlatform_Com.MI_MonsPlatform_Com'
+ScalarParameterValues[13] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=NormalStrength }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Roughness }
+        ParameterValue = 1.8
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Main_EmissionPower }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Effect_Progress }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Second_NoiseStrength }
+        ParameterValue = 0.15
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Second_Height }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Second_HeightRadio }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=SparkIntensity }
+        ParameterValue = 4.76191
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=SparkPower }
+        ParameterValue = 2.85715
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=SparkSpeed }
+        ParameterValue = 6
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=SparkTiling }
+        ParameterValue = 6.17949
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=AoIntensity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=BaseDiffTexture }
+        ParameterValue = Texture2D'/Game/Aki/Character/Prop/Monster/Platform/Mat/T_MPL_00L_A_D.T_MPL_00L_A_D'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=BaseNormalTexture }
+        ParameterValue = Texture2D'/Game/Aki/Character/Prop/Monster/Platform/Mat/T_MPL_00L_A_N.T_MPL_00L_A_N'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=AOmap }
+        ParameterValue = Texture2D'/Game/Aki/Character/Prop/Monster/Platform/Mat/T_MPL_00L_A_ID.T_MPL_00L_A_ID'
+        ParameterName = None
+    }
+}
+VectorParameterValues[6] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=BasColorTint }
+        ParameterValue = { R=1, G=0.962934, B=0.782, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=BaseColor_$$$$ }
+        ParameterValue = { R=0, G=0.764791, B=0.897219, A=1.5 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=EmissionColor }
+        ParameterValue = { R=12, G=12, B=12, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=Second_ColorTint }
+        ParameterValue = { R=0.657357, G=0.888432, B=1, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=Second_Refine }
+        ParameterValue = { R=3.6781, G=9.26063, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterInfo = { Name=Second_UV }
+        ParameterValue = { R=20, G=20, B=0, A=0 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[2] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseSecond }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseSparkEffect }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[1] =
+    {
+        StaticComponentMaskParameters[0] =
+        {
+            R = false
+            G = true
+            B = false
+            A = false
+            ParameterInfo = { Name=EffectMaskChannel }
+            bOverride = true
+        }
+    }
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[6] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 5.87854
+        UVChannelIndex = 0
+        TextureName = CommonNoise
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Default_SceneMask_M
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_MPL_00L_A_D
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_MPL_00L_A_ID
+    }
+    TextureStreamingData[4] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_MPL_00L_A_N
+    }
+    TextureStreamingData[5] =
+    {
+        SamplingScale = 0.953125
+        UVChannelIndex = 0
+        TextureName = T_WaterNormal_Rain
+    }
+}

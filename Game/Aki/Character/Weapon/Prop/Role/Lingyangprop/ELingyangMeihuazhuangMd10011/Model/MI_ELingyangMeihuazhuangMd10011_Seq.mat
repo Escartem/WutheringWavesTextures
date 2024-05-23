@@ -1,0 +1,12 @@
+Diffuse=T_ELingyangMeihuazhuangMd10011_D
+Normal=T_ELingyangMeihuazhuangMd10011_N
+Other[0]=T_ELingyangMeihuazhuangMd10011_ID
+Other[1]=Good64x64TilingNoiseHighFreq
+Other[2]=CommonNoise
+Other[3]=T_Default_SceneMask_M
+Other[4]=T_DefaultColorWhite_D
+Other[5]=T_DefaultMaskGreen_M
+Other[6]=T_DefaultMaskWhite_M
+Other[7]=T_DefaultNormal_N
+Other[8]=T_FlareNoise_M
+Other[9]=T_WaterNormal_Rain

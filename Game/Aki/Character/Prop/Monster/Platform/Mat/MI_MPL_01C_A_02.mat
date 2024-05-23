@@ -1,0 +1,14 @@
+Diffuse=T_MPL_01C_A_02_D
+Normal=T_MPL_01C_A_02_N
+Other[0]=T_MPL_01C_A_02_FX
+Other[1]=T_MPL_02L_AFX01_D
+Other[2]=T_MPL_01C_A_02_HM
+Other[3]=T_DefaultColorWhite_D
+Other[4]=T_DefaultNormal_N
+Other[5]=T_Default_SceneMask_M
+Other[6]=Good64x64TilingNoiseHighFreq
+Other[7]=CommonNoise
+Other[8]=T_DefaultMaskGreen_M
+Other[9]=T_DefaultMaskWhite_M
+Other[10]=T_FlareNoise_M
+Other[11]=T_WaterNormal_Rain

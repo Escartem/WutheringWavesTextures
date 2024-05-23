@@ -1,0 +1,14 @@
+Diffuse=T_3XingStar_D
+Emissive=T_HDMF_EM
+Other[0]=BlendFunc_DefBase
+Other[1]=BlendFunc_DefBlend
+Other[2]=T_EV_BlankWhite_01
+Other[3]=T_EyesSecondHeightLight02_EG
+Other[4]=T_3XingStar_SDF
+Other[5]=T_XingHenShakeNoise_D
+Other[6]=T_XingHenSoundNoise
+Other[7]=T_XingHenSoundNoise02
+Other[8]=T_Caustic_001
+Other[9]=T_DefaultColorWhite_D
+Other[10]=T_DefaultColorWhite_Linear_D
+Other[11]=T_DefaultMaskGreen_M

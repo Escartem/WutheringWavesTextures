@@ -1,0 +1,344 @@
+Parent = Material3'/Game/Aki/Render/Shaders/Character/M_Char_Eye.M_Char_Eye'
+ScalarParameterValues[39] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=HeightLight_PositionX }
+        ParameterValue = 0.55
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=HeightLight_PositionY }
+        ParameterValue = 0.54
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=HeightLight_WidthX }
+        ParameterValue = 1.60937
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=HeightLight_WidthY }
+        ParameterValue = 0.84
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=HeightLightMax }
+        ParameterValue = 0.45
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=HeightLightMin }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=HeightLightRotate }
+        ParameterValue = 1.5
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=HeightLightScale }
+        ParameterValue = 0.45
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=ParallaxHeight }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=ParallaxScale }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=EyeScale }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=AniScaleCenterX }
+        ParameterValue = 0.7
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=AniScaleCenterY }
+        ParameterValue = 0.7
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=SecondLight_PositionX }
+        ParameterValue = 0.561429
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=SecondLight_PositionY }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=SecondLight_WidthX }
+        ParameterValue = 0.921071
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=SecondLight_WidthY }
+        ParameterValue = 0.465238
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=RotateAngle }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=SecondLight_Position_02X }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = { Name=SecondLight_Position_02Y }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = { Name=SecondLight_Position02X }
+        ParameterValue = 0.25
+        ParameterName = None
+    }
+    ScalarParameterValues[21] =
+    {
+        ParameterInfo = { Name=SecondLight_Position02Y }
+        ParameterValue = 0.4
+        ParameterName = None
+    }
+    ScalarParameterValues[22] =
+    {
+        ParameterInfo = { Name=SecondLight_Width02X }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[23] =
+    {
+        ParameterInfo = { Name=SecondLight_Width02Y }
+        ParameterValue = 1.5
+        ParameterName = None
+    }
+    ScalarParameterValues[24] =
+    {
+        ParameterInfo = { Name=RotateAngle02 }
+        ParameterValue = -0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[25] =
+    {
+        ParameterInfo = { Name=ShapeScaleX }
+        ParameterValue = 14.9987
+        ParameterName = None
+    }
+    ScalarParameterValues[26] =
+    {
+        ParameterInfo = { Name=ShapeScaleY }
+        ParameterValue = 22.7299
+        ParameterName = None
+    }
+    ScalarParameterValues[27] =
+    {
+        ParameterInfo = { Name=RotationAnlgle01 }
+        ParameterValue = 0.009524
+        ParameterName = None
+    }
+    ScalarParameterValues[28] =
+    {
+        ParameterInfo = { Name=ShapePosition01X }
+        ParameterValue = 0.880638
+        ParameterName = None
+    }
+    ScalarParameterValues[29] =
+    {
+        ParameterInfo = { Name=ShapePosition01Y }
+        ParameterValue = 0.610954
+        ParameterName = None
+    }
+    ScalarParameterValues[30] =
+    {
+        ParameterInfo = { Name=RotationAnlgle02 }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[31] =
+    {
+        ParameterInfo = { Name=EdgeWidth }
+        ParameterValue = 0.627937
+        ParameterName = None
+    }
+    ScalarParameterValues[32] =
+    {
+        ParameterInfo = { Name=Hardness }
+        ParameterValue = 0.47
+        ParameterName = None
+    }
+    ScalarParameterValues[33] =
+    {
+        ParameterInfo = { Name=LightDisable }
+        ParameterValue = 0.7
+        ParameterName = None
+    }
+    ScalarParameterValues[34] =
+    {
+        ParameterInfo = { Name=LightEmissiveInt }
+        ParameterValue = 1.5
+        ParameterName = None
+    }
+    ScalarParameterValues[35] =
+    {
+        ParameterInfo = { Name=Radius }
+        ParameterValue = 0.65
+        ParameterName = None
+    }
+    ScalarParameterValues[36] =
+    {
+        ParameterInfo = { Name=Width }
+        ParameterValue = 0.22
+        ParameterName = None
+    }
+    ScalarParameterValues[37] =
+    {
+        ParameterInfo = { Name=ShadowWidth }
+        ParameterValue = 0.01
+        ParameterName = None
+    }
+    ScalarParameterValues[38] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[4] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=EM }
+        ParameterValue = Texture2D'/Game/Aki/Character/Role/CommonTexture/Eyes/T_HDMF02_EM.T_HDMF02_EM'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=MainTex }
+        ParameterValue = Texture2D'/Game/Aki/Character/Role/FemaleM/Fuluoluo/R2T1FuluoluoMd10011/Model/T_R2T1FuluoluoMd10011Eye_D.T_R2T1FuluoluoMd10011Eye_D'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=HeightLightMap }
+        ParameterValue = Texture2D'/Game/Aki/Character/Role/CommonTexture/Eyes/T_EyesSecondHeightLight03_EG.T_EyesSecondHeightLight03_EG'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=MaskTex }
+        ParameterValue = Texture2D'/Game/Aki/Character/Role/CommonTexture/T_FemaleMFace_SDF.T_FemaleMFace_SDF'
+        ParameterName = None
+    }
+}
+VectorParameterValues[5] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=HeightLight_Color }
+        ParameterValue = { R=1, G=0.299988, B=0.923829, A=0.4 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=ParallaxOffset }
+        ParameterValue = { R=0.2, G=0, B=0.3, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=HeightLightColor }
+        ParameterValue = { R=0.03, G=0.03, B=0.03, A=2 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=OutLineColor }
+        ParameterValue = { R=0.156143, G=0.052583, B=0.182292, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=EdgeColor }
+        ParameterValue = { R=0.1734, G=0.030161, B=0.177083, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[3] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseDifferentColorEyes }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseHeightLightShape }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseEyeSDF }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,146 @@
+Parent = Material3'/Game/Aki/Render/Shaders/Character/M_Char_XinHen.M_Char_XinHen'
+ScalarParameterValues[6] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=SDFStart }
+        ParameterValue = -0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=ShakeNoise_YSpeed }
+        ParameterValue = 1.2
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Intensity }
+        ParameterValue = 10
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=XingHenControl }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=UVSaturationIntensity }
+        ParameterValue = 1.5
+        ParameterName = None
+    }
+}
+TextureParameterValues[5] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=D }
+        ParameterValue = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_5XingStar_D.T_5XingStar_D'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=SDF }
+        ParameterValue = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_5XingStar_SDF.T_5XingStar_SDF'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Noise }
+        ParameterValue = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_XingHenSoundNoise02.T_XingHenSoundNoise02'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Noise02 }
+        ParameterValue = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_XingHenSoundNoise.T_XingHenSoundNoise'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=ShakeNoise }
+        ParameterValue = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_XingHenShakeNoise_D.T_XingHenShakeNoise_D'
+        ParameterName = None
+    }
+}
+VectorParameterValues[6] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=SDFColor }
+        ParameterValue = { R=0, G=0, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=SDFColor02 }
+        ParameterValue = { R=0, G=0, B=0, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=SkinBaseColor }
+        ParameterValue = { R=0.701961, G=0.639216, B=0.564706, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=SkinBaseColorNight }
+        ParameterValue = { R=0.85098, G=0.835294, B=0.756863, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=SkinShadowColor }
+        ParameterValue = { R=0.4, G=0.346067, B=0.292135, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterInfo = { Name=SkinShadowColorNight }
+        ParameterValue = { R=0.721569, G=0.690196, B=0.584314, A=0 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseRotate180UV }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,12 @@
+Diffuse=T_MPL_01M_A_D
+Normal=T_MPL_01M_A_N
+Other[0]=T_PlatformFurNoise_M
+Other[1]=T_DefaultColorWhite_D
+Other[2]=T_DefaultNormal_N
+Other[3]=T_Default_SceneMask_M
+Other[4]=Good64x64TilingNoiseHighFreq
+Other[5]=CommonNoise
+Other[6]=T_DefaultMaskGreen_M
+Other[7]=T_DefaultMaskWhite_M
+Other[8]=T_FlareNoise_M
+Other[9]=T_WaterNormal_Rain

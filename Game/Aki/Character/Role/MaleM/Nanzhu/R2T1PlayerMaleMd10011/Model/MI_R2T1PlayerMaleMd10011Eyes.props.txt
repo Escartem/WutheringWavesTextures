@@ -1,0 +1,238 @@
+Parent = MaterialInstanceConstant'/Game/Aki/Character/MaterialInstance/Material/MI_Char_Eye.MI_Char_Eye'
+ScalarParameterValues[21] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=HeightLight_PositionX }
+        ParameterValue = 0.493197
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=HeightLight_PositionY }
+        ParameterValue = 0.578911
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=HeightLight_WidthX }
+        ParameterValue = 1.21334
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=HeightLight_WidthY }
+        ParameterValue = 0.758698
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=HeightLightRotate }
+        ParameterValue = 1.5
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=HeightLightScale }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=ParallaxHeight }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=ParallaxScale }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=EyeScale }
+        ParameterValue = 0.8
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=AniScaleCenterX }
+        ParameterValue = 0.7
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=AniScaleCenterY }
+        ParameterValue = 0.7
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=SecondLight_PositionX }
+        ParameterValue = 0.241429
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=SecondLight_PositionY }
+        ParameterValue = 0.430476
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=SecondLight_WidthX }
+        ParameterValue = 1.8
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=SecondLight_WidthY }
+        ParameterValue = 1.2
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=RotateAngle }
+        ParameterValue = -0.161905
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=LightDisable }
+        ParameterValue = 0.7
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=LightEmissiveInt }
+        ParameterValue = 1.5
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=UseProLight }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = { Name=ShadowWidth }
+        ParameterValue = 0.01
+        ParameterName = None
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[4] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=EM }
+        ParameterValue = Texture2D'/Game/Aki/Character/Role/CommonTexture/Eyes/T_HDMF_EM.T_HDMF_EM'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=MainTex }
+        ParameterValue = Texture2D'/Game/Aki/Character/Role/MaleM/Nanzhu/R2T1PlayerMaleMd10011/Model/T_R2T1PlayerMaleMd10011Eyes_D.T_R2T1PlayerMaleMd10011Eyes_D'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=HeightLightMap }
+        ParameterValue = Texture2D'/Game/Aki/Character/Role/CommonTexture/Eyes/T_EyesSecondHeightLight03_EG.T_EyesSecondHeightLight03_EG'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=MaskTex }
+        ParameterValue = Texture2D'/Game/Aki/Character/Role/CommonTexture/T_FemaleMFace_SDF.T_FemaleMFace_SDF'
+        ParameterName = None
+    }
+}
+VectorParameterValues[5] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=HeightLight_Color }
+        ParameterValue = { R=1, G=0.753932, B=0.40625, A=0.5 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=ParallaxOffset }
+        ParameterValue = { R=0.25, G=0, B=0.3, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=HeightLightColor }
+        ParameterValue = { R=0.03, G=0.03, B=0.03, A=2 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=OutLineColor }
+        ParameterValue = { R=1, G=0.709452, B=0.779834, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=ShadowColor }
+        ParameterValue = { R=0.5, G=0.5, B=0.5, A=0 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[2] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseHeightLightShape }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseEyeSDF }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.828125
+        UVChannelIndex = 0
+        TextureName = T_HDMF_EM
+    }
+}

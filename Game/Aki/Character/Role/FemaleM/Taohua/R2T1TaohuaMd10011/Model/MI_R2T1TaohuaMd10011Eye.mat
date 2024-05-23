@@ -1,0 +1,17 @@
+Diffuse=T_3XingStar_D
+Emissive=T_HDMF_EM
+Other[0]=T_R2T1TaohuaMd10011Eye_D
+Other[1]=T_EyesSecondHeightLight03_EG
+Other[2]=T_FemaleMFace_SDF
+Other[3]=BlendFunc_DefBase
+Other[4]=BlendFunc_DefBlend
+Other[5]=T_EV_BlankWhite_01
+Other[6]=T_EyesSecondHeightLight02_EG
+Other[7]=T_3XingStar_SDF
+Other[8]=T_XingHenShakeNoise_D
+Other[9]=T_XingHenSoundNoise
+Other[10]=T_XingHenSoundNoise02
+Other[11]=T_Caustic_001
+Other[12]=T_DefaultColorWhite_D
+Other[13]=T_DefaultColorWhite_Linear_D
+Other[14]=T_DefaultMaskGreen_M
