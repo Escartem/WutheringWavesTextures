@@ -1,0 +1,92 @@
+Parent = MaterialInstanceConstant'/Game/Aki/Render/MaterialInstance/Stone/MI_CustomStone_LOD1.MI_CustomStone_LOD1'
+ScalarParameterValues[1] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Overall_Diff }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Common/Obj/Tex/T_Com_Roc_84A_D.T_Com_Roc_84A_D'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=BlendNormal }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Common/Obj/Tex/T_Com_Roc_84A_NB.T_Com_Roc_84A_NB'
+        ParameterName = None
+    }
+}
+VectorParameterValues[3] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=StoneColorTint }
+        ParameterValue = { R=1.13542, G=1.18016, B=1.2, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Color Tint }
+        ParameterValue = { R=0.963009, G=0.946034, B=1.1, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=Grass Roughness }
+        ParameterValue = { R=0.751256, G=0.6, B=1, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Com_Roc_84A_D
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Com_Roc_84A_NB
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 0.640625
+        UVChannelIndex = 0
+        TextureName = T_WaterNormal_Rain
+    }
+}

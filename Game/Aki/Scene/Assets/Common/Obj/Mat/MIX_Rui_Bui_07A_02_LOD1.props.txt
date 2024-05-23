@@ -1,0 +1,143 @@
+Parent = MaterialInstanceConstant'/Game/Aki/Render/MaterialInstance/Dilapidated/MI_dilapidatedB_Medium_LOD1.MI_dilapidatedB_Medium_LOD1'
+ScalarParameterValues[7] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=MidRoughness }
+        ParameterValue = 0.95
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=MidAmount }
+        ParameterValue = 1.5
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Top Layer UVS - U Tiling }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Top Layer UVS - V Tiling }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=TopNormalIntencity }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=TopAmount }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[4] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=BaseDiffTex }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Common/Obj/Tex/T4_Com_Con_37C_DB.T4_Com_Con_37C_DB'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=BaseMaskTex }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Common/Obj/Tex/T4_Com_Con_37C_NB.T4_Com_Con_37C_NB'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=BlendMaskTexture }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Common/Obj/Tex/Mask/T_Rui_Bui_06A_MA.T_Rui_Bui_06A_MA'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=TopMaskTex }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Common/Obj/Tex/T4_Com_Pla_04A_DNB.T4_Com_Pla_04A_DNB'
+        ParameterName = None
+    }
+}
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=MidColorTint }
+        ParameterValue = { R=0.083333, G=0.065216, B=0.053385, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=TopColorTint }
+        ParameterValue = { R=0.087249, G=0.15625, B=0.027577, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[3] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo =
+            {
+                Name = Base Layer UV Index (False=Channel 0, True=Channel 1)
+            }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo =
+            {
+                Name = Blend Mask UV Index (False=Channel 0, True=Channel 1)
+            }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = false
+            ParameterInfo =
+            {
+                Name = Top Layer UV Index (False=Channel 0, True=Channel 1)
+            }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

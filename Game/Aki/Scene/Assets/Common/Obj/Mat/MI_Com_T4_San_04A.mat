@@ -1,0 +1,13 @@
+Diffuse=T4_Com_San_04A_D
+Normal=T4_Com_San_04A_N
+Other[0]=T4_Com_San_04A_M
+Other[1]=Good64x64TilingNoiseHighFreq
+Other[2]=T_Caustic_001
+Other[3]=T_Default_SceneMask_M
+Other[4]=T_DefaultColorWhite_D
+Other[5]=T_DefaultNormal_N
+Other[6]=T_FlareNoise_M
+Other[7]=T_Foliage_Noise_M
+Other[8]=T_Ice_A_Sub
+Other[9]=T_SingleLayerWaterNoise
+Other[10]=T_WaterNormal_Rain

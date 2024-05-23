@@ -1,0 +1,92 @@
+Parent = MaterialInstanceConstant'/Game/Aki/Render/MaterialInstance/Scene/MI_SceneObj_Low.MI_SceneObj_Low'
+ScalarParameterValues[3] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=MidRoughness }
+        ParameterValue = 0.304762
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=TopRoughness }
+        ParameterValue = 0.749206
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=BaseDiffTexture }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Common/Obj/Tex/T_Com_Car_16B_D.T_Com_Car_16B_D'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=BaseNormalTexture }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Common/Obj/Tex/T_Com_Car_16B_N.T_Com_Car_16B_N'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=BaseMaskTexture }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Common/Obj/Tex/T_Com_Car_16B_M.T_Com_Car_16B_M'
+        ParameterName = None
+    }
+}
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=BasColorTint }
+        ParameterValue = { R=0.140625, G=0.140625, B=0.140625, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=BasColorTint }
+        ParameterValue = { R=0.286458, G=0.286458, B=0.286458, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = false
+            ParameterInfo = { Name=UseEmssive }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

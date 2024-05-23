@@ -1,0 +1,108 @@
+Parent = MaterialInstanceConstant'/Game/Aki/Render/MaterialInstance/Scene/SceneObjBlend/MI_SceneObjBlend_Mid_LOD1.MI_SceneObjBlend_Mid_LOD1'
+ScalarParameterValues[7] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Base Layer UVS - U Tiling }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Base Layer UVS - V Tiling }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Blend Mask U Tiling }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=MidMetal }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=MidRoughness }
+        ParameterValue = 0.92381
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=MidAmount }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=BaseDiffTex }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Common/Obj/Tex/T4_Com_Con_02A_DB.T4_Com_Con_02A_DB'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=BaseMaskTex }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Common/Obj/Tex/T4_Com_Con_02A_NB.T4_Com_Con_02A_NB'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=BlendMaskTexture }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Common/Obj/Tex/Mask/T_Dar_Bui_03A_MA.T_Dar_Bui_03A_MA'
+        ParameterName = None
+    }
+}
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=BasColorTint }
+        ParameterValue = { R=0.6, G=0.6, B=0.6, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=MidColorTint }
+        ParameterValue = { R=0.116971, G=0.117465, B=0.125, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

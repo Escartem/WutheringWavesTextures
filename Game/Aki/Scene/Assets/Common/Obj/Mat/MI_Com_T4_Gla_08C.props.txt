@@ -1,0 +1,214 @@
+Parent = MaterialInstanceConstant'/Game/Aki/Render/MaterialInstance/Glass/MI_Glass_FakeInterior.MI_Glass_FakeInterior'
+ScalarParameterValues[15] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Metilc }
+        ParameterValue = 0.6
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Reflection (0-1) }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=ReflectionBoost (0-1) }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Roughness }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=BoxR }
+        ParameterValue = 12000
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Dirt_MaskIntensity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=DirtMetilc }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=DirtRoughness }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=Dirt2_MaskIntensity }
+        ParameterValue = 1.8
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=Dirt2Metilc }
+        ParameterValue = 0.6
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=Dirt2Roughness }
+        ParameterValue = 0.4
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=EmissiveInstensity_Day }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=EmissiveInstensity_Night }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=Inter_Bias_Night }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[4] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=ReflectionBoost_Texture }
+        ParameterValue = TextureCube4'/Game/Aki/Scene/ReflectionCubemaps/YiLou/T_YiLou_01_RCUBE.T_YiLou_01_RCUBE'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=ReflectionBoost_Texture_2 }
+        ParameterValue = TextureCube4'/Game/Aki/Scene/ReflectionCubemaps/YiLou/T_YiLou_04_RCUBE.T_YiLou_04_RCUBE'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=ReflectionBoost_Texture_3 }
+        ParameterValue = TextureCube4'/Game/Aki/Scene/ReflectionCubemaps/YiLou/T_YiLou_05_RCUBE.T_YiLou_05_RCUBE'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Glass_Noise }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Common/Obj/Tex/Mask/T_Dar_Flo_02B_MA.T_Dar_Flo_02B_MA'
+        ParameterName = None
+    }
+}
+VectorParameterValues[5] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Color2 }
+        ParameterValue = { R=0.06927, G=0.089934, B=0.1, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=cubemapPos }
+        ParameterValue = { R=-146070, G=208450, B=14640, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=DirtColor }
+        ParameterValue = { R=0.603827, G=0.600862, B=0.483367, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=Dirt2Color }
+        ParameterValue = { R=0.125425, G=0.168403, B=0.143885, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=InterEmiissive }
+        ParameterValue = { R=0, G=0, B=0, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[4] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use New?? }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = false
+            ParameterInfo = { Name=reflection or BoxReflection }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use Dir2 }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use CubeMapChange }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Dar_Flo_02B_MA
+    }
+}

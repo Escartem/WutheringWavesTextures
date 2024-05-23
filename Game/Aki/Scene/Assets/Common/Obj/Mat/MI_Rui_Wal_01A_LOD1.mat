@@ -1,0 +1,4 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T_Rui_Wal_01A_N
+Other[0]=T_Rui_Wal_01A_D
+Other[1]=T_DefaultNormalMask_M

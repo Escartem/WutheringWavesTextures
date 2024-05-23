@@ -1,0 +1,184 @@
+Parent = MaterialInstanceConstant'/Game/Aki/Render/MaterialInstance/Scene/SceneObjBlend/MI_SceneObjBlend_Mid.MI_SceneObjBlend_Mid'
+ScalarParameterValues[12] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Base Layer UVS - U Tiling }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Base Layer UVS - V Tiling }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Height Ratio (S) }
+        ParameterValue = 0.015
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Max Steps (S) }
+        ParameterValue = 10
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Min Steps (S) }
+        ParameterValue = 9
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Blend Mask U Tiling }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Blend Mask V Tiling }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=MidRoughness }
+        ParameterValue = 0.91746
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=MidAmount }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=LandscapeFadeDistance }
+        ParameterValue = 15
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=LandscapeFadeHardness }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[4] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=BaseDiffTex }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Common/Obj/Tex/T4_Com_Bri_22A_DB.T4_Com_Bri_22A_DB'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=BaseMaskTex }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Common/Obj/Tex/T4_Com_Bri_22A_NB.T4_Com_Bri_22A_NB'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=DepthTex }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Common/Obj/Tex/T4_Com_Bri_22A_DT.T4_Com_Bri_22A_DT'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=BlendMaskTexture }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Levels/HuangLong/FuBen/FB_ShangHen/Tex/Mask/T4_Sca_Con_01A_MA.T4_Sca_Con_01A_MA'
+        ParameterName = None
+    }
+}
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=BasColorTint }
+        ParameterValue = { R=1, G=1, B=1, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=MidColorTint }
+        ParameterValue = { R=0.095486, G=0.084617, B=0.073106, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[4] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo =
+            {
+                Name = Base Layer UV Index (False=Channel 0, True=Channel 1)
+            }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use ParallaxOcclusion }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo =
+            {
+                Name = Blend Mask UV Index (False=Channel 0, True=Channel 1)
+            }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseLandscapeBlend }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 2
+        UVChannelIndex = 1
+        TextureName = T4_Sca_Con_01A_MA
+    }
+}

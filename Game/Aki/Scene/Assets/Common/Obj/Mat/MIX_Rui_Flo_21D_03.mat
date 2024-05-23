@@ -1,0 +1,13 @@
+Diffuse=T4_Com_San_09A_DB
+Normal=T_Rui_Flo_21D_N
+Other[0]=T_Rui_Flo_21D_M
+Other[1]=T4_Com_San_09A_N
+Other[2]=T_DefaultColorWhite_D
+Other[3]=T_DefaultMaskGreen_M
+Other[4]=T_DefaultNormal_N
+Other[5]=BlendFunc_DefBase
+Other[6]=BlendFunc_DefBlend
+Other[7]=Good64x64TilingNoiseHighFreq
+Other[8]=T_DefaultMaskBlack_M
+Other[9]=T_FlareNoise_M
+Other[10]=T_LandscapeColorMap_D

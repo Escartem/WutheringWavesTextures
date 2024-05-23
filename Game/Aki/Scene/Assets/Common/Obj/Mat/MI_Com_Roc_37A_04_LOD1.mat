@@ -1,0 +1,8 @@
+Diffuse=T_Com_Roc_37C_D
+Normal=T_Com_Roc_37C_NB
+Other[0]=Good64x64TilingNoiseHighFreq
+Other[1]=T_DefaultColorWhite_D
+Other[2]=T_DefaultMaskGreen_M
+Other[3]=T_FlareNoise_M
+Other[4]=T_WaterNormal_Rain
+Other[5]=T_LandscapeColorMap_D

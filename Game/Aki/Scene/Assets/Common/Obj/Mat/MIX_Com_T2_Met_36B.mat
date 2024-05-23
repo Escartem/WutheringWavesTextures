@@ -1,0 +1,16 @@
+Diffuse=T2_Com_Met_36A_DB
+Normal=T_DefaultNormal_N
+Other[0]=T2_Com_Met_36A_NB
+Other[1]=T_Dar_Bui_03A_MA
+Other[2]=T_DefaultColorWhite_D
+Other[3]=T_DefaultColorWhite_Linear_D
+Other[4]=T_DefaultColorBlack_D1
+Other[5]=Good64x64TilingNoiseHighFreq
+Other[6]=T_EV_BlankWhite_01
+Other[7]=T_Caustic_001
+Other[8]=T_DefaultMaskBlack_M
+Other[9]=T_FlareNoise_M
+Other[10]=T_Foliage_Noise_M
+Other[11]=T_Ice_A_Sub
+Other[12]=T_SingleLayerWaterNoise
+Other[13]=T_WaterNormal_Rain
