@@ -1,0 +1,15 @@
+Diffuse=T_DefaultColorBlack_Linear_D
+Normal=T_ML1WuChangluMd00601Chaoshi_N
+Cube=T_Env_03_CUBE
+Other[0]=T_ML1WuChangluMd00601Chaoshi_D
+Other[1]=T_Env_02_CUBE
+Other[2]=T_Noise_Fire_D
+Other[3]=T_MB1SuiguangMd00501Hair_Noise_D
+Other[4]=CommonNoise
+Other[5]=T_Baozi_M
+Other[6]=LUT_Common_Default_Shadow
+Other[7]=T_DefaultColorWhite_D
+Other[8]=T_DefaultColorWhite_Linear_D
+Other[9]=T_DefaultMaskGreen_M
+Other[10]=T_DefaultMaskWhite_M
+Other[11]=T_DefaultNormalMask_M

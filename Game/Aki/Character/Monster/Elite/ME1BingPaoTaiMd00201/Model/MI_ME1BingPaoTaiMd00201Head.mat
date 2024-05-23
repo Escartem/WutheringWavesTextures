@@ -1,0 +1,17 @@
+Diffuse=T_DefaultColorBlack_Linear_D
+Normal=T_ME1BingPaoTaiMd00201Head_N
+Cube=T_Env_02_CUBE
+Other[0]=T_ME1BingPaoTaiMd00201Head_D
+Other[1]=T_ME1BingPaoTaiMd00201Head_ID
+Other[2]=T_ME1BingPaoTaiMd00201Head_FX
+Other[3]=CommonNoise
+Other[4]=T_Noise_Fire_D
+Other[5]=T_MB1SuiguangMd00501Hair_Noise_D
+Other[6]=T_Baozi_M
+Other[7]=LUT_Common_Default_Shadow
+Other[8]=T_DefaultColorWhite_D
+Other[9]=T_DefaultColorWhite_Linear_D
+Other[10]=T_DefaultMaskGreen_M
+Other[11]=T_DefaultMaskWhite_M
+Other[12]=T_DefaultNormalMask_M
+Other[13]=T_Env_03_CUBE

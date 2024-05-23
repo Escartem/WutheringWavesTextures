@@ -1,0 +1,15 @@
+Diffuse=T_DefaultColorBlack_Linear_D
+Normal=T_MO1ZhantuanjunshitwoMd00001_N
+Cube=T_Env_02_CUBE
+Other[0]=T_MO1ZhantuanjunshitwoMd00001_D
+Other[1]=T_Noise_Fire_D
+Other[2]=T_MB1SuiguangMd00501Hair_Noise_D
+Other[3]=CommonNoise
+Other[4]=T_Baozi_M
+Other[5]=LUT_Common_Default_Shadow
+Other[6]=T_DefaultColorWhite_D
+Other[7]=T_DefaultColorWhite_Linear_D
+Other[8]=T_DefaultMaskGreen_M
+Other[9]=T_DefaultMaskWhite_M
+Other[10]=T_DefaultNormalMask_M
+Other[11]=T_Env_03_CUBE
