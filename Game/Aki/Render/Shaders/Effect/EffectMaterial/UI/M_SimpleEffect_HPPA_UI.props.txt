@@ -1,0 +1,496 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    ReferencedTextures[1] = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_WhiteSolid.LGUIPreset_WhiteSolid'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[45] =
+                {
+                    ParameterInfos[0] = { Name=Base_bUseChannelAsEmissive }
+                    ParameterInfos[1] = { Name=Dissolve_NoiseStrength }
+                    ParameterInfos[2] = { Name=Mask_Alpha_Multiply }
+                    ParameterInfos[3] = { Name=Base_bScreenUV }
+                    ParameterInfos[4] = { Name=LGUI_IsRenderInGammaSpace }
+                    ParameterInfos[5] = { Name=LGUI_ClipTextureAlpha }
+                    ParameterInfos[6] = { Name=Second_bScreenUV }
+                    ParameterInfos[7] = { Name=Dissolve_Smooth }
+                    ParameterInfos[8] = { Name=ScaleTimeScale }
+                    ParameterInfos[9] = { Name=Second_Rotation }
+                    ParameterInfos[10] = { Name=Loop }
+                    ParameterInfos[11] = { Name=Mask_NoiseStrength }
+                    ParameterInfos[12] = { Name=Dissolve_MaskLerp }
+                    ParameterInfos[13] = { Name=Dissolve_bScreenUV }
+                    ParameterInfos[14] = { Name=Base_Rotation }
+                    ParameterInfos[15] = { Name=Dissolve_Invert }
+                    ParameterInfos[16] = { Name=Noise_Strength }
+                    ParameterInfos[17] = { Name=TimeScale }
+                    ParameterInfos[18] = { Name=ScaleTimeBias }
+                    ParameterInfos[19] = { Name=Base_Emissive_Add }
+                    ParameterInfos[20] = { Name=Fraction }
+                    ParameterInfos[21] = { Name=Dissolve_Dissolve }
+                    ParameterInfos[22] = { Name=Spin }
+                    ParameterInfos[23] = { Name=LGUI_UseTextureClip }
+                    ParameterInfos[24] = { Name=Base_bClampAfterNoise }
+                    ParameterInfos[25] = { Name=Base_Alpha_Multiply }
+                    ParameterInfos[26] = { Name=Mask_bClamp }
+                    ParameterInfos[27] = { Name=Dissolve_bClamp }
+                    ParameterInfos[28] = { Name=Noise_bScreenUV }
+                    ParameterInfos[29] = { Name=LGUI_UseRectClip }
+                    ParameterInfos[30] = { Name=Base_bAddSecond }
+                    ParameterInfos[31] = { Name=Mask_Invert }
+                    ParameterInfos[32] = { Name=Mask_Rotation }
+                    ParameterInfos[33] = { Name=Second_bClamp }
+                    ParameterInfos[34] = { Name=Mask_bScreenUV }
+                    ParameterInfos[35] = { Name=TimeBias }
+                    ParameterInfos[36] = { Name=Noise_Offset }
+                    ParameterInfos[37] = { Name=DIssolve_TimeOffset }
+                    ParameterInfos[38] = { Name=Base_NoiseStrength }
+                    ParameterInfos[39] = { Name=ScaleDensity }
+                    ParameterInfos[40] = { Name=Base_bClampY }
+                    ParameterInfos[41] = { Name=Dissolve_UOffset }
+                    ParameterInfos[42] = { Name=Dissolve_VOffset }
+                    ParameterInfos[43] = { Name=DIssolve_Rotation }
+                    ParameterInfos[44] = { Name=Base_bClamp }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[29] =
+                {
+                    ParameterInfos[0] = { Name=LGUI_TextureClipOffsetAndSize }
+                    ParameterInfos[1] = { Name=Second_Contorl }
+                    ParameterInfos[2] = { Name=Base_OutSideColorTint }
+                    ParameterInfos[3] = { Name=Base_Refine }
+                    ParameterInfos[4] = { Name=Base_UV_Offset }
+                    ParameterInfos[5] = { Name=Dissolve_ChannelSwitch }
+                    ParameterInfos[6] = { Name=Mask_UV }
+                    ParameterInfos[7] = { Name=Noise_UV }
+                    ParameterInfos[8] = { Name=LGUI_LinearColor }
+                    ParameterInfos[9] = { Name=Base_ColorTint }
+                    ParameterInfos[10] = { Name=Mask_AlphaSwitch }
+                    ParameterInfos[11] = { Name=Base_InsideColorTint }
+                    ParameterInfos[12] = { Name=Base_AlphaSwitch }
+                    ParameterInfos[13] = { Name=Second_ColorTint }
+                    ParameterInfos[14] = { Name=ForceScale }
+                    ParameterInfos[15] = { Name=Second_UVSwitch }
+                    ParameterInfos[16] = { Name=Base_UVSwitch }
+                    ParameterInfos[17] = { Name=Dissolve_UVSwitch }
+                    ParameterInfos[18] = { Name=LGUI_ClipMatrix0 }
+                    ParameterInfos[19] = { Name=Second_UV }
+                    ParameterInfos[20] = { Name=Mask_UVSwitch }
+                    ParameterInfos[21] = { Name=Dissolve_EdgeColor }
+                    ParameterInfos[22] = { Name=Base_EmissiveSwitch }
+                    ParameterInfos[23] = { Name=Dissolve_UV }
+                    ParameterInfos[24] = { Name=LGUI_RectClipFeather }
+                    ParameterInfos[25] = { Name=Noise_UVSwitch }
+                    ParameterInfos[26] = { Name=LGUI_RectClipOffsetAndSize }
+                    ParameterInfos[27] = { Name=Base_UV }
+                    ParameterInfos[28] = { Name=V0Scale }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Noise }
+                    ParameterInfos[1] = { Name=Mask }
+                    ParameterInfos[2] = { Name=Dissolve }
+                    ParameterInfos[3] = { Name=LGUI_ClipTexture }
+                    ParameterInfos[4] = { Name=Base }
+                    ParameterInfos[5] = { Name=Second }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[45] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 0
+            ScalarValues[2] = 1
+            ScalarValues[3] = 0
+            ScalarValues[4] = 1
+            ScalarValues[5] = 1
+            ScalarValues[6] = 0
+            ScalarValues[7] = 5
+            ScalarValues[8] = 0
+            ScalarValues[9] = 0
+            ScalarValues[10] = 5
+            ScalarValues[11] = 0
+            ScalarValues[12] = 0
+            ScalarValues[13] = 0
+            ScalarValues[14] = 0
+            ScalarValues[15] = 0
+            ScalarValues[16] = 0.15
+            ScalarValues[17] = 0
+            ScalarValues[18] = 2
+            ScalarValues[19] = 0
+            ScalarValues[20] = 0
+            ScalarValues[21] = 1
+            ScalarValues[22] = 0
+            ScalarValues[23] = 0
+            ScalarValues[24] = 0
+            ScalarValues[25] = 1
+            ScalarValues[26] = 0
+            ScalarValues[27] = 0
+            ScalarValues[28] = 0
+            ScalarValues[29] = 0
+            ScalarValues[30] = 0
+            ScalarValues[31] = 0
+            ScalarValues[32] = 0
+            ScalarValues[33] = 0
+            ScalarValues[34] = 0
+            ScalarValues[35] = 0
+            ScalarValues[36] = 0
+            ScalarValues[37] = 0
+            ScalarValues[38] = 1
+            ScalarValues[39] = 0
+            ScalarValues[40] = 0
+            ScalarValues[41] = 0
+            ScalarValues[42] = 0
+            ScalarValues[43] = 0
+            ScalarValues[44] = 0
+        }
+        VectorValues[29] =
+        {
+            VectorValues[0] = { R=0, G=0, B=50, A=50 }
+            VectorValues[1] = { R=0, G=1, B=0, A=0 }
+            VectorValues[2] = { R=1, G=1, B=1, A=0 }
+            VectorValues[3] = { R=1, G=1, B=1, A=0.5 }
+            VectorValues[4] = { R=0, G=0, B=0, A=0 }
+            VectorValues[5] = { R=1, G=0, B=0, A=0 }
+            VectorValues[6] = { R=1, G=1, B=0, A=0 }
+            VectorValues[7] = { R=1, G=1, B=0, A=0 }
+            VectorValues[8] = { R=0, G=0, B=0, A=0 }
+            VectorValues[9] = { R=1, G=1, B=1, A=0 }
+            VectorValues[10] = { R=1, G=0, B=0, A=0 }
+            VectorValues[11] = { R=0, G=0, B=0, A=0 }
+            VectorValues[12] = { R=0, G=0, B=0, A=1 }
+            VectorValues[13] = { R=1, G=1, B=1, A=1 }
+            VectorValues[14] = { R=0, G=0, B=0, A=1 }
+            VectorValues[15] = { R=1, G=0, B=0, A=0 }
+            VectorValues[16] = { R=1, G=0, B=0, A=0 }
+            VectorValues[17] = { R=1, G=0, B=0, A=0 }
+            VectorValues[18] = { R=0, G=0, B=50, A=50 }
+            VectorValues[19] = { R=1, G=1, B=0, A=0 }
+            VectorValues[20] = { R=1, G=0, B=0, A=0 }
+            VectorValues[21] = { R=0, G=0, B=0, A=0 }
+            VectorValues[22] = { R=1, G=0, B=0, A=0 }
+            VectorValues[23] = { R=1, G=1, B=0, A=0 }
+            VectorValues[24] = { R=1, G=1, B=0, A=0 }
+            VectorValues[25] = { R=1, G=0, B=0, A=0 }
+            VectorValues[26] = { R=0, G=0, B=50, A=50 }
+            VectorValues[27] = { R=1, G=1, B=0, A=0 }
+            VectorValues[28] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[6] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[3] = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_WhiteSolid.LGUIPreset_WhiteSolid'
+            TextureValues[4] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[5] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[1] = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_WhiteSolid.LGUIPreset_WhiteSolid'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[6] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Noise
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Mask
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Dissolve
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Client/Plugins/LGUI/LGUI/Content/Textures/LGUIPreset_WhiteSolid.LGUIPreset_WhiteSolid'
+        Name = LGUI_ClipTexture
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Base
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Second
+        Group = None
+    }
+}
+CollectedScalarParameters[45] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 0
+        Name = Base_bUseChannelAsEmissive
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=0, Name=Dissolve_NoiseStrength, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Mask_Alpha_Multiply, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Base_bScreenUV, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 1
+        Name = LGUI_IsRenderInGammaSpace
+        Group = None
+    }
+    CollectedScalarParameters[5] = { Value=1, Name=LGUI_ClipTextureAlpha, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Second_bScreenUV, Group=None }
+    CollectedScalarParameters[7] = { Value=5, Name=Dissolve_Smooth, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=ScaleTimeScale, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=Second_Rotation, Group=None }
+    CollectedScalarParameters[10] = { Value=5, Name=Loop, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=Mask_NoiseStrength, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=Dissolve_MaskLerp, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=Dissolve_bScreenUV, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=Base_Rotation, Group=None }
+    CollectedScalarParameters[15] = { Value=0, Name=Dissolve_Invert, Group=None }
+    CollectedScalarParameters[16] = { Value=0.15, Name=Noise_Strength, Group=None }
+    CollectedScalarParameters[17] = { Value=0, Name=TimeScale, Group=None }
+    CollectedScalarParameters[18] = { Value=2, Name=ScaleTimeBias, Group=None }
+    CollectedScalarParameters[19] = { Value=0, Name=Base_Emissive_Add, Group=None }
+    CollectedScalarParameters[20] = { Value=0, Name=Fraction, Group=None }
+    CollectedScalarParameters[21] = { Value=1, Name=Dissolve_Dissolve, Group=None }
+    CollectedScalarParameters[22] = { Value=0, Name=Spin, Group=None }
+    CollectedScalarParameters[23] = { Value=0, Name=LGUI_UseTextureClip, Group=None }
+    CollectedScalarParameters[24] = { Value=0, Name=Base_bClampAfterNoise, Group=None }
+    CollectedScalarParameters[25] = { Value=1, Name=Base_Alpha_Multiply, Group=None }
+    CollectedScalarParameters[26] = { Value=0, Name=Mask_bClamp, Group=None }
+    CollectedScalarParameters[27] = { Value=0, Name=Dissolve_bClamp, Group=None }
+    CollectedScalarParameters[28] = { Value=0, Name=Noise_bScreenUV, Group=None }
+    CollectedScalarParameters[29] = { Value=0, Name=LGUI_UseRectClip, Group=None }
+    CollectedScalarParameters[30] = { Value=0, Name=Base_bAddSecond, Group=None }
+    CollectedScalarParameters[31] = { Value=0, Name=Mask_Invert, Group=None }
+    CollectedScalarParameters[32] = { Value=0, Name=Mask_Rotation, Group=None }
+    CollectedScalarParameters[33] = { Value=0, Name=Second_bClamp, Group=None }
+    CollectedScalarParameters[34] = { Value=0, Name=Mask_bScreenUV, Group=None }
+    CollectedScalarParameters[35] = { Value=0, Name=TimeBias, Group=None }
+    CollectedScalarParameters[36] = { Value=0, Name=Noise_Offset, Group=None }
+    CollectedScalarParameters[37] = { Value=0, Name=DIssolve_TimeOffset, Group=None }
+    CollectedScalarParameters[38] = { Value=1, Name=Base_NoiseStrength, Group=None }
+    CollectedScalarParameters[39] = { Value=0, Name=ScaleDensity, Group=None }
+    CollectedScalarParameters[40] = { Value=0, Name=Base_bClampY, Group=None }
+    CollectedScalarParameters[41] = { Value=0, Name=Dissolve_UOffset, Group=None }
+    CollectedScalarParameters[42] = { Value=0, Name=Dissolve_VOffset, Group=None }
+    CollectedScalarParameters[43] = { Value=0, Name=DIssolve_Rotation, Group=None }
+    CollectedScalarParameters[44] = { Value=0, Name=Base_bClamp, Group=None }
+}
+CollectedVectorParameters[29] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=50, A=50 }
+        Name = LGUI_TextureClipOffsetAndSize
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=1, B=0, A=0 }
+        Name = Second_Contorl
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Base_OutSideColorTint
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=0.5 }
+        Name = Base_Refine
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Base_UV_Offset
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = Dissolve_ChannelSwitch
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Mask_UV
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Noise_UV
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = LGUI_LinearColor
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Base_ColorTint
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = Mask_AlphaSwitch
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Base_InsideColorTint
+        Group = None
+    }
+    CollectedVectorParameters[12] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Base_AlphaSwitch
+        Group = None
+    }
+    CollectedVectorParameters[13] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Second_ColorTint
+        Group = None
+    }
+    CollectedVectorParameters[14] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = ForceScale
+        Group = None
+    }
+    CollectedVectorParameters[15] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = Second_UVSwitch
+        Group = None
+    }
+    CollectedVectorParameters[16] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = Base_UVSwitch
+        Group = None
+    }
+    CollectedVectorParameters[17] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = Dissolve_UVSwitch
+        Group = None
+    }
+    CollectedVectorParameters[18] =
+    {
+        Value = { R=0, G=0, B=50, A=50 }
+        Name = LGUI_ClipMatrix0
+        Group = None
+    }
+    CollectedVectorParameters[19] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Second_UV
+        Group = None
+    }
+    CollectedVectorParameters[20] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = Mask_UVSwitch
+        Group = None
+    }
+    CollectedVectorParameters[21] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Dissolve_EdgeColor
+        Group = None
+    }
+    CollectedVectorParameters[22] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = Base_EmissiveSwitch
+        Group = None
+    }
+    CollectedVectorParameters[23] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Dissolve_UV
+        Group = None
+    }
+    CollectedVectorParameters[24] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = LGUI_RectClipFeather
+        Group = None
+    }
+    CollectedVectorParameters[25] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = Noise_UVSwitch
+        Group = None
+    }
+    CollectedVectorParameters[26] =
+    {
+        Value = { R=0, G=0, B=50, A=50 }
+        Name = LGUI_RectClipOffsetAndSize
+        Group = None
+    }
+    CollectedVectorParameters[27] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Base_UV
+        Group = None
+    }
+    CollectedVectorParameters[28] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = V0Scale
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,206 @@
+Parent = Material3'/Game/Aki/Render/Shaders/SceneObjMatLib/SpecialEffect/StylizedWater/Material/M_FlowWater.M_FlowWater'
+ScalarParameterValues[19] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=BC_FadeDistance }
+        ParameterValue = 433.333
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=SPE_Bias }
+        ParameterValue = -0.733333
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=SPE_Glossy }
+        ParameterValue = 83.8095
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=SPE_Intenstiy }
+        ParameterValue = 8.38095
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Opacity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=NM_1st_Tiled_U }
+        ParameterValue = 3
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=NM_1st_Tiled_V }
+        ParameterValue = 1.5
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=NM_1st_Speed_U }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=NM_1st_Speed_V }
+        ParameterValue = -0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=NM_Intensity }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=VertexOffset }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=RFL_Intensity }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=RFL_Angle }
+        ParameterValue = 0.171429
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=Intensity }
+        ParameterValue = 1.2
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=SF_Tiled_U }
+        ParameterValue = 3
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=SF_Tiled_V }
+        ParameterValue = 79.0185
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=BF_Scale }
+        ParameterValue = 0.725714
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=BF_Width }
+        ParameterValue = 0.117333
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=NM_NormalMap }
+        ParameterValue = Texture2D'/Game/Aki/Render/Common/T_Water_Normal1.T_Water_Normal1'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=RFL_Cubemap }
+        ParameterValue = TextureCube4'/Game/Aki/Scene/Cubemaps/T_Zbudio_0011_CUBE.T_Zbudio_0011_CUBE'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=SF_FoamMap }
+        ParameterValue = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskBlack_M.T_DefaultMaskBlack_M'
+        ParameterName = None
+    }
+}
+VectorParameterValues[3] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=BC_ShallowColor }
+        ParameterValue = { R=0.484918, G=0.854167, B=0.854167, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=BC_DeepColor }
+        ParameterValue = { R=0.040446, G=0.080654, B=0.109375, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=SF_FoamColor }
+        ParameterValue = { R=0.581055, G=0.830721, B=0.885417, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = T_DefaultMaskBlack_M
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 192
+        UVChannelIndex = 0
+        TextureName = T_Noise_2
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1.5
+        UVChannelIndex = 0
+        TextureName = T_Water_Normal1
+    }
+}

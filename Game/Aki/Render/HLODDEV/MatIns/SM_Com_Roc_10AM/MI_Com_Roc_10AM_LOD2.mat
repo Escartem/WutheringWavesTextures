@@ -1,0 +1,14 @@
+Diffuse=T4_Com_Roc_03A_DB
+Normal=T_Com_Roc_10AM_LOD2
+Other[0]=T_Com_Roc_10A_M
+Other[1]=T_DefaultColorWhite_D
+Other[2]=T_DefaultMaskGreen_M
+Other[3]=T_DefaultNormal_N
+Other[4]=T_LandscapeColorMap_D
+Other[5]=BlendFunc_DefBase
+Other[6]=BlendFunc_DefBlend
+Other[7]=Good64x64TilingNoiseHighFreq
+Other[8]=T_DefaultColorWhite_Linear_D
+Other[9]=T_DefaultMaskBlack_M
+Other[10]=T_FlareNoise_M
+Other[11]=T_WaterNormal_Rain

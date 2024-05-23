@@ -1,0 +1,11 @@
+Normal=T_WaterFalls_atlas
+Cube=T_kloofendal_cloudy_2k_CUBE
+Other[0]=T_WaterFall_Foam
+Other[1]=T_WaterfallNoise
+Other[2]=T_WaterfallMask_02_M
+Other[3]=LowResBlurredNoise
+Other[4]=T_Ocean_Foam_M
+Other[5]=T_WaterfallMask_M
+Other[6]=T_WaterNoise_02_M
+Other[7]=TC_DefaultWaterCube
+Other[8]=T_NoonSky_CUBE

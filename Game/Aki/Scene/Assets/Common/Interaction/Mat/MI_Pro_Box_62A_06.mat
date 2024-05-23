@@ -1,0 +1,9 @@
+Diffuse=T_DefaultGrayscaleBlack_G
+Normal=T4_Com_Con_03A_N
+Emissive=T_Mask_30023
+Other[0]=T_Default_SceneMask_M
+Other[1]=DefaultTexture
+Other[2]=CommonBtnBg2
+Other[3]=T_DefaultColorBlack_D1
+Other[4]=T_DefaultColorWhite_D
+Other[5]=T_DefaultNormal_N

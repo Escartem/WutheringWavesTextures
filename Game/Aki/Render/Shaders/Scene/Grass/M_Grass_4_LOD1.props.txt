@@ -1,0 +1,344 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise02_M.T_Foliage_Noise02_M'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_RandomColorTex_test02.T_RandomColorTex_test02'
+    ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/T_WaterNormal_Rain.T_WaterNormal_Rain'
+    ReferencedTextures[5] = Texture2D'/Game/Aki/Scene/Landscape/ColorMap/T_LandscapeColorMap_D.T_LandscapeColorMap_D'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[48] =
+                {
+                    ParameterInfos[0] = { Name=WindPowerMin }
+                    ParameterInfos[1] = { Name=A NoiseIntensty }
+                    ParameterInfos[2] = { Name=PlayerInteractionIntensity }
+                    ParameterInfos[3] = { Name=TipRoughnessA }
+                    ParameterInfos[4] = { Name=SC }
+                    ParameterInfos[5] = { Name=RootRoughness }
+                    ParameterInfos[6] = { Name=WaterNormalSpeed (S) }
+                    ParameterInfos[7] = { Name=Muu }
+                    ParameterInfos[8] = { Name=ColorTex_Blend }
+                    ParameterInfos[9] = { Name=WindTimeBias }
+                    ParameterInfos[10] = { Name=RandomNoiseTili }
+                    ParameterInfos[11] = { Name=Came Interaction Distances }
+                    ParameterInfos[12] = { Name=Alpha Blur }
+                    ParameterInfos[13] = { Name=GrassToughness }
+                    ParameterInfos[14] = { Name=UpwardNormalBlend }
+                    ParameterInfos[15] = { Name=WindPowerMax }
+                    ParameterInfos[16] = { Name=SpecDisFadeRange }
+                    ParameterInfos[17] = { Name=TipRoughnessB }
+                    ParameterInfos[18] = { Name=DistantRoughness }
+                    ParameterInfos[19] = { Name=CameraInteractionIntensity }
+                    ParameterInfos[20] = { Name=WindInteractionIntensity }
+                    ParameterInfos[21] = { Name=RoughnessNer }
+                    ParameterInfos[22] = { Name=RoughnessFar }
+                    ParameterInfos[23] = { Name=ShakeFrequency }
+                    ParameterInfos[24] = { Name=Div }
+                    ParameterInfos[25] = { Name=Alpha Threshold }
+                    ParameterInfos[26] = { Name=SpecLightDirectionMaxZ }
+                    ParameterInfos[27] = { Name=PlayerInteractionRadius }
+                    ParameterInfos[28] = { Name=VertexColorPow_Roughness }
+                    ParameterInfos[29] = { Name=CameraInteractionRadius }
+                    ParameterInfos[30] = { Name=TipRoughness }
+                    ParameterInfos[31] = { Name=VCRandomScale }
+                    ParameterInfos[32] = { Name=SpecDisFadeOffset }
+                    ParameterInfos[33] = { Name=WaterNormal_Scale (S) }
+                    ParameterInfos[34] = { Name=SpecularDis }
+                    ParameterInfos[35] = { Name=SpecRootDarkenExp }
+                    ParameterInfos[36] = { Name=RealSpecIntensity }
+                    ParameterInfos[37] = { Name=SpecRootDarkenIntensity }
+                    ParameterInfos[38] = { Name=NormalIntensity (S) }
+                    ParameterInfos[39] = { Name=VertexColorContrast }
+                    ParameterInfos[40] = { Name=BrightTipRoughnessFactor }
+                    ParameterInfos[41] = { Name=VertexColorPow }
+                    ParameterInfos[42] = { Name=SpecularFar }
+                    ParameterInfos[43] = { Name=AddVertexOffset }
+                    ParameterInfos[44] = { Name=SpecDisFadeViewZContrib }
+                    ParameterInfos[45] = { Name=RealSpecNormalBlend }
+                    ParameterInfos[46] = { Name=BrightGrassProportion }
+                    ParameterInfos[47] = { Name=SpecularNer }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=BasColorTint }
+                    ParameterInfos[1] = { Name=BasColorTint_Top }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Wind Field Tex }
+                    ParameterInfos[1] = { Name=WorldColorMap }
+                    ParameterInfos[2] = { Name=RainNormal }
+                    ParameterInfos[3] = { Name=ColorTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[48] =
+        {
+            ScalarValues[0] = -0.4
+            ScalarValues[1] = 1.35
+            ScalarValues[2] = 1
+            ScalarValues[3] = 0.6
+            ScalarValues[4] = 0
+            ScalarValues[5] = 0.75
+            ScalarValues[6] = 30
+            ScalarValues[7] = 0
+            ScalarValues[8] = 0
+            ScalarValues[9] = 0
+            ScalarValues[10] = 0.3
+            ScalarValues[11] = 0.5
+            ScalarValues[12] = 0.6
+            ScalarValues[13] = 0
+            ScalarValues[14] = 0.5
+            ScalarValues[15] = 1
+            ScalarValues[16] = 18000
+            ScalarValues[17] = 0.7
+            ScalarValues[18] = 0.45
+            ScalarValues[19] = 1
+            ScalarValues[20] = 0.5
+            ScalarValues[21] = 0.9
+            ScalarValues[22] = 0.7
+            ScalarValues[23] = 5
+            ScalarValues[24] = 0
+            ScalarValues[25] = 1
+            ScalarValues[26] = 0.5
+            ScalarValues[27] = 20
+            ScalarValues[28] = 1
+            ScalarValues[29] = 20
+            ScalarValues[30] = 0.45
+            ScalarValues[31] = 70
+            ScalarValues[32] = 2000
+            ScalarValues[33] = 100
+            ScalarValues[34] = 600
+            ScalarValues[35] = 1
+            ScalarValues[36] = 1
+            ScalarValues[37] = 1
+            ScalarValues[38] = 10
+            ScalarValues[39] = 1
+            ScalarValues[40] = 0.6
+            ScalarValues[41] = 1
+            ScalarValues[42] = 0.85
+            ScalarValues[43] = 100
+            ScalarValues[44] = 1000
+            ScalarValues[45] = 0.2
+            ScalarValues[46] = 0.1
+            ScalarValues[47] = 0.7
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=0 }
+            VectorValues[1] = { R=1, G=1, B=1, A=0 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise02_M.T_Foliage_Noise02_M'
+            TextureValues[1] = Texture2D'/Game/Aki/Scene/Landscape/ColorMap/T_LandscapeColorMap_D.T_LandscapeColorMap_D'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_WaterNormal_Rain.T_WaterNormal_Rain'
+            TextureValues[3] = Texture2D'/Game/Aki/Render/Common/T_RandomColorTex_test02.T_RandomColorTex_test02'
+        }
+    }
+    ReferencedTextures[7] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Scene/Landscape/ColorMap/T_LandscapeColorMap_D.T_LandscapeColorMap_D'
+        ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+        ReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+        ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_RandomColorTex_test02.T_RandomColorTex_test02'
+        ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise02_M.T_Foliage_Noise02_M'
+        ReferencedTextures[6] = Texture2D'/Game/Aki/Render/Common/T_WaterNormal_Rain.T_WaterNormal_Rain'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise02_M.T_Foliage_Noise02_M'
+        Name = Wind Field Tex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Scene/Landscape/ColorMap/T_LandscapeColorMap_D.T_LandscapeColorMap_D'
+        Name = WorldColorMap
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_WaterNormal_Rain.T_WaterNormal_Rain'
+        Name = RainNormal
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_RandomColorTex_test02.T_RandomColorTex_test02'
+        Name = ColorTex
+        Group = None
+    }
+}
+CollectedScalarParameters[48] =
+{
+    CollectedScalarParameters[0] = { Value=-0.4, Name=WindPowerMin, Group=None }
+    CollectedScalarParameters[1] = { Value=1.35, Name=A NoiseIntensty, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 1
+        Name = PlayerInteractionIntensity
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=0.6, Name=TipRoughnessA, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=SC, Group=None }
+    CollectedScalarParameters[5] = { Value=0.75, Name=RootRoughness, Group=None }
+    CollectedScalarParameters[6] = { Value=30, Name=WaterNormalSpeed (S), Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=Muu, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=ColorTex_Blend, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=WindTimeBias, Group=None }
+    CollectedScalarParameters[10] = { Value=0.3, Name=RandomNoiseTili, Group=None }
+    CollectedScalarParameters[11] =
+    {
+        Value = 0.5
+        Name = Came Interaction Distances
+        Group = None
+    }
+    CollectedScalarParameters[12] = { Value=0.6, Name=Alpha Blur, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=GrassToughness, Group=None }
+    CollectedScalarParameters[14] = { Value=0.5, Name=UpwardNormalBlend, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=WindPowerMax, Group=None }
+    CollectedScalarParameters[16] = { Value=18000, Name=SpecDisFadeRange, Group=None }
+    CollectedScalarParameters[17] = { Value=0.7, Name=TipRoughnessB, Group=None }
+    CollectedScalarParameters[18] = { Value=0.45, Name=DistantRoughness, Group=None }
+    CollectedScalarParameters[19] =
+    {
+        Value = 1
+        Name = CameraInteractionIntensity
+        Group = None
+    }
+    CollectedScalarParameters[20] =
+    {
+        Value = 0.5
+        Name = WindInteractionIntensity
+        Group = None
+    }
+    CollectedScalarParameters[21] = { Value=0.9, Name=RoughnessNer, Group=None }
+    CollectedScalarParameters[22] = { Value=0.7, Name=RoughnessFar, Group=None }
+    CollectedScalarParameters[23] = { Value=5, Name=ShakeFrequency, Group=None }
+    CollectedScalarParameters[24] = { Value=0, Name=Div, Group=None }
+    CollectedScalarParameters[25] = { Value=1, Name=Alpha Threshold, Group=None }
+    CollectedScalarParameters[26] =
+    {
+        Value = 0.5
+        Name = SpecLightDirectionMaxZ
+        Group = None
+    }
+    CollectedScalarParameters[27] =
+    {
+        Value = 20
+        Name = PlayerInteractionRadius
+        Group = None
+    }
+    CollectedScalarParameters[28] =
+    {
+        Value = 1
+        Name = VertexColorPow_Roughness
+        Group = None
+    }
+    CollectedScalarParameters[29] =
+    {
+        Value = 20
+        Name = CameraInteractionRadius
+        Group = None
+    }
+    CollectedScalarParameters[30] = { Value=0.45, Name=TipRoughness, Group=None }
+    CollectedScalarParameters[31] = { Value=70, Name=VCRandomScale, Group=None }
+    CollectedScalarParameters[32] = { Value=2000, Name=SpecDisFadeOffset, Group=None }
+    CollectedScalarParameters[33] =
+    {
+        Value = 100
+        Name = WaterNormal_Scale (S)
+        Group = None
+    }
+    CollectedScalarParameters[34] = { Value=600, Name=SpecularDis, Group=None }
+    CollectedScalarParameters[35] = { Value=1, Name=SpecRootDarkenExp, Group=None }
+    CollectedScalarParameters[36] = { Value=1, Name=RealSpecIntensity, Group=None }
+    CollectedScalarParameters[37] =
+    {
+        Value = 1
+        Name = SpecRootDarkenIntensity
+        Group = None
+    }
+    CollectedScalarParameters[38] = { Value=10, Name=NormalIntensity (S), Group=None }
+    CollectedScalarParameters[39] = { Value=1, Name=VertexColorContrast, Group=None }
+    CollectedScalarParameters[40] =
+    {
+        Value = 0.6
+        Name = BrightTipRoughnessFactor
+        Group = None
+    }
+    CollectedScalarParameters[41] = { Value=1, Name=VertexColorPow, Group=None }
+    CollectedScalarParameters[42] = { Value=0.85, Name=SpecularFar, Group=None }
+    CollectedScalarParameters[43] = { Value=100, Name=AddVertexOffset, Group=None }
+    CollectedScalarParameters[44] =
+    {
+        Value = 1000
+        Name = SpecDisFadeViewZContrib
+        Group = None
+    }
+    CollectedScalarParameters[45] = { Value=0.2, Name=RealSpecNormalBlend, Group=None }
+    CollectedScalarParameters[46] =
+    {
+        Value = 0.1
+        Name = BrightGrassProportion
+        Group = None
+    }
+    CollectedScalarParameters[47] = { Value=0.7, Name=SpecularNer, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = BasColorTint
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = BasColorTint_Top
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_RandomColorTex_test02
+    }
+}

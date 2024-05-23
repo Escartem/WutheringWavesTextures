@@ -1,0 +1,5 @@
+Diffuse=T_DefaultMaskBlack_M
+Normal=T_Water_Normal1
+Cube=T_Zbudio_0011_CUBE
+Other[0]=T_Noise_2
+Other[1]=T_Waterfall_Directional_Noise

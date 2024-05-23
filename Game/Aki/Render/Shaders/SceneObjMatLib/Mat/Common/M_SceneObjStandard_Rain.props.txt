@@ -1,0 +1,383 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[9] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/Dripping_Pattern_Masks.Dripping_Pattern_Masks'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/ParticleClouds.ParticleClouds'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_Default_SceneMask_M.T_Default_SceneMask_M'
+    ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    ReferencedTextures[5] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+    ReferencedTextures[6] = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+    ReferencedTextures[7] = Texture2D'/Game/Aki/Render/Common/T_RainRipples.T_RainRipples'
+    ReferencedTextures[8] = Texture2D'/Game/Aki/Render/Common/T_Water_Normal1.T_Water_Normal1'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[45] =
+                {
+                    ParameterInfos[0] = { Name=Puddle Intensity }
+                    ParameterInfos[1] = { Name=BakeAO_Min }
+                    ParameterInfos[2] = { Name=TimeLength }
+                    ParameterInfos[3] = { Name=Drip Scale }
+                    ParameterInfos[4] = { Name=GlobalTimeHourForSequence }
+                    ParameterInfos[5] = { Name=LODRoughnessInt }
+                    ParameterInfos[6] = { Name=LandscapeBlendHeightContrast }
+                    ParameterInfos[7] = { Name=Drip Roughness Intensity }
+                    ParameterInfos[8] = { Name=Specular }
+                    ParameterInfos[9] = { Name=DynamicOffset }
+                    ParameterInfos[10] = { Name=Drip Z Angle Cutoff }
+                    ParameterInfos[11] = { Name=LandscapeFadeDistance }
+                    ParameterInfos[12] = { Name=LODBaseMetalIntensity }
+                    ParameterInfos[13] = { Name=Puddle Scale }
+                    ParameterInfos[14] = { Name=LandscapeBlendHeightTillingR }
+                    ParameterInfos[15] = { Name=LODBaseRoughnessIntensity }
+                    ParameterInfos[16] = { Name=Puddle Speed }
+                    ParameterInfos[17] = { Name=SwitchAuto }
+                    ParameterInfos[18] = { Name=BrightLenght }
+                    ParameterInfos[19] = { Name=LandscapeBlendHeightTillingG }
+                    ParameterInfos[20] = { Name=LandscapeDepthBias }
+                    ParameterInfos[21] = { Name=LODMetallicInt }
+                    ParameterInfos[22] = { Name=LandscapeFadeHardness }
+                    ParameterInfos[23] = { Name=WaterPuddleNormalIntensity }
+                    ParameterInfos[24] = { Name=Drip Normal Intensity }
+                    ParameterInfos[25] = { Name=BakeAO }
+                    ParameterInfos[26] = { Name=UseBaseColorAOrVertexColorR }
+                    ParameterInfos[27] = { Name=DynamicStartHour }
+                    ParameterInfos[28] = { Name=Base Layer UV Index }
+                    ParameterInfos[29] = { Name=maxBaseClamp }
+                    ParameterInfos[30] = { Name=Puddle Z Angle Cutoff }
+                    ParameterInfos[31] = { Name=Base Layer UVS - U Tiling }
+                    ParameterInfos[32] = { Name=AoIntensity }
+                    ParameterInfos[33] = { Name=LP_Hardness }
+                    ParameterInfos[34] = { Name=Ripples Scale }
+                    ParameterInfos[35] = { Name=LandBlendMaxDis }
+                    ParameterInfos[36] = { Name=GlobalTimeMinutesForSequence }
+                    ParameterInfos[37] = { Name=Base Layer UVS - V Tiling }
+                    ParameterInfos[38] = { Name=DepthOffset }
+                    ParameterInfos[39] = { Name=FlickerTime }
+                    ParameterInfos[40] = { Name=WaterPuddleRoughness }
+                    ParameterInfos[41] = { Name=LP_Radius }
+                    ParameterInfos[42] = { Name=WaterPuddleReflectionIntensity }
+                    ParameterInfos[43] = { Name=UseWholeDayEmission }
+                    ParameterInfos[44] = { Name=ViewTime }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=BasColorTint }
+                    ParameterInfos[1] = { Name=LP_Offset }
+                    ParameterInfos[2] = { Name=EmissionColor }
+                    ParameterInfos[3] = { Name=WaterPuddleColorTint }
+                    ParameterInfos[4] = { Name=LP_Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=BaseDiffTextureArray }
+                    ParameterInfos[1] = { Name=BaseMaskTextureArray }
+                    ParameterInfos[2] = { Name=BaseNormalTextureArray }
+                    ParameterInfos[3] = { Name=BaseNormalTexture }
+                    ParameterInfos[4] = { Name=BaseDiffTexture }
+                    ParameterInfos[5] = { Name=BaseMaskTexture }
+                    ParameterInfos[6] = { Name=LandscapeBlendHeight }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[45] =
+        {
+            ScalarValues[0] = 0.2
+            ScalarValues[1] = 0.4
+            ScalarValues[2] = 1
+            ScalarValues[3] = 150
+            ScalarValues[4] = 0
+            ScalarValues[5] = 1
+            ScalarValues[6] = 1
+            ScalarValues[7] = 0.5
+            ScalarValues[8] = 0.5
+            ScalarValues[9] = 0
+            ScalarValues[10] = 0
+            ScalarValues[11] = 50
+            ScalarValues[12] = 1
+            ScalarValues[13] = 100
+            ScalarValues[14] = 1000
+            ScalarValues[15] = 1
+            ScalarValues[16] = 20
+            ScalarValues[17] = 0
+            ScalarValues[18] = 0.1
+            ScalarValues[19] = 1000
+            ScalarValues[20] = 1
+            ScalarValues[21] = 0
+            ScalarValues[22] = 0
+            ScalarValues[23] = 1
+            ScalarValues[24] = 0.5
+            ScalarValues[25] = 3
+            ScalarValues[26] = 0
+            ScalarValues[27] = -1
+            ScalarValues[28] = 0
+            ScalarValues[29] = 1
+            ScalarValues[30] = 0.5
+            ScalarValues[31] = 1
+            ScalarValues[32] = 1
+            ScalarValues[33] = 0
+            ScalarValues[34] = 300
+            ScalarValues[35] = 65000
+            ScalarValues[36] = 0
+            ScalarValues[37] = 1
+            ScalarValues[38] = 0
+            ScalarValues[39] = 1
+            ScalarValues[40] = 0.1
+            ScalarValues[41] = 20
+            ScalarValues[42] = 0.2
+            ScalarValues[43] = 0
+            ScalarValues[44] = 0.75
+        }
+        VectorValues[5] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+            VectorValues[1] = { R=0, G=0, B=0, A=1 }
+            VectorValues[2] = { R=0, G=0, B=0, A=0 }
+            VectorValues[3] = { R=0.5, G=0.5, B=0.5, A=0 }
+            VectorValues[4] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[7] =
+        {
+            TextureValues[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+            TextureValues[4] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[5] = Texture2D'/Game/Aki/Render/Common/T_Default_SceneMask_M.T_Default_SceneMask_M'
+            TextureValues[6] = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+        }
+    }
+    ReferencedTextures[12] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_RainRipples.T_RainRipples'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/Dripping_Pattern_Masks.Dripping_Pattern_Masks'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/ParticleClouds.ParticleClouds'
+        ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_Water_Normal1.T_Water_Normal1'
+        ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        ReferencedTextures[5] = Texture2D'/Game/Aki/Render/Common/T_Default_SceneMask_M.T_Default_SceneMask_M'
+        ReferencedTextures[6] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+        ReferencedTextures[10] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+        ReferencedTextures[11] = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[7] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = None
+        Name = BaseDiffTextureArray
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = None
+        Name = BaseMaskTextureArray
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = None
+        Name = BaseNormalTextureArray
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+        Name = BaseNormalTexture
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = BaseDiffTexture
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_Default_SceneMask_M.T_Default_SceneMask_M'
+        Name = BaseMaskTexture
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+        Name = LandscapeBlendHeight
+        Group = None
+    }
+}
+CollectedScalarParameters[45] =
+{
+    CollectedScalarParameters[0] = { Value=0.2, Name=Puddle Intensity, Group=None }
+    CollectedScalarParameters[1] = { Value=0.4, Name=BakeAO_Min, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=TimeLength, Group=None }
+    CollectedScalarParameters[3] = { Value=150, Name=Drip Scale, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 0
+        Name = GlobalTimeHourForSequence
+        Group = None
+    }
+    CollectedScalarParameters[5] = { Value=1, Name=LODRoughnessInt, Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = 1
+        Name = LandscapeBlendHeightContrast
+        Group = None
+    }
+    CollectedScalarParameters[7] =
+    {
+        Value = 0.5
+        Name = Drip Roughness Intensity
+        Group = None
+    }
+    CollectedScalarParameters[8] = { Value=0.5, Name=Specular, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=DynamicOffset, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=Drip Z Angle Cutoff, Group=None }
+    CollectedScalarParameters[11] = { Value=50, Name=LandscapeFadeDistance, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=LODBaseMetalIntensity, Group=None }
+    CollectedScalarParameters[13] = { Value=100, Name=Puddle Scale, Group=None }
+    CollectedScalarParameters[14] =
+    {
+        Value = 1000
+        Name = LandscapeBlendHeightTillingR
+        Group = None
+    }
+    CollectedScalarParameters[15] =
+    {
+        Value = 1
+        Name = LODBaseRoughnessIntensity
+        Group = None
+    }
+    CollectedScalarParameters[16] = { Value=20, Name=Puddle Speed, Group=None }
+    CollectedScalarParameters[17] = { Value=0, Name=SwitchAuto, Group=None }
+    CollectedScalarParameters[18] = { Value=0.1, Name=BrightLenght, Group=None }
+    CollectedScalarParameters[19] =
+    {
+        Value = 1000
+        Name = LandscapeBlendHeightTillingG
+        Group = None
+    }
+    CollectedScalarParameters[20] = { Value=1, Name=LandscapeDepthBias, Group=None }
+    CollectedScalarParameters[21] = { Value=0, Name=LODMetallicInt, Group=None }
+    CollectedScalarParameters[22] = { Value=0, Name=LandscapeFadeHardness, Group=None }
+    CollectedScalarParameters[23] =
+    {
+        Value = 1
+        Name = WaterPuddleNormalIntensity
+        Group = None
+    }
+    CollectedScalarParameters[24] =
+    {
+        Value = 0.5
+        Name = Drip Normal Intensity
+        Group = None
+    }
+    CollectedScalarParameters[25] = { Value=3, Name=BakeAO, Group=None }
+    CollectedScalarParameters[26] =
+    {
+        Value = 0
+        Name = UseBaseColorAOrVertexColorR
+        Group = None
+    }
+    CollectedScalarParameters[27] = { Value=-1, Name=DynamicStartHour, Group=None }
+    CollectedScalarParameters[28] = { Value=0, Name=Base Layer UV Index, Group=None }
+    CollectedScalarParameters[29] = { Value=1, Name=maxBaseClamp, Group=None }
+    CollectedScalarParameters[30] =
+    {
+        Value = 0.5
+        Name = Puddle Z Angle Cutoff
+        Group = None
+    }
+    CollectedScalarParameters[31] =
+    {
+        Value = 1
+        Name = Base Layer UVS - U Tiling
+        Group = None
+    }
+    CollectedScalarParameters[32] = { Value=1, Name=AoIntensity, Group=None }
+    CollectedScalarParameters[33] = { Value=0, Name=LP_Hardness, Group=None }
+    CollectedScalarParameters[34] = { Value=300, Name=Ripples Scale, Group=None }
+    CollectedScalarParameters[35] = { Value=65000, Name=LandBlendMaxDis, Group=None }
+    CollectedScalarParameters[36] =
+    {
+        Value = 0
+        Name = GlobalTimeMinutesForSequence
+        Group = None
+    }
+    CollectedScalarParameters[37] =
+    {
+        Value = 1
+        Name = Base Layer UVS - V Tiling
+        Group = None
+    }
+    CollectedScalarParameters[38] = { Value=0, Name=DepthOffset, Group=None }
+    CollectedScalarParameters[39] = { Value=1, Name=FlickerTime, Group=None }
+    CollectedScalarParameters[40] = { Value=0.1, Name=WaterPuddleRoughness, Group=None }
+    CollectedScalarParameters[41] = { Value=20, Name=LP_Radius, Group=None }
+    CollectedScalarParameters[42] =
+    {
+        Value = 0.2
+        Name = WaterPuddleReflectionIntensity
+        Group = None
+    }
+    CollectedScalarParameters[43] = { Value=0, Name=UseWholeDayEmission, Group=None }
+    CollectedScalarParameters[44] = { Value=0.75, Name=ViewTime, Group=None }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = BasColorTint
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = LP_Offset
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = EmissionColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.5, G=0.5, B=0.5, A=0 }
+        Name = WaterPuddleColorTint
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = LP_Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

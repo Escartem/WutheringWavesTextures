@@ -1,0 +1,7 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T_Rel_Cor_30A_N
+Other[0]=T_Rel_Cor_30A_D
+Other[1]=T_Crystal_B_M
+Other[2]=T_DefaultNormal_N
+Other[3]=T_FlareNoise_M
+Other[4]=T_WindNoise_M

@@ -1,0 +1,126 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[11] =
+                {
+                    ParameterInfos[0] = { Name=DepthFade }
+                    ParameterInfos[1] = { Name=PositionOutlineInterval }
+                    ParameterInfos[2] = { Name=PositionFade }
+                    ParameterInfos[3] = { Name=OutlineScale }
+                    ParameterInfos[4] = { Name=ScanColorScale }
+                    ParameterInfos[5] = { Name=NormalFade }
+                    ParameterInfos[6] = { Name=ScanRange }
+                    ParameterInfos[7] = { Name=ScanFadeRange }
+                    ParameterInfos[8] = { Name=ClearRange }
+                    ParameterInfos[9] = { Name=OutlineWidth }
+                    ParameterInfos[10] = { Name=PixelScale }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=CenterPosition }
+                    ParameterInfos[1] = { Name=ScanColor }
+                    ParameterInfos[2] = { Name=OutlineColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=GridTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[11] = { 2000, 0, 0, 3, 1, 1, 0, 100, 0, 1, 1 }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=0 }
+            VectorValues[1] = { R=0.55015, G=0.960154, B=1, A=1 }
+            VectorValues[2] = { R=0.55015, G=0.960154, B=1, A=1 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = GridTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[11] =
+{
+    CollectedScalarParameters[0] = { Value=2000, Name=DepthFade, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0
+        Name = PositionOutlineInterval
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=0, Name=PositionFade, Group=None }
+    CollectedScalarParameters[3] = { Value=3, Name=OutlineScale, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=ScanColorScale, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=NormalFade, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=ScanRange, Group=None }
+    CollectedScalarParameters[7] = { Value=100, Name=ScanFadeRange, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=ClearRange, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=OutlineWidth, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=PixelScale, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = CenterPosition
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.55015, G=0.960154, B=1, A=1 }
+        Name = ScanColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.55015, G=0.960154, B=1, A=1 }
+        Name = OutlineColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

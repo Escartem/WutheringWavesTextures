@@ -1,0 +1,120 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterFalls_atlas.T_WaterFalls_atlas'
+    ReferencedTextures[2] = TextureCube4'/Game/Aki/Render/Common/TC_DefaultWaterCube.TC_DefaultWaterCube'
+    ReferencedTextures[3] = TextureCube4'/Game/Aki/Scene/Cubemaps/T_NoonSky_CUBE.T_NoonSky_CUBE'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=PDO }
+                    ParameterInfos[1] = { Name=WaterOpacity }
+                    ParameterInfos[2] = { Name=WaterfallNormalIntensity }
+                    ParameterInfos[3] = { Name=FoamPower }
+                    ParameterInfos[4] = { Name=FoamOpacity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=WaterColor_Mobile }
+                    ParameterInfos[1] = { Name=WaterColor }
+                    ParameterInfos[2] = { Name=FoamColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Cubemap }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[5] = { 10, 0.9, 0.1, 1, 1 }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=0.058485, G=0.074788, B=0.114583, A=1 }
+            VectorValues[1] = { R=0.019167, G=0.071889, B=0.08, A=1 }
+            VectorValues[2] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = TextureCube4'/Game/Aki/Render/Common/TC_DefaultWaterCube.TC_DefaultWaterCube'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterFalls_atlas.T_WaterFalls_atlas'
+        ReferencedTextures[2] = TextureCube4'/Game/Aki/Render/Common/TC_DefaultWaterCube.TC_DefaultWaterCube'
+        ReferencedTextures[3] = TextureCube4'/Game/Aki/Scene/Cubemaps/T_NoonSky_CUBE.T_NoonSky_CUBE'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = TextureCube4'/Game/Aki/Render/Common/TC_DefaultWaterCube.TC_DefaultWaterCube'
+        Name = Cubemap
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=10, Name=PDO, Group=None }
+    CollectedScalarParameters[1] = { Value=0.9, Name=WaterOpacity, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 0.1
+        Name = WaterfallNormalIntensity
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=1, Name=FoamPower, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=FoamOpacity, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.058485, G=0.074788, B=0.114583, A=1 }
+        Name = WaterColor_Mobile
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.019167, G=0.071889, B=0.08, A=1 }
+        Name = WaterColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = FoamColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

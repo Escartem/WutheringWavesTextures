@@ -1,0 +1,536 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[12] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Gradient.Gradient'
+    ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Greyscale.Greyscale'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Effect/Texture/Mask/T_Mask_Scan_002.T_Mask_Scan_002'
+    ReferencedTextures[4] = Texture2D'/Game/Aki/Effect/Texture/Wenli/T_Cloud_50005.T_Cloud_50005'
+    ReferencedTextures[5] = Texture2D'/Game/Aki/HotPatch/Ui/HotFix/Image/CommonBtnBg2.CommonBtnBg2'
+    ReferencedTextures[6] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_Linear_D.T_DefaultColorBlack_Linear_D'
+    ReferencedTextures[7] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    ReferencedTextures[8] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+    ReferencedTextures[9] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+    ReferencedTextures[10] = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+    ReferencedTextures[11] = TextureCube4'/Game/Aki/Scene/Cubemaps/T_wide_street_02_2k_CUBE.T_wide_street_02_2k_CUBE'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[43] =
+                {
+                    ParameterInfos[0] = { Name=E_Action_ScanningOutlineStrength }
+                    ParameterInfos[1] = { Name=E_Action_UseRimLight }
+                    ParameterInfos[2] = { Name=E_Action_UseBaseColorScale }
+                    ParameterInfos[3] = { Name=Diff_Emission_Intenstiy }
+                    ParameterInfos[4] = { Name=E_Action_ScanningOutlineMixNoiseStrength }
+                    ParameterInfos[5] = { Name=LandscapeBlendHeightContrast }
+                    ParameterInfos[6] = { Name=E_Action_UseEmissionChange }
+                    ParameterInfos[7] = { Name=JittleAmount }
+                    ParameterInfos[8] = { Name=LandscapeFadeDistance }
+                    ParameterInfos[9] = { Name=E_Action_UseWPO }
+                    ParameterInfos[10] = { Name=LandscapeBlendHeightTillingR }
+                    ParameterInfos[11] = { Name=SpecularIntensty }
+                    ParameterInfos[12] = { Name=ReflectionIntenty }
+                    ParameterInfos[13] = { Name=SpecularFocus }
+                    ParameterInfos[14] = { Name=E_Action_UseScanning }
+                    ParameterInfos[15] = { Name=E_Action_DissolveAdjustment }
+                    ParameterInfos[16] = { Name=E_Action_EmissionLightColorChangeProgress }
+                    ParameterInfos[17] = { Name=LandscapeBlendHeightTillingG }
+                    ParameterInfos[18] = { Name=LandscapeDepthBias }
+                    ParameterInfos[19] = { Name=DepthBias }
+                    ParameterInfos[20] = { Name=LandscapeFadeHardness }
+                    ParameterInfos[21] = { Name=FadeDistance }
+                    ParameterInfos[22] = { Name=FadeHardness }
+                    ParameterInfos[23] = { Name=E_Action_UseDissolve }
+                    ParameterInfos[24] = { Name=maxBaseClamp }
+                    ParameterInfos[25] = { Name=Fresnel_scope }
+                    ParameterInfos[26] = { Name=Rounghness_Intenstiy }
+                    ParameterInfos[27] = { Name=E_Action_VertexAnim_TimeDebug }
+                    ParameterInfos[28] = { Name=JittleSpeed }
+                    ParameterInfos[29] = { Name=LandBlendMaxDis }
+                    ParameterInfos[30] = { Name=E_Action_DissolveEdageStrength }
+                    ParameterInfos[31] = { Name=AO_Intenstiy }
+                    ParameterInfos[32] = { Name=Disparity_Emission_Ins }
+                    ParameterInfos[33] = { Name=DepthOffset }
+                    ParameterInfos[34] = { Name=E_Action_BaseColorScale }
+                    ParameterInfos[35] = { Name=E_Action_DissolveProgress }
+                    ParameterInfos[36] = { Name=E_Action_RimPower }
+                    ParameterInfos[37] = { Name=E_Action_VertexAnim_Frame }
+                    ParameterInfos[38] = { Name=E_Action_SimpleWPO_Normal }
+                    ParameterInfos[39] = { Name=Fresnel_Intenstiy }
+                    ParameterInfos[40] = { Name=E_Action_EmissionLightColorChangeStrength }
+                    ParameterInfos[41] = { Name=E_Action_UseEmissionColor }
+                    ParameterInfos[42] = { Name=E_Action_DissolveEdageWidth }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[17] =
+                {
+                    ParameterInfos[0] = { Name=E_Action_DissolveEdageColor }
+                    ParameterInfos[1] = { Name=E_Action_SimpleWPO_Offset }
+                    ParameterInfos[2] = { Name=E_Action_EmissionLightColorChangeColor }
+                    ParameterInfos[3] = { Name=E_Action_EmissionColor }
+                    ParameterInfos[4] = { Name=SpecularColor }
+                    ParameterInfos[5] = { Name=E_Action_RimLightColor }
+                    ParameterInfos[6] = { Name=E_Action_ScanningOutlineColor }
+                    ParameterInfos[7] = { Name=Disparity_color }
+                    ParameterInfos[8] = { Name=Solid Color }
+                    ParameterInfos[9] = { Name=E_Action_ScanningTex_S_O }
+                    ParameterInfos[10] = { Name=E_Action_DissolveTexSpeed }
+                    ParameterInfos[11] = { Name=E_Action_DissolveTex_S_O }
+                    ParameterInfos[12] = { Name=Disparity_Tiling }
+                    ParameterInfos[13] = { Name=Base Tiling }
+                    ParameterInfos[14] = { Name=Disparity_speed }
+                    ParameterInfos[15] = { Name=E_Tex_DissolveTexUVSwitch }
+                    ParameterInfos[16] = { Name=Fresnel Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=Normal }
+                    ParameterInfos[1] = { Name=Diff }
+                    ParameterInfos[2] = { Name=Disparity map }
+                    ParameterInfos[3] = { Name=CubeMap }
+                    ParameterInfos[4] = { Name=ScanningTexParam }
+                    ParameterInfos[5] = { Name=E_Action_DissolveTex }
+                    ParameterInfos[6] = { Name=LandscapeBlendHeight }
+                    ParameterInfos[7] = { Name=E_Action_MorphTexture }
+                    ParameterInfos[8] = { Name=Mask1 }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[43] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 0
+            ScalarValues[2] = 0
+            ScalarValues[3] = 0.05
+            ScalarValues[4] = 0
+            ScalarValues[5] = 1
+            ScalarValues[6] = 0
+            ScalarValues[7] = 0
+            ScalarValues[8] = 50
+            ScalarValues[9] = 0
+            ScalarValues[10] = 1000
+            ScalarValues[11] = 1
+            ScalarValues[12] = 1
+            ScalarValues[13] = 16
+            ScalarValues[14] = 0
+            ScalarValues[15] = 0
+            ScalarValues[16] = 0
+            ScalarValues[17] = 1000
+            ScalarValues[18] = 1
+            ScalarValues[19] = 0
+            ScalarValues[20] = 0
+            ScalarValues[21] = 0
+            ScalarValues[22] = 0
+            ScalarValues[23] = 0
+            ScalarValues[24] = 1
+            ScalarValues[25] = 3
+            ScalarValues[26] = 1
+            ScalarValues[27] = 1
+            ScalarValues[28] = 0.5
+            ScalarValues[29] = 65000
+            ScalarValues[30] = 1
+            ScalarValues[31] = 0
+            ScalarValues[32] = 0.5
+            ScalarValues[33] = 0
+            ScalarValues[34] = 1
+            ScalarValues[35] = 0
+            ScalarValues[36] = 1
+            ScalarValues[37] = 1
+            ScalarValues[38] = 0
+            ScalarValues[39] = 1
+            ScalarValues[40] = 1
+            ScalarValues[41] = 0
+            ScalarValues[42] = 0
+        }
+        VectorValues[17] =
+        {
+            VectorValues[0] = { R=1, G=0.76752, B=0, A=0 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+            VectorValues[2] = { R=0, G=0, B=0, A=0 }
+            VectorValues[3] = { R=0, G=0, B=0, A=0 }
+            VectorValues[4] = { R=1, G=1, B=1, A=1 }
+            VectorValues[5] = { R=0, G=0, B=0, A=0 }
+            VectorValues[6] = { R=0, G=0, B=0, A=0 }
+            VectorValues[7] = { R=1, G=1, B=1, A=0 }
+            VectorValues[8] = { R=1, G=1, B=1, A=0 }
+            VectorValues[9] = { R=0, G=0, B=0, A=0 }
+            VectorValues[10] = { R=0, G=0, B=0, A=0 }
+            VectorValues[11] = { R=1, G=1, B=0, A=0 }
+            VectorValues[12] = { R=1, G=1, B=1, A=1 }
+            VectorValues[13] = { R=1, G=1, B=1, A=1 }
+            VectorValues[14] = { R=1, G=1, B=1, A=1 }
+            VectorValues[15] = { R=1, G=0, B=0, A=0 }
+            VectorValues[16] = { R=0.776647, G=1, B=0.633043, A=0 }
+        }
+        TextureValues[9] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[3] = TextureCube4'/Game/Aki/Scene/Cubemaps/T_wide_street_02_2k_CUBE.T_wide_street_02_2k_CUBE'
+            TextureValues[4] = Texture2D'/Game/Aki/Effect/Texture/Mask/T_Mask_Scan_002.T_Mask_Scan_002'
+            TextureValues[5] = Texture2D'/Game/Aki/Effect/Texture/Wenli/T_Cloud_50005.T_Cloud_50005'
+            TextureValues[6] = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+            TextureValues[7] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_Linear_D.T_DefaultColorBlack_Linear_D'
+            TextureValues[8] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        }
+    }
+    ReferencedTextures[13] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Effect/Texture/Wenli/T_Cloud_50005.T_Cloud_50005'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/HotPatch/Ui/HotFix/Image/CommonBtnBg2.CommonBtnBg2'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Effect/Texture/Mask/T_Mask_Scan_002.T_Mask_Scan_002'
+        ReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+        ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+        ReferencedTextures[5] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        ReferencedTextures[6] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        ReferencedTextures[7] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+        ReferencedTextures[9] = TextureCube4'/Game/Aki/Scene/Cubemaps/T_wide_street_02_2k_CUBE.T_wide_street_02_2k_CUBE'
+        ReferencedTextures[10] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Gradient.Gradient'
+        ReferencedTextures[11] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Greyscale.Greyscale'
+        ReferencedTextures[12] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_Linear_D.T_DefaultColorBlack_Linear_D'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[9] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Diff
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Disparity map
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = TextureCube4'/Game/Aki/Scene/Cubemaps/T_wide_street_02_2k_CUBE.T_wide_street_02_2k_CUBE'
+        Name = CubeMap
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Aki/Effect/Texture/Mask/T_Mask_Scan_002.T_Mask_Scan_002'
+        Name = ScanningTexParam
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Aki/Effect/Texture/Wenli/T_Cloud_50005.T_Cloud_50005'
+        Name = E_Action_DissolveTex
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+        Name = LandscapeBlendHeight
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_Linear_D.T_DefaultColorBlack_Linear_D'
+        Name = E_Action_MorphTexture
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        Name = Mask1
+        Group = None
+    }
+}
+CollectedScalarParameters[43] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 0
+        Name = E_Action_ScanningOutlineStrength
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=0, Name=E_Action_UseRimLight, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 0
+        Name = E_Action_UseBaseColorScale
+        Group = None
+    }
+    CollectedScalarParameters[3] =
+    {
+        Value = 0.05
+        Name = Diff_Emission_Intenstiy
+        Group = None
+    }
+    CollectedScalarParameters[4] =
+    {
+        Value = 0
+        Name = E_Action_ScanningOutlineMixNoiseStrength
+        Group = None
+    }
+    CollectedScalarParameters[5] =
+    {
+        Value = 1
+        Name = LandscapeBlendHeightContrast
+        Group = None
+    }
+    CollectedScalarParameters[6] =
+    {
+        Value = 0
+        Name = E_Action_UseEmissionChange
+        Group = None
+    }
+    CollectedScalarParameters[7] = { Value=0, Name=JittleAmount, Group=None }
+    CollectedScalarParameters[8] = { Value=50, Name=LandscapeFadeDistance, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=E_Action_UseWPO, Group=None }
+    CollectedScalarParameters[10] =
+    {
+        Value = 1000
+        Name = LandscapeBlendHeightTillingR
+        Group = None
+    }
+    CollectedScalarParameters[11] = { Value=1, Name=SpecularIntensty, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=ReflectionIntenty, Group=None }
+    CollectedScalarParameters[13] = { Value=16, Name=SpecularFocus, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=E_Action_UseScanning, Group=None }
+    CollectedScalarParameters[15] =
+    {
+        Value = 0
+        Name = E_Action_DissolveAdjustment
+        Group = None
+    }
+    CollectedScalarParameters[16] =
+    {
+        Value = 0
+        Name = E_Action_EmissionLightColorChangeProgress
+        Group = None
+    }
+    CollectedScalarParameters[17] =
+    {
+        Value = 1000
+        Name = LandscapeBlendHeightTillingG
+        Group = None
+    }
+    CollectedScalarParameters[18] = { Value=1, Name=LandscapeDepthBias, Group=None }
+    CollectedScalarParameters[19] = { Value=0, Name=DepthBias, Group=None }
+    CollectedScalarParameters[20] = { Value=0, Name=LandscapeFadeHardness, Group=None }
+    CollectedScalarParameters[21] = { Value=0, Name=FadeDistance, Group=None }
+    CollectedScalarParameters[22] = { Value=0, Name=FadeHardness, Group=None }
+    CollectedScalarParameters[23] = { Value=0, Name=E_Action_UseDissolve, Group=None }
+    CollectedScalarParameters[24] = { Value=1, Name=maxBaseClamp, Group=None }
+    CollectedScalarParameters[25] = { Value=3, Name=Fresnel_scope, Group=None }
+    CollectedScalarParameters[26] = { Value=1, Name=Rounghness_Intenstiy, Group=None }
+    CollectedScalarParameters[27] =
+    {
+        Value = 1
+        Name = E_Action_VertexAnim_TimeDebug
+        Group = None
+    }
+    CollectedScalarParameters[28] = { Value=0.5, Name=JittleSpeed, Group=None }
+    CollectedScalarParameters[29] = { Value=65000, Name=LandBlendMaxDis, Group=None }
+    CollectedScalarParameters[30] =
+    {
+        Value = 1
+        Name = E_Action_DissolveEdageStrength
+        Group = None
+    }
+    CollectedScalarParameters[31] = { Value=0, Name=AO_Intenstiy, Group=None }
+    CollectedScalarParameters[32] =
+    {
+        Value = 0.5
+        Name = Disparity_Emission_Ins
+        Group = None
+    }
+    CollectedScalarParameters[33] = { Value=0, Name=DepthOffset, Group=None }
+    CollectedScalarParameters[34] =
+    {
+        Value = 1
+        Name = E_Action_BaseColorScale
+        Group = None
+    }
+    CollectedScalarParameters[35] =
+    {
+        Value = 0
+        Name = E_Action_DissolveProgress
+        Group = None
+    }
+    CollectedScalarParameters[36] = { Value=1, Name=E_Action_RimPower, Group=None }
+    CollectedScalarParameters[37] =
+    {
+        Value = 1
+        Name = E_Action_VertexAnim_Frame
+        Group = None
+    }
+    CollectedScalarParameters[38] =
+    {
+        Value = 0
+        Name = E_Action_SimpleWPO_Normal
+        Group = None
+    }
+    CollectedScalarParameters[39] = { Value=1, Name=Fresnel_Intenstiy, Group=None }
+    CollectedScalarParameters[40] =
+    {
+        Value = 1
+        Name = E_Action_EmissionLightColorChangeStrength
+        Group = None
+    }
+    CollectedScalarParameters[41] =
+    {
+        Value = 0
+        Name = E_Action_UseEmissionColor
+        Group = None
+    }
+    CollectedScalarParameters[42] =
+    {
+        Value = 0
+        Name = E_Action_DissolveEdageWidth
+        Group = None
+    }
+}
+CollectedVectorParameters[17] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.76752, B=0, A=0 }
+        Name = E_Action_DissolveEdageColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Action_SimpleWPO_Offset
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Action_EmissionLightColorChangeColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Action_EmissionColor
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = SpecularColor
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Action_RimLightColor
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Action_ScanningOutlineColor
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Disparity_color
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Solid Color
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Action_ScanningTex_S_O
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Action_DissolveTexSpeed
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = E_Action_DissolveTex_S_O
+        Group = None
+    }
+    CollectedVectorParameters[12] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Disparity_Tiling
+        Group = None
+    }
+    CollectedVectorParameters[13] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Base Tiling
+        Group = None
+    }
+    CollectedVectorParameters[14] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Disparity_speed
+        Group = None
+    }
+    CollectedVectorParameters[15] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = E_Tex_DissolveTexUVSwitch
+        Group = None
+    }
+    CollectedVectorParameters[16] =
+    {
+        Value = { R=0.776647, G=1, B=0.633043, A=0 }
+        Name = Fresnel Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultNormal_N
+    }
+}

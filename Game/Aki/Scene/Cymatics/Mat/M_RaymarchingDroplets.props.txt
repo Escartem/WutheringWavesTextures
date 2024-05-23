@@ -1,0 +1,88 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoise.BasicNoise'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Scene/Cymatics/Tex/Bubbles.Bubbles'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Scene/Cymatics/Tex/T_NormalNoise.T_NormalNoise'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=DisplacementAmount }
+                    ParameterInfos[1] = { Name=RandomIndex }
+                    ParameterInfos[2] = { Name=Steps }
+                    ParameterInfos[3] = { Name=Coord_Scale }
+                    ParameterInfos[4] = { Name=Refractions }
+                    ParameterInfos[5] = { Name=Global_Radius }
+                    ParameterInfos[6] = { Name=Animation_Speed }
+                    ParameterInfos[7] = { Name=BoolRadius }
+                    ParameterInfos[8] = { Name=Animation_Radius }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Color }
+                }
+            }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[9] = { 15, 1, 16, 7, 1.07846, 15, 1, 70, 155 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0.026042, G=0.026042, B=0.026042, A=1 }
+        }
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Scene/Cymatics/Tex/Bubbles.Bubbles'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Scene/Cymatics/Tex/T_NormalNoise.T_NormalNoise'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoise.BasicNoise'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] = { Value=15, Name=DisplacementAmount, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=RandomIndex, Group=None }
+    CollectedScalarParameters[2] = { Value=16, Name=Steps, Group=None }
+    CollectedScalarParameters[3] = { Value=7, Name=Coord_Scale, Group=None }
+    CollectedScalarParameters[4] = { Value=1.07846, Name=Refractions, Group=None }
+    CollectedScalarParameters[5] = { Value=15, Name=Global_Radius, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=Animation_Speed, Group=None }
+    CollectedScalarParameters[7] = { Value=70, Name=BoolRadius, Group=None }
+    CollectedScalarParameters[8] = { Value=155, Name=Animation_Radius, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.026042, G=0.026042, B=0.026042, A=1 }
+        Name = Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

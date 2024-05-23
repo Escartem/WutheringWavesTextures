@@ -1,0 +1,115 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise_M1.T_Foliage_Noise_M1'
+    ReferencedTextures[1] = TextureCube4'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/Star.Star'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=StarIntensity }
+                    ParameterInfos[1] = { Name=StarSize }
+                    ParameterInfos[2] = { Name=NoiseSwitch }
+                    ParameterInfos[3] = { Name=UVTillingU }
+                    ParameterInfos[4] = { Name=StarSpeed }
+                    ParameterInfos[5] = { Name=StarSwitch }
+                    ParameterInfos[6] = { Name=UVTillingV }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=StarColor }
+                    ParameterInfos[1] = { Name=SunDir }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Noise }
+                    ParameterInfos[1] = { Name=StarMap }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[7] = { 1, 2, 1, 1, 0, 1, 1 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=0 }
+            VectorValues[1] = { R=-0.5, G=0, B=0, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise_M1.T_Foliage_Noise_M1'
+            TextureValues[1] = TextureCube4'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/Star.Star'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise_M1.T_Foliage_Noise_M1'
+        ReferencedTextures[1] = TextureCube4'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/Star.Star'
+    }
+}
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise_M1.T_Foliage_Noise_M1'
+        Name = Noise
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = TextureCube4'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/Star.Star'
+        Name = StarMap
+        Group = None
+    }
+}
+CollectedScalarParameters[7] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=StarIntensity, Group=None }
+    CollectedScalarParameters[1] = { Value=2, Name=StarSize, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=NoiseSwitch, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=UVTillingU, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=StarSpeed, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=StarSwitch, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=UVTillingV, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = StarColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=-0.5, G=0, B=0, A=1 }
+        Name = SunDir
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

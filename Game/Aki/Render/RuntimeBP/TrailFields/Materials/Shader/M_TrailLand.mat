@@ -1,0 +1,7 @@
+Diffuse=T_Ground_Grass_D
+Normal=T_Ground_Grass_N
+Other[0]=DefaultTexture
+Other[1]=T_Ground_Gravel_N
+Other[2]=T_Ground_Moss_N
+Other[3]=T_Perlin_Noise_M
+Other[4]=T_White

@@ -1,0 +1,156 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_BadTVNoise_M.T_BadTVNoise_M'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[13] =
+                {
+                    ParameterInfos[0] = { Name=DistortAmp }
+                    ParameterInfos[1] = { Name=DistortW2 }
+                    ParameterInfos[2] = { Name=PixelEffectParttern }
+                    ParameterInfos[3] = { Name=DistortW }
+                    ParameterInfos[4] = { Name=Desaturation }
+                    ParameterInfos[5] = { Name=DistortAmp2 }
+                    ParameterInfos[6] = { Name=ColorNoiseIntensity }
+                    ParameterInfos[7] = { Name=DisplacementTimeScale }
+                    ParameterInfos[8] = { Name=PixelEffectScale }
+                    ParameterInfos[9] = { Name=PixelEffectIntensity }
+                    ParameterInfos[10] = { Name=DistortSpeed }
+                    ParameterInfos[11] = { Name=ScreenResolution }
+                    ParameterInfos[12] = { Name=DistortBias }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=UVBiasSpeed }
+                    ParameterInfos[1] = { Name=DisplacementUVScale }
+                    ParameterInfos[2] = { Name=SphereMask }
+                    ParameterInfos[3] = { Name=DisplacementVector }
+                    ParameterInfos[4] = { Name=ColorTint }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=DisplacementTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[13] =
+        {
+            ScalarValues[0] = 0.1
+            ScalarValues[1] = 0.01
+            ScalarValues[2] = 2
+            ScalarValues[3] = 0.01
+            ScalarValues[4] = 0
+            ScalarValues[5] = 0.1
+            ScalarValues[6] = 0
+            ScalarValues[7] = 20
+            ScalarValues[8] = 1
+            ScalarValues[9] = 0.5
+            ScalarValues[10] = 0.01
+            ScalarValues[11] = 1080
+            ScalarValues[12] = 0.1
+        }
+        VectorValues[5] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+            VectorValues[1] = { R=0, G=0, B=0, A=1 }
+            VectorValues[2] = { R=0.5, G=0.5, B=0.5, A=0 }
+            VectorValues[3] = { R=0.2, G=0.2, B=0, A=1 }
+            VectorValues[4] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_BadTVNoise_M.T_BadTVNoise_M'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_BadTVNoise_M.T_BadTVNoise_M'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_BadTVNoise_M.T_BadTVNoise_M'
+        Name = DisplacementTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[13] =
+{
+    CollectedScalarParameters[0] = { Value=0.1, Name=DistortAmp, Group=None }
+    CollectedScalarParameters[1] = { Value=0.01, Name=DistortW2, Group=None }
+    CollectedScalarParameters[2] = { Value=2, Name=PixelEffectParttern, Group=None }
+    CollectedScalarParameters[3] = { Value=0.01, Name=DistortW, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Desaturation, Group=None }
+    CollectedScalarParameters[5] = { Value=0.1, Name=DistortAmp2, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=ColorNoiseIntensity, Group=None }
+    CollectedScalarParameters[7] = { Value=20, Name=DisplacementTimeScale, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=PixelEffectScale, Group=None }
+    CollectedScalarParameters[9] = { Value=0.5, Name=PixelEffectIntensity, Group=None }
+    CollectedScalarParameters[10] = { Value=0.01, Name=DistortSpeed, Group=None }
+    CollectedScalarParameters[11] = { Value=1080, Name=ScreenResolution, Group=None }
+    CollectedScalarParameters[12] = { Value=0.1, Name=DistortBias, Group=None }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = UVBiasSpeed
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = DisplacementUVScale
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.5, G=0.5, B=0.5, A=0 }
+        Name = SphereMask
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.2, G=0.2, B=0, A=1 }
+        Name = DisplacementVector
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = ColorTint
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

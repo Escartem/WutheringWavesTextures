@@ -1,0 +1,291 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_SpecularHighlights_M.T_SpecularHighlights_M'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_D.T_DefaultColorBlack_D'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Scene/Assets/SkyBox/World/T_Com_Sky_01A_D.T_Com_Sky_01A_D'
+    ReferencedTextures[4] = Texture2D'/Game/Aki/Scene/NewGacha/Textures/T_MiscNoise_46.T_MiscNoise_46'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[27] =
+                {
+                    ParameterInfos[0] = { Name=DisplacementAmount }
+                    ParameterInfos[1] = { Name=FakeSpec_UVScale }
+                    ParameterInfos[2] = { Name=FakeSpec_Speed }
+                    ParameterInfos[3] = { Name=Refraction }
+                    ParameterInfos[4] = { Name=FresnelFactorMax }
+                    ParameterInfos[5] = { Name=Contrast }
+                    ParameterInfos[6] = { Name=FlowMap_BaseRotation }
+                    ParameterInfos[7] = { Name=FlowMap_NoiseStrength }
+                    ParameterInfos[8] = { Name=NoiseSpeed }
+                    ParameterInfos[9] = { Name=FakeSpec_Intensity }
+                    ParameterInfos[10] = { Name=FakeSpec_Power3 }
+                    ParameterInfos[11] = { Name=FlowMap_AlphaMulti }
+                    ParameterInfos[12] = { Name=Depth }
+                    ParameterInfos[13] = { Name=NoiseAmount }
+                    ParameterInfos[14] = { Name=FakeSpec_Power2 }
+                    ParameterInfos[15] = { Name=FakeSpec_Intensity1 }
+                    ParameterInfos[16] = { Name=FlowMap_Intensity }
+                    ParameterInfos[17] = { Name=FlowMap_Base_bClamp }
+                    ParameterInfos[18] = { Name=FlowMap_Speed }
+                    ParameterInfos[19] = { Name=ColorPower }
+                    ParameterInfos[20] = { Name=FakeSpec_Power1 }
+                    ParameterInfos[21] = { Name=UnderWater_Base_Rotated }
+                    ParameterInfos[22] = { Name=FakeSpec_Intensity3 }
+                    ParameterInfos[23] = { Name=FresnelFactorMin }
+                    ParameterInfos[24] = { Name=FakeSpec_Intensity2 }
+                    ParameterInfos[25] = { Name=NoiseSize }
+                    ParameterInfos[26] = { Name=TexDepth }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[12] =
+                {
+                    ParameterInfos[0] = { Name=Flowmap_UV }
+                    ParameterInfos[1] = { Name=FlowMap_BaseRefine }
+                    ParameterInfos[2] = { Name=FlowMap_BaseUV }
+                    ParameterInfos[3] = { Name=TopColor }
+                    ParameterInfos[4] = { Name=FlowMap_BaseUVSwitch }
+                    ParameterInfos[5] = { Name=UnderWaterTexMoveScale }
+                    ParameterInfos[6] = { Name=DotColor }
+                    ParameterInfos[7] = { Name=FlowMap_AlphaSwitch }
+                    ParameterInfos[8] = { Name=BottomColor }
+                    ParameterInfos[9] = { Name=FlowMap_BaseColorTint }
+                    ParameterInfos[10] = { Name=UnderwaterStarColor }
+                    ParameterInfos[11] = { Name=LightVector }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=FlowMap_Base }
+                    ParameterInfos[1] = { Name=NoiseTex }
+                    ParameterInfos[2] = { Name=SpecularMap }
+                    ParameterInfos[3] = { Name=FlowMap }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[27] =
+        {
+            ScalarValues[0] = 30
+            ScalarValues[1] = 2000
+            ScalarValues[2] = 0.3
+            ScalarValues[3] = 1.01
+            ScalarValues[4] = 1
+            ScalarValues[5] = 1.5
+            ScalarValues[6] = 0
+            ScalarValues[7] = 0
+            ScalarValues[8] = 0.057619
+            ScalarValues[9] = 0.1
+            ScalarValues[10] = 75
+            ScalarValues[11] = 1
+            ScalarValues[12] = 1
+            ScalarValues[13] = 0.5
+            ScalarValues[14] = 40
+            ScalarValues[15] = 512
+            ScalarValues[16] = 0.3
+            ScalarValues[17] = 0
+            ScalarValues[18] = 0.5
+            ScalarValues[19] = 1
+            ScalarValues[20] = 10
+            ScalarValues[21] = 0
+            ScalarValues[22] = 512
+            ScalarValues[23] = 0
+            ScalarValues[24] = 512
+            ScalarValues[25] = 2666.67
+            ScalarValues[26] = 0.505266
+        }
+        VectorValues[12] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+            VectorValues[1] = { R=1, G=1, B=1, A=0 }
+            VectorValues[2] = { R=1, G=1, B=0, A=0 }
+            VectorValues[3] = { R=0, G=0, B=0, A=0 }
+            VectorValues[4] = { R=1, G=0, B=0, A=0 }
+            VectorValues[5] = { R=0, G=0, B=9, A=9 }
+            VectorValues[6] = { R=1, G=1, B=1, A=0 }
+            VectorValues[7] = { R=0, G=0, B=0, A=1 }
+            VectorValues[8] = { R=0, G=0, B=0, A=0 }
+            VectorValues[9] = { R=1, G=1, B=1, A=1 }
+            VectorValues[10] = { R=4, G=4, B=4, A=0 }
+            VectorValues[11] = { R=0.349605, G=0.124954, B=-0.076012, A=1 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[1] = Texture2D'/Game/Aki/Scene/NewGacha/Textures/T_MiscNoise_46.T_MiscNoise_46'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_SpecularHighlights_M.T_SpecularHighlights_M'
+            TextureValues[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_D.T_DefaultColorBlack_D'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_SpecularHighlights_M.T_SpecularHighlights_M'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Scene/NewGacha/Textures/T_MiscNoise_46.T_MiscNoise_46'
+        ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_D.T_DefaultColorBlack_D'
+        ReferencedTextures[5] = Texture2D'/Game/Aki/Scene/Assets/SkyBox/World/T_Com_Sky_01A_D.T_Com_Sky_01A_D'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = FlowMap_Base
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Scene/NewGacha/Textures/T_MiscNoise_46.T_MiscNoise_46'
+        Name = NoiseTex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_SpecularHighlights_M.T_SpecularHighlights_M'
+        Name = SpecularMap
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_D.T_DefaultColorBlack_D'
+        Name = FlowMap
+        Group = None
+    }
+}
+CollectedScalarParameters[27] =
+{
+    CollectedScalarParameters[0] = { Value=30, Name=DisplacementAmount, Group=None }
+    CollectedScalarParameters[1] = { Value=2000, Name=FakeSpec_UVScale, Group=None }
+    CollectedScalarParameters[2] = { Value=0.3, Name=FakeSpec_Speed, Group=None }
+    CollectedScalarParameters[3] = { Value=1.01, Name=Refraction, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=FresnelFactorMax, Group=None }
+    CollectedScalarParameters[5] = { Value=1.5, Name=Contrast, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=FlowMap_BaseRotation, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=FlowMap_NoiseStrength, Group=None }
+    CollectedScalarParameters[8] = { Value=0.057619, Name=NoiseSpeed, Group=None }
+    CollectedScalarParameters[9] = { Value=0.1, Name=FakeSpec_Intensity, Group=None }
+    CollectedScalarParameters[10] = { Value=75, Name=FakeSpec_Power3, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=FlowMap_AlphaMulti, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=Depth, Group=None }
+    CollectedScalarParameters[13] = { Value=0.5, Name=NoiseAmount, Group=None }
+    CollectedScalarParameters[14] = { Value=40, Name=FakeSpec_Power2, Group=None }
+    CollectedScalarParameters[15] = { Value=512, Name=FakeSpec_Intensity1, Group=None }
+    CollectedScalarParameters[16] = { Value=0.3, Name=FlowMap_Intensity, Group=None }
+    CollectedScalarParameters[17] = { Value=0, Name=FlowMap_Base_bClamp, Group=None }
+    CollectedScalarParameters[18] = { Value=0.5, Name=FlowMap_Speed, Group=None }
+    CollectedScalarParameters[19] = { Value=1, Name=ColorPower, Group=None }
+    CollectedScalarParameters[20] = { Value=10, Name=FakeSpec_Power1, Group=None }
+    CollectedScalarParameters[21] =
+    {
+        Value = 0
+        Name = UnderWater_Base_Rotated
+        Group = None
+    }
+    CollectedScalarParameters[22] = { Value=512, Name=FakeSpec_Intensity3, Group=None }
+    CollectedScalarParameters[23] = { Value=0, Name=FresnelFactorMin, Group=None }
+    CollectedScalarParameters[24] = { Value=512, Name=FakeSpec_Intensity2, Group=None }
+    CollectedScalarParameters[25] = { Value=2666.67, Name=NoiseSize, Group=None }
+    CollectedScalarParameters[26] = { Value=0.505266, Name=TexDepth, Group=None }
+}
+CollectedVectorParameters[12] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Flowmap_UV
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = FlowMap_BaseRefine
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = FlowMap_BaseUV
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = TopColor
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = FlowMap_BaseUVSwitch
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=0, B=9, A=9 }
+        Name = UnderWaterTexMoveScale
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = DotColor
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = FlowMap_AlphaSwitch
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = BottomColor
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = FlowMap_BaseColorTint
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=4, G=4, B=4, A=0 }
+        Name = UnderwaterStarColor
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=0.349605, G=0.124954, B=-0.076012, A=1 }
+        Name = LightVector
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

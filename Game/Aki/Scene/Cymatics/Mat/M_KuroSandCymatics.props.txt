@@ -1,0 +1,128 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_BlueNoise.T_BlueNoise'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoiseNoMip.BasicNoiseNoMip'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Scene/Cymatics/Tex/T_SandNoise.T_SandNoise'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=RefractionAmount }
+                    ParameterInfos[1] = { Name=Boost }
+                    ParameterInfos[2] = { Name=contrast }
+                    ParameterInfos[3] = { Name=ColorBlendDitherUVScale }
+                    ParameterInfos[4] = { Name=DitherSpeed }
+                    ParameterInfos[5] = { Name=DitherRange }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=UVScaleNSpeed }
+                    ParameterInfos[1] = { Name=Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=SandNoise }
+                    ParameterInfos[1] = { Name=DitherTex }
+                    ParameterInfos[2] = { Name=SandNoise01 }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[6] = { 0.05, 2.26844, 2, 0.005, 1, 22 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=7, G=2, B=0.03, A=-0.05 }
+            VectorValues[1] = { R=0.058105, G=0.066764, B=0.072917, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Scene/Cymatics/Tex/T_SandNoise.T_SandNoise'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_BlueNoise.T_BlueNoise'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoiseNoMip.BasicNoiseNoMip'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Scene/Cymatics/Tex/T_SandNoise.T_SandNoise'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoiseNoMip.BasicNoiseNoMip'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_BlueNoise.T_BlueNoise'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Scene/Cymatics/Tex/T_SandNoise.T_SandNoise'
+        Name = SandNoise
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_BlueNoise.T_BlueNoise'
+        Name = DitherTex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoiseNoMip.BasicNoiseNoMip'
+        Name = SandNoise01
+        Group = None
+    }
+}
+CollectedScalarParameters[6] =
+{
+    CollectedScalarParameters[0] = { Value=0.05, Name=RefractionAmount, Group=None }
+    CollectedScalarParameters[1] = { Value=2.26844, Name=Boost, Group=None }
+    CollectedScalarParameters[2] = { Value=2, Name=contrast, Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = 0.005
+        Name = ColorBlendDitherUVScale
+        Group = None
+    }
+    CollectedScalarParameters[4] = { Value=1, Name=DitherSpeed, Group=None }
+    CollectedScalarParameters[5] = { Value=22, Name=DitherRange, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=7, G=2, B=0.03, A=-0.05 }
+        Name = UVScaleNSpeed
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.058105, G=0.066764, B=0.072917, A=1 }
+        Name = Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

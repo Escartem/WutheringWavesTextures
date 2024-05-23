@@ -1,0 +1,235 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+    ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/T_WaterNormal_Rain.T_WaterNormal_Rain'
+    ReferencedTextures[5] = Texture2D'/Game/Aki/Scene/Landscape/ColorMap/T_LandscapeColorMap_D.T_LandscapeColorMap_D'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[20] =
+                {
+                    ParameterInfos[0] = { Name=Dis_ColorMulti }
+                    ParameterInfos[1] = { Name=Dis_Process }
+                    ParameterInfos[2] = { Name=Dis_Width }
+                    ParameterInfos[3] = { Name=LandscapeBlendHeightContrast }
+                    ParameterInfos[4] = { Name=WaterNormalSpeed (S) }
+                    ParameterInfos[5] = { Name=Dis_Range }
+                    ParameterInfos[6] = { Name=LandscapeFadeDistance }
+                    ParameterInfos[7] = { Name=LandscapeBlendHeightTillingR }
+                    ParameterInfos[8] = { Name=Dis_BP_Use_Process }
+                    ParameterInfos[9] = { Name=LandscapeBlendHeightTillingG }
+                    ParameterInfos[10] = { Name=LandscapeDepthBias }
+                    ParameterInfos[11] = { Name=Tex Tili }
+                    ParameterInfos[12] = { Name=LandscapeFadeHardness }
+                    ParameterInfos[13] = { Name=maxBaseClamp }
+                    ParameterInfos[14] = { Name=Dis_Tilling }
+                    ParameterInfos[15] = { Name=LandBlendMaxDis }
+                    ParameterInfos[16] = { Name=Dis_BP_Process }
+                    ParameterInfos[17] = { Name=WaterNormal_Scale (S) }
+                    ParameterInfos[18] = { Name=DepthOffset }
+                    ParameterInfos[19] = { Name=NormalIntensity (S) }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Dis_DissolveColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Tex Base Normal }
+                    ParameterInfos[1] = { Name=Tex Base Color }
+                    ParameterInfos[2] = { Name=WorldColorMap }
+                    ParameterInfos[3] = { Name=LandscapeBlendHeight }
+                    ParameterInfos[4] = { Name=RainNormal }
+                    ParameterInfos[5] = { Name=Tex Sturcture Normal }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[20] =
+        {
+            ScalarValues[0] = 50
+            ScalarValues[1] = 1.2
+            ScalarValues[2] = 0.937
+            ScalarValues[3] = 1
+            ScalarValues[4] = 30
+            ScalarValues[5] = 0.3467
+            ScalarValues[6] = 50
+            ScalarValues[7] = 1000
+            ScalarValues[8] = 1.2
+            ScalarValues[9] = 1000
+            ScalarValues[10] = 1
+            ScalarValues[11] = 1
+            ScalarValues[12] = 0
+            ScalarValues[13] = 1
+            ScalarValues[14] = 2
+            ScalarValues[15] = 65000
+            ScalarValues[16] = 1.2
+            ScalarValues[17] = 100
+            ScalarValues[18] = 0
+            ScalarValues[19] = 10
+        }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0.066667, G=1, B=0, A=0 }
+        }
+        TextureValues[6] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[2] = Texture2D'/Game/Aki/Scene/Landscape/ColorMap/T_LandscapeColorMap_D.T_LandscapeColorMap_D'
+            TextureValues[3] = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+            TextureValues[4] = Texture2D'/Game/Aki/Render/Common/T_WaterNormal_Rain.T_WaterNormal_Rain'
+            TextureValues[5] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+        ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_WaterNormal_Rain.T_WaterNormal_Rain'
+        ReferencedTextures[4] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+        ReferencedTextures[5] = Texture2D'/Game/Aki/Scene/Landscape/ColorMap/T_LandscapeColorMap_D.T_LandscapeColorMap_D'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[6] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+        Name = Tex Base Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Tex Base Color
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Scene/Landscape/ColorMap/T_LandscapeColorMap_D.T_LandscapeColorMap_D'
+        Name = WorldColorMap
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+        Name = LandscapeBlendHeight
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_WaterNormal_Rain.T_WaterNormal_Rain'
+        Name = RainNormal
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+        Name = Tex Sturcture Normal
+        Group = None
+    }
+}
+CollectedScalarParameters[20] =
+{
+    CollectedScalarParameters[0] = { Value=50, Name=Dis_ColorMulti, Group=None }
+    CollectedScalarParameters[1] = { Value=1.2, Name=Dis_Process, Group=None }
+    CollectedScalarParameters[2] = { Value=0.937, Name=Dis_Width, Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = 1
+        Name = LandscapeBlendHeightContrast
+        Group = None
+    }
+    CollectedScalarParameters[4] = { Value=30, Name=WaterNormalSpeed (S), Group=None }
+    CollectedScalarParameters[5] = { Value=0.3467, Name=Dis_Range, Group=None }
+    CollectedScalarParameters[6] = { Value=50, Name=LandscapeFadeDistance, Group=None }
+    CollectedScalarParameters[7] =
+    {
+        Value = 1000
+        Name = LandscapeBlendHeightTillingR
+        Group = None
+    }
+    CollectedScalarParameters[8] = { Value=1.2, Name=Dis_BP_Use_Process, Group=None }
+    CollectedScalarParameters[9] =
+    {
+        Value = 1000
+        Name = LandscapeBlendHeightTillingG
+        Group = None
+    }
+    CollectedScalarParameters[10] = { Value=1, Name=LandscapeDepthBias, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=Tex Tili, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=LandscapeFadeHardness, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=maxBaseClamp, Group=None }
+    CollectedScalarParameters[14] = { Value=2, Name=Dis_Tilling, Group=None }
+    CollectedScalarParameters[15] = { Value=65000, Name=LandBlendMaxDis, Group=None }
+    CollectedScalarParameters[16] = { Value=1.2, Name=Dis_BP_Process, Group=None }
+    CollectedScalarParameters[17] =
+    {
+        Value = 100
+        Name = WaterNormal_Scale (S)
+        Group = None
+    }
+    CollectedScalarParameters[18] = { Value=0, Name=DepthOffset, Group=None }
+    CollectedScalarParameters[19] = { Value=10, Name=NormalIntensity (S), Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.066667, G=1, B=0, A=0 }
+        Name = Dis_DissolveColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultColorWhite_D
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultNormalMask_M
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 0.3125
+        UVChannelIndex = 0
+        TextureName = T_WaterNormal_Rain
+    }
+}

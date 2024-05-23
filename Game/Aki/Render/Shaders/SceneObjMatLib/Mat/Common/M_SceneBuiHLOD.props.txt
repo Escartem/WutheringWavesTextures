@@ -1,0 +1,199 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_D.T_DefaultColorBlack_D'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_Linear_D.T_DefaultColorBlack_Linear_D'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorGray_D.T_DefaultColorGray_D'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultGrayscaleBlack_G.T_DefaultGrayscaleBlack_G'
+    ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+    ReferencedTextures[5] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=AmbientOcclusionConst }
+                    ParameterInfos[1] = { Name=RoughnessConst }
+                    ParameterInfos[2] = { Name=EmissiveScale }
+                    ParameterInfos[3] = { Name=MetallicConst }
+                    ParameterInfos[4] = { Name=EmissiveIntensity }
+                    ParameterInfos[5] = { Name=OpacityMaskConst }
+                    ParameterInfos[6] = { Name=OpacityConst }
+                    ParameterInfos[7] = { Name=SpecularConst }
+                    ParameterInfos[8] = { Name=Close Emissive Day }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=DiffuseConst }
+                    ParameterInfos[1] = { Name=EmissiveConst }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=MetallicTexture }
+                    ParameterInfos[1] = { Name=OpacityTexture }
+                    ParameterInfos[2] = { Name=OpacityMaskTexture }
+                    ParameterInfos[3] = { Name=PackedTexture }
+                    ParameterInfos[4] = { Name=NormalTexture }
+                    ParameterInfos[5] = { Name=EmissiveTexture }
+                    ParameterInfos[6] = { Name=SpecularTexture }
+                    ParameterInfos[7] = { Name=DiffuseTexture }
+                    ParameterInfos[8] = { Name=AmbientOcclusionTexture }
+                    ParameterInfos[9] = { Name=RoughnessTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[9] = { 1, 0, 1, 0, 1, 1, 1, 0, 0 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=0 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[10] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorGray_D.T_DefaultColorGray_D'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultGrayscaleBlack_G.T_DefaultGrayscaleBlack_G'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultGrayscaleBlack_G.T_DefaultGrayscaleBlack_G'
+            TextureValues[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+            TextureValues[4] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+            TextureValues[5] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_Linear_D.T_DefaultColorBlack_Linear_D'
+            TextureValues[6] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorGray_D.T_DefaultColorGray_D'
+            TextureValues[7] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_D.T_DefaultColorBlack_D'
+            TextureValues[8] = Texture2D'/Game/Aki/Render/Common/T_DefaultGrayscaleBlack_G.T_DefaultGrayscaleBlack_G'
+            TextureValues[9] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorGray_D.T_DefaultColorGray_D'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorGray_D.T_DefaultColorGray_D'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_Linear_D.T_DefaultColorBlack_Linear_D'
+        ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_D.T_DefaultColorBlack_D'
+        ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        ReferencedTextures[5] = Texture2D'/Game/Aki/Render/Common/T_DefaultGrayscaleBlack_G.T_DefaultGrayscaleBlack_G'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[10] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorGray_D.T_DefaultColorGray_D'
+        Name = MetallicTexture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultGrayscaleBlack_G.T_DefaultGrayscaleBlack_G'
+        Name = OpacityTexture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultGrayscaleBlack_G.T_DefaultGrayscaleBlack_G'
+        Name = OpacityMaskTexture
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        Name = PackedTexture
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+        Name = NormalTexture
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_Linear_D.T_DefaultColorBlack_Linear_D'
+        Name = EmissiveTexture
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorGray_D.T_DefaultColorGray_D'
+        Name = SpecularTexture
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_D.T_DefaultColorBlack_D'
+        Name = DiffuseTexture
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultGrayscaleBlack_G.T_DefaultGrayscaleBlack_G'
+        Name = AmbientOcclusionTexture
+        Group = None
+    }
+    CollectedTextureParameters[9] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorGray_D.T_DefaultColorGray_D'
+        Name = RoughnessTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=AmbientOcclusionConst, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=RoughnessConst, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=EmissiveScale, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=MetallicConst, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=EmissiveIntensity, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=OpacityMaskConst, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=OpacityConst, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=SpecularConst, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=Close Emissive Day, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = DiffuseConst
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = EmissiveConst
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultColorBlack_D
+    }
+}

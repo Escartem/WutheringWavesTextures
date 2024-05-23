@@ -1,0 +1,472 @@
+Parent = MaterialInstanceConstant'/Game/Aki/Render/MaterialInstance/Landscape/MI_Landscape.MI_Landscape'
+ScalarParameterValues[40] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=10SliceIndex }
+        ParameterValue = 17
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=1LayerScale }
+        ParameterValue = 350
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=1MinRoughness }
+        ParameterValue = 0.77
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=1MaxRoughness }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=1SliceIndex }
+        ParameterValue = 7
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=2LayerScale }
+        ParameterValue = 600
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=2HeightContrast }
+        ParameterValue = 1.5
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=2MinRoughness }
+        ParameterValue = 0.419047
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=2SliceIndex }
+        ParameterValue = 8
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=3LayerScale }
+        ParameterValue = 350
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=3HeightContrast }
+        ParameterValue = 1.5
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=3MinRoughness }
+        ParameterValue = 0.642857
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=3SliceIndex }
+        ParameterValue = 4
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=4LayerScale }
+        ParameterValue = 1350
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=4MinRoughness }
+        ParameterValue = 0.7
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=4MaxRoughness }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=4SliceIndex }
+        ParameterValue = 5
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=5LayerScale }
+        ParameterValue = 400
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=5MinRoughness }
+        ParameterValue = 0.4
+        ParameterName = None
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = { Name=5SliceIndex }
+        ParameterValue = 8
+        ParameterName = None
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = { Name=6LayerScale }
+        ParameterValue = 613.543
+        ParameterName = None
+    }
+    ScalarParameterValues[21] =
+    {
+        ParameterInfo = { Name=6HeightContrast }
+        ParameterValue = 0.509524
+        ParameterName = None
+    }
+    ScalarParameterValues[22] =
+    {
+        ParameterInfo = { Name=6MaxRoughness }
+        ParameterValue = 0.738097
+        ParameterName = None
+    }
+    ScalarParameterValues[23] =
+    {
+        ParameterInfo = { Name=6SliceIndex }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[24] =
+    {
+        ParameterInfo = { Name=7LayerScale }
+        ParameterValue = 400
+        ParameterName = None
+    }
+    ScalarParameterValues[25] =
+    {
+        ParameterInfo = { Name=7HeightContrast }
+        ParameterValue = -1
+        ParameterName = None
+    }
+    ScalarParameterValues[26] =
+    {
+        ParameterInfo = { Name=7MinRoughness }
+        ParameterValue = 0.72
+        ParameterName = None
+    }
+    ScalarParameterValues[27] =
+    {
+        ParameterInfo = { Name=7MaxRoughness }
+        ParameterValue = 0.54
+        ParameterName = None
+    }
+    ScalarParameterValues[28] =
+    {
+        ParameterInfo = { Name=7SliceIndex }
+        ParameterValue = 13
+        ParameterName = None
+    }
+    ScalarParameterValues[29] =
+    {
+        ParameterInfo = { Name=8LayerScale }
+        ParameterValue = 600
+        ParameterName = None
+    }
+    ScalarParameterValues[30] =
+    {
+        ParameterInfo = { Name=8HeightContrast }
+        ParameterValue = 1.25
+        ParameterName = None
+    }
+    ScalarParameterValues[31] =
+    {
+        ParameterInfo = { Name=8MinRoughness }
+        ParameterValue = 0.6
+        ParameterName = None
+    }
+    ScalarParameterValues[32] =
+    {
+        ParameterInfo = { Name=8MaxRoughness }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[33] =
+    {
+        ParameterInfo = { Name=8SliceIndex }
+        ParameterValue = 14
+        ParameterName = None
+    }
+    ScalarParameterValues[34] =
+    {
+        ParameterInfo = { Name=9LayerScale }
+        ParameterValue = 400
+        ParameterName = None
+    }
+    ScalarParameterValues[35] =
+    {
+        ParameterInfo = { Name=9MinRoughness }
+        ParameterValue = 0.53
+        ParameterName = None
+    }
+    ScalarParameterValues[36] =
+    {
+        ParameterInfo = { Name=9MaxRoughness }
+        ParameterValue = 0.55
+        ParameterName = None
+    }
+    ScalarParameterValues[37] =
+    {
+        ParameterInfo = { Name=9SliceIndex }
+        ParameterValue = 3
+        ParameterName = None
+    }
+    ScalarParameterValues[38] =
+    {
+        ParameterInfo = { Name=ParamBufferIndex }
+        ParameterValue = 10
+        ParameterName = None
+    }
+    ScalarParameterValues[39] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[20] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=7MaskTexture }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Landscape/Tex/T4_San_20A_N.T4_San_20A_N'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=1DiffuseTexture }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Landscape/Tex/T4_San_15_D.T4_San_15_D'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=2DiffuseTexture }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Landscape/Tex/T4_San_16_D.T4_San_16_D'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=2MaskTexture }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Landscape/Tex/T4_San_16_N.T4_San_16_N'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=3DiffuseTexture }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Landscape/Tex/T4_San_09_D_2.T4_San_09_D_2'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=3MaskTexture }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Landscape/Tex/T4_San_09_N.T4_San_09_N'
+        ParameterName = None
+    }
+    TextureParameterValues[6] =
+    {
+        ParameterInfo = { Name=4DiffuseTexture }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Landscape/Tex/T4_San_10_D.T4_San_10_D'
+        ParameterName = None
+    }
+    TextureParameterValues[7] =
+    {
+        ParameterInfo = { Name=4MaskTexture }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Landscape/Tex/T4_San_10_N.T4_San_10_N'
+        ParameterName = None
+    }
+    TextureParameterValues[8] =
+    {
+        ParameterInfo = { Name=5DiffuseTexture }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Landscape/Tex/T4_San_16_D.T4_San_16_D'
+        ParameterName = None
+    }
+    TextureParameterValues[9] =
+    {
+        ParameterInfo = { Name=5MaskTexture }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Landscape/Tex/T4_San_16_N.T4_San_16_N'
+        ParameterName = None
+    }
+    TextureParameterValues[10] =
+    {
+        ParameterInfo = { Name=6DiffuseTexture }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Landscape/Tex/T4_San_07_D.T4_San_07_D'
+        ParameterName = None
+    }
+    TextureParameterValues[11] =
+    {
+        ParameterInfo = { Name=6MaskTexture }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Landscape/Tex/T4_San_10_N.T4_San_10_N'
+        ParameterName = None
+    }
+    TextureParameterValues[12] =
+    {
+        ParameterInfo = { Name=7DiffuseTexture }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Landscape/Tex/T4_Gra_01c_D.T4_Gra_01c_D'
+        ParameterName = None
+    }
+    TextureParameterValues[13] =
+    {
+        ParameterInfo = { Name=8DiffuseTexture }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Landscape/Tex/T4_San_02b_D.T4_San_02b_D'
+        ParameterName = None
+    }
+    TextureParameterValues[14] =
+    {
+        ParameterInfo = { Name=8MaskTexture }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Landscape/Tex/T4_San_10_N.T4_San_10_N'
+        ParameterName = None
+    }
+    TextureParameterValues[15] =
+    {
+        ParameterInfo = { Name=9DiffuseTexture }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Landscape/Tex/T4_San_10a_D.T4_San_10a_D'
+        ParameterName = None
+    }
+    TextureParameterValues[16] =
+    {
+        ParameterInfo = { Name=9MaskTexture }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Landscape/Tex/T4_San_10_N.T4_San_10_N'
+        ParameterName = None
+    }
+    TextureParameterValues[17] =
+    {
+        ParameterInfo = { Name=ColorTextureArray }
+        ParameterValue = None
+        ParameterName = None
+    }
+    TextureParameterValues[18] =
+    {
+        ParameterInfo = { Name=NormalTextureArray }
+        ParameterValue = None
+        ParameterName = None
+    }
+    TextureParameterValues[19] =
+    {
+        ParameterInfo = { Name=WorldColorMap }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Landscape/ColorMap/T_LandscapeColorMap_D.T_LandscapeColorMap_D'
+        ParameterName = None
+    }
+}
+VectorParameterValues[5] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=1ColorTint }
+        ParameterValue = { R=1, G=1, B=1, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=2ColorTint }
+        ParameterValue = { R=0.6, G=0.6, B=0.6, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=3ColorTint }
+        ParameterValue = { R=0.770833, G=0.63439, B=0.467719, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=6ColorTint }
+        ParameterValue = { R=1, G=1, B=1, A=0 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=7ColorTint }
+        ParameterValue = { R=0.698039, G=0.698039, B=0.698039, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[6] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=1UseSingleChannelColor }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = false
+            ParameterInfo = { Name=2UseColorMap }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = false
+            ParameterInfo = { Name=3UseColorMap }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseAO }
+            bOverride = true
+        }
+        StaticSwitchParameters[4] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseMacroShadow }
+            bOverride = true
+        }
+        StaticSwitchParameters[5] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseColorArray }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1.28125
+        UVChannelIndex = 0
+        TextureName = T_WaterNormal_Rain
+    }
+}

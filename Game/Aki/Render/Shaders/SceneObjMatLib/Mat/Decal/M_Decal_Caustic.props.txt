@@ -1,0 +1,194 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[7] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/ArtTools/RenderToTexture/Textures/127grey.127grey'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.flipbook'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_Caustics_Animated_07_M.T_Caustics_Animated_07_M'
+    ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/T_Caustic_002.T_Caustic_002'
+    ReferencedTextures[5] = Texture2D'/Game/Aki/Render/Common/T_Caustic_offset.T_Caustic_offset'
+    ReferencedTextures[6] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoise.BasicNoise'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[17] =
+                {
+                    ParameterInfos[0] = { Name=Shake Noise Tili }
+                    ParameterInfos[1] = { Name=Contrast }
+                    ParameterInfos[2] = { Name=Shake Speed }
+                    ParameterInfos[3] = { Name=Shake Amplitude Min }
+                    ParameterInfos[4] = { Name=Caustic Amplitude }
+                    ParameterInfos[5] = { Name=CausticIntensty }
+                    ParameterInfos[6] = { Name=NoiseScale }
+                    ParameterInfos[7] = { Name=CausticSaturation }
+                    ParameterInfos[8] = { Name=NoiseAmount }
+                    ParameterInfos[9] = { Name=NoisePanX }
+                    ParameterInfos[10] = { Name=TestAlpha }
+                    ParameterInfos[11] = { Name=UVScale }
+                    ParameterInfos[12] = { Name=Caustic Tili }
+                    ParameterInfos[13] = { Name=Shake Amplitude Max }
+                    ParameterInfos[14] = { Name=Caustic Speed }
+                    ParameterInfos[15] = { Name=FlickerTime }
+                    ParameterInfos[16] = { Name=NoisePanY }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Caustic Color }
+                    ParameterInfos[1] = { Name=ColorTint }
+                    ParameterInfos[2] = { Name=Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Noise }
+                    ParameterInfos[1] = { Name=Shake Noise Tex }
+                    ParameterInfos[2] = { Name=CausticTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[17] =
+        {
+            ScalarValues[0] = 0.1
+            ScalarValues[1] = 1
+            ScalarValues[2] = 2
+            ScalarValues[3] = 0
+            ScalarValues[4] = 0.25
+            ScalarValues[5] = 5
+            ScalarValues[6] = 10
+            ScalarValues[7] = 1.5
+            ScalarValues[8] = 0.5
+            ScalarValues[9] = 0
+            ScalarValues[10] = 0
+            ScalarValues[11] = 2
+            ScalarValues[12] = 0.3
+            ScalarValues[13] = 0.02
+            ScalarValues[14] = 0.7
+            ScalarValues[15] = 0.5
+            ScalarValues[16] = 0
+        }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=0.223234, G=0.341369, B=0.96875, A=1 }
+            VectorValues[1] = { R=1, G=1, B=1, A=0 }
+            VectorValues[2] = { R=0.155642, G=0.347788, B=0.473958, A=0 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoise.BasicNoise'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_Caustic_offset.T_Caustic_offset'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_Caustic_002.T_Caustic_002'
+        }
+    }
+    ReferencedTextures[8] =
+    {
+        ReferencedTextures[1] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_Caustic_offset.T_Caustic_offset'
+        ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_Caustic_002.T_Caustic_002'
+        ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_Caustics_Animated_07_M.T_Caustics_Animated_07_M'
+        ReferencedTextures[5] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.flipbook'
+        ReferencedTextures[6] = Texture2D'/Engine/ArtTools/RenderToTexture/Textures/127grey.127grey'
+        ReferencedTextures[7] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoise.BasicNoise'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoise.BasicNoise'
+        Name = Noise
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_Caustic_offset.T_Caustic_offset'
+        Name = Shake Noise Tex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_Caustic_002.T_Caustic_002'
+        Name = CausticTex
+        Group = None
+    }
+}
+CollectedScalarParameters[17] =
+{
+    CollectedScalarParameters[0] = { Value=0.1, Name=Shake Noise Tili, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Contrast, Group=None }
+    CollectedScalarParameters[2] = { Value=2, Name=Shake Speed, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Shake Amplitude Min, Group=None }
+    CollectedScalarParameters[4] = { Value=0.25, Name=Caustic Amplitude, Group=None }
+    CollectedScalarParameters[5] = { Value=5, Name=CausticIntensty, Group=None }
+    CollectedScalarParameters[6] = { Value=10, Name=NoiseScale, Group=None }
+    CollectedScalarParameters[7] = { Value=1.5, Name=CausticSaturation, Group=None }
+    CollectedScalarParameters[8] = { Value=0.5, Name=NoiseAmount, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=NoisePanX, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=TestAlpha, Group=None }
+    CollectedScalarParameters[11] = { Value=2, Name=UVScale, Group=None }
+    CollectedScalarParameters[12] = { Value=0.3, Name=Caustic Tili, Group=None }
+    CollectedScalarParameters[13] = { Value=0.02, Name=Shake Amplitude Max, Group=None }
+    CollectedScalarParameters[14] = { Value=0.7, Name=Caustic Speed, Group=None }
+    CollectedScalarParameters[15] = { Value=0.5, Name=FlickerTime, Group=None }
+    CollectedScalarParameters[16] = { Value=0, Name=NoisePanY, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.223234, G=0.341369, B=0.96875, A=1 }
+        Name = Caustic Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = ColorTint
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.155642, G=0.347788, B=0.473958, A=0 }
+        Name = Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 4.79688
+        UVChannelIndex = 0
+        TextureName = 127grey
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 4.79688
+        UVChannelIndex = 0
+        TextureName = T_Caustics_Animated_07_M
+    }
+}

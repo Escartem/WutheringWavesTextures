@@ -1,0 +1,7 @@
+Diffuse=T_WaterTIlling_Default_M
+SpecPower=T_SpecularHighlights_M
+Other[0]=T_Ocean_Foam_M
+Other[1]=DefaultTexture
+Other[2]=T_Mask_Scan_002
+Other[3]=T_Cloud_50005
+Other[4]=CommonBtnBg2

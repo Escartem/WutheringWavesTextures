@@ -1,0 +1,6 @@
+Diffuse=DefaultDiffuse
+Other[0]=WhiteSquareTexture
+Other[1]=DebugNumberStrip
+Other[2]=DebugNumberPeriod
+Other[3]=T_Cloud_01
+Other[4]=T_CloudNoise_Curl

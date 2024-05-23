@@ -1,0 +1,11 @@
+Diffuse=DefaultDiffuse
+Normal=T_Normal_Flowmap_40001
+Other[0]=DebugNumberStrip
+Other[1]=DebugNumberPeriod
+Other[2]=T_flowmap
+Other[3]=T_skybox_01
+Other[4]=T_skybox_01_top
+Other[5]=T_Foliage_Noise_M
+Other[6]=T_Noise_Stormy
+Other[7]=T_WindNoise_M
+Other[8]=T_Moon_02

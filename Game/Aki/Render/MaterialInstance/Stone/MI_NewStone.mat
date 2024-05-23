@@ -1,0 +1,12 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T_DefaultColorWhite_Linear_D
+Other[0]=T_DefaultMaskGreen_M
+Other[1]=T4_Com_Gra_06A_D
+Other[2]=T_DefaultNormal_N
+Other[3]=T_LandscapeColorMap_D
+Other[4]=BlendFunc_DefBase
+Other[5]=BlendFunc_DefBlend
+Other[6]=Good64x64TilingNoiseHighFreq
+Other[7]=T_DefaultMaskBlack_M
+Other[8]=T_FlareNoise_M
+Other[9]=T_WaterNormal_Rain

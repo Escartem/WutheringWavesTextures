@@ -1,0 +1,106 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=Scale 5th layer }
+                    ParameterInfos[1] = { Name=Scale 4th layer }
+                    ParameterInfos[2] = { Name=Scale 6th layer }
+                    ParameterInfos[3] = { Name=Parallax 5th layer }
+                    ParameterInfos[4] = { Name=Scale 3rd layer }
+                    ParameterInfos[5] = { Name=Parallax 3th layer }
+                    ParameterInfos[6] = { Name=Parallax 6th layer }
+                    ParameterInfos[7] = { Name=Parallax 4th layer }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=3 }
+                    ParameterInfos[1] = { Name=5 }
+                    ParameterInfos[2] = { Name=4 }
+                    ParameterInfos[3] = { Name=6 }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[8] = { 0.45, 0.35, 0.6, 0, 0.26, 0, 0, 0 }
+        VectorValues[0] = {}
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = 3
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = 5
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = 4
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = 6
+        Group = None
+    }
+}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] = { Value=0.45, Name=Scale 5th layer, Group=None }
+    CollectedScalarParameters[1] = { Value=0.35, Name=Scale 4th layer, Group=None }
+    CollectedScalarParameters[2] = { Value=0.6, Name=Scale 6th layer, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Parallax 5th layer, Group=None }
+    CollectedScalarParameters[4] = { Value=0.26, Name=Scale 3rd layer, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Parallax 3th layer, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Parallax 6th layer, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=Parallax 4th layer, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

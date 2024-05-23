@@ -1,0 +1,1266 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[12] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Character/Monster/Boss/MB1SuiguangMd00501/Model/SuiGuangWPO/T_Noise_Fire_D.T_Noise_Fire_D'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Character/Monster/Boss/MB1SuiguangMd00501/Model/T_MB1SuiguangMd00501Hair_Noise_D.T_MB1SuiguangMd00501Hair_Noise_D'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Monster/CommonNoise.CommonNoise'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Monster/T_Baozi_M.T_Baozi_M'
+    ReferencedTextures[4] = Texture2D'/Game/Aki/Character/Textures/LUT/LUT_Common_Default_Shadow.LUT_Common_Default_Shadow'
+    ReferencedTextures[5] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_Linear_D.T_DefaultColorBlack_Linear_D'
+    ReferencedTextures[6] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    ReferencedTextures[7] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+    ReferencedTextures[8] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+    ReferencedTextures[9] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskWhite_M.T_DefaultMaskWhite_M'
+    ReferencedTextures[10] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+    ReferencedTextures[11] = TextureCube4'/Game/Aki/Character/Role/CommonTexture/CharacterCubeMaps/T_Env_03_CUBE.T_Env_03_CUBE'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[152] =
+                {
+                    ParameterInfos[0] = { Name=Min }
+                    ParameterInfos[1] = { Name=AOMaskPow }
+                    ParameterInfos[2] = { Name=ShadowUpDown }
+                    ParameterInfos[3] = { Name=SDFRoughnessInt }
+                    ParameterInfos[4] = { Name=Roughness }
+                    ParameterInfos[5] = { Name=Fresnel_LeftRight }
+                    ParameterInfos[6] = { Name=OutLineLightWeightMax }
+                    ParameterInfos[7] = { Name=SDFCircleScale }
+                    ParameterInfos[8] = { Name=SparkIntensity }
+                    ParameterInfos[9] = { Name=Wind Noise }
+                    ParameterInfos[10] = { Name=ShowMask }
+                    ParameterInfos[11] = { Name=BreatheStrength }
+                    ParameterInfos[12] = { Name=ToonRimWidth }
+                    ParameterInfos[13] = { Name=Exp }
+                    ParameterInfos[14] = { Name=E_Rim_RimRange }
+                    ParameterInfos[15] = { Name=Contract }
+                    ParameterInfos[16] = { Name=BreathePropotion }
+                    ParameterInfos[17] = { Name=Tree Sway Speed }
+                    ParameterInfos[18] = { Name=SpecularShadowIntensity }
+                    ParameterInfos[19] = { Name=UseLightOffset_Pitch_DYN }
+                    ParameterInfos[20] = { Name=E_Dither_DitherValue }
+                    ParameterInfos[21] = { Name=PBRCubeMap_Test }
+                    ParameterInfos[22] = { Name=E_Tex_MaskRange }
+                    ParameterInfos[23] = { Name=SDFCircleScaleY }
+                    ParameterInfos[24] = { Name=SDFMetallicInt }
+                    ParameterInfos[25] = { Name=SparkTiling }
+                    ParameterInfos[26] = { Name=SolidShadowView }
+                    ParameterInfos[27] = { Name=SpecularRange }
+                    ParameterInfos[28] = { Name=FurTexTiling }
+                    ParameterInfos[29] = { Name=RimRange }
+                    ParameterInfos[30] = { Name=LightOffset_Yaw }
+                    ParameterInfos[31] = { Name=Metalllic }
+                    ParameterInfos[32] = { Name=RootPosition }
+                    ParameterInfos[33] = { Name=FresnelRim_Smooth }
+                    ParameterInfos[34] = { Name=Fresnel_RimFraction }
+                    ParameterInfos[35] = { Name=Distortion }
+                    ParameterInfos[36] = { Name=E_Rim_UseRim }
+                    ParameterInfos[37] = { Name=PBRRate }
+                    ParameterInfos[38] = { Name=SDFCirclePositionX }
+                    ParameterInfos[39] = { Name=SDFCircleWidth }
+                    ParameterInfos[40] = { Name=E_Rim_Intensity }
+                    ParameterInfos[41] = { Name=Second_HeightRadio }
+                    ParameterInfos[42] = { Name=Fresnel_RimRange }
+                    ParameterInfos[43] = { Name=SolidShadowStrength }
+                    ParameterInfos[44] = { Name=RimWidth }
+                    ParameterInfos[45] = { Name=AOScale }
+                    ParameterInfos[46] = { Name=Leave Wind Weight }
+                    ParameterInfos[47] = { Name=DefaultSkinFactor }
+                    ParameterInfos[48] = { Name=E_Dither_SphereRadiusFar }
+                    ParameterInfos[49] = { Name=Alpha }
+                    ParameterInfos[50] = { Name=Fresnel_Hard }
+                    ParameterInfos[51] = { Name=E_Tex_UseTex }
+                    ParameterInfos[52] = { Name=SparkSpeed }
+                    ParameterInfos[53] = { Name=E_Dissolve_Smooth }
+                    ParameterInfos[54] = { Name=SparkPower }
+                    ParameterInfos[55] = { Name=E_Dissolve_UseDissolve }
+                    ParameterInfos[56] = { Name=LightOffset_Pitch }
+                    ParameterInfos[57] = { Name=E_Emission_Intensity }
+                    ParameterInfos[58] = { Name=SDFTimeSpeed }
+                    ParameterInfos[59] = { Name=PBRRateIntensity }
+                    ParameterInfos[60] = { Name=Tiling }
+                    ParameterInfos[61] = { Name=Main_EmissionPower }
+                    ParameterInfos[62] = { Name=FresnelRim_Reverse }
+                    ParameterInfos[63] = { Name=E_Emission_UseTex }
+                    ParameterInfos[64] = { Name=EmissionBreathThreshold }
+                    ParameterInfos[65] = { Name=EdgeEnvBRDFIntensity }
+                    ParameterInfos[66] = { Name=E_Dither_DitherValue2 }
+                    ParameterInfos[67] = { Name=E_Dissolve_Progress }
+                    ParameterInfos[68] = { Name=RoughnessIntensity }
+                    ParameterInfos[69] = { Name=ShadowOffset }
+                    ParameterInfos[70] = { Name=ToonShadowRange }
+                    ParameterInfos[71] = { Name=FaceLightYaw }
+                    ParameterInfos[72] = { Name=RootScale }
+                    ParameterInfos[73] = { Name=RandomIntensity }
+                    ParameterInfos[74] = { Name=E_Rim_UseTex }
+                    ParameterInfos[75] = { Name=NoiseBlend }
+                    ParameterInfos[76] = { Name=MaskRoundInside }
+                    ParameterInfos[77] = { Name=BreatheFrequency }
+                    ParameterInfos[78] = { Name=E_Dither_CapsuleHard }
+                    ParameterInfos[79] = { Name=MaskRound }
+                    ParameterInfos[80] = { Name=UseInvertSpecular }
+                    ParameterInfos[81] = { Name=E_Dither_UseCapsuleDither }
+                    ParameterInfos[82] = { Name=NoiseStrength }
+                    ParameterInfos[83] = { Name=Effect_Progress }
+                    ParameterInfos[84] = { Name=AO }
+                    ParameterInfos[85] = { Name=CustomLightDir }
+                    ParameterInfos[86] = { Name=SparkTexIntensity }
+                    ParameterInfos[87] = { Name=Param }
+                    ParameterInfos[88] = { Name=Tree Sway Amount }
+                    ParameterInfos[89] = { Name=OutLineLightWeightMin }
+                    ParameterInfos[90] = { Name=Max }
+                    ParameterInfos[91] = { Name=Second_Height }
+                    ParameterInfos[92] = { Name=ShadowRange }
+                    ParameterInfos[93] = { Name=Fresnel_NormalLerp }
+                    ParameterInfos[94] = { Name=SecondTex_SwitchToUV3 }
+                    ParameterInfos[95] = { Name=SDFCirclePositionY }
+                    ParameterInfos[96] = { Name=AOIntensity }
+                    ParameterInfos[97] = { Name=PBRHardSpeSmooth_Test }
+                    ParameterInfos[98] = { Name=E_Dither_CapsuleRadius }
+                    ParameterInfos[99] = { Name=FresnelRim_RimRange }
+                    ParameterInfos[100] = { Name=SDFCircleScaleX }
+                    ParameterInfos[101] = { Name=Second_UseObjectScreenUV }
+                    ParameterInfos[102] = { Name=UseNdL }
+                    ParameterInfos[103] = { Name=Exp_1 }
+                    ParameterInfos[104] = { Name=FlowEffectEdge_Strength }
+                    ParameterInfos[105] = { Name=SpecularTex_SwitchToUV3 }
+                    ParameterInfos[106] = { Name=E_Dither_SphereFarScale }
+                    ParameterInfos[107] = { Name=NormalStrength }
+                    ParameterInfos[108] = { Name=ColorOffsetRB }
+                    ParameterInfos[109] = { Name=E_Tex_UseScreenUV }
+                    ParameterInfos[110] = { Name=E_Dither_UseDither }
+                    ParameterInfos[111] = { Name=SDFCircleIntensity }
+                    ParameterInfos[112] = { Name=Fresnel_RimIntensity }
+                    ParameterInfos[113] = { Name=E_Dissolve_Multi }
+                    ParameterInfos[114] = { Name=BaseColorRound }
+                    ParameterInfos[115] = { Name=E_Tex_UseMask }
+                    ParameterInfos[116] = { Name=PolarTilingMax }
+                    ParameterInfos[117] = { Name=ThirdTex_SwitchToUV3 }
+                    ParameterInfos[118] = { Name=MatCapCorrect }
+                    ParameterInfos[119] = { Name=UseUpAndDown }
+                    ParameterInfos[120] = { Name=ToonSpecularShiness }
+                    ParameterInfos[121] = { Name=E_Tex_UseVCMask_Set }
+                    ParameterInfos[122] = { Name=UseLightOffset_Yaw_DYN }
+                    ParameterInfos[123] = { Name=E_Dither_SphereNearScale }
+                    ParameterInfos[124] = { Name=MainTex_SwitchToUV3 }
+                    ParameterInfos[125] = { Name=LightPitch(False=30,True=45)_DYN }
+                    ParameterInfos[126] = { Name=SolidShadowSaturation }
+                    ParameterInfos[127] = { Name=Second_NoiseStrength }
+                    ParameterInfos[128] = { Name=FurNormalStrength }
+                    ParameterInfos[129] = { Name=SolidShadowThreshold }
+                    ParameterInfos[130] = { Name=FurScale }
+                    ParameterInfos[131] = { Name=Leave Wind Strenght }
+                    ParameterInfos[132] = { Name=EmissionStrength }
+                    ParameterInfos[133] = { Name=Speed }
+                    ParameterInfos[134] = { Name=RampScale }
+                    ParameterInfos[135] = { Name=MetallicIntensity }
+                    ParameterInfos[136] = { Name=E_Tex_Rotation }
+                    ParameterInfos[137] = { Name=FurLength }
+                    ParameterInfos[138] = { Name=Custom0(Yaw) }
+                    ParameterInfos[139] = { Name=Noise_UseScreenUV }
+                    ParameterInfos[140] = { Name=RandomPosition }
+                    ParameterInfos[141] = { Name=FlowSpeed }
+                    ParameterInfos[142] = { Name=E_Dither_SphereRadiusNear }
+                    ParameterInfos[143] = { Name=SDFSmoothness }
+                    ParameterInfos[144] = { Name=SDFPitchPosition }
+                    ParameterInfos[145] = { Name=Second_UseScreenUV }
+                    ParameterInfos[146] = { Name=RimIntensity }
+                    ParameterInfos[147] = { Name=SDFNormalInt }
+                    ParameterInfos[148] = { Name=E_Dither_UseDither2 }
+                    ParameterInfos[149] = { Name=SpecularIntensity }
+                    ParameterInfos[150] = { Name=PBRHardSpecWidth_Test }
+                    ParameterInfos[151] = { Name=UseFaceLightYaw }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[56] =
+                {
+                    ParameterInfos[0] = { Name=HSLAdjustment }
+                    ParameterInfos[1] = { Name=NoiseOffsetSpeed }
+                    ParameterInfos[2] = { Name=PBRSpecularColor_Test }
+                    ParameterInfos[3] = { Name=E_Dissolve_Emission }
+                    ParameterInfos[4] = { Name=EffectMaskChannel_Vector }
+                    ParameterInfos[5] = { Name=MainTex_UV }
+                    ParameterInfos[6] = { Name=FlowColor }
+                    ParameterInfos[7] = { Name=ToonSpecularColor }
+                    ParameterInfos[8] = { Name=NoiseTilingShort }
+                    ParameterInfos[9] = { Name=MainTexColorTint }
+                    ParameterInfos[10] = { Name=E_Tex_Speed }
+                    ParameterInfos[11] = { Name=ThirdTex_UV }
+                    ParameterInfos[12] = { Name=NoiseUV }
+                    ParameterInfos[13] = { Name=E_Rim_RimColor }
+                    ParameterInfos[14] = { Name=PBRCubemapColor }
+                    ParameterInfos[15] = { Name=Second_ScreenObjectUV }
+                    ParameterInfos[16] = { Name=E_Tex_UVSwitch }
+                    ParameterInfos[17] = { Name=WorldOffsetSpeed }
+                    ParameterInfos[18] = { Name=FresnelRim_RimColor }
+                    ParameterInfos[19] = { Name=E_Tex_ScaleAndOffset }
+                    ParameterInfos[20] = { Name=Second_ColorTint }
+                    ParameterInfos[21] = { Name=BaseColorOutline }
+                    ParameterInfos[22] = { Name=WorldOffsetOffsetIntensity }
+                    ParameterInfos[23] = { Name=ActorPosition }
+                    ParameterInfos[24] = { Name=EmissionColor }
+                    ParameterInfos[25] = { Name=SDFColor }
+                    ParameterInfos[26] = { Name=PBRIndirectColor }
+                    ParameterInfos[27] = { Name=Fresnel_RimColor }
+                    ParameterInfos[28] = { Name=ShadowColor }
+                    ParameterInfos[29] = { Name=Second_UV }
+                    ParameterInfos[30] = { Name=E_Rim_Channel }
+                    ParameterInfos[31] = { Name=Second_Refine }
+                    ParameterInfos[32] = { Name=AOColor }
+                    ParameterInfos[33] = { Name=SecondTex_UVSwitch }
+                    ParameterInfos[34] = { Name=E_Dither_Capsule_ExtremeEnd }
+                    ParameterInfos[35] = { Name=E_Dissolve_Channel }
+                    ParameterInfos[36] = { Name=NoiseOffsetSpeedShort }
+                    ParameterInfos[37] = { Name=SecondTex_ColorTint }
+                    ParameterInfos[38] = { Name=NoiseOffsetIntensityShort }
+                    ParameterInfos[39] = { Name=ThirdTex_ColorTint }
+                    ParameterInfos[40] = { Name=NoiseOffsetIntensity }
+                    ParameterInfos[41] = { Name=Noise_UVSwitch }
+                    ParameterInfos[42] = { Name=NoiseTiling }
+                    ParameterInfos[43] = { Name=SkinSubsurfaceColor }
+                    ParameterInfos[44] = { Name=SecondTex_UV }
+                    ParameterInfos[45] = { Name=BaseColor }
+                    ParameterInfos[46] = { Name=YBasis }
+                    ParameterInfos[47] = { Name=XBasis }
+                    ParameterInfos[48] = { Name=BaseColorInner }
+                    ParameterInfos[49] = { Name=E_Tex_Color }
+                    ParameterInfos[50] = { Name=ThirdLayer_MaskRefine }
+                    ParameterInfos[51] = { Name=Wind Seed }
+                    ParameterInfos[52] = { Name=Wind Seed 2 }
+                    ParameterInfos[53] = { Name=ZBasis }
+                    ParameterInfos[54] = { Name=SecondLayer_MaskRefine }
+                    ParameterInfos[55] = { Name=E_Emission_Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[21] =
+                {
+                    ParameterInfos[0] = { Name=TilingMap }
+                    ParameterInfos[1] = { Name=R_Noise_A_Mask }
+                    ParameterInfos[2] = { Name=MainTex }
+                    ParameterInfos[3] = { Name=FurNoiseTex }
+                    ParameterInfos[4] = { Name=E_Tex_NoiseTex }
+                    ParameterInfos[5] = { Name=ShadowColorLUT }
+                    ParameterInfos[6] = { Name=MaskTex }
+                    ParameterInfos[7] = { Name=Specular_Mask }
+                    ParameterInfos[8] = { Name=NoiseD }
+                    ParameterInfos[9] = { Name=Normal_Roughness_Metallic }
+                    ParameterInfos[10] = { Name=NoiseTex }
+                    ParameterInfos[11] = { Name=MatCapMaskTex }
+                    ParameterInfos[12] = { Name=PBRCubeMap }
+                    ParameterInfos[13] = { Name=CommonNoiseMap }
+                    ParameterInfos[14] = { Name=FlowMap }
+                    ParameterInfos[15] = { Name=ThirdTex }
+                    ParameterInfos[16] = { Name=TypeMask }
+                    ParameterInfos[17] = { Name=AOmap }
+                    ParameterInfos[18] = { Name=SecondTex }
+                    ParameterInfos[19] = { Name=Second_RGB }
+                    ParameterInfos[20] = { Name=Random }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[152] =
+        {
+            ScalarValues[0] = 0.8
+            ScalarValues[1] = 1
+            ScalarValues[2] = 0
+            ScalarValues[3] = 0.3
+            ScalarValues[4] = 0.6
+            ScalarValues[5] = 0
+            ScalarValues[6] = 1
+            ScalarValues[7] = 1
+            ScalarValues[8] = 1
+            ScalarValues[9] = 4.2
+            ScalarValues[10] = 0
+            ScalarValues[11] = 2
+            ScalarValues[12] = 0.1
+            ScalarValues[13] = 2
+            ScalarValues[14] = 0.5
+            ScalarValues[15] = 0.3
+            ScalarValues[16] = 0.5
+            ScalarValues[17] = 1.1
+            ScalarValues[18] = 0.25
+            ScalarValues[19] = 0
+            ScalarValues[20] = 1.2
+            ScalarValues[21] = 1
+            ScalarValues[22] = 1
+            ScalarValues[23] = 1
+            ScalarValues[24] = 0.6
+            ScalarValues[25] = 5
+            ScalarValues[26] = 1
+            ScalarValues[27] = 0.2
+            ScalarValues[28] = 1
+            ScalarValues[29] = 0.2
+            ScalarValues[30] = 0
+            ScalarValues[31] = 0.35
+            ScalarValues[32] = 0
+            ScalarValues[33] = 0
+            ScalarValues[34] = 0
+            ScalarValues[35] = 0.1
+            ScalarValues[36] = 0
+            ScalarValues[37] = 1
+            ScalarValues[38] = 0.5
+            ScalarValues[39] = 0
+            ScalarValues[40] = 1
+            ScalarValues[41] = 0
+            ScalarValues[42] = 4
+            ScalarValues[43] = 1
+            ScalarValues[44] = 0.3
+            ScalarValues[45] = 1
+            ScalarValues[46] = 0.34
+            ScalarValues[47] = 1
+            ScalarValues[48] = 200
+            ScalarValues[49] = 1
+            ScalarValues[50] = 0.25
+            ScalarValues[51] = 0
+            ScalarValues[52] = 5
+            ScalarValues[53] = 5
+            ScalarValues[54] = 1
+            ScalarValues[55] = 0
+            ScalarValues[56] = 0
+            ScalarValues[57] = 1
+            ScalarValues[58] = 0
+            ScalarValues[59] = 1
+            ScalarValues[60] = 1
+            ScalarValues[61] = 1
+            ScalarValues[62] = 0
+            ScalarValues[63] = 0
+            ScalarValues[64] = 0.9
+            ScalarValues[65] = 1
+            ScalarValues[66] = 1.2
+            ScalarValues[67] = 0
+            ScalarValues[68] = 1
+            ScalarValues[69] = 0
+            ScalarValues[70] = 0.5
+            ScalarValues[71] = 0
+            ScalarValues[72] = 1
+            ScalarValues[73] = 0
+            ScalarValues[74] = 1
+            ScalarValues[75] = 0
+            ScalarValues[76] = 0
+            ScalarValues[77] = 0
+            ScalarValues[78] = 1.1
+            ScalarValues[79] = 1.5
+            ScalarValues[80] = 0
+            ScalarValues[81] = 0
+            ScalarValues[82] = 1
+            ScalarValues[83] = 0
+            ScalarValues[84] = 1
+            ScalarValues[85] = 0
+            ScalarValues[86] = 1
+            ScalarValues[87] = 0
+            ScalarValues[88] = 0.015
+            ScalarValues[89] = 0.5
+            ScalarValues[90] = 1
+            ScalarValues[91] = 0
+            ScalarValues[92] = 0.015
+            ScalarValues[93] = 0.5
+            ScalarValues[94] = 0
+            ScalarValues[95] = 0.5
+            ScalarValues[96] = 1
+            ScalarValues[97] = 0.05
+            ScalarValues[98] = 100
+            ScalarValues[99] = 5
+            ScalarValues[100] = 1
+            ScalarValues[101] = 0
+            ScalarValues[102] = 1
+            ScalarValues[103] = 1
+            ScalarValues[104] = 0.2
+            ScalarValues[105] = 0
+            ScalarValues[106] = 0.1
+            ScalarValues[107] = 1
+            ScalarValues[108] = 0
+            ScalarValues[109] = 0
+            ScalarValues[110] = 0
+            ScalarValues[111] = 1
+            ScalarValues[112] = 4
+            ScalarValues[113] = 100
+            ScalarValues[114] = 1
+            ScalarValues[115] = 0
+            ScalarValues[116] = 1
+            ScalarValues[117] = 0
+            ScalarValues[118] = 0
+            ScalarValues[119] = 0
+            ScalarValues[120] = 10
+            ScalarValues[121] = 0
+            ScalarValues[122] = 0
+            ScalarValues[123] = 0.7
+            ScalarValues[124] = 0
+            ScalarValues[125] = 1
+            ScalarValues[126] = 0.8
+            ScalarValues[127] = 0.15
+            ScalarValues[128] = 0.7
+            ScalarValues[129] = 0.9
+            ScalarValues[130] = 1
+            ScalarValues[131] = 0.14
+            ScalarValues[132] = 1
+            ScalarValues[133] = 2
+            ScalarValues[134] = 1
+            ScalarValues[135] = 1
+            ScalarValues[136] = 0
+            ScalarValues[137] = 1
+            ScalarValues[138] = 0
+            ScalarValues[139] = 0
+            ScalarValues[140] = 1
+            ScalarValues[141] = 5
+            ScalarValues[142] = 2000
+            ScalarValues[143] = 0.02
+            ScalarValues[144] = 0
+            ScalarValues[145] = 0
+            ScalarValues[146] = 0.2
+            ScalarValues[147] = 0
+            ScalarValues[148] = 0
+            ScalarValues[149] = 1
+            ScalarValues[150] = 0.9
+            ScalarValues[151] = 0
+        }
+        VectorValues[56] =
+        {
+            VectorValues[0] = { R=1, G=1.08, B=0.34, A=0 }
+            VectorValues[1] = { R=0, G=0, B=0, A=1 }
+            VectorValues[2] = { R=1, G=1, B=1, A=0 }
+            VectorValues[3] = { R=0, G=0, B=0, A=0 }
+            VectorValues[4] = { R=0, G=0, B=0, A=0 }
+            VectorValues[5] = { R=1, G=1, B=0, A=0 }
+            VectorValues[6] = { R=0, G=0, B=0, A=1 }
+            VectorValues[7] = { R=0, G=0, B=0, A=0 }
+            VectorValues[8] = { R=1, G=1, B=1, A=1 }
+            VectorValues[9] = { R=1, G=1, B=1, A=1 }
+            VectorValues[10] = { R=0, G=0, B=0, A=0 }
+            VectorValues[11] = { R=1, G=1, B=0, A=0 }
+            VectorValues[12] = { R=1, G=1, B=0, A=0 }
+            VectorValues[13] = { R=0, G=0, B=0, A=1 }
+            VectorValues[14] = { R=1, G=1, B=1, A=0 }
+            VectorValues[15] = { R=0, G=0, B=1, A=1 }
+            VectorValues[16] = { R=1, G=0, B=0, A=0 }
+            VectorValues[17] = { R=0, G=0, B=0, A=1 }
+            VectorValues[18] = { R=1, G=0, B=0, A=1 }
+            VectorValues[19] = { R=1, G=1, B=0, A=0 }
+            VectorValues[20] = { R=1, G=1, B=1, A=1 }
+            VectorValues[21] = { R=0.2125, G=0.142552, B=0.142552, A=1 }
+            VectorValues[22] = { R=0, G=0, B=0, A=1 }
+            VectorValues[23] = { R=0, G=0, B=100, A=1 }
+            VectorValues[24] = { R=0, G=0, B=0, A=0 }
+            VectorValues[25] = { R=0.113053, G=0.164842, B=1, A=1 }
+            VectorValues[26] = { R=0.5, G=0.5, B=0.5, A=0 }
+            VectorValues[27] = { R=0.130136, G=0.135633, B=0.147027, A=1 }
+            VectorValues[28] = { R=0.5, G=0.5, B=0.5, A=0 }
+            VectorValues[29] = { R=1, G=1, B=0, A=0 }
+            VectorValues[30] = { R=1, G=0, B=0, A=0 }
+            VectorValues[31] = { R=1, G=1, B=1, A=0 }
+            VectorValues[32] = { R=0.21875, G=0.21875, B=0.21875, A=1 }
+            VectorValues[33] = { R=1, G=0, B=0, A=0 }
+            VectorValues[34] = { R=0, G=0, B=0, A=0 }
+            VectorValues[35] = { R=1, G=0, B=0, A=0 }
+            VectorValues[36] = { R=0, G=0, B=0, A=1 }
+            VectorValues[37] = { R=1, G=1, B=1, A=1 }
+            VectorValues[38] = { R=1, G=1, B=1, A=1 }
+            VectorValues[39] = { R=1, G=1, B=1, A=1 }
+            VectorValues[40] = { R=1, G=1, B=1, A=1 }
+            VectorValues[41] = { R=1, G=0, B=0, A=0 }
+            VectorValues[42] = { R=1, G=1, B=1, A=1 }
+            VectorValues[43] = { R=0.5, G=0.228081, B=0.033854, A=0 }
+            VectorValues[44] = { R=1, G=1, B=0, A=0 }
+            VectorValues[45] = { R=0, G=0, B=0, A=1 }
+            VectorValues[46] = { R=0, G=0, B=0, A=0 }
+            VectorValues[47] = { R=0, G=0, B=0, A=0 }
+            VectorValues[48] = { R=0.2125, G=0.142552, B=0.142552, A=1 }
+            VectorValues[49] = { R=1, G=1, B=1, A=1 }
+            VectorValues[50] = { R=1, G=1, B=1, A=0 }
+            VectorValues[51] = { R=0.022971, G=0.024178, B=0.065, A=0.1 }
+            VectorValues[52] = { R=0.041, G=0.044132, B=0.045, A=0.486239 }
+            VectorValues[53] = { R=0, G=0, B=0, A=0 }
+            VectorValues[54] = { R=1, G=1, B=1, A=0 }
+            VectorValues[55] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[21] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[4] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[5] = Texture2D'/Game/Aki/Character/Textures/LUT/LUT_Common_Default_Shadow.LUT_Common_Default_Shadow'
+            TextureValues[6] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+            TextureValues[7] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+            TextureValues[8] = Texture2D'/Game/Aki/Character/Monster/Boss/MB1SuiguangMd00501/Model/T_MB1SuiguangMd00501Hair_Noise_D.T_MB1SuiguangMd00501Hair_Noise_D'
+            TextureValues[9] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+            TextureValues[10] = Texture2D'/Game/Aki/Character/Monster/Boss/MB1SuiguangMd00501/Model/T_MB1SuiguangMd00501Hair_Noise_D.T_MB1SuiguangMd00501Hair_Noise_D'
+            TextureValues[11] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Monster/T_Baozi_M.T_Baozi_M'
+            TextureValues[12] = TextureCube4'/Game/Aki/Character/Role/CommonTexture/CharacterCubeMaps/T_Env_03_CUBE.T_Env_03_CUBE'
+            TextureValues[13] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Monster/CommonNoise.CommonNoise'
+            TextureValues[14] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+            TextureValues[15] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[16] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_Linear_D.T_DefaultColorBlack_Linear_D'
+            TextureValues[17] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskWhite_M.T_DefaultMaskWhite_M'
+            TextureValues[18] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[19] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[20] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+        }
+    }
+    ReferencedTextures[14] =
+    {
+        ReferencedTextures[0] = TextureCube4'/Game/Aki/Character/Role/CommonTexture/CharacterCubeMaps/T_Env_03_CUBE.T_Env_03_CUBE'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskWhite_M.T_DefaultMaskWhite_M'
+        ReferencedTextures[3] = Texture2D'/Game/Aki/Character/Textures/LUT/LUT_Common_Default_Shadow.LUT_Common_Default_Shadow'
+        ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+        ReferencedTextures[5] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        ReferencedTextures[6] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        ReferencedTextures[7] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+        ReferencedTextures[8] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_Linear_D.T_DefaultColorBlack_Linear_D'
+        ReferencedTextures[9] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Monster/CommonNoise.CommonNoise'
+        ReferencedTextures[10] = Texture2D'/Game/Aki/Character/Monster/Boss/MB1SuiguangMd00501/Model/SuiGuangWPO/T_Noise_Fire_D.T_Noise_Fire_D'
+        ReferencedTextures[11] = Texture2D'/Game/Aki/Character/Monster/Boss/MB1SuiguangMd00501/Model/T_MB1SuiguangMd00501Hair_Noise_D.T_MB1SuiguangMd00501Hair_Noise_D'
+        ReferencedTextures[13] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Monster/T_Baozi_M.T_Baozi_M'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[21] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+        Name = TilingMap
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        Name = R_Noise_A_Mask
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = MainTex
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = FurNoiseTex
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = E_Tex_NoiseTex
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Aki/Character/Textures/LUT/LUT_Common_Default_Shadow.LUT_Common_Default_Shadow'
+        Name = ShadowColorLUT
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+        Name = MaskTex
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        Name = Specular_Mask
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'/Game/Aki/Character/Monster/Boss/MB1SuiguangMd00501/Model/T_MB1SuiguangMd00501Hair_Noise_D.T_MB1SuiguangMd00501Hair_Noise_D'
+        Name = NoiseD
+        Group = None
+    }
+    CollectedTextureParameters[9] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+        Name = Normal_Roughness_Metallic
+        Group = None
+    }
+    CollectedTextureParameters[10] =
+    {
+        Texture = Texture2D'/Game/Aki/Character/Monster/Boss/MB1SuiguangMd00501/Model/T_MB1SuiguangMd00501Hair_Noise_D.T_MB1SuiguangMd00501Hair_Noise_D'
+        Name = NoiseTex
+        Group = None
+    }
+    CollectedTextureParameters[11] =
+    {
+        Texture = Texture2D'/Game/Aki/Character/Role/CommonTexture/Monster/T_Baozi_M.T_Baozi_M'
+        Name = MatCapMaskTex
+        Group = None
+    }
+    CollectedTextureParameters[12] =
+    {
+        Texture = TextureCube4'/Game/Aki/Character/Role/CommonTexture/CharacterCubeMaps/T_Env_03_CUBE.T_Env_03_CUBE'
+        Name = PBRCubeMap
+        Group = None
+    }
+    CollectedTextureParameters[13] =
+    {
+        Texture = Texture2D'/Game/Aki/Character/Role/CommonTexture/Monster/CommonNoise.CommonNoise'
+        Name = CommonNoiseMap
+        Group = None
+    }
+    CollectedTextureParameters[14] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+        Name = FlowMap
+        Group = None
+    }
+    CollectedTextureParameters[15] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = ThirdTex
+        Group = None
+    }
+    CollectedTextureParameters[16] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_Linear_D.T_DefaultColorBlack_Linear_D'
+        Name = TypeMask
+        Group = None
+    }
+    CollectedTextureParameters[17] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskWhite_M.T_DefaultMaskWhite_M'
+        Name = AOmap
+        Group = None
+    }
+    CollectedTextureParameters[18] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = SecondTex
+        Group = None
+    }
+    CollectedTextureParameters[19] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Second_RGB
+        Group = None
+    }
+    CollectedTextureParameters[20] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+        Name = Random
+        Group = None
+    }
+}
+CollectedScalarParameters[152] =
+{
+    CollectedScalarParameters[0] = { Value=0.8, Name=Min, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=AOMaskPow, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=ShadowUpDown, Group=None }
+    CollectedScalarParameters[3] = { Value=0.3, Name=SDFRoughnessInt, Group=None }
+    CollectedScalarParameters[4] = { Value=0.6, Name=Roughness, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Fresnel_LeftRight, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=OutLineLightWeightMax, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=SDFCircleScale, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=SparkIntensity, Group=None }
+    CollectedScalarParameters[9] = { Value=4.2, Name=Wind Noise, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=ShowMask, Group=None }
+    CollectedScalarParameters[11] = { Value=2, Name=BreatheStrength, Group=None }
+    CollectedScalarParameters[12] = { Value=0.1, Name=ToonRimWidth, Group=None }
+    CollectedScalarParameters[13] = { Value=2, Name=Exp, Group=None }
+    CollectedScalarParameters[14] = { Value=0.5, Name=E_Rim_RimRange, Group=None }
+    CollectedScalarParameters[15] = { Value=0.3, Name=Contract, Group=None }
+    CollectedScalarParameters[16] = { Value=0.5, Name=BreathePropotion, Group=None }
+    CollectedScalarParameters[17] = { Value=1.1, Name=Tree Sway Speed, Group=None }
+    CollectedScalarParameters[18] =
+    {
+        Value = 0.25
+        Name = SpecularShadowIntensity
+        Group = None
+    }
+    CollectedScalarParameters[19] =
+    {
+        Value = 0
+        Name = UseLightOffset_Pitch_DYN
+        Group = None
+    }
+    CollectedScalarParameters[20] = { Value=1.2, Name=E_Dither_DitherValue, Group=None }
+    CollectedScalarParameters[21] = { Value=1, Name=PBRCubeMap_Test, Group=None }
+    CollectedScalarParameters[22] = { Value=1, Name=E_Tex_MaskRange, Group=None }
+    CollectedScalarParameters[23] = { Value=1, Name=SDFCircleScaleY, Group=None }
+    CollectedScalarParameters[24] = { Value=0.6, Name=SDFMetallicInt, Group=None }
+    CollectedScalarParameters[25] = { Value=5, Name=SparkTiling, Group=None }
+    CollectedScalarParameters[26] = { Value=1, Name=SolidShadowView, Group=None }
+    CollectedScalarParameters[27] = { Value=0.2, Name=SpecularRange, Group=None }
+    CollectedScalarParameters[28] = { Value=1, Name=FurTexTiling, Group=None }
+    CollectedScalarParameters[29] = { Value=0.2, Name=RimRange, Group=None }
+    CollectedScalarParameters[30] = { Value=0, Name=LightOffset_Yaw, Group=None }
+    CollectedScalarParameters[31] = { Value=0.35, Name=Metalllic, Group=None }
+    CollectedScalarParameters[32] = { Value=0, Name=RootPosition, Group=None }
+    CollectedScalarParameters[33] = { Value=0, Name=FresnelRim_Smooth, Group=None }
+    CollectedScalarParameters[34] = { Value=0, Name=Fresnel_RimFraction, Group=None }
+    CollectedScalarParameters[35] = { Value=0.1, Name=Distortion, Group=None }
+    CollectedScalarParameters[36] = { Value=0, Name=E_Rim_UseRim, Group=None }
+    CollectedScalarParameters[37] = { Value=1, Name=PBRRate, Group=None }
+    CollectedScalarParameters[38] = { Value=0.5, Name=SDFCirclePositionX, Group=None }
+    CollectedScalarParameters[39] = { Value=0, Name=SDFCircleWidth, Group=None }
+    CollectedScalarParameters[40] = { Value=1, Name=E_Rim_Intensity, Group=None }
+    CollectedScalarParameters[41] = { Value=0, Name=Second_HeightRadio, Group=None }
+    CollectedScalarParameters[42] = { Value=4, Name=Fresnel_RimRange, Group=None }
+    CollectedScalarParameters[43] = { Value=1, Name=SolidShadowStrength, Group=None }
+    CollectedScalarParameters[44] = { Value=0.3, Name=RimWidth, Group=None }
+    CollectedScalarParameters[45] = { Value=1, Name=AOScale, Group=None }
+    CollectedScalarParameters[46] = { Value=0.34, Name=Leave Wind Weight, Group=None }
+    CollectedScalarParameters[47] = { Value=1, Name=DefaultSkinFactor, Group=None }
+    CollectedScalarParameters[48] =
+    {
+        Value = 200
+        Name = E_Dither_SphereRadiusFar
+        Group = None
+    }
+    CollectedScalarParameters[49] = { Value=1, Name=Alpha, Group=None }
+    CollectedScalarParameters[50] = { Value=0.25, Name=Fresnel_Hard, Group=None }
+    CollectedScalarParameters[51] = { Value=0, Name=E_Tex_UseTex, Group=None }
+    CollectedScalarParameters[52] = { Value=5, Name=SparkSpeed, Group=None }
+    CollectedScalarParameters[53] = { Value=5, Name=E_Dissolve_Smooth, Group=None }
+    CollectedScalarParameters[54] = { Value=1, Name=SparkPower, Group=None }
+    CollectedScalarParameters[55] = { Value=0, Name=E_Dissolve_UseDissolve, Group=None }
+    CollectedScalarParameters[56] = { Value=0, Name=LightOffset_Pitch, Group=None }
+    CollectedScalarParameters[57] = { Value=1, Name=E_Emission_Intensity, Group=None }
+    CollectedScalarParameters[58] = { Value=0, Name=SDFTimeSpeed, Group=None }
+    CollectedScalarParameters[59] = { Value=1, Name=PBRRateIntensity, Group=None }
+    CollectedScalarParameters[60] = { Value=1, Name=Tiling, Group=None }
+    CollectedScalarParameters[61] = { Value=1, Name=Main_EmissionPower, Group=None }
+    CollectedScalarParameters[62] = { Value=0, Name=FresnelRim_Reverse, Group=None }
+    CollectedScalarParameters[63] = { Value=0, Name=E_Emission_UseTex, Group=None }
+    CollectedScalarParameters[64] =
+    {
+        Value = 0.9
+        Name = EmissionBreathThreshold
+        Group = None
+    }
+    CollectedScalarParameters[65] = { Value=1, Name=EdgeEnvBRDFIntensity, Group=None }
+    CollectedScalarParameters[66] =
+    {
+        Value = 1.2
+        Name = E_Dither_DitherValue2
+        Group = None
+    }
+    CollectedScalarParameters[67] = { Value=0, Name=E_Dissolve_Progress, Group=None }
+    CollectedScalarParameters[68] = { Value=1, Name=RoughnessIntensity, Group=None }
+    CollectedScalarParameters[69] = { Value=0, Name=ShadowOffset, Group=None }
+    CollectedScalarParameters[70] = { Value=0.5, Name=ToonShadowRange, Group=None }
+    CollectedScalarParameters[71] = { Value=0, Name=FaceLightYaw, Group=None }
+    CollectedScalarParameters[72] = { Value=1, Name=RootScale, Group=None }
+    CollectedScalarParameters[73] = { Value=0, Name=RandomIntensity, Group=None }
+    CollectedScalarParameters[74] = { Value=1, Name=E_Rim_UseTex, Group=None }
+    CollectedScalarParameters[75] = { Value=0, Name=NoiseBlend, Group=None }
+    CollectedScalarParameters[76] = { Value=0, Name=MaskRoundInside, Group=None }
+    CollectedScalarParameters[77] = { Value=0, Name=BreatheFrequency, Group=None }
+    CollectedScalarParameters[78] = { Value=1.1, Name=E_Dither_CapsuleHard, Group=None }
+    CollectedScalarParameters[79] = { Value=1.5, Name=MaskRound, Group=None }
+    CollectedScalarParameters[80] = { Value=0, Name=UseInvertSpecular, Group=None }
+    CollectedScalarParameters[81] =
+    {
+        Value = 0
+        Name = E_Dither_UseCapsuleDither
+        Group = None
+    }
+    CollectedScalarParameters[82] = { Value=1, Name=NoiseStrength, Group=None }
+    CollectedScalarParameters[83] = { Value=0, Name=Effect_Progress, Group=None }
+    CollectedScalarParameters[84] = { Value=1, Name=AO, Group=None }
+    CollectedScalarParameters[85] = { Value=0, Name=CustomLightDir, Group=None }
+    CollectedScalarParameters[86] = { Value=1, Name=SparkTexIntensity, Group=None }
+    CollectedScalarParameters[87] = { Value=0, Name=Param, Group=None }
+    CollectedScalarParameters[88] = { Value=0.015, Name=Tree Sway Amount, Group=None }
+    CollectedScalarParameters[89] =
+    {
+        Value = 0.5
+        Name = OutLineLightWeightMin
+        Group = None
+    }
+    CollectedScalarParameters[90] = { Value=1, Name=Max, Group=None }
+    CollectedScalarParameters[91] = { Value=0, Name=Second_Height, Group=None }
+    CollectedScalarParameters[92] = { Value=0.015, Name=ShadowRange, Group=None }
+    CollectedScalarParameters[93] = { Value=0.5, Name=Fresnel_NormalLerp, Group=None }
+    CollectedScalarParameters[94] = { Value=0, Name=SecondTex_SwitchToUV3, Group=None }
+    CollectedScalarParameters[95] = { Value=0.5, Name=SDFCirclePositionY, Group=None }
+    CollectedScalarParameters[96] = { Value=1, Name=AOIntensity, Group=None }
+    CollectedScalarParameters[97] =
+    {
+        Value = 0.05
+        Name = PBRHardSpeSmooth_Test
+        Group = None
+    }
+    CollectedScalarParameters[98] =
+    {
+        Value = 100
+        Name = E_Dither_CapsuleRadius
+        Group = None
+    }
+    CollectedScalarParameters[99] = { Value=5, Name=FresnelRim_RimRange, Group=None }
+    CollectedScalarParameters[100] = { Value=1, Name=SDFCircleScaleX, Group=None }
+    CollectedScalarParameters[101] =
+    {
+        Value = 0
+        Name = Second_UseObjectScreenUV
+        Group = None
+    }
+    CollectedScalarParameters[102] = { Value=1, Name=UseNdL, Group=None }
+    CollectedScalarParameters[103] = { Value=1, Name=Exp_1, Group=None }
+    CollectedScalarParameters[104] =
+    {
+        Value = 0.2
+        Name = FlowEffectEdge_Strength
+        Group = None
+    }
+    CollectedScalarParameters[105] =
+    {
+        Value = 0
+        Name = SpecularTex_SwitchToUV3
+        Group = None
+    }
+    CollectedScalarParameters[106] =
+    {
+        Value = 0.1
+        Name = E_Dither_SphereFarScale
+        Group = None
+    }
+    CollectedScalarParameters[107] = { Value=1, Name=NormalStrength, Group=None }
+    CollectedScalarParameters[108] = { Value=0, Name=ColorOffsetRB, Group=None }
+    CollectedScalarParameters[109] = { Value=0, Name=E_Tex_UseScreenUV, Group=None }
+    CollectedScalarParameters[110] = { Value=0, Name=E_Dither_UseDither, Group=None }
+    CollectedScalarParameters[111] = { Value=1, Name=SDFCircleIntensity, Group=None }
+    CollectedScalarParameters[112] = { Value=4, Name=Fresnel_RimIntensity, Group=None }
+    CollectedScalarParameters[113] = { Value=100, Name=E_Dissolve_Multi, Group=None }
+    CollectedScalarParameters[114] = { Value=1, Name=BaseColorRound, Group=None }
+    CollectedScalarParameters[115] = { Value=0, Name=E_Tex_UseMask, Group=None }
+    CollectedScalarParameters[116] = { Value=1, Name=PolarTilingMax, Group=None }
+    CollectedScalarParameters[117] = { Value=0, Name=ThirdTex_SwitchToUV3, Group=None }
+    CollectedScalarParameters[118] = { Value=0, Name=MatCapCorrect, Group=None }
+    CollectedScalarParameters[119] = { Value=0, Name=UseUpAndDown, Group=None }
+    CollectedScalarParameters[120] = { Value=10, Name=ToonSpecularShiness, Group=None }
+    CollectedScalarParameters[121] = { Value=0, Name=E_Tex_UseVCMask_Set, Group=None }
+    CollectedScalarParameters[122] = { Value=0, Name=UseLightOffset_Yaw_DYN, Group=None }
+    CollectedScalarParameters[123] =
+    {
+        Value = 0.7
+        Name = E_Dither_SphereNearScale
+        Group = None
+    }
+    CollectedScalarParameters[124] = { Value=0, Name=MainTex_SwitchToUV3, Group=None }
+    CollectedScalarParameters[125] =
+    {
+        Value = 1
+        Name = LightPitch(False=30,True=45)_DYN
+        Group = None
+    }
+    CollectedScalarParameters[126] =
+    {
+        Value = 0.8
+        Name = SolidShadowSaturation
+        Group = None
+    }
+    CollectedScalarParameters[127] =
+    {
+        Value = 0.15
+        Name = Second_NoiseStrength
+        Group = None
+    }
+    CollectedScalarParameters[128] = { Value=0.7, Name=FurNormalStrength, Group=None }
+    CollectedScalarParameters[129] = { Value=0.9, Name=SolidShadowThreshold, Group=None }
+    CollectedScalarParameters[130] = { Value=1, Name=FurScale, Group=None }
+    CollectedScalarParameters[131] = { Value=0.14, Name=Leave Wind Strenght, Group=None }
+    CollectedScalarParameters[132] = { Value=1, Name=EmissionStrength, Group=None }
+    CollectedScalarParameters[133] = { Value=2, Name=Speed, Group=None }
+    CollectedScalarParameters[134] = { Value=1, Name=RampScale, Group=None }
+    CollectedScalarParameters[135] = { Value=1, Name=MetallicIntensity, Group=None }
+    CollectedScalarParameters[136] = { Value=0, Name=E_Tex_Rotation, Group=None }
+    CollectedScalarParameters[137] = { Value=1, Name=FurLength, Group=None }
+    CollectedScalarParameters[138] = { Value=0, Name=Custom0(Yaw), Group=None }
+    CollectedScalarParameters[139] = { Value=0, Name=Noise_UseScreenUV, Group=None }
+    CollectedScalarParameters[140] = { Value=1, Name=RandomPosition, Group=None }
+    CollectedScalarParameters[141] = { Value=5, Name=FlowSpeed, Group=None }
+    CollectedScalarParameters[142] =
+    {
+        Value = 2000
+        Name = E_Dither_SphereRadiusNear
+        Group = None
+    }
+    CollectedScalarParameters[143] = { Value=0.02, Name=SDFSmoothness, Group=None }
+    CollectedScalarParameters[144] = { Value=0, Name=SDFPitchPosition, Group=None }
+    CollectedScalarParameters[145] = { Value=0, Name=Second_UseScreenUV, Group=None }
+    CollectedScalarParameters[146] = { Value=0.2, Name=RimIntensity, Group=None }
+    CollectedScalarParameters[147] = { Value=0, Name=SDFNormalInt, Group=None }
+    CollectedScalarParameters[148] = { Value=0, Name=E_Dither_UseDither2, Group=None }
+    CollectedScalarParameters[149] = { Value=1, Name=SpecularIntensity, Group=None }
+    CollectedScalarParameters[150] =
+    {
+        Value = 0.9
+        Name = PBRHardSpecWidth_Test
+        Group = None
+    }
+    CollectedScalarParameters[151] = { Value=0, Name=UseFaceLightYaw, Group=None }
+}
+CollectedVectorParameters[56] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1.08, B=0.34, A=0 }
+        Name = HSLAdjustment
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = NoiseOffsetSpeed
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = PBRSpecularColor_Test
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Dissolve_Emission
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = EffectMaskChannel_Vector
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = MainTex_UV
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = FlowColor
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = ToonSpecularColor
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = NoiseTilingShort
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = MainTexColorTint
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Tex_Speed
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = ThirdTex_UV
+        Group = None
+    }
+    CollectedVectorParameters[12] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = NoiseUV
+        Group = None
+    }
+    CollectedVectorParameters[13] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = E_Rim_RimColor
+        Group = None
+    }
+    CollectedVectorParameters[14] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = PBRCubemapColor
+        Group = None
+    }
+    CollectedVectorParameters[15] =
+    {
+        Value = { R=0, G=0, B=1, A=1 }
+        Name = Second_ScreenObjectUV
+        Group = None
+    }
+    CollectedVectorParameters[16] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = E_Tex_UVSwitch
+        Group = None
+    }
+    CollectedVectorParameters[17] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = WorldOffsetSpeed
+        Group = None
+    }
+    CollectedVectorParameters[18] =
+    {
+        Value = { R=1, G=0, B=0, A=1 }
+        Name = FresnelRim_RimColor
+        Group = None
+    }
+    CollectedVectorParameters[19] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = E_Tex_ScaleAndOffset
+        Group = None
+    }
+    CollectedVectorParameters[20] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Second_ColorTint
+        Group = None
+    }
+    CollectedVectorParameters[21] =
+    {
+        Value = { R=0.2125, G=0.142552, B=0.142552, A=1 }
+        Name = BaseColorOutline
+        Group = None
+    }
+    CollectedVectorParameters[22] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = WorldOffsetOffsetIntensity
+        Group = None
+    }
+    CollectedVectorParameters[23] =
+    {
+        Value = { R=0, G=0, B=100, A=1 }
+        Name = ActorPosition
+        Group = None
+    }
+    CollectedVectorParameters[24] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = EmissionColor
+        Group = None
+    }
+    CollectedVectorParameters[25] =
+    {
+        Value = { R=0.113053, G=0.164842, B=1, A=1 }
+        Name = SDFColor
+        Group = None
+    }
+    CollectedVectorParameters[26] =
+    {
+        Value = { R=0.5, G=0.5, B=0.5, A=0 }
+        Name = PBRIndirectColor
+        Group = None
+    }
+    CollectedVectorParameters[27] =
+    {
+        Value = { R=0.130136, G=0.135633, B=0.147027, A=1 }
+        Name = Fresnel_RimColor
+        Group = None
+    }
+    CollectedVectorParameters[28] =
+    {
+        Value = { R=0.5, G=0.5, B=0.5, A=0 }
+        Name = ShadowColor
+        Group = None
+    }
+    CollectedVectorParameters[29] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Second_UV
+        Group = None
+    }
+    CollectedVectorParameters[30] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = E_Rim_Channel
+        Group = None
+    }
+    CollectedVectorParameters[31] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Second_Refine
+        Group = None
+    }
+    CollectedVectorParameters[32] =
+    {
+        Value = { R=0.21875, G=0.21875, B=0.21875, A=1 }
+        Name = AOColor
+        Group = None
+    }
+    CollectedVectorParameters[33] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = SecondTex_UVSwitch
+        Group = None
+    }
+    CollectedVectorParameters[34] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Dither_Capsule_ExtremeEnd
+        Group = None
+    }
+    CollectedVectorParameters[35] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = E_Dissolve_Channel
+        Group = None
+    }
+    CollectedVectorParameters[36] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = NoiseOffsetSpeedShort
+        Group = None
+    }
+    CollectedVectorParameters[37] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = SecondTex_ColorTint
+        Group = None
+    }
+    CollectedVectorParameters[38] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = NoiseOffsetIntensityShort
+        Group = None
+    }
+    CollectedVectorParameters[39] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = ThirdTex_ColorTint
+        Group = None
+    }
+    CollectedVectorParameters[40] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = NoiseOffsetIntensity
+        Group = None
+    }
+    CollectedVectorParameters[41] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = Noise_UVSwitch
+        Group = None
+    }
+    CollectedVectorParameters[42] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = NoiseTiling
+        Group = None
+    }
+    CollectedVectorParameters[43] =
+    {
+        Value = { R=0.5, G=0.228081, B=0.033854, A=0 }
+        Name = SkinSubsurfaceColor
+        Group = None
+    }
+    CollectedVectorParameters[44] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = SecondTex_UV
+        Group = None
+    }
+    CollectedVectorParameters[45] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = BaseColor
+        Group = None
+    }
+    CollectedVectorParameters[46] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = YBasis
+        Group = None
+    }
+    CollectedVectorParameters[47] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = XBasis
+        Group = None
+    }
+    CollectedVectorParameters[48] =
+    {
+        Value = { R=0.2125, G=0.142552, B=0.142552, A=1 }
+        Name = BaseColorInner
+        Group = None
+    }
+    CollectedVectorParameters[49] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = E_Tex_Color
+        Group = None
+    }
+    CollectedVectorParameters[50] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = ThirdLayer_MaskRefine
+        Group = None
+    }
+    CollectedVectorParameters[51] =
+    {
+        Value = { R=0.022971, G=0.024178, B=0.065, A=0.1 }
+        Name = Wind Seed
+        Group = None
+    }
+    CollectedVectorParameters[52] =
+    {
+        Value = { R=0.041, G=0.044132, B=0.045, A=0.486239 }
+        Name = Wind Seed 2
+        Group = None
+    }
+    CollectedVectorParameters[53] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = ZBasis
+        Group = None
+    }
+    CollectedVectorParameters[54] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = SecondLayer_MaskRefine
+        Group = None
+    }
+    CollectedVectorParameters[55] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Emission_Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultColorWhite_D
+    }
+}

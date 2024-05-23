@@ -1,0 +1,232 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[22] =
+                {
+                    ParameterInfos[0] = { Name=DrawProbability }
+                    ParameterInfos[1] = { Name=RotateSpeed }
+                    ParameterInfos[2] = { Name=AlphaNoiseSize }
+                    ParameterInfos[3] = { Name=AlphaCull }
+                    ParameterInfos[4] = { Name=MainLightEmissionIntensity }
+                    ParameterInfos[5] = { Name=Emissive }
+                    ParameterInfos[6] = { Name=OverrideEmissive }
+                    ParameterInfos[7] = { Name=ExposeSize }
+                    ParameterInfos[8] = { Name=NearCullSmooth }
+                    ParameterInfos[9] = { Name=EmissiveOverride }
+                    ParameterInfos[10] = { Name=NearCullDistance }
+                    ParameterInfos[11] = { Name=FarAlphaScale }
+                    ParameterInfos[12] = { Name=TexNoiseSize }
+                    ParameterInfos[13] = { Name=BaseAlpha }
+                    ParameterInfos[14] = { Name=UseHeightMap }
+                    ParameterInfos[15] = { Name=FarDistance }
+                    ParameterInfos[16] = { Name=RainVectorFix }
+                    ParameterInfos[17] = { Name=AlphaPow }
+                    ParameterInfos[18] = { Name=ExposePower }
+                    ParameterInfos[19] = { Name=MaskSize }
+                    ParameterInfos[20] = { Name=AlphaNoisePow }
+                    ParameterInfos[21] = { Name=ExposeDistance }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=TargetSize }
+                    ParameterInfos[1] = { Name=UpVector }
+                    ParameterInfos[2] = { Name=AlphaNoiseUVScaleSpeed }
+                    ParameterInfos[3] = { Name=EmissionAddOverride }
+                    ParameterInfos[4] = { Name=EmissionAdd }
+                    ParameterInfos[5] = { Name=SourceSize }
+                    ParameterInfos[6] = { Name=BaseColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=HeightMapTexture }
+                    ParameterInfos[1] = { Name=AlphaNoisText }
+                    ParameterInfos[2] = { Name=Main }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[22] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 0.1
+            ScalarValues[2] = 0
+            ScalarValues[3] = 0
+            ScalarValues[4] = 1
+            ScalarValues[5] = 0
+            ScalarValues[6] = 0
+            ScalarValues[7] = 0
+            ScalarValues[8] = 0
+            ScalarValues[9] = 0
+            ScalarValues[10] = 0
+            ScalarValues[11] = 0.3
+            ScalarValues[12] = 0
+            ScalarValues[13] = 1
+            ScalarValues[14] = 0
+            ScalarValues[15] = 5000
+            ScalarValues[16] = 0
+            ScalarValues[17] = 1
+            ScalarValues[18] = 0
+            ScalarValues[19] = 0
+            ScalarValues[20] = 0
+            ScalarValues[21] = 0
+        }
+        VectorValues[7] =
+        {
+            VectorValues[0] = { R=8.7, G=43, B=0, A=0 }
+            VectorValues[1] = { R=0, G=0, B=1, A=0 }
+            VectorValues[2] = { R=0, G=0, B=0, A=0 }
+            VectorValues[3] = { R=0, G=0, B=0, A=1 }
+            VectorValues[4] = { R=0, G=0, B=0, A=1 }
+            VectorValues[5] = { R=-10, G=10, B=0, A=0 }
+            VectorValues[6] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+            TextureValues[1] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        ReferencedTextures[1] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+        Name = HeightMapTexture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        Name = AlphaNoisText
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Main
+        Group = None
+    }
+}
+CollectedScalarParameters[22] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=DrawProbability, Group=None }
+    CollectedScalarParameters[1] = { Value=0.1, Name=RotateSpeed, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=AlphaNoiseSize, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=AlphaCull, Group=None }
+    CollectedScalarParameters[4] =
+    {
+        Value = 1
+        Name = MainLightEmissionIntensity
+        Group = None
+    }
+    CollectedScalarParameters[5] = { Value=0, Name=Emissive, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=OverrideEmissive, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=ExposeSize, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=NearCullSmooth, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=EmissiveOverride, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=NearCullDistance, Group=None }
+    CollectedScalarParameters[11] = { Value=0.3, Name=FarAlphaScale, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=TexNoiseSize, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=BaseAlpha, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=UseHeightMap, Group=None }
+    CollectedScalarParameters[15] = { Value=5000, Name=FarDistance, Group=None }
+    CollectedScalarParameters[16] = { Value=0, Name=RainVectorFix, Group=None }
+    CollectedScalarParameters[17] = { Value=1, Name=AlphaPow, Group=None }
+    CollectedScalarParameters[18] = { Value=0, Name=ExposePower, Group=None }
+    CollectedScalarParameters[19] = { Value=0, Name=MaskSize, Group=None }
+    CollectedScalarParameters[20] = { Value=0, Name=AlphaNoisePow, Group=None }
+    CollectedScalarParameters[21] = { Value=0, Name=ExposeDistance, Group=None }
+}
+CollectedVectorParameters[7] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=8.7, G=43, B=0, A=0 }
+        Name = TargetSize
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=1, A=0 }
+        Name = UpVector
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = AlphaNoiseUVScaleSpeed
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = EmissionAddOverride
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = EmissionAdd
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=-10, G=10, B=0, A=0 }
+        Name = SourceSize
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = BaseColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultColorWhite_Linear_D
+    }
+}

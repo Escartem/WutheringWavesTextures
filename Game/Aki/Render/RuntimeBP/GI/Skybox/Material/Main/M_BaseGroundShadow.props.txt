@@ -1,0 +1,167 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/CloudLayer/T_CloudsBig_01.T_CloudsBig_01'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[14] =
+                {
+                    ParameterInfos[0] = { Name=CloudHardness2 }
+                    ParameterInfos[1] = { Name=CloudsDistortion }
+                    ParameterInfos[2] = { Name=LayerPhase }
+                    ParameterInfos[3] = { Name=CloudsHorizonDensity }
+                    ParameterInfos[4] = { Name=CloudsShadowSize }
+                    ParameterInfos[5] = { Name=CloudHardness1 }
+                    ParameterInfos[6] = { Name=ShadowAmount }
+                    ParameterInfos[7] = { Name=MoonScattering }
+                    ParameterInfos[8] = { Name=CloudsFluffy }
+                    ParameterInfos[9] = { Name=MoonClouds }
+                    ParameterInfos[10] = { Name=CloudsHorizon }
+                    ParameterInfos[11] = { Name=LightningScattering }
+                    ParameterInfos[12] = { Name=LightningClouds }
+                    ParameterInfos[13] = { Name=Layer2Phase }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=UV2Offset }
+                    ParameterInfos[1] = { Name=CloudsLowerColor }
+                    ParameterInfos[2] = { Name=CloudsMultilayeredColor }
+                    ParameterInfos[3] = { Name=CloudsUpperColor }
+                    ParameterInfos[4] = { Name=SunColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=CloudsTexture1 }
+                    ParameterInfos[1] = { Name=CloudsTexture2 }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[14] =
+        {
+            ScalarValues[0] = 2.8
+            ScalarValues[1] = 0.7
+            ScalarValues[2] = 0
+            ScalarValues[3] = 0.5
+            ScalarValues[4] = 0.2
+            ScalarValues[5] = 6
+            ScalarValues[6] = 0
+            ScalarValues[7] = 1
+            ScalarValues[8] = 0
+            ScalarValues[9] = 1
+            ScalarValues[10] = 0.13
+            ScalarValues[11] = 1
+            ScalarValues[12] = 1
+            ScalarValues[13] = 0
+        }
+        VectorValues[5] =
+        {
+            VectorValues[0] = { R=0.001, G=-0.002, B=-0.0013, A=0.0024 }
+            VectorValues[1] = { R=0.253193, G=0.261468, B=0.316667, A=0.5 }
+            VectorValues[2] = { R=1.1, G=1.1, B=1.1, A=0.1 }
+            VectorValues[3] = { R=1.5, G=0.5, B=0, A=0 }
+            VectorValues[4] = { R=1, G=0.7, B=0.5, A=0.15 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/CloudLayer/T_CloudsBig_01.T_CloudsBig_01'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/CloudLayer/T_CloudsBig_01.T_CloudsBig_01'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/CloudLayer/T_CloudsBig_01.T_CloudsBig_01'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/GI/CloudLayer/T_CloudsBig_01.T_CloudsBig_01'
+        Name = CloudsTexture1
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/GI/CloudLayer/T_CloudsBig_01.T_CloudsBig_01'
+        Name = CloudsTexture2
+        Group = None
+    }
+}
+CollectedScalarParameters[14] =
+{
+    CollectedScalarParameters[0] = { Value=2.8, Name=CloudHardness2, Group=None }
+    CollectedScalarParameters[1] = { Value=0.7, Name=CloudsDistortion, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=LayerPhase, Group=None }
+    CollectedScalarParameters[3] = { Value=0.5, Name=CloudsHorizonDensity, Group=None }
+    CollectedScalarParameters[4] = { Value=0.2, Name=CloudsShadowSize, Group=None }
+    CollectedScalarParameters[5] = { Value=6, Name=CloudHardness1, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=ShadowAmount, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=MoonScattering, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=CloudsFluffy, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=MoonClouds, Group=None }
+    CollectedScalarParameters[10] = { Value=0.13, Name=CloudsHorizon, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=LightningScattering, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=LightningClouds, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=Layer2Phase, Group=None }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.001, G=-0.002, B=-0.0013, A=0.0024 }
+        Name = UV2Offset
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.253193, G=0.261468, B=0.316667, A=0.5 }
+        Name = CloudsLowerColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1.1, G=1.1, B=1.1, A=0.1 }
+        Name = CloudsMultilayeredColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1.5, G=0.5, B=0, A=0 }
+        Name = CloudsUpperColor
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=0.7, B=0.5, A=0.15 }
+        Name = SunColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

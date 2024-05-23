@@ -1,0 +1,260 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_Default_SceneMask_M.T_Default_SceneMask_M'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise_M.T_Foliage_Noise_M'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[25] =
+                {
+                    ParameterInfos[0] = { Name=TimeLength }
+                    ParameterInfos[1] = { Name=GlobalTimeHourForSequence }
+                    ParameterInfos[2] = { Name=Fly Wind Speed }
+                    ParameterInfos[3] = { Name=DynamicOffset }
+                    ParameterInfos[4] = { Name=BaseRoughnessIntensity }
+                    ParameterInfos[5] = { Name=SwitchAuto }
+                    ParameterInfos[6] = { Name=Fly Wind Intensty }
+                    ParameterInfos[7] = { Name=BrightLenght }
+                    ParameterInfos[8] = { Name=UseBaseColorAOrVertexColorR }
+                    ParameterInfos[9] = { Name=DynamicStartHour }
+                    ParameterInfos[10] = { Name=Base Layer UV Index }
+                    ParameterInfos[11] = { Name=VA Vertex Intensty }
+                    ParameterInfos[12] = { Name=Base Layer UVS - U Tiling }
+                    ParameterInfos[13] = { Name=AoIntensity }
+                    ParameterInfos[14] = { Name=BaseMetalIntensity }
+                    ParameterInfos[15] = { Name=LP_Hardness }
+                    ParameterInfos[16] = { Name=GlobalTimeMinutesForSequence }
+                    ParameterInfos[17] = { Name=Base Layer UVS - V Tiling }
+                    ParameterInfos[18] = { Name=FlickerTime }
+                    ParameterInfos[19] = { Name=WindPowerUVScale }
+                    ParameterInfos[20] = { Name=LP_Radius }
+                    ParameterInfos[21] = { Name=WindPowerUVSpeed }
+                    ParameterInfos[22] = { Name=UseWholeDayEmission }
+                    ParameterInfos[23] = { Name=ViewTime }
+                    ParameterInfos[24] = { Name=Swing Wind Intensty }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=BasColorTint }
+                    ParameterInfos[1] = { Name=LP_Offset }
+                    ParameterInfos[2] = { Name=EmissionColor }
+                    ParameterInfos[3] = { Name=LP_Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=BaseDiffTextureArray }
+                    ParameterInfos[1] = { Name=BaseMaskTextureArray }
+                    ParameterInfos[2] = { Name=BaseNormalTextureArray }
+                    ParameterInfos[3] = { Name=BaseNormalTexture }
+                    ParameterInfos[4] = { Name=BaseDiffTexture }
+                    ParameterInfos[5] = { Name=BaseMaskTexture }
+                    ParameterInfos[6] = { Name=WindPowerTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[25] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 0
+            ScalarValues[2] = 0.2
+            ScalarValues[3] = 0
+            ScalarValues[4] = 1
+            ScalarValues[5] = 0
+            ScalarValues[6] = 4
+            ScalarValues[7] = 0.1
+            ScalarValues[8] = 0
+            ScalarValues[9] = -1
+            ScalarValues[10] = 0
+            ScalarValues[11] = 0
+            ScalarValues[12] = 1
+            ScalarValues[13] = 1
+            ScalarValues[14] = 1
+            ScalarValues[15] = 0
+            ScalarValues[16] = 0
+            ScalarValues[17] = 1
+            ScalarValues[18] = 1
+            ScalarValues[19] = 7000
+            ScalarValues[20] = 20
+            ScalarValues[21] = -0.1
+            ScalarValues[22] = 0
+            ScalarValues[23] = 0.75
+            ScalarValues[24] = 0
+        }
+        VectorValues[4] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+            VectorValues[1] = { R=0, G=0, B=0, A=1 }
+            VectorValues[2] = { R=0, G=0, B=0, A=0 }
+            VectorValues[3] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[7] =
+        {
+            TextureValues[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+            TextureValues[4] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[5] = Texture2D'/Game/Aki/Render/Common/T_Default_SceneMask_M.T_Default_SceneMask_M'
+            TextureValues[6] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise_M.T_Foliage_Noise_M'
+        }
+    }
+    ReferencedTextures[7] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise_M.T_Foliage_Noise_M'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+        ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_Default_SceneMask_M.T_Default_SceneMask_M'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[7] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = None
+        Name = BaseDiffTextureArray
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = None
+        Name = BaseMaskTextureArray
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = None
+        Name = BaseNormalTextureArray
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+        Name = BaseNormalTexture
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = BaseDiffTexture
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_Default_SceneMask_M.T_Default_SceneMask_M'
+        Name = BaseMaskTexture
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise_M.T_Foliage_Noise_M'
+        Name = WindPowerTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[25] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=TimeLength, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0
+        Name = GlobalTimeHourForSequence
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=0.2, Name=Fly Wind Speed, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=DynamicOffset, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=BaseRoughnessIntensity, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=SwitchAuto, Group=None }
+    CollectedScalarParameters[6] = { Value=4, Name=Fly Wind Intensty, Group=None }
+    CollectedScalarParameters[7] = { Value=0.1, Name=BrightLenght, Group=None }
+    CollectedScalarParameters[8] =
+    {
+        Value = 0
+        Name = UseBaseColorAOrVertexColorR
+        Group = None
+    }
+    CollectedScalarParameters[9] = { Value=-1, Name=DynamicStartHour, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=Base Layer UV Index, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=VA Vertex Intensty, Group=None }
+    CollectedScalarParameters[12] =
+    {
+        Value = 1
+        Name = Base Layer UVS - U Tiling
+        Group = None
+    }
+    CollectedScalarParameters[13] = { Value=1, Name=AoIntensity, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=BaseMetalIntensity, Group=None }
+    CollectedScalarParameters[15] = { Value=0, Name=LP_Hardness, Group=None }
+    CollectedScalarParameters[16] =
+    {
+        Value = 0
+        Name = GlobalTimeMinutesForSequence
+        Group = None
+    }
+    CollectedScalarParameters[17] =
+    {
+        Value = 1
+        Name = Base Layer UVS - V Tiling
+        Group = None
+    }
+    CollectedScalarParameters[18] = { Value=1, Name=FlickerTime, Group=None }
+    CollectedScalarParameters[19] = { Value=7000, Name=WindPowerUVScale, Group=None }
+    CollectedScalarParameters[20] = { Value=20, Name=LP_Radius, Group=None }
+    CollectedScalarParameters[21] = { Value=-0.1, Name=WindPowerUVSpeed, Group=None }
+    CollectedScalarParameters[22] = { Value=0, Name=UseWholeDayEmission, Group=None }
+    CollectedScalarParameters[23] = { Value=0.75, Name=ViewTime, Group=None }
+    CollectedScalarParameters[24] = { Value=0, Name=Swing Wind Intensty, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = BasColorTint
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = LP_Offset
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = EmissionColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = LP_Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

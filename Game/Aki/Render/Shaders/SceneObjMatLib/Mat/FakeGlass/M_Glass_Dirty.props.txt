@@ -1,0 +1,159 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_Blur_14.T_Blur_14'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_Crystal_B_N.T_Crystal_B_N'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+    ReferencedTextures[3] = TextureCube4'/Game/Aki/Scene/Cubemaps/T_Zbudio_0011_CUBE.T_Zbudio_0011_CUBE'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[11] =
+                {
+                    ParameterInfos[0] = { Name=Dirt_Rougness }
+                    ParameterInfos[1] = { Name=Metallic }
+                    ParameterInfos[2] = { Name=Reflection weight }
+                    ParameterInfos[3] = { Name=OpacityOverride (0-1) }
+                    ParameterInfos[4] = { Name=RoughnessOverride (0-1) }
+                    ParameterInfos[5] = { Name=RefractionTexTili }
+                    ParameterInfos[6] = { Name=RefractionIntensty }
+                    ParameterInfos[7] = { Name=Uv0 Or Uv1 }
+                    ParameterInfos[8] = { Name=Opacity Tex }
+                    ParameterInfos[9] = { Name=DetailNormal_Intensity }
+                    ParameterInfos[10] = { Name=Dirt_Intensity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=DirtColor }
+                    ParameterInfos[1] = { Name=Color2 }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=ObjMask }
+                    ParameterInfos[1] = { Name=DetailNormal }
+                    ParameterInfos[2] = { Name=RFL_Cubemap }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[11] = { 0.85, 0.3, 1, 0.2, 0, 2, 1.05, 0, 1, 0, 1 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0.119792, G=0.116039, B=0.110433, A=1 }
+            VectorValues[1] = { R=0.1296, G=0.32, B=0.21309, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_Crystal_B_N.T_Crystal_B_N'
+            TextureValues[2] = TextureCube4'/Game/Aki/Scene/Cubemaps/T_Zbudio_0011_CUBE.T_Zbudio_0011_CUBE'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_Crystal_B_N.T_Crystal_B_N'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_Blur_14.T_Blur_14'
+        ReferencedTextures[3] = TextureCube4'/Game/Aki/Scene/Cubemaps/T_Zbudio_0011_CUBE.T_Zbudio_0011_CUBE'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        Name = ObjMask
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_Crystal_B_N.T_Crystal_B_N'
+        Name = DetailNormal
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = TextureCube4'/Game/Aki/Scene/Cubemaps/T_Zbudio_0011_CUBE.T_Zbudio_0011_CUBE'
+        Name = RFL_Cubemap
+        Group = None
+    }
+}
+CollectedScalarParameters[11] =
+{
+    CollectedScalarParameters[0] = { Value=0.85, Name=Dirt_Rougness, Group=None }
+    CollectedScalarParameters[1] = { Value=0.3, Name=Metallic, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Reflection weight, Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = 0.2
+        Name = OpacityOverride (0-1)
+        Group = None
+    }
+    CollectedScalarParameters[4] =
+    {
+        Value = 0
+        Name = RoughnessOverride (0-1)
+        Group = None
+    }
+    CollectedScalarParameters[5] = { Value=2, Name=RefractionTexTili, Group=None }
+    CollectedScalarParameters[6] = { Value=1.05, Name=RefractionIntensty, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=Uv0 Or Uv1, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=Opacity Tex, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=DetailNormal_Intensity, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=Dirt_Intensity, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.119792, G=0.116039, B=0.110433, A=1 }
+        Name = DirtColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.1296, G=0.32, B=0.21309, A=1 }
+        Name = Color2
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 2
+        UVChannelIndex = 0
+        TextureName = T_Blur_14
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultMaskGreen_M
+    }
+}

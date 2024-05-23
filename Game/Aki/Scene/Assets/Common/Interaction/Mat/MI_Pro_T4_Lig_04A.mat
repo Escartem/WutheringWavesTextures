@@ -1,0 +1,16 @@
+Diffuse=T4_Pro_Lig_02A_D
+Normal=T4_Pro_Lig_01A_N
+Other[0]=T4_Pro_Lig_01A_M
+Other[1]=T4_Pro_Lig_01A_D
+Other[2]=Good64x64TilingNoiseHighFreq
+Other[3]=Gradient
+Other[4]=Greyscale
+Other[5]=T_Mask_Scan_002
+Other[6]=T_Cloud_50005
+Other[7]=CommonBtnBg2
+Other[8]=T_DefaultColorBlack_Linear_D
+Other[9]=T_DefaultColorWhite_D
+Other[10]=T_DefaultMaskGreen_M
+Other[11]=T_DefaultNormal_N
+Other[12]=T_FlareNoise_M
+Other[13]=T_wide_street_02_2k_CUBE

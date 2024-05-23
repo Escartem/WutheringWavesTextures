@@ -1,0 +1,143 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_Waterfall_Foam_M.T_Waterfall_Foam_M'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/T_SkyOcean02_N.T_SkyOcean02_N'
+    ReferencedTextures[3] = TextureCube4'/Game/Aki/Scene/NewGacha/Textures/T_GachaCubeTex.T_GachaCubeTex'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[12] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=FoamAmount }
+                    ParameterInfos[2] = { Name=Refraction }
+                    ParameterInfos[3] = { Name=NormalAmount }
+                    ParameterInfos[4] = { Name=FoamDetail2Scale }
+                    ParameterInfos[5] = { Name=FoamSpeed }
+                    ParameterInfos[6] = { Name=NormalMapSpeed }
+                    ParameterInfos[7] = { Name=FoamDetail1ScaleY }
+                    ParameterInfos[8] = { Name=BaseOpacity }
+                    ParameterInfos[9] = { Name=FoamDetail1ScaleX }
+                    ParameterInfos[10] = { Name=HDRIAmount }
+                    ParameterInfos[11] = { Name=EdgeOpacity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=FoamColor }
+                    ParameterInfos[1] = { Name=BaseColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Foam }
+                    ParameterInfos[1] = { Name=NormalTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[12] =
+        {
+            ScalarValues[0] = 0.01
+            ScalarValues[1] = 0.3
+            ScalarValues[2] = 1.3
+            ScalarValues[3] = 0.05
+            ScalarValues[4] = 1
+            ScalarValues[5] = 0.07
+            ScalarValues[6] = 1
+            ScalarValues[7] = 1
+            ScalarValues[8] = 1
+            ScalarValues[9] = 1
+            ScalarValues[10] = 1.5
+            ScalarValues[11] = 0.923447
+        }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0.835299, G=0.949396, B=1, A=0 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_Waterfall_Foam_M.T_Waterfall_Foam_M'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/T_SkyOcean02_N.T_SkyOcean02_N'
+        }
+    }
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/T_SkyOcean02_N.T_SkyOcean02_N'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_Waterfall_Foam_M.T_Waterfall_Foam_M'
+        ReferencedTextures[3] = TextureCube4'/Game/Aki/Scene/NewGacha/Textures/T_GachaCubeTex.T_GachaCubeTex'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_Waterfall_Foam_M.T_Waterfall_Foam_M'
+        Name = Foam
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/T_SkyOcean02_N.T_SkyOcean02_N'
+        Name = NormalTex
+        Group = None
+    }
+}
+CollectedScalarParameters[12] =
+{
+    CollectedScalarParameters[0] = { Value=0.01, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=0.3, Name=FoamAmount, Group=None }
+    CollectedScalarParameters[2] = { Value=1.3, Name=Refraction, Group=None }
+    CollectedScalarParameters[3] = { Value=0.05, Name=NormalAmount, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=FoamDetail2Scale, Group=None }
+    CollectedScalarParameters[5] = { Value=0.07, Name=FoamSpeed, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=NormalMapSpeed, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=FoamDetail1ScaleY, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=BaseOpacity, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=FoamDetail1ScaleX, Group=None }
+    CollectedScalarParameters[10] = { Value=1.5, Name=HDRIAmount, Group=None }
+    CollectedScalarParameters[11] = { Value=0.923447, Name=EdgeOpacity, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.835299, G=0.949396, B=1, A=0 }
+        Name = FoamColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = BaseColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

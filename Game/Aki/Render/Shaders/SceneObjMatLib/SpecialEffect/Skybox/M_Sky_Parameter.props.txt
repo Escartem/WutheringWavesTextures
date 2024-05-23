@@ -1,0 +1,264 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[11] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[1] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+    ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Effect/Texture/Normal/T_Normal_Flowmap_40001.T_Normal_Flowmap_40001'
+    ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/Skybox/T_ExtremeWeather/T_flowmap.T_flowmap'
+    ReferencedTextures[5] = Texture2D'/Game/Aki/Render/Common/Skybox/T_ExtremeWeather/T_skybox_01.T_skybox_01'
+    ReferencedTextures[6] = Texture2D'/Game/Aki/Render/Common/Skybox/T_ExtremeWeather/T_skybox_01_top.T_skybox_01_top'
+    ReferencedTextures[7] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise_M.T_Foliage_Noise_M'
+    ReferencedTextures[8] = Texture2D'/Game/Aki/Render/Common/T_Noise_Stormy.T_Noise_Stormy'
+    ReferencedTextures[9] = Texture2D'/Game/Aki/Render/Common/T_WindNoise_M.T_WindNoise_M'
+    ReferencedTextures[10] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/T_Moon_02.T_Moon_02'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[13] =
+                {
+                    ParameterInfos[0] = { Name=MoonSize }
+                    ParameterInfos[1] = { Name=ProcessPow }
+                    ParameterInfos[2] = { Name=ExtremeWeatherWeight }
+                    ParameterInfos[3] = { Name=MoonPhase }
+                    ParameterInfos[4] = { Name=SkyGradientBias_Mobile }
+                    ParameterInfos[5] = { Name=Process }
+                    ParameterInfos[6] = { Name=ST_TopWidth }
+                    ParameterInfos[7] = { Name=HorizonFalloff }
+                    ParameterInfos[8] = { Name=SkyGradientBias }
+                    ParameterInfos[9] = { Name=SunSize }
+                    ParameterInfos[10] = { Name=Width }
+                    ParameterInfos[11] = { Name=MoonDiskSize }
+                    ParameterInfos[12] = { Name=SunDiskSize }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[13] =
+                {
+                    ParameterInfos[0] = { Name=MoonDiscColor }
+                    ParameterInfos[1] = { Name=ST_DomeColorTint }
+                    ParameterInfos[2] = { Name=NadirColor }
+                    ParameterInfos[3] = { Name=ST_TopColor }
+                    ParameterInfos[4] = { Name=ZenithColor }
+                    ParameterInfos[5] = { Name=SunDir }
+                    ParameterInfos[6] = { Name=SunScatterColor }
+                    ParameterInfos[7] = { Name=MoonAxesY }
+                    ParameterInfos[8] = { Name=MoonAxesZ }
+                    ParameterInfos[9] = { Name=MoonScatterColor }
+                    ParameterInfos[10] = { Name=SunDiscColor }
+                    ParameterInfos[11] = { Name=HorizonColor }
+                    ParameterInfos[12] = { Name=DistCenter }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=ST_TopMap }
+                    ParameterInfos[1] = { Name=SK_SkyMap }
+                    ParameterInfos[2] = { Name=MoonTexture }
+                    ParameterInfos[3] = { Name=SK_FlowMap }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[13] =
+        {
+            ScalarValues[0] = 0.5
+            ScalarValues[1] = 1.38027
+            ScalarValues[2] = 0
+            ScalarValues[3] = 0
+            ScalarValues[4] = 1
+            ScalarValues[5] = 0.590476
+            ScalarValues[6] = 6
+            ScalarValues[7] = 1
+            ScalarValues[8] = 0.7
+            ScalarValues[9] = 0.1
+            ScalarValues[10] = 0.15
+            ScalarValues[11] = 0.75
+            ScalarValues[12] = 0.6
+        }
+        VectorValues[13] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=0 }
+            VectorValues[1] = { R=1, G=1, B=1, A=0 }
+            VectorValues[2] = { R=0.5, G=0.5, B=0.5, A=1 }
+            VectorValues[3] = { R=2.39583, G=20, B=19.7066, A=1 }
+            VectorValues[4] = { R=0.081272, G=0.204525, B=0.557292, A=1 }
+            VectorValues[5] = { R=-0.5, G=0, B=0, A=1 }
+            VectorValues[6] = { R=3, G=0.171875, B=0.171875, A=0 }
+            VectorValues[7] = { R=0, G=1, B=0, A=0 }
+            VectorValues[8] = { R=0, G=0, B=1, A=0 }
+            VectorValues[9] = { R=0.007053, G=0.071795, B=0.104167, A=1 }
+            VectorValues[10] = { R=6, G=1.05324, B=0.46875, A=1 }
+            VectorValues[11] = { R=0.940601, G=1, B=1, A=1 }
+            VectorValues[12] = { R=0.42381, G=0.490476, B=0, A=1 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/Skybox/T_ExtremeWeather/T_skybox_01_top.T_skybox_01_top'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/Skybox/T_ExtremeWeather/T_skybox_01.T_skybox_01'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/T_Moon_02.T_Moon_02'
+            TextureValues[3] = Texture2D'/Game/Aki/Render/Common/Skybox/T_ExtremeWeather/T_flowmap.T_flowmap'
+        }
+    }
+    ReferencedTextures[12] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/T_Moon_02.T_Moon_02'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Effect/Texture/Normal/T_Normal_Flowmap_40001.T_Normal_Flowmap_40001'
+        ReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[4] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+        ReferencedTextures[5] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+        ReferencedTextures[6] = Texture2D'/Game/Aki/Render/Common/T_WindNoise_M.T_WindNoise_M'
+        ReferencedTextures[7] = Texture2D'/Game/Aki/Render/Common/Skybox/T_ExtremeWeather/T_skybox_01.T_skybox_01'
+        ReferencedTextures[8] = Texture2D'/Game/Aki/Render/Common/Skybox/T_ExtremeWeather/T_skybox_01_top.T_skybox_01_top'
+        ReferencedTextures[9] = Texture2D'/Game/Aki/Render/Common/Skybox/T_ExtremeWeather/T_flowmap.T_flowmap'
+        ReferencedTextures[10] = Texture2D'/Game/Aki/Render/Common/T_Noise_Stormy.T_Noise_Stormy'
+        ReferencedTextures[11] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise_M.T_Foliage_Noise_M'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/Skybox/T_ExtremeWeather/T_skybox_01_top.T_skybox_01_top'
+        Name = ST_TopMap
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/Skybox/T_ExtremeWeather/T_skybox_01.T_skybox_01'
+        Name = SK_SkyMap
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/T_Moon_02.T_Moon_02'
+        Name = MoonTexture
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/Skybox/T_ExtremeWeather/T_flowmap.T_flowmap'
+        Name = SK_FlowMap
+        Group = None
+    }
+}
+CollectedScalarParameters[13] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=MoonSize, Group=None }
+    CollectedScalarParameters[1] = { Value=1.38027, Name=ProcessPow, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=ExtremeWeatherWeight, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=MoonPhase, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=SkyGradientBias_Mobile, Group=None }
+    CollectedScalarParameters[5] = { Value=0.590476, Name=Process, Group=None }
+    CollectedScalarParameters[6] = { Value=6, Name=ST_TopWidth, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=HorizonFalloff, Group=None }
+    CollectedScalarParameters[8] = { Value=0.7, Name=SkyGradientBias, Group=None }
+    CollectedScalarParameters[9] = { Value=0.1, Name=SunSize, Group=None }
+    CollectedScalarParameters[10] = { Value=0.15, Name=Width, Group=None }
+    CollectedScalarParameters[11] = { Value=0.75, Name=MoonDiskSize, Group=None }
+    CollectedScalarParameters[12] = { Value=0.6, Name=SunDiskSize, Group=None }
+}
+CollectedVectorParameters[13] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = MoonDiscColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = ST_DomeColorTint
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.5, G=0.5, B=0.5, A=1 }
+        Name = NadirColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=2.39583, G=20, B=19.7066, A=1 }
+        Name = ST_TopColor
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.081272, G=0.204525, B=0.557292, A=1 }
+        Name = ZenithColor
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=-0.5, G=0, B=0, A=1 }
+        Name = SunDir
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=3, G=0.171875, B=0.171875, A=0 }
+        Name = SunScatterColor
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0, G=1, B=0, A=0 }
+        Name = MoonAxesY
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0, G=0, B=1, A=0 }
+        Name = MoonAxesZ
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=0.007053, G=0.071795, B=0.104167, A=1 }
+        Name = MoonScatterColor
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=6, G=1.05324, B=0.46875, A=1 }
+        Name = SunDiscColor
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=0.940601, G=1, B=1, A=1 }
+        Name = HorizonColor
+        Group = None
+    }
+    CollectedVectorParameters[12] =
+    {
+        Value = { R=0.42381, G=0.490476, B=0, A=1 }
+        Name = DistCenter
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,166 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Effect/Texture/Tile/T_Tile_30197.T_Tile_30197'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[19] =
+                {
+                    ParameterInfos[0] = { Name=FlameBendPow }
+                    ParameterInfos[1] = { Name=OpacityPowMax }
+                    ParameterInfos[2] = { Name=OpacityPowMin }
+                    ParameterInfos[3] = { Name=RotateSpeed }
+                    ParameterInfos[4] = { Name=FlameBendWaveSpeed }
+                    ParameterInfos[5] = { Name=VMaskBottom }
+                    ParameterInfos[6] = { Name=NoiseFalloff }
+                    ParameterInfos[7] = { Name=FlameBendWave }
+                    ParameterInfos[8] = { Name=VPow }
+                    ParameterInfos[9] = { Name=DensityPowMax }
+                    ParameterInfos[10] = { Name=VMaskPow }
+                    ParameterInfos[11] = { Name=DensityPowMin }
+                    ParameterInfos[12] = { Name=VMaskMul }
+                    ParameterInfos[13] = { Name=UMaskRange }
+                    ParameterInfos[14] = { Name=RiseSpeed }
+                    ParameterInfos[15] = { Name=FlameBendSize }
+                    ParameterInfos[16] = { Name=NoiseTexSize }
+                    ParameterInfos[17] = { Name=NoiseDistortSpeed }
+                    ParameterInfos[18] = { Name=VMaskBiasPow }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=FireSizeSampleUScaleUVSpeed }
+                    ParameterInfos[1] = { Name=UVScale }
+                    ParameterInfos[2] = { Name=NoiseTexUVScaleSpeed }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=FireSizeNoiseTex }
+                    ParameterInfos[1] = { Name=NoiseTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[19] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 0
+            ScalarValues[2] = 0
+            ScalarValues[3] = 0
+            ScalarValues[4] = 1
+            ScalarValues[5] = 0.01
+            ScalarValues[6] = 0.4
+            ScalarValues[7] = 1
+            ScalarValues[8] = 1
+            ScalarValues[9] = 0
+            ScalarValues[10] = 0
+            ScalarValues[11] = 0
+            ScalarValues[12] = 0
+            ScalarValues[13] = 0.01
+            ScalarValues[14] = 0
+            ScalarValues[15] = 1
+            ScalarValues[16] = 0
+            ScalarValues[17] = 0
+            ScalarValues[18] = 1
+        }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+            VectorValues[1] = { R=1, G=1, B=0, A=1 }
+            VectorValues[2] = { R=1, G=1, B=0, A=0 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Effect/Texture/Tile/T_Tile_30197.T_Tile_30197'
+            TextureValues[1] = Texture2D'/Game/Aki/Effect/Texture/Tile/T_Tile_30197.T_Tile_30197'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Effect/Texture/Tile/T_Tile_30197.T_Tile_30197'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Effect/Texture/Tile/T_Tile_30197.T_Tile_30197'
+        Name = FireSizeNoiseTex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Effect/Texture/Tile/T_Tile_30197.T_Tile_30197'
+        Name = NoiseTex
+        Group = None
+    }
+}
+CollectedScalarParameters[19] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=FlameBendPow, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=OpacityPowMax, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=OpacityPowMin, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=RotateSpeed, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=FlameBendWaveSpeed, Group=None }
+    CollectedScalarParameters[5] = { Value=0.01, Name=VMaskBottom, Group=None }
+    CollectedScalarParameters[6] = { Value=0.4, Name=NoiseFalloff, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=FlameBendWave, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=VPow, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=DensityPowMax, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=VMaskPow, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=DensityPowMin, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=VMaskMul, Group=None }
+    CollectedScalarParameters[13] = { Value=0.01, Name=UMaskRange, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=RiseSpeed, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=FlameBendSize, Group=None }
+    CollectedScalarParameters[16] = { Value=0, Name=NoiseTexSize, Group=None }
+    CollectedScalarParameters[17] = { Value=0, Name=NoiseDistortSpeed, Group=None }
+    CollectedScalarParameters[18] = { Value=1, Name=VMaskBiasPow, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = FireSizeSampleUScaleUVSpeed
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=0, A=1 }
+        Name = UVScale
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = NoiseTexUVScaleSpeed
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

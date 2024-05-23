@@ -1,0 +1,266 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Effect/Texture/Normal/T_Normal_011.T_Normal_011'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/Rain/T_RainGradient.T_RainGradient'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/Rain/T_RainSubTexture.T_RainSubTexture'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[28] =
+                {
+                    ParameterInfos[0] = { Name=InnerOpacity }
+                    ParameterInfos[1] = { Name=WiggleFreqMax }
+                    ParameterInfos[2] = { Name=DebugShape }
+                    ParameterInfos[3] = { Name=DebugStretch }
+                    ParameterInfos[4] = { Name=RainDropOpacityMul }
+                    ParameterInfos[5] = { Name=WiggleFreqMin }
+                    ParameterInfos[6] = { Name=RotateSpeedMax }
+                    ParameterInfos[7] = { Name=CameraDistanceMax }
+                    ParameterInfos[8] = { Name=DebugOpacity }
+                    ParameterInfos[9] = { Name=LightColorStrength }
+                    ParameterInfos[10] = { Name=OpacityMax }
+                    ParameterInfos[11] = { Name=WidthScretchScaleMin }
+                    ParameterInfos[12] = { Name=OpacityMin }
+                    ParameterInfos[13] = { Name=DepthCullFar }
+                    ParameterInfos[14] = { Name=BackOpacity }
+                    ParameterInfos[15] = { Name=WiggleSize }
+                    ParameterInfos[16] = { Name=DepthCullNear }
+                    ParameterInfos[17] = { Name=DebugInstanceRandom }
+                    ParameterInfos[18] = { Name=CameraDistanceMin }
+                    ParameterInfos[19] = { Name=Farthest }
+                    ParameterInfos[20] = { Name=OuterOpacity }
+                    ParameterInfos[21] = { Name=FarthestRange }
+                    ParameterInfos[22] = { Name=WidthScretchScaleMax }
+                    ParameterInfos[23] = { Name=RotateSpeedMin }
+                    ParameterInfos[24] = { Name=NoiseSize }
+                    ParameterInfos[25] = { Name=HighlightOpacity }
+                    ParameterInfos[26] = { Name=RainDropSize }
+                    ParameterInfos[27] = { Name=OpacityMulti }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=InnerColor }
+                    ParameterInfos[1] = { Name=MainColorTint }
+                    ParameterInfos[2] = { Name=HighlightColor }
+                    ParameterInfos[3] = { Name=NoiseUVScaleSpeed }
+                    ParameterInfos[4] = { Name=DebugVelocity }
+                    ParameterInfos[5] = { Name=AlphaChannel }
+                    ParameterInfos[6] = { Name=OuterColor }
+                    ParameterInfos[7] = { Name=LongEmissive }
+                    ParameterInfos[8] = { Name=BackColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=NoiseTexture }
+                    ParameterInfos[1] = { Name=Gradient }
+                    ParameterInfos[2] = { Name=RainDropTexture }
+                    ParameterInfos[3] = { Name=RainDropTexture2 }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[28] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 0
+            ScalarValues[2] = 0
+            ScalarValues[3] = 0
+            ScalarValues[4] = 1
+            ScalarValues[5] = 0
+            ScalarValues[6] = 1
+            ScalarValues[7] = 1000
+            ScalarValues[8] = 0
+            ScalarValues[9] = 1
+            ScalarValues[10] = 0
+            ScalarValues[11] = 0.05
+            ScalarValues[12] = 0
+            ScalarValues[13] = 50
+            ScalarValues[14] = 0
+            ScalarValues[15] = 0
+            ScalarValues[16] = 30
+            ScalarValues[17] = 0
+            ScalarValues[18] = 50
+            ScalarValues[19] = 3000
+            ScalarValues[20] = 0
+            ScalarValues[21] = 1
+            ScalarValues[22] = 0.2
+            ScalarValues[23] = 1
+            ScalarValues[24] = 0
+            ScalarValues[25] = 0
+            ScalarValues[26] = 1
+            ScalarValues[27] = 1
+        }
+        VectorValues[9] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+            VectorValues[1] = { R=1, G=1, B=1, A=1 }
+            VectorValues[2] = { R=0, G=0, B=0, A=1 }
+            VectorValues[3] = { R=0, G=0, B=0, A=0 }
+            VectorValues[4] = { R=0, G=0, B=0, A=1 }
+            VectorValues[5] = { R=0, G=0, B=0, A=1 }
+            VectorValues[6] = { R=0, G=0, B=0, A=1 }
+            VectorValues[7] = { R=0, G=0, B=0, A=1 }
+            VectorValues[8] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Effect/Texture/Normal/T_Normal_011.T_Normal_011'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/Rain/T_RainGradient.T_RainGradient'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/Rain/T_RainSubTexture.T_RainSubTexture'
+            TextureValues[3] = Texture2D'/Game/Aki/Render/Common/Rain/T_RainSubTexture.T_RainSubTexture'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/Rain/T_RainGradient.T_RainGradient'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/Rain/T_RainSubTexture.T_RainSubTexture'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Effect/Texture/Normal/T_Normal_011.T_Normal_011'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Effect/Texture/Normal/T_Normal_011.T_Normal_011'
+        Name = NoiseTexture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/Rain/T_RainGradient.T_RainGradient'
+        Name = Gradient
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/Rain/T_RainSubTexture.T_RainSubTexture'
+        Name = RainDropTexture
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/Rain/T_RainSubTexture.T_RainSubTexture'
+        Name = RainDropTexture2
+        Group = None
+    }
+}
+CollectedScalarParameters[28] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=InnerOpacity, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=WiggleFreqMax, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=DebugShape, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=DebugStretch, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=RainDropOpacityMul, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=WiggleFreqMin, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=RotateSpeedMax, Group=None }
+    CollectedScalarParameters[7] = { Value=1000, Name=CameraDistanceMax, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=DebugOpacity, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=LightColorStrength, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=OpacityMax, Group=None }
+    CollectedScalarParameters[11] =
+    {
+        Value = 0.05
+        Name = WidthScretchScaleMin
+        Group = None
+    }
+    CollectedScalarParameters[12] = { Value=0, Name=OpacityMin, Group=None }
+    CollectedScalarParameters[13] = { Value=50, Name=DepthCullFar, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=BackOpacity, Group=None }
+    CollectedScalarParameters[15] = { Value=0, Name=WiggleSize, Group=None }
+    CollectedScalarParameters[16] = { Value=30, Name=DepthCullNear, Group=None }
+    CollectedScalarParameters[17] = { Value=0, Name=DebugInstanceRandom, Group=None }
+    CollectedScalarParameters[18] = { Value=50, Name=CameraDistanceMin, Group=None }
+    CollectedScalarParameters[19] = { Value=3000, Name=Farthest, Group=None }
+    CollectedScalarParameters[20] = { Value=0, Name=OuterOpacity, Group=None }
+    CollectedScalarParameters[21] = { Value=1, Name=FarthestRange, Group=None }
+    CollectedScalarParameters[22] = { Value=0.2, Name=WidthScretchScaleMax, Group=None }
+    CollectedScalarParameters[23] = { Value=1, Name=RotateSpeedMin, Group=None }
+    CollectedScalarParameters[24] = { Value=0, Name=NoiseSize, Group=None }
+    CollectedScalarParameters[25] = { Value=0, Name=HighlightOpacity, Group=None }
+    CollectedScalarParameters[26] = { Value=1, Name=RainDropSize, Group=None }
+    CollectedScalarParameters[27] = { Value=1, Name=OpacityMulti, Group=None }
+}
+CollectedVectorParameters[9] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = InnerColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = MainColorTint
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = HighlightColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = NoiseUVScaleSpeed
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = DebugVelocity
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = AlphaChannel
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = OuterColor
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = LongEmissive
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = BackColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

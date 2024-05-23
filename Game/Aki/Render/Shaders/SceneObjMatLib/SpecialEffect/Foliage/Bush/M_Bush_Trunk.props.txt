@@ -1,0 +1,193 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_Crystal_B_M.T_Crystal_B_M'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+    ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/T_WindNoise_M.T_WindNoise_M'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[20] =
+                {
+                    ParameterInfos[0] = { Name=NoiseAnimRate }
+                    ParameterInfos[1] = { Name=Roughness }
+                    ParameterInfos[2] = { Name=Wind Noise }
+                    ParameterInfos[3] = { Name=Dis_ColorMulti }
+                    ParameterInfos[4] = { Name=Tree Sway Speed }
+                    ParameterInfos[5] = { Name=Wind_Inten }
+                    ParameterInfos[6] = { Name=Dis_Process }
+                    ParameterInfos[7] = { Name=Dis_Width }
+                    ParameterInfos[8] = { Name=Metallic }
+                    ParameterInfos[9] = { Name=Dis_Range }
+                    ParameterInfos[10] = { Name=Leave Wind Weight }
+                    ParameterInfos[11] = { Name=Impact_BendAngle }
+                    ParameterInfos[12] = { Name=Dis_BP_Use_Process }
+                    ParameterInfos[13] = { Name=Emissive intensity }
+                    ParameterInfos[14] = { Name=Tree Sway Amount }
+                    ParameterInfos[15] = { Name=Dis_Tilling }
+                    ParameterInfos[16] = { Name=Dis_BP_Process }
+                    ParameterInfos[17] = { Name=Leave Wind Strenght }
+                    ParameterInfos[18] = { Name=Wind_Speed }
+                    ParameterInfos[19] = { Name=WindTurbulence }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Emissive Color }
+                    ParameterInfos[1] = { Name=Dis_DissolveColor }
+                    ParameterInfos[2] = { Name=Wind Seed }
+                    ParameterInfos[3] = { Name=Wind Seed 2 }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Normal }
+                    ParameterInfos[1] = { Name=Mask }
+                    ParameterInfos[2] = { Name=BaseTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[20] =
+        {
+            ScalarValues[0] = 0.5
+            ScalarValues[1] = 1
+            ScalarValues[2] = 4.2
+            ScalarValues[3] = 50
+            ScalarValues[4] = 1.1
+            ScalarValues[5] = 1
+            ScalarValues[6] = 1.2
+            ScalarValues[7] = 0.937
+            ScalarValues[8] = 0
+            ScalarValues[9] = 0.3467
+            ScalarValues[10] = 0.34
+            ScalarValues[11] = 0.2
+            ScalarValues[12] = 1.2
+            ScalarValues[13] = 1
+            ScalarValues[14] = 0.015
+            ScalarValues[15] = 2
+            ScalarValues[16] = 1.2
+            ScalarValues[17] = 0.14
+            ScalarValues[18] = 0.6
+            ScalarValues[19] = 5
+        }
+        VectorValues[4] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+            VectorValues[1] = { R=0.066667, G=1, B=0, A=0 }
+            VectorValues[2] = { R=0.022971, G=0.024178, B=0.065, A=0.1 }
+            VectorValues[3] = { R=0.041, G=0.044132, B=0.045, A=0.486239 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_Crystal_B_M.T_Crystal_B_M'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        }
+    }
+    ReferencedTextures[5] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_WindNoise_M.T_WindNoise_M'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_Crystal_B_M.T_Crystal_B_M'
+        ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+        ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_Crystal_B_M.T_Crystal_B_M'
+        Name = Mask
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = BaseTex
+        Group = None
+    }
+}
+CollectedScalarParameters[20] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=NoiseAnimRate, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Roughness, Group=None }
+    CollectedScalarParameters[2] = { Value=4.2, Name=Wind Noise, Group=None }
+    CollectedScalarParameters[3] = { Value=50, Name=Dis_ColorMulti, Group=None }
+    CollectedScalarParameters[4] = { Value=1.1, Name=Tree Sway Speed, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Wind_Inten, Group=None }
+    CollectedScalarParameters[6] = { Value=1.2, Name=Dis_Process, Group=None }
+    CollectedScalarParameters[7] = { Value=0.937, Name=Dis_Width, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=Metallic, Group=None }
+    CollectedScalarParameters[9] = { Value=0.3467, Name=Dis_Range, Group=None }
+    CollectedScalarParameters[10] = { Value=0.34, Name=Leave Wind Weight, Group=None }
+    CollectedScalarParameters[11] = { Value=0.2, Name=Impact_BendAngle, Group=None }
+    CollectedScalarParameters[12] = { Value=1.2, Name=Dis_BP_Use_Process, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=Emissive intensity, Group=None }
+    CollectedScalarParameters[14] = { Value=0.015, Name=Tree Sway Amount, Group=None }
+    CollectedScalarParameters[15] = { Value=2, Name=Dis_Tilling, Group=None }
+    CollectedScalarParameters[16] = { Value=1.2, Name=Dis_BP_Process, Group=None }
+    CollectedScalarParameters[17] = { Value=0.14, Name=Leave Wind Strenght, Group=None }
+    CollectedScalarParameters[18] = { Value=0.6, Name=Wind_Speed, Group=None }
+    CollectedScalarParameters[19] = { Value=5, Name=WindTurbulence, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Emissive Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.066667, G=1, B=0, A=0 }
+        Name = Dis_DissolveColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.022971, G=0.024178, B=0.065, A=0.1 }
+        Name = Wind Seed
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.041, G=0.044132, B=0.045, A=0.486239 }
+        Name = Wind Seed 2
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

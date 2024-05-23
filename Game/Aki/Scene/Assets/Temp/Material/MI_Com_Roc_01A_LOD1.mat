@@ -1,0 +1,7 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T_Rui_Flo_21D_D
+Other[0]=T_DefaultNormal_N
+Other[1]=T_Default_SceneMask_M
+Other[2]=Good64x64TilingNoiseHighFreq
+Other[3]=T_FlareNoise_M
+Other[4]=T_WaterNormal_Rain

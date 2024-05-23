@@ -1,0 +1,7 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T_WaterNormal_Rain
+Other[0]=Good64x64TilingNoiseHighFreq
+Other[1]=WeightMapPlaceholderTexture
+Other[2]=T_FlareNoise_M
+Other[3]=T_LandscapeBaseColor_D
+Other[4]=T_LandscapeColorMap_D

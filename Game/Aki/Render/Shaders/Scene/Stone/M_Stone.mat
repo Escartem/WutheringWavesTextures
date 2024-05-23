@@ -1,0 +1,9 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T_DefaultNormal_N
+Other[0]=BlendFunc_DefBase
+Other[1]=BlendFunc_DefBlend
+Other[2]=Good64x64TilingNoiseHighFreq
+Other[3]=T_DefaultMaskBlack_M
+Other[4]=T_DefaultMaskGreen_M
+Other[5]=T_FlareNoise_M
+Other[6]=T_LandscapeColorMap_D

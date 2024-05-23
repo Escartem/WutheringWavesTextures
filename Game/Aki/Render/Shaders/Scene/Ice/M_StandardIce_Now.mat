@@ -1,0 +1,9 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T_DefaultNormal_N
+Other[0]=Good64x64TilingNoiseHighFreq
+Other[1]=T_DefaultNormalMask_M
+Other[2]=T_FlareNoise_M
+Other[3]=T_Foliage_Noise_M
+Other[4]=T_Noise_Stormy
+Other[5]=T_soft_smoke
+Other[6]=T_Zbudio_0011_CUBE

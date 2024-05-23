@@ -1,0 +1,11 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T_DefaultNormalMask_M
+Other[0]=WeightMapPlaceholderTexture
+Other[1]=Black
+Other[2]=T_Caustic_001
+Other[3]=T_Foliage_Noise_M
+Other[4]=T_Ice_A_Sub
+Other[5]=T_SingleLayerWaterNoise
+Other[6]=T_WaterNormal_Rain
+Other[7]=T_LandscapeBaseColor_D
+Other[8]=T_LandscapeColorMap_D

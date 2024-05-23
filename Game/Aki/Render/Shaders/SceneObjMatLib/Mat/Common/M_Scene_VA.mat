@@ -1,0 +1,4 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T_DefaultNormal_N
+Other[0]=T_Default_SceneMask_M
+Other[1]=T_Foliage_Noise_M

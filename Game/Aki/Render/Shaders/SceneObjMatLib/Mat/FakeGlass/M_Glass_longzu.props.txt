@@ -1,0 +1,158 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+    ReferencedTextures[1] = TextureCube4'/Game/Aki/Render/Common/TC_DefaultWaterCube.TC_DefaultWaterCube'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[14] =
+                {
+                    ParameterInfos[0] = { Name=DirtRoughness }
+                    ParameterInfos[1] = { Name=Roughness }
+                    ParameterInfos[2] = { Name=Inter_Bias_Night }
+                    ParameterInfos[3] = { Name=ReflectionPow }
+                    ParameterInfos[4] = { Name=ReflectionBoost (0-1) }
+                    ParameterInfos[5] = { Name=EmissiveInstensity_Day }
+                    ParameterInfos[6] = { Name=ReflectionFraction }
+                    ParameterInfos[7] = { Name=DirtConstract }
+                    ParameterInfos[8] = { Name=EmissiveInstensity_Night }
+                    ParameterInfos[9] = { Name=DirtConstract_Inter }
+                    ParameterInfos[10] = { Name=Metilc }
+                    ParameterInfos[11] = { Name=DirtMetilc }
+                    ParameterInfos[12] = { Name=Dirt_MaskIntensity }
+                    ParameterInfos[13] = { Name=Dirt_MaskPow }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=DirtColor }
+                    ParameterInfos[1] = { Name=Color2 }
+                    ParameterInfos[2] = { Name=InterEmiissive }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=ReflectionBoost_Texture }
+                    ParameterInfos[1] = { Name=Glass_Noise }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[14] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 0
+            ScalarValues[2] = 0.7
+            ScalarValues[3] = 1.55
+            ScalarValues[4] = 0
+            ScalarValues[5] = 1
+            ScalarValues[6] = 0.45
+            ScalarValues[7] = 0.1
+            ScalarValues[8] = 1
+            ScalarValues[9] = 0.1
+            ScalarValues[10] = 1
+            ScalarValues[11] = 0
+            ScalarValues[12] = 2
+            ScalarValues[13] = 1
+        }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=0.5, G=0.5, B=0.5, A=1 }
+            VectorValues[1] = { R=0.073323, G=0.088542, B=0.077128, A=1 }
+            VectorValues[2] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = TextureCube4'/Game/Aki/Render/Common/TC_DefaultWaterCube.TC_DefaultWaterCube'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        ReferencedTextures[1] = TextureCube4'/Game/Aki/Render/Common/TC_DefaultWaterCube.TC_DefaultWaterCube'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = TextureCube4'/Game/Aki/Render/Common/TC_DefaultWaterCube.TC_DefaultWaterCube'
+        Name = ReflectionBoost_Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        Name = Glass_Noise
+        Group = None
+    }
+}
+CollectedScalarParameters[14] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=DirtRoughness, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Roughness, Group=None }
+    CollectedScalarParameters[2] = { Value=0.7, Name=Inter_Bias_Night, Group=None }
+    CollectedScalarParameters[3] = { Value=1.55, Name=ReflectionPow, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=ReflectionBoost (0-1), Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=EmissiveInstensity_Day, Group=None }
+    CollectedScalarParameters[6] = { Value=0.45, Name=ReflectionFraction, Group=None }
+    CollectedScalarParameters[7] = { Value=0.1, Name=DirtConstract, Group=None }
+    CollectedScalarParameters[8] =
+    {
+        Value = 1
+        Name = EmissiveInstensity_Night
+        Group = None
+    }
+    CollectedScalarParameters[9] = { Value=0.1, Name=DirtConstract_Inter, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=Metilc, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=DirtMetilc, Group=None }
+    CollectedScalarParameters[12] = { Value=2, Name=Dirt_MaskIntensity, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=Dirt_MaskPow, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.5, G=0.5, B=0.5, A=1 }
+        Name = DirtColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.073323, G=0.088542, B=0.077128, A=1 }
+        Name = Color2
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = InterEmiissive
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

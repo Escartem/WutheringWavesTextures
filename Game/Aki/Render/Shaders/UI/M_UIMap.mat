@@ -1,0 +1,4 @@
+Diffuse=BlendFunc_DefBase
+Other[0]=BlendFunc_DefBlend
+Other[1]=BasicNoise
+Other[2]=LGUIPreset_WhiteSolid

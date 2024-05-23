@@ -1,0 +1,290 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[15] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    ReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[3] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+    ReferencedTextures[4] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Gradient.Gradient'
+    ReferencedTextures[5] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Greyscale.Greyscale'
+    ReferencedTextures[6] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/TextureBasedWPO/DemoBox.DemoBox'
+    ReferencedTextures[7] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/TextureBasedWPO/DemoBox_Normals.DemoBox_Normals'
+    ReferencedTextures[8] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+    ReferencedTextures[9] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    ReferencedTextures[10] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+    ReferencedTextures[11] = Texture2D'/Game/Aki/Render/Shaders/Effect/EffectMaterial/Texture/Effect_Ice_Mix.Effect_Ice_Mix'
+    ReferencedTextures[12] = Texture2D'/Game/Aki/Render/Shaders/Effect/EffectMaterial/Texture/Jiyan_Stone_Ice_Crack.Jiyan_Stone_Ice_Crack'
+    ReferencedTextures[13] = Texture2D'/Game/Aki/Render/Shaders/Effect/EffectMaterial/Texture/Jiyan_Stone_Ice_D.Jiyan_Stone_Ice_D'
+    ReferencedTextures[14] = Texture2D'/Game/Aki/Render/Shaders/Effect/EffectMaterial/Texture/Jiyan_Stone_Ice_Normal.Jiyan_Stone_Ice_Normal'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[19] =
+                {
+                    ParameterInfos[0] = { Name=SSS_Transmit }
+                    ParameterInfos[1] = { Name=Rim_Range }
+                    ParameterInfos[2] = { Name=LightColorStrength }
+                    ParameterInfos[3] = { Name=bUseNoise }
+                    ParameterInfos[4] = { Name=bBaseClamp }
+                    ParameterInfos[5] = { Name=Crack_Intensity }
+                    ParameterInfos[6] = { Name=Base_Rotation }
+                    ParameterInfos[7] = { Name=Noise_Strength }
+                    ParameterInfos[8] = { Name=Chaos_NoiseStrength }
+                    ParameterInfos[9] = { Name=$$$$ }
+                    ParameterInfos[10] = { Name=Rim_bUseRim }
+                    ParameterInfos[11] = { Name=NormalStrength }
+                    ParameterInfos[12] = { Name=Chaos_Depth }
+                    ParameterInfos[13] = { Name=AlphaTest }
+                    ParameterInfos[14] = { Name=Base_NoiseStrength }
+                    ParameterInfos[15] = { Name=Rim_Intensity }
+                    ParameterInfos[16] = { Name=SSS_Scatter }
+                    ParameterInfos[17] = { Name=Rim_BaseReflect }
+                    ParameterInfos[18] = { Name=InnerSurf_Intensity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=Chaos_UV }
+                    ParameterInfos[1] = { Name=Noise_UV }
+                    ParameterInfos[2] = { Name=Base_UVSwitch }
+                    ParameterInfos[3] = { Name=Normal_UVSwitch }
+                    ParameterInfos[4] = { Name=Rim_Color }
+                    ParameterInfos[5] = { Name=Base_AlphaChannel }
+                    ParameterInfos[6] = { Name=Chaos_UVSwitch }
+                    ParameterInfos[7] = { Name=Chaos_ColorUp }
+                    ParameterInfos[8] = { Name=Base_UV }
+                    ParameterInfos[9] = { Name=Chaos_ColorDown }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=Noise }
+                    ParameterInfos[1] = { Name=MixMap }
+                    ParameterInfos[2] = { Name=BaseMap }
+                    ParameterInfos[3] = { Name=NormalMap }
+                    ParameterInfos[4] = { Name=Chaos }
+                    ParameterInfos[5] = { Name=Vertex }
+                    ParameterInfos[6] = { Name=CrackMap }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[19] =
+        {
+            ScalarValues[0] = 2
+            ScalarValues[1] = 1
+            ScalarValues[2] = 0
+            ScalarValues[3] = 0
+            ScalarValues[4] = 0
+            ScalarValues[5] = 2
+            ScalarValues[6] = 0
+            ScalarValues[7] = 0.15
+            ScalarValues[8] = 1
+            ScalarValues[9] = 20
+            ScalarValues[10] = 0
+            ScalarValues[11] = 1
+            ScalarValues[12] = -5
+            ScalarValues[13] = 0
+            ScalarValues[14] = 1
+            ScalarValues[15] = 1
+            ScalarValues[16] = 0.3
+            ScalarValues[17] = 0
+            ScalarValues[18] = 0
+        }
+        VectorValues[10] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+            VectorValues[1] = { R=1, G=1, B=0, A=0 }
+            VectorValues[2] = { R=1, G=0, B=0, A=0 }
+            VectorValues[3] = { R=1, G=0, B=0, A=0 }
+            VectorValues[4] = { R=1, G=1, B=1, A=1 }
+            VectorValues[5] = { R=1, G=0, B=0, A=0 }
+            VectorValues[6] = { R=1, G=0, B=0, A=0 }
+            VectorValues[7] = { R=0.177888, G=0.450786, B=0.62396, A=1 }
+            VectorValues[8] = { R=1, G=1, B=0, A=0 }
+            VectorValues[9] = { R=0, G=0.147027, B=0.238398, A=1 }
+        }
+        TextureValues[7] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Shaders/Effect/EffectMaterial/Texture/Effect_Ice_Mix.Effect_Ice_Mix'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Shaders/Effect/EffectMaterial/Texture/Jiyan_Stone_Ice_D.Jiyan_Stone_Ice_D'
+            TextureValues[3] = Texture2D'/Game/Aki/Render/Shaders/Effect/EffectMaterial/Texture/Jiyan_Stone_Ice_Normal.Jiyan_Stone_Ice_Normal'
+            TextureValues[4] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[5] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+            TextureValues[6] = Texture2D'/Game/Aki/Render/Shaders/Effect/EffectMaterial/Texture/Jiyan_Stone_Ice_Crack.Jiyan_Stone_Ice_Crack'
+        }
+    }
+    ReferencedTextures[16] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Shaders/Effect/EffectMaterial/Texture/Effect_Ice_Mix.Effect_Ice_Mix'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Shaders/Effect/EffectMaterial/Texture/Jiyan_Stone_Ice_Normal.Jiyan_Stone_Ice_Normal'
+        ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Shaders/Effect/EffectMaterial/Texture/Jiyan_Stone_Ice_D.Jiyan_Stone_Ice_D'
+        ReferencedTextures[4] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+        ReferencedTextures[5] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+        ReferencedTextures[6] = Texture2D'/Game/Aki/Render/Shaders/Effect/EffectMaterial/Texture/Jiyan_Stone_Ice_Crack.Jiyan_Stone_Ice_Crack'
+        ReferencedTextures[8] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Gradient.Gradient'
+        ReferencedTextures[9] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Greyscale.Greyscale'
+        ReferencedTextures[10] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[11] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+        ReferencedTextures[12] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+        ReferencedTextures[13] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/TextureBasedWPO/DemoBox.DemoBox'
+        ReferencedTextures[14] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/TextureBasedWPO/DemoBox_Normals.DemoBox_Normals'
+        ReferencedTextures[15] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[7] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Noise
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Shaders/Effect/EffectMaterial/Texture/Effect_Ice_Mix.Effect_Ice_Mix'
+        Name = MixMap
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Shaders/Effect/EffectMaterial/Texture/Jiyan_Stone_Ice_D.Jiyan_Stone_Ice_D'
+        Name = BaseMap
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Shaders/Effect/EffectMaterial/Texture/Jiyan_Stone_Ice_Normal.Jiyan_Stone_Ice_Normal'
+        Name = NormalMap
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Chaos
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+        Name = Vertex
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Shaders/Effect/EffectMaterial/Texture/Jiyan_Stone_Ice_Crack.Jiyan_Stone_Ice_Crack'
+        Name = CrackMap
+        Group = None
+    }
+}
+CollectedScalarParameters[19] =
+{
+    CollectedScalarParameters[0] = { Value=2, Name=SSS_Transmit, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Rim_Range, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=LightColorStrength, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=bUseNoise, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=bBaseClamp, Group=None }
+    CollectedScalarParameters[5] = { Value=2, Name=Crack_Intensity, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Base_Rotation, Group=None }
+    CollectedScalarParameters[7] = { Value=0.15, Name=Noise_Strength, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=Chaos_NoiseStrength, Group=None }
+    CollectedScalarParameters[9] = { Value=20, Name=$$$$, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=Rim_bUseRim, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=NormalStrength, Group=None }
+    CollectedScalarParameters[12] = { Value=-5, Name=Chaos_Depth, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=AlphaTest, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=Base_NoiseStrength, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=Rim_Intensity, Group=None }
+    CollectedScalarParameters[16] = { Value=0.3, Name=SSS_Scatter, Group=None }
+    CollectedScalarParameters[17] = { Value=0, Name=Rim_BaseReflect, Group=None }
+    CollectedScalarParameters[18] = { Value=0, Name=InnerSurf_Intensity, Group=None }
+}
+CollectedVectorParameters[10] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Chaos_UV
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Noise_UV
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = Base_UVSwitch
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = Normal_UVSwitch
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Rim_Color
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = Base_AlphaChannel
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = Chaos_UVSwitch
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0.177888, G=0.450786, B=0.62396, A=1 }
+        Name = Chaos_ColorUp
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Base_UV
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=0, G=0.147027, B=0.238398, A=1 }
+        Name = Chaos_ColorDown
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

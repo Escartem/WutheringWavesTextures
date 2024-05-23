@@ -1,0 +1,93 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_CharacterDissolve.T_CharacterDissolve'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_D.T_DefaultColorBlack_D'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/T_MaskMap_Birch_02_M.T_MaskMap_Birch_02_M'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Contrast }
+                    ParameterInfos[1] = { Name=Wind Speed }
+                    ParameterInfos[2] = { Name=Intensity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=UV }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Noise Map (R and A channel is used) }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[3] = { 0, 0.005, 1 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=50000, G=50000, B=0, A=0 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_D.T_DefaultColorBlack_D'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_D.T_DefaultColorBlack_D'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/T_MaskMap_Birch_02_M.T_MaskMap_Birch_02_M'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_CharacterDissolve.T_CharacterDissolve'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_D.T_DefaultColorBlack_D'
+        Name = Noise Map (R and A channel is used)
+        Group = None
+    }
+}
+CollectedScalarParameters[3] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Contrast, Group=None }
+    CollectedScalarParameters[1] = { Value=0.005, Name=Wind Speed, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Intensity, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=50000, G=50000, B=0, A=0 }
+        Name = UV
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

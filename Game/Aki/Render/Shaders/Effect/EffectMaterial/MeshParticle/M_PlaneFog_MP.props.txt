@@ -1,0 +1,161 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[13] =
+                {
+                    ParameterInfos[0] = { Name=Dissolve_NoiseStrength }
+                    ParameterInfos[1] = { Name=DepthFade }
+                    ParameterInfos[2] = { Name=Mask_Alpha_Multiply }
+                    ParameterInfos[3] = { Name=DissloveSmooth }
+                    ParameterInfos[4] = { Name=LightColorStrength }
+                    ParameterInfos[5] = { Name=Mask_NoiseStrength }
+                    ParameterInfos[6] = { Name=Noise_Strength }
+                    ParameterInfos[7] = { Name=Opacity_CenterIntensity }
+                    ParameterInfos[8] = { Name=MobileAlpha }
+                    ParameterInfos[9] = { Name=Dissolve }
+                    ParameterInfos[10] = { Name=ScreenFadeFrom }
+                    ParameterInfos[11] = { Name=Opacity_CenterPower }
+                    ParameterInfos[12] = { Name=Noise_Offset }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Mask_UV }
+                    ParameterInfos[1] = { Name=Noise_UV }
+                    ParameterInfos[2] = { Name=Dissolve_UV }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Noise }
+                    ParameterInfos[1] = { Name=Mask }
+                    ParameterInfos[2] = { Name=Dissolve }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[13] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 1
+            ScalarValues[2] = 1
+            ScalarValues[3] = 0.02
+            ScalarValues[4] = 0.1
+            ScalarValues[5] = 0
+            ScalarValues[6] = 0.15
+            ScalarValues[7] = 0
+            ScalarValues[8] = 0.4
+            ScalarValues[9] = 1
+            ScalarValues[10] = 10
+            ScalarValues[11] = 0
+            ScalarValues[12] = 0
+        }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+            VectorValues[1] = { R=1, G=1, B=0, A=0 }
+            VectorValues[2] = { R=1, G=1, B=0, A=0 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Noise
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Mask
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Dissolve
+        Group = None
+    }
+}
+CollectedScalarParameters[13] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Dissolve_NoiseStrength, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=DepthFade, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Mask_Alpha_Multiply, Group=None }
+    CollectedScalarParameters[3] = { Value=0.02, Name=DissloveSmooth, Group=None }
+    CollectedScalarParameters[4] = { Value=0.1, Name=LightColorStrength, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Mask_NoiseStrength, Group=None }
+    CollectedScalarParameters[6] = { Value=0.15, Name=Noise_Strength, Group=None }
+    CollectedScalarParameters[7] =
+    {
+        Value = 0
+        Name = Opacity_CenterIntensity
+        Group = None
+    }
+    CollectedScalarParameters[8] = { Value=0.4, Name=MobileAlpha, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Dissolve, Group=None }
+    CollectedScalarParameters[10] = { Value=10, Name=ScreenFadeFrom, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=Opacity_CenterPower, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=Noise_Offset, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Mask_UV
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Noise_UV
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Dissolve_UV
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

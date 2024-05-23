@@ -1,0 +1,17 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T_DefaultNormal_N
+SpecPower=T_SpecularHighlights_M
+Other[0]=T_WaterNoise_02_M
+Other[1]=T_BubbleFoam_M
+Other[2]=DefaultTexture
+Other[3]=T_Noise_2
+Other[4]=T_Caustics_Animated_01_M
+Other[5]=T_Caustics_Animated_07_M
+Other[6]=T_EdgeFoamNoise
+Other[7]=T_FlowArrow
+Other[8]=T_WaterTIlling_Default_M
+Other[9]=T_PerlinNoise
+Other[10]=T_RainRipples
+Other[11]=T_SingleLayerWaterNoise
+Other[12]=TC_DefaultWaterCube
+Other[13]=T_NoonSky_CUBE

@@ -1,0 +1,185 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_Default_Noise.T_Default_Noise'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/T_SkyOceanLowRes.T_SkyOceanLowRes'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[17] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=DetailNormalSpeed }
+                    ParameterInfos[2] = { Name=UVRotate }
+                    ParameterInfos[3] = { Name=OpacityForSwitch }
+                    ParameterInfos[4] = { Name=WavePinch }
+                    ParameterInfos[5] = { Name=BigRefractWaveCount }
+                    ParameterInfos[6] = { Name=Fog Radius }
+                    ParameterInfos[7] = { Name=WaveSpeed }
+                    ParameterInfos[8] = { Name=ScreenVertPow }
+                    ParameterInfos[9] = { Name=ScreenYBoostAmount }
+                    ParameterInfos[10] = { Name=NormalBAmount }
+                    ParameterInfos[11] = { Name=BigRefractWaveAmount }
+                    ParameterInfos[12] = { Name=Fog Hardness }
+                    ParameterInfos[13] = { Name=SkyPlaneWorldUnit }
+                    ParameterInfos[14] = { Name=SSSAmount }
+                    ParameterInfos[15] = { Name=InscatteringPower }
+                    ParameterInfos[16] = { Name=NormalAAmount }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=NormalUV }
+                    ParameterInfos[1] = { Name=NormalUVPanner }
+                    ParameterInfos[2] = { Name=SSSColorTint }
+                    ParameterInfos[3] = { Name=InscatteringTint }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=NormalA }
+                    ParameterInfos[1] = { Name=NormalB }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[17] =
+        {
+            ScalarValues[0] = 0.1
+            ScalarValues[1] = 1
+            ScalarValues[2] = 0
+            ScalarValues[3] = 1
+            ScalarValues[4] = 2
+            ScalarValues[5] = 2
+            ScalarValues[6] = 13
+            ScalarValues[7] = 0.3
+            ScalarValues[8] = 2
+            ScalarValues[9] = 0
+            ScalarValues[10] = 6
+            ScalarValues[11] = 0.05
+            ScalarValues[12] = 0
+            ScalarValues[13] = 2.2e+06
+            ScalarValues[14] = 12
+            ScalarValues[15] = 3.99816
+            ScalarValues[16] = 0.2
+        }
+        VectorValues[4] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+            VectorValues[1] = { R=1, G=1, B=1, A=1 }
+            VectorValues[2] = { R=2.15394, G=3.36055, B=5, A=0 }
+            VectorValues[3] = { R=0.7331, G=1.04982, B=2, A=0 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/T_SkyOceanLowRes.T_SkyOceanLowRes'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/T_SkyOceanLowRes.T_SkyOceanLowRes'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/T_SkyOceanLowRes.T_SkyOceanLowRes'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_Default_Noise.T_Default_Noise'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/T_SkyOceanLowRes.T_SkyOceanLowRes'
+        Name = NormalA
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/T_SkyOceanLowRes.T_SkyOceanLowRes'
+        Name = NormalB
+        Group = None
+    }
+}
+CollectedScalarParameters[17] =
+{
+    CollectedScalarParameters[0] = { Value=0.1, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=DetailNormalSpeed, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=UVRotate, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=OpacityForSwitch, Group=None }
+    CollectedScalarParameters[4] = { Value=2, Name=WavePinch, Group=None }
+    CollectedScalarParameters[5] = { Value=2, Name=BigRefractWaveCount, Group=None }
+    CollectedScalarParameters[6] = { Value=13, Name=Fog Radius, Group=None }
+    CollectedScalarParameters[7] = { Value=0.3, Name=WaveSpeed, Group=None }
+    CollectedScalarParameters[8] = { Value=2, Name=ScreenVertPow, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=ScreenYBoostAmount, Group=None }
+    CollectedScalarParameters[10] = { Value=6, Name=NormalBAmount, Group=None }
+    CollectedScalarParameters[11] =
+    {
+        Value = 0.05
+        Name = BigRefractWaveAmount
+        Group = None
+    }
+    CollectedScalarParameters[12] = { Value=0, Name=Fog Hardness, Group=None }
+    CollectedScalarParameters[13] =
+    {
+        Value = 2.2e+06
+        Name = SkyPlaneWorldUnit
+        Group = None
+    }
+    CollectedScalarParameters[14] = { Value=12, Name=SSSAmount, Group=None }
+    CollectedScalarParameters[15] =
+    {
+        Value = 3.99816
+        Name = InscatteringPower
+        Group = None
+    }
+    CollectedScalarParameters[16] = { Value=0.2, Name=NormalAAmount, Group=None }
+}
+CollectedVectorParameters[4] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = NormalUV
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = NormalUVPanner
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=2.15394, G=3.36055, B=5, A=0 }
+        Name = SSSColorTint
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.7331, G=1.04982, B=2, A=0 }
+        Name = InscatteringTint
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

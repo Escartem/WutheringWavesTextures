@@ -1,0 +1,7 @@
+Diffuse=T_DefaultColorWhite_D
+Emissive=T_HDMF_EM
+Other[0]=BlendFunc_DefBase
+Other[1]=BlendFunc_DefBlend
+Other[2]=T_EV_BlankWhite_01
+Other[3]=T_Caustic_001
+Other[4]=T_DefaultMaskGreen_M

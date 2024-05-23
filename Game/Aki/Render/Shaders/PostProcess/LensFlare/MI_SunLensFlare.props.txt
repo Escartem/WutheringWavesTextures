@@ -1,0 +1,462 @@
+Parent = Material3'/Game/Aki/Render/Shaders/PostProcess/LensFlare/M_SunLensFlare.M_SunLensFlare'
+ScalarParameterValues[69] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=SunCoronaRays1Angle }
+        ParameterValue = 5.89206
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=SunCoronaRays1Intensity }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=SunCoronaRays1Length }
+        ParameterValue = 0.052103
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=SunCoronaRays1Spread }
+        ParameterValue = 0.080971
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=SunCoronaRays1Streaks }
+        ParameterValue = 2.97778
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=SunCoronaRays2Angle }
+        ParameterValue = 3.04762
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=SunCoronaRays2Intensity }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=SunCoronaRays2Length }
+        ParameterValue = 0.03
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=SunCoronaRays2Spread }
+        ParameterValue = 0.025426
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=SunCoronaRays2Streaks }
+        ParameterValue = 6.84444
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=CloudOcclusion }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=GlobalIntensity }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=SunGhost1Brightness_Circular }
+        ParameterValue = 0.012698
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=SunGhost1Offset_Circular }
+        ParameterValue = -0.102857
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=SunGhost1Size_Circular }
+        ParameterValue = 0.118889
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=SunGhost2Brightness_Circular }
+        ParameterValue = 0.006349
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=SunGhost2Offset_Circular }
+        ParameterValue = 1.73841
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=SunGhost2Size_Circular }
+        ParameterValue = 0.03
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=SunGhost3Brightness_Circular }
+        ParameterValue = 0.017952
+        ParameterName = None
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = { Name=SunGhost3Offset_Circular }
+        ParameterValue = -0.102856
+        ParameterName = None
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = { Name=SunGhost3Size_Circular }
+        ParameterValue = 0.049048
+        ParameterName = None
+    }
+    ScalarParameterValues[21] =
+    {
+        ParameterInfo = { Name=SunGhost1Brightness_Hex }
+        ParameterValue = 0.01
+        ParameterName = None
+    }
+    ScalarParameterValues[22] =
+    {
+        ParameterInfo = { Name=SunGhost1Offset_Hex }
+        ParameterValue = 0.532064
+        ParameterName = None
+    }
+    ScalarParameterValues[23] =
+    {
+        ParameterInfo = { Name=SunGhost1Size_Hex }
+        ParameterValue = 0.023651
+        ParameterName = None
+    }
+    ScalarParameterValues[24] =
+    {
+        ParameterInfo = { Name=SunGhost2Brightness_Hex }
+        ParameterValue = 0.01
+        ParameterName = None
+    }
+    ScalarParameterValues[25] =
+    {
+        ParameterInfo = { Name=SunGhost2Offset_Hex }
+        ParameterValue = 0.468571
+        ParameterName = None
+    }
+    ScalarParameterValues[26] =
+    {
+        ParameterInfo = { Name=SunGhost2Size_Hex }
+        ParameterValue = 0.02
+        ParameterName = None
+    }
+    ScalarParameterValues[27] =
+    {
+        ParameterInfo = { Name=SunGhost3Brightness_Hex }
+        ParameterValue = 0.01
+        ParameterName = None
+    }
+    ScalarParameterValues[28] =
+    {
+        ParameterInfo = { Name=SunGhost3Offset_Hex }
+        ParameterValue = 0.976508
+        ParameterName = None
+    }
+    ScalarParameterValues[29] =
+    {
+        ParameterInfo = { Name=SunGhost3Size_Hex }
+        ParameterValue = 0.03
+        ParameterName = None
+    }
+    ScalarParameterValues[30] =
+    {
+        ParameterInfo = { Name=SunGhost1Brightness_Octogon }
+        ParameterValue = 0.01
+        ParameterName = None
+    }
+    ScalarParameterValues[31] =
+    {
+        ParameterInfo = { Name=SunGhost1Offset_Octogon }
+        ParameterValue = 0.278095
+        ParameterName = None
+    }
+    ScalarParameterValues[32] =
+    {
+        ParameterInfo = { Name=SunGhost1Size_Octogon }
+        ParameterValue = 0.03
+        ParameterName = None
+    }
+    ScalarParameterValues[33] =
+    {
+        ParameterInfo = { Name=SunGhost2Brightness_Octogon }
+        ParameterValue = 0.01
+        ParameterName = None
+    }
+    ScalarParameterValues[34] =
+    {
+        ParameterInfo = { Name=SunGhost2Offset_Octogon }
+        ParameterValue = 1.35746
+        ParameterName = None
+    }
+    ScalarParameterValues[35] =
+    {
+        ParameterInfo = { Name=SunGhost3Brightness_Octogon }
+        ParameterValue = 0.01
+        ParameterName = None
+    }
+    ScalarParameterValues[36] =
+    {
+        ParameterInfo = { Name=SunGhost3Offset_Octogon }
+        ParameterValue = 0.087619
+        ParameterName = None
+    }
+    ScalarParameterValues[37] =
+    {
+        ParameterInfo = { Name=SunGhost1Brightness_Pentagon }
+        ParameterValue = 0.01
+        ParameterName = None
+    }
+    ScalarParameterValues[38] =
+    {
+        ParameterInfo = { Name=SunGhost1Offset_Pentagon }
+        ParameterValue = 0.849524
+        ParameterName = None
+    }
+    ScalarParameterValues[39] =
+    {
+        ParameterInfo = { Name=SunGhost2Brightness_Pentagon }
+        ParameterValue = 0.01
+        ParameterName = None
+    }
+    ScalarParameterValues[40] =
+    {
+        ParameterInfo = { Name=SunGhost2Offset_Pentagon }
+        ParameterValue = 0.087619
+        ParameterName = None
+    }
+    ScalarParameterValues[41] =
+    {
+        ParameterInfo = { Name=SunGhost2Size_Pentagon }
+        ParameterValue = 0.025
+        ParameterName = None
+    }
+    ScalarParameterValues[42] =
+    {
+        ParameterInfo = { Name=SunGhost3Brightness_Pentagon }
+        ParameterValue = 0.01
+        ParameterName = None
+    }
+    ScalarParameterValues[43] =
+    {
+        ParameterInfo = { Name=SunGhost3Offset_Pentagon }
+        ParameterValue = 1.10349
+        ParameterName = None
+    }
+    ScalarParameterValues[44] =
+    {
+        ParameterInfo = { Name=SunGhost3Size_Pentagon }
+        ParameterValue = 0.02
+        ParameterName = None
+    }
+    ScalarParameterValues[45] =
+    {
+        ParameterInfo = { Name=HaloAmplitude1 }
+        ParameterValue = 3.40178
+        ParameterName = None
+    }
+    ScalarParameterValues[46] =
+    {
+        ParameterInfo = { Name=HaloAttenIntensity1 }
+        ParameterValue = 4.74644
+        ParameterName = None
+    }
+    ScalarParameterValues[47] =
+    {
+        ParameterInfo = { Name=HaloColorOne1 }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[48] =
+    {
+        ParameterInfo = { Name=HaloColorPow1 }
+        ParameterValue = 73.8156
+        ParameterName = None
+    }
+    ScalarParameterValues[49] =
+    {
+        ParameterInfo = { Name=HaloColorTwo1 }
+        ParameterValue = 0.219048
+        ParameterName = None
+    }
+    ScalarParameterValues[50] =
+    {
+        ParameterInfo = { Name=HaloIntensity1 }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[51] =
+    {
+        ParameterInfo = { Name=HaloLenPosFade1 }
+        ParameterValue = 7.80867
+        ParameterName = None
+    }
+    ScalarParameterValues[52] =
+    {
+        ParameterInfo = { Name=HaloOffset1 }
+        ParameterValue = 1.72803
+        ParameterName = None
+    }
+    ScalarParameterValues[53] =
+    {
+        ParameterInfo = { Name=HaloWidth1 }
+        ParameterValue = 0.001
+        ParameterName = None
+    }
+    ScalarParameterValues[54] =
+    {
+        ParameterInfo = { Name=HaloAmplitude2 }
+        ParameterValue = 8.48058
+        ParameterName = None
+    }
+    ScalarParameterValues[55] =
+    {
+        ParameterInfo = { Name=HaloAttenIntensity2 }
+        ParameterValue = 9.76867
+        ParameterName = None
+    }
+    ScalarParameterValues[56] =
+    {
+        ParameterInfo = { Name=HaloColorOne2 }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[57] =
+    {
+        ParameterInfo = { Name=HaloColorPow2 }
+        ParameterValue = 13.0527
+        ParameterName = None
+    }
+    ScalarParameterValues[58] =
+    {
+        ParameterInfo = { Name=HaloColorTwo2 }
+        ParameterValue = 0.983488
+        ParameterName = None
+    }
+    ScalarParameterValues[59] =
+    {
+        ParameterInfo = { Name=HaloIntensity2 }
+        ParameterValue = 0.75
+        ParameterName = None
+    }
+    ScalarParameterValues[60] =
+    {
+        ParameterInfo = { Name=HaloLenPosFade2 }
+        ParameterValue = 1.41694
+        ParameterName = None
+    }
+    ScalarParameterValues[61] =
+    {
+        ParameterInfo = { Name=HaloOffset2 }
+        ParameterValue = 0.918418
+        ParameterName = None
+    }
+    ScalarParameterValues[62] =
+    {
+        ParameterInfo = { Name=HaloWidth2 }
+        ParameterValue = 0.139683
+        ParameterName = None
+    }
+    ScalarParameterValues[63] =
+    {
+        ParameterInfo = { Name=DiskSize }
+        ParameterValue = 0.097619
+        ParameterName = None
+    }
+    ScalarParameterValues[64] =
+    {
+        ParameterInfo = { Name=SunIntensity }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[65] =
+    {
+        ParameterInfo = { Name=SunLightDiffractionIntensity }
+        ParameterValue = 2.22222
+        ParameterName = None
+    }
+    ScalarParameterValues[66] =
+    {
+        ParameterInfo = { Name=SunLightDiffractionThreshold }
+        ParameterValue = 0.295714
+        ParameterName = None
+    }
+    ScalarParameterValues[67] =
+    {
+        ParameterInfo = { Name=SunSolarWindSpeed }
+        ParameterValue = 0.02
+        ParameterName = None
+    }
+    ScalarParameterValues[68] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[1] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=FlareNoiseTex }
+        ParameterValue = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+        ParameterName = None
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=TintColor }
+        ParameterValue = { R=1, G=1, B=1, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

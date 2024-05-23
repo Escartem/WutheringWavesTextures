@@ -1,0 +1,641 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[7] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/WeightMapPlaceholderTexture.WeightMapPlaceholderTexture'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineResources/Black.Black'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+    ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/T_WaterNormal_Rain.T_WaterNormal_Rain'
+    ReferencedTextures[5] = Texture2D'/Game/Aki/Scene/Landscape/ColorMap/T_LandscapeBaseColor_D.T_LandscapeBaseColor_D'
+    ReferencedTextures[6] = Texture2D'/Game/Aki/Scene/Landscape/ColorMap/T_LandscapeColorMap_D.T_LandscapeColorMap_D'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[71] =
+                {
+                    ParameterInfos[0] = { Name=Start }
+                    ParameterInfos[1] = { Name=4MinRoughness }
+                    ParameterInfos[2] = { Name=3SliceIndex }
+                    ParameterInfos[3] = { Name=5MaxRoughness }
+                    ParameterInfos[4] = { Name=7HeightContrast }
+                    ParameterInfos[5] = { Name=2MinRoughness }
+                    ParameterInfos[6] = { Name=5Roughness Tex Contrast }
+                    ParameterInfos[7] = { Name=4MaxRoughness }
+                    ParameterInfos[8] = { Name=10LayerScale }
+                    ParameterInfos[9] = { Name=WaterNormalSpeed (S) }
+                    ParameterInfos[10] = { Name=1RoughnessContrast }
+                    ParameterInfos[11] = { Name=8SliceIndex }
+                    ParameterInfos[12] = { Name=9HeightContrast }
+                    ParameterInfos[13] = { Name=4HeightContrast }
+                    ParameterInfos[14] = { Name=Random_Color_Tili }
+                    ParameterInfos[15] = { Name=9MinRoughness }
+                    ParameterInfos[16] = { Name=9SliceIndex }
+                    ParameterInfos[17] = { Name=LandscapeFadeDistance }
+                    ParameterInfos[18] = { Name=1LayerScale }
+                    ParameterInfos[19] = { Name=1SliceIndex }
+                    ParameterInfos[20] = { Name=2HeightContrast }
+                    ParameterInfos[21] = { Name=5MinRoughness }
+                    ParameterInfos[22] = { Name=10HeightContrast }
+                    ParameterInfos[23] = { Name=3HeightContrast }
+                    ParameterInfos[24] = { Name=7LayerScale }
+                    ParameterInfos[25] = { Name=7SliceIndex }
+                    ParameterInfos[26] = { Name=1HeightContrast }
+                    ParameterInfos[27] = { Name=4Roughness Tex Contrast }
+                    ParameterInfos[28] = { Name=2LayerScale }
+                    ParameterInfos[29] = { Name=9LayerScale }
+                    ParameterInfos[30] = { Name=6MaxRoughness }
+                    ParameterInfos[31] = { Name=1Roughness Tex Contrast }
+                    ParameterInfos[32] = { Name=9Roughness Tex Contrast }
+                    ParameterInfos[33] = { Name=3Roughness Tex Contrast }
+                    ParameterInfos[34] = { Name=Random_Sharpen }
+                    ParameterInfos[35] = { Name=3MaxRoughness }
+                    ParameterInfos[36] = { Name=7Roughness Tex Contrast }
+                    ParameterInfos[37] = { Name=7MinRoughness }
+                    ParameterInfos[38] = { Name=5HeightContrast }
+                    ParameterInfos[39] = { Name=10MaxRoughness }
+                    ParameterInfos[40] = { Name=8MaxRoughness }
+                    ParameterInfos[41] = { Name=7MaxRoughness }
+                    ParameterInfos[42] = { Name=5SliceIndex }
+                    ParameterInfos[43] = { Name=Random_Wight }
+                    ParameterInfos[44] = { Name=End }
+                    ParameterInfos[45] = { Name=3LayerScale }
+                    ParameterInfos[46] = { Name=ParamBufferIndex }
+                    ParameterInfos[47] = { Name=1MaxRoughness }
+                    ParameterInfos[48] = { Name=10SliceIndex }
+                    ParameterInfos[49] = { Name=6HeightContrast }
+                    ParameterInfos[50] = { Name=WaterNormal_Scale (S) }
+                    ParameterInfos[51] = { Name=4SliceIndex }
+                    ParameterInfos[52] = { Name=6MinRoughness }
+                    ParameterInfos[53] = { Name=6SliceIndex }
+                    ParameterInfos[54] = { Name=5LayerScale }
+                    ParameterInfos[55] = { Name=8Roughness Tex Contrast }
+                    ParameterInfos[56] = { Name=NormalIntensity (S) }
+                    ParameterInfos[57] = { Name=2MaxRoughness }
+                    ParameterInfos[58] = { Name=9MaxRoughness }
+                    ParameterInfos[59] = { Name=6Roughness Tex Contrast }
+                    ParameterInfos[60] = { Name=1MinRoughness }
+                    ParameterInfos[61] = { Name=MircoShadowPower }
+                    ParameterInfos[62] = { Name=8HeightContrast }
+                    ParameterInfos[63] = { Name=8MinRoughness }
+                    ParameterInfos[64] = { Name=2SliceIndex }
+                    ParameterInfos[65] = { Name=8LayerScale }
+                    ParameterInfos[66] = { Name=2Roughness Tex Contrast }
+                    ParameterInfos[67] = { Name=6LayerScale }
+                    ParameterInfos[68] = { Name=10MinRoughness }
+                    ParameterInfos[69] = { Name=3MinRoughness }
+                    ParameterInfos[70] = { Name=4LayerScale }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[11] =
+                {
+                    ParameterInfos[0] = { Name=4ColorTint }
+                    ParameterInfos[1] = { Name=1ColorTint }
+                    ParameterInfos[2] = { Name=7ColorTint }
+                    ParameterInfos[3] = { Name=10ColorTint }
+                    ParameterInfos[4] = { Name=9ColorTint }
+                    ParameterInfos[5] = { Name=2ColorTint }
+                    ParameterInfos[6] = { Name=8ColorTint }
+                    ParameterInfos[7] = { Name=6ColorTint }
+                    ParameterInfos[8] = { Name=5ColorTint }
+                    ParameterInfos[9] = { Name=Water Color }
+                    ParameterInfos[10] = { Name=3ColorTint }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[26] =
+                {
+                    ParameterInfos[0] = { Name=3MaskTexture }
+                    ParameterInfos[1] = { Name=10DiffuseTexture }
+                    ParameterInfos[2] = { Name=4MaskTexture }
+                    ParameterInfos[3] = { Name=NormalTextureArray }
+                    ParameterInfos[4] = { Name=2DiffuseTexture }
+                    ParameterInfos[5] = { Name=2MaskTexture }
+                    ParameterInfos[6] = { Name=8MaskTexture }
+                    ParameterInfos[7] = { Name=6MaskTexture }
+                    ParameterInfos[8] = { Name=WorldLandscapeColorMap }
+                    ParameterInfos[9] = { Name=7DiffuseTexture }
+                    ParameterInfos[10] = { Name=1DiffuseTexture }
+                    ParameterInfos[11] = { Name=9MaskTexture }
+                    ParameterInfos[12] = { Name=TaskColorMap }
+                    ParameterInfos[13] = { Name=1MaskTexture }
+                    ParameterInfos[14] = { Name=5DiffuseTexture }
+                    ParameterInfos[15] = { Name=6DiffuseTexture }
+                    ParameterInfos[16] = { Name=ColorTextureArray }
+                    ParameterInfos[17] = { Name=4DiffuseTexture }
+                    ParameterInfos[18] = { Name=WorldColorMap }
+                    ParameterInfos[19] = { Name=3DiffuseTexture }
+                    ParameterInfos[20] = { Name=RainNormal }
+                    ParameterInfos[21] = { Name=8DiffuseTexture }
+                    ParameterInfos[22] = { Name=5MaskTexture }
+                    ParameterInfos[23] = { Name=7MaskTexture }
+                    ParameterInfos[24] = { Name=10MaskTexture }
+                    ParameterInfos[25] = { Name=9DiffuseTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[71] =
+        {
+            ScalarValues[0] = 0.4
+            ScalarValues[1] = 0.8
+            ScalarValues[2] = 3
+            ScalarValues[3] = 1
+            ScalarValues[4] = 0
+            ScalarValues[5] = 0.8
+            ScalarValues[6] = 0
+            ScalarValues[7] = 1
+            ScalarValues[8] = 1500
+            ScalarValues[9] = 30
+            ScalarValues[10] = 0
+            ScalarValues[11] = 8
+            ScalarValues[12] = 0
+            ScalarValues[13] = 0
+            ScalarValues[14] = 1
+            ScalarValues[15] = 0.8
+            ScalarValues[16] = 9
+            ScalarValues[17] = 50
+            ScalarValues[18] = 1500
+            ScalarValues[19] = 1
+            ScalarValues[20] = 0
+            ScalarValues[21] = 0.8
+            ScalarValues[22] = 0
+            ScalarValues[23] = 0
+            ScalarValues[24] = 1500
+            ScalarValues[25] = 7
+            ScalarValues[26] = 0
+            ScalarValues[27] = 0
+            ScalarValues[28] = 1500
+            ScalarValues[29] = 1500
+            ScalarValues[30] = 1
+            ScalarValues[31] = 0
+            ScalarValues[32] = 0
+            ScalarValues[33] = 0
+            ScalarValues[34] = 2
+            ScalarValues[35] = 1
+            ScalarValues[36] = 0
+            ScalarValues[37] = 0.8
+            ScalarValues[38] = 0
+            ScalarValues[39] = 1
+            ScalarValues[40] = 1
+            ScalarValues[41] = 1
+            ScalarValues[42] = 5
+            ScalarValues[43] = 0.1
+            ScalarValues[44] = 1
+            ScalarValues[45] = 1500
+            ScalarValues[46] = 0
+            ScalarValues[47] = 1
+            ScalarValues[48] = 7
+            ScalarValues[49] = 0
+            ScalarValues[50] = 100
+            ScalarValues[51] = 4
+            ScalarValues[52] = 0.8
+            ScalarValues[53] = 6
+            ScalarValues[54] = 1500
+            ScalarValues[55] = 0
+            ScalarValues[56] = 10
+            ScalarValues[57] = 1
+            ScalarValues[58] = 1
+            ScalarValues[59] = 0
+            ScalarValues[60] = 0.8
+            ScalarValues[61] = 2
+            ScalarValues[62] = 0
+            ScalarValues[63] = 0.8
+            ScalarValues[64] = 2
+            ScalarValues[65] = 1500
+            ScalarValues[66] = 0
+            ScalarValues[67] = 1500
+            ScalarValues[68] = 0.8
+            ScalarValues[69] = 0.8
+            ScalarValues[70] = 1500
+        }
+        VectorValues[11] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=0 }
+            VectorValues[1] = { R=1, G=1, B=1, A=0 }
+            VectorValues[2] = { R=1, G=1, B=1, A=0 }
+            VectorValues[3] = { R=1, G=1, B=1, A=0 }
+            VectorValues[4] = { R=1, G=1, B=1, A=0 }
+            VectorValues[5] = { R=1, G=1, B=1, A=0 }
+            VectorValues[6] = { R=1, G=1, B=1, A=0 }
+            VectorValues[7] = { R=1, G=1, B=1, A=0 }
+            VectorValues[8] = { R=1, G=1, B=1, A=0 }
+            VectorValues[9] = { R=0.177083, G=0.124539, B=0.0691732, A=1 }
+            VectorValues[10] = { R=1, G=1, B=1, A=0 }
+        }
+        TextureValues[26] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+            TextureValues[4] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[5] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+            TextureValues[6] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+            TextureValues[7] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+            TextureValues[8] = Texture2D'/Game/Aki/Scene/Landscape/ColorMap/T_LandscapeBaseColor_D.T_LandscapeBaseColor_D'
+            TextureValues[9] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[10] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[11] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+            TextureValues[12] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[13] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+            TextureValues[14] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[15] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[17] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[18] = Texture2D'/Game/Aki/Scene/Landscape/ColorMap/T_LandscapeColorMap_D.T_LandscapeColorMap_D'
+            TextureValues[19] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[20] = Texture2D'/Game/Aki/Render/Common/T_WaterNormal_Rain.T_WaterNormal_Rain'
+            TextureValues[21] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[22] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+            TextureValues[23] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+            TextureValues[24] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+            TextureValues[25] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        }
+    }
+    ReferencedTextures[11] =
+    {
+        ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/WeightMapPlaceholderTexture.WeightMapPlaceholderTexture'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Scene/Landscape/ColorMap/T_LandscapeColorMap_D.T_LandscapeColorMap_D'
+        ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+        ReferencedTextures[6] = Texture2D'/Game/Aki/Scene/Landscape/ColorMap/T_LandscapeBaseColor_D.T_LandscapeBaseColor_D'
+        ReferencedTextures[9] = Texture2D'/Game/Aki/Render/Common/T_WaterNormal_Rain.T_WaterNormal_Rain'
+        ReferencedTextures[10] = Texture2D'/Engine/EngineResources/Black.Black'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[26] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+        Name = 3MaskTexture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = 10DiffuseTexture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+        Name = 4MaskTexture
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = None
+        Name = NormalTextureArray
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = 2DiffuseTexture
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+        Name = 2MaskTexture
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+        Name = 8MaskTexture
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+        Name = 6MaskTexture
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'/Game/Aki/Scene/Landscape/ColorMap/T_LandscapeBaseColor_D.T_LandscapeBaseColor_D'
+        Name = WorldLandscapeColorMap
+        Group = None
+    }
+    CollectedTextureParameters[9] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = 7DiffuseTexture
+        Group = None
+    }
+    CollectedTextureParameters[10] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = 1DiffuseTexture
+        Group = None
+    }
+    CollectedTextureParameters[11] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+        Name = 9MaskTexture
+        Group = None
+    }
+    CollectedTextureParameters[12] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = TaskColorMap
+        Group = None
+    }
+    CollectedTextureParameters[13] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+        Name = 1MaskTexture
+        Group = None
+    }
+    CollectedTextureParameters[14] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = 5DiffuseTexture
+        Group = None
+    }
+    CollectedTextureParameters[15] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = 6DiffuseTexture
+        Group = None
+    }
+    CollectedTextureParameters[16] = { Texture=None, Name=ColorTextureArray, Group=None }
+    CollectedTextureParameters[17] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = 4DiffuseTexture
+        Group = None
+    }
+    CollectedTextureParameters[18] =
+    {
+        Texture = Texture2D'/Game/Aki/Scene/Landscape/ColorMap/T_LandscapeColorMap_D.T_LandscapeColorMap_D'
+        Name = WorldColorMap
+        Group = None
+    }
+    CollectedTextureParameters[19] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = 3DiffuseTexture
+        Group = None
+    }
+    CollectedTextureParameters[20] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_WaterNormal_Rain.T_WaterNormal_Rain'
+        Name = RainNormal
+        Group = None
+    }
+    CollectedTextureParameters[21] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = 8DiffuseTexture
+        Group = None
+    }
+    CollectedTextureParameters[22] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+        Name = 5MaskTexture
+        Group = None
+    }
+    CollectedTextureParameters[23] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+        Name = 7MaskTexture
+        Group = None
+    }
+    CollectedTextureParameters[24] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+        Name = 10MaskTexture
+        Group = None
+    }
+    CollectedTextureParameters[25] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = 9DiffuseTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[71] =
+{
+    CollectedScalarParameters[0] = { Value=0.4, Name=Start, Group=None }
+    CollectedScalarParameters[1] = { Value=0.8, Name=4MinRoughness, Group=None }
+    CollectedScalarParameters[2] = { Value=3, Name=3SliceIndex, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=5MaxRoughness, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=7HeightContrast, Group=None }
+    CollectedScalarParameters[5] = { Value=0.8, Name=2MinRoughness, Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = 0
+        Name = 5Roughness Tex Contrast
+        Group = None
+    }
+    CollectedScalarParameters[7] = { Value=1, Name=4MaxRoughness, Group=None }
+    CollectedScalarParameters[8] = { Value=1500, Name=10LayerScale, Group=None }
+    CollectedScalarParameters[9] = { Value=30, Name=WaterNormalSpeed (S), Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=1RoughnessContrast, Group=None }
+    CollectedScalarParameters[11] = { Value=8, Name=8SliceIndex, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=9HeightContrast, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=4HeightContrast, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=Random_Color_Tili, Group=None }
+    CollectedScalarParameters[15] = { Value=0.8, Name=9MinRoughness, Group=None }
+    CollectedScalarParameters[16] = { Value=9, Name=9SliceIndex, Group=None }
+    CollectedScalarParameters[17] = { Value=50, Name=LandscapeFadeDistance, Group=None }
+    CollectedScalarParameters[18] = { Value=1500, Name=1LayerScale, Group=None }
+    CollectedScalarParameters[19] = { Value=1, Name=1SliceIndex, Group=None }
+    CollectedScalarParameters[20] = { Value=0, Name=2HeightContrast, Group=None }
+    CollectedScalarParameters[21] = { Value=0.8, Name=5MinRoughness, Group=None }
+    CollectedScalarParameters[22] = { Value=0, Name=10HeightContrast, Group=None }
+    CollectedScalarParameters[23] = { Value=0, Name=3HeightContrast, Group=None }
+    CollectedScalarParameters[24] = { Value=1500, Name=7LayerScale, Group=None }
+    CollectedScalarParameters[25] = { Value=7, Name=7SliceIndex, Group=None }
+    CollectedScalarParameters[26] = { Value=0, Name=1HeightContrast, Group=None }
+    CollectedScalarParameters[27] =
+    {
+        Value = 0
+        Name = 4Roughness Tex Contrast
+        Group = None
+    }
+    CollectedScalarParameters[28] = { Value=1500, Name=2LayerScale, Group=None }
+    CollectedScalarParameters[29] = { Value=1500, Name=9LayerScale, Group=None }
+    CollectedScalarParameters[30] = { Value=1, Name=6MaxRoughness, Group=None }
+    CollectedScalarParameters[31] =
+    {
+        Value = 0
+        Name = 1Roughness Tex Contrast
+        Group = None
+    }
+    CollectedScalarParameters[32] =
+    {
+        Value = 0
+        Name = 9Roughness Tex Contrast
+        Group = None
+    }
+    CollectedScalarParameters[33] =
+    {
+        Value = 0
+        Name = 3Roughness Tex Contrast
+        Group = None
+    }
+    CollectedScalarParameters[34] = { Value=2, Name=Random_Sharpen, Group=None }
+    CollectedScalarParameters[35] = { Value=1, Name=3MaxRoughness, Group=None }
+    CollectedScalarParameters[36] =
+    {
+        Value = 0
+        Name = 7Roughness Tex Contrast
+        Group = None
+    }
+    CollectedScalarParameters[37] = { Value=0.8, Name=7MinRoughness, Group=None }
+    CollectedScalarParameters[38] = { Value=0, Name=5HeightContrast, Group=None }
+    CollectedScalarParameters[39] = { Value=1, Name=10MaxRoughness, Group=None }
+    CollectedScalarParameters[40] = { Value=1, Name=8MaxRoughness, Group=None }
+    CollectedScalarParameters[41] = { Value=1, Name=7MaxRoughness, Group=None }
+    CollectedScalarParameters[42] = { Value=5, Name=5SliceIndex, Group=None }
+    CollectedScalarParameters[43] = { Value=0.1, Name=Random_Wight, Group=None }
+    CollectedScalarParameters[44] = { Value=1, Name=End, Group=None }
+    CollectedScalarParameters[45] = { Value=1500, Name=3LayerScale, Group=None }
+    CollectedScalarParameters[46] = { Value=0, Name=ParamBufferIndex, Group=None }
+    CollectedScalarParameters[47] = { Value=1, Name=1MaxRoughness, Group=None }
+    CollectedScalarParameters[48] = { Value=7, Name=10SliceIndex, Group=None }
+    CollectedScalarParameters[49] = { Value=0, Name=6HeightContrast, Group=None }
+    CollectedScalarParameters[50] =
+    {
+        Value = 100
+        Name = WaterNormal_Scale (S)
+        Group = None
+    }
+    CollectedScalarParameters[51] = { Value=4, Name=4SliceIndex, Group=None }
+    CollectedScalarParameters[52] = { Value=0.8, Name=6MinRoughness, Group=None }
+    CollectedScalarParameters[53] = { Value=6, Name=6SliceIndex, Group=None }
+    CollectedScalarParameters[54] = { Value=1500, Name=5LayerScale, Group=None }
+    CollectedScalarParameters[55] =
+    {
+        Value = 0
+        Name = 8Roughness Tex Contrast
+        Group = None
+    }
+    CollectedScalarParameters[56] = { Value=10, Name=NormalIntensity (S), Group=None }
+    CollectedScalarParameters[57] = { Value=1, Name=2MaxRoughness, Group=None }
+    CollectedScalarParameters[58] = { Value=1, Name=9MaxRoughness, Group=None }
+    CollectedScalarParameters[59] =
+    {
+        Value = 0
+        Name = 6Roughness Tex Contrast
+        Group = None
+    }
+    CollectedScalarParameters[60] = { Value=0.8, Name=1MinRoughness, Group=None }
+    CollectedScalarParameters[61] = { Value=2, Name=MircoShadowPower, Group=None }
+    CollectedScalarParameters[62] = { Value=0, Name=8HeightContrast, Group=None }
+    CollectedScalarParameters[63] = { Value=0.8, Name=8MinRoughness, Group=None }
+    CollectedScalarParameters[64] = { Value=2, Name=2SliceIndex, Group=None }
+    CollectedScalarParameters[65] = { Value=1500, Name=8LayerScale, Group=None }
+    CollectedScalarParameters[66] =
+    {
+        Value = 0
+        Name = 2Roughness Tex Contrast
+        Group = None
+    }
+    CollectedScalarParameters[67] = { Value=1500, Name=6LayerScale, Group=None }
+    CollectedScalarParameters[68] = { Value=0.8, Name=10MinRoughness, Group=None }
+    CollectedScalarParameters[69] = { Value=0.8, Name=3MinRoughness, Group=None }
+    CollectedScalarParameters[70] = { Value=1500, Name=4LayerScale, Group=None }
+}
+CollectedVectorParameters[11] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = 4ColorTint
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = 1ColorTint
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = 7ColorTint
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = 10ColorTint
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = 9ColorTint
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = 2ColorTint
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = 8ColorTint
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = 6ColorTint
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = 5ColorTint
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=0.177083, G=0.124539, B=0.0691732, A=1 }
+        Name = Water Color
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = 3ColorTint
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.953125
+        UVChannelIndex = 0
+        TextureName = T_WaterNormal_Rain
+    }
+}

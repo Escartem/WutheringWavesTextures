@@ -1,0 +1,268 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_Noise_Stormy_M.T_Noise_Stormy_M'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise02_M.T_Foliage_Noise02_M'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[27] =
+                {
+                    ParameterInfos[0] = { Name=SphereMaskHardness }
+                    ParameterInfos[1] = { Name=PlayerInteractionIntensity }
+                    ParameterInfos[2] = { Name=DensityMin }
+                    ParameterInfos[3] = { Name=ParticleMoveSizeMin }
+                    ParameterInfos[4] = { Name=FireSizeMin }
+                    ParameterInfos[5] = { Name=SpeedMax }
+                    ParameterInfos[6] = { Name=ParticleMoveSizeMax }
+                    ParameterInfos[7] = { Name=WindTimeBias }
+                    ParameterInfos[8] = { Name=FireSizeDifferencePow }
+                    ParameterInfos[9] = { Name=WindRandom }
+                    ParameterInfos[10] = { Name=FireSizeDebug }
+                    ParameterInfos[11] = { Name=DissolveAtMinWind }
+                    ParameterInfos[12] = { Name=DensityMax }
+                    ParameterInfos[13] = { Name=DissolveMax }
+                    ParameterInfos[14] = { Name=RandomScaleDown }
+                    ParameterInfos[15] = { Name=PlayerInteractionRadius }
+                    ParameterInfos[16] = { Name=DispersityMin }
+                    ParameterInfos[17] = { Name=SpeedMin }
+                    ParameterInfos[18] = { Name=DissolveTimePow }
+                    ParameterInfos[19] = { Name=DispersityMax }
+                    ParameterInfos[20] = { Name=DissolveNoiseSize }
+                    ParameterInfos[21] = { Name=ScalePow }
+                    ParameterInfos[22] = { Name=FileTilt }
+                    ParameterInfos[23] = { Name=RotationFixLockZ }
+                    ParameterInfos[24] = { Name=DissolveMin }
+                    ParameterInfos[25] = { Name=NoiseSize }
+                    ParameterInfos[26] = { Name=SpeedPow }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=TargetSize }
+                    ParameterInfos[1] = { Name=NoiseScaleSpeed }
+                    ParameterInfos[2] = { Name=DissolveScaleSpeed }
+                    ParameterInfos[3] = { Name=NoiseUVScaleSpeed }
+                    ParameterInfos[4] = { Name=EmissiveAtMaxWind }
+                    ParameterInfos[5] = { Name=ParticleEmission }
+                    ParameterInfos[6] = { Name=SourceSize }
+                    ParameterInfos[7] = { Name=EmissiveAtMinWind }
+                    ParameterInfos[8] = { Name=BaseOffset }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=Wind Field Tex }
+                    ParameterInfos[1] = { Name=BatchParticleNoiseTex }
+                    ParameterInfos[2] = { Name=NoiseTex }
+                    ParameterInfos[3] = { Name=DissolveTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[27] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 1
+            ScalarValues[2] = 0
+            ScalarValues[3] = 0
+            ScalarValues[4] = 0
+            ScalarValues[5] = 0
+            ScalarValues[6] = 0
+            ScalarValues[7] = 0
+            ScalarValues[8] = 1
+            ScalarValues[9] = 0
+            ScalarValues[10] = 0
+            ScalarValues[11] = 0
+            ScalarValues[12] = 0
+            ScalarValues[13] = 0
+            ScalarValues[14] = 0
+            ScalarValues[15] = 20
+            ScalarValues[16] = 0
+            ScalarValues[17] = 0
+            ScalarValues[18] = 1
+            ScalarValues[19] = 0
+            ScalarValues[20] = 0
+            ScalarValues[21] = 0
+            ScalarValues[22] = 0
+            ScalarValues[23] = 0
+            ScalarValues[24] = 0
+            ScalarValues[25] = 0
+            ScalarValues[26] = 0
+        }
+        VectorValues[9] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+            VectorValues[2] = { R=0, G=0, B=0, A=0 }
+            VectorValues[3] = { R=0, G=0, B=0, A=0 }
+            VectorValues[4] = { R=0, G=0, B=0, A=1 }
+            VectorValues[5] = { R=0, G=0, B=0, A=1 }
+            VectorValues[6] = { R=-10, G=10, B=0, A=0 }
+            VectorValues[7] = { R=0, G=0, B=0, A=1 }
+            VectorValues[8] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise02_M.T_Foliage_Noise02_M'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_Noise_Stormy_M.T_Noise_Stormy_M'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_Noise_Stormy_M.T_Noise_Stormy_M'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise02_M.T_Foliage_Noise02_M'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise02_M.T_Foliage_Noise02_M'
+        Name = Wind Field Tex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_Noise_Stormy_M.T_Noise_Stormy_M'
+        Name = BatchParticleNoiseTex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = NoiseTex
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = DissolveTex
+        Group = None
+    }
+}
+CollectedScalarParameters[27] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=SphereMaskHardness, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 1
+        Name = PlayerInteractionIntensity
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=0, Name=DensityMin, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=ParticleMoveSizeMin, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=FireSizeMin, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=SpeedMax, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=ParticleMoveSizeMax, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=WindTimeBias, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=FireSizeDifferencePow, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=WindRandom, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=FireSizeDebug, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=DissolveAtMinWind, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=DensityMax, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=DissolveMax, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=RandomScaleDown, Group=None }
+    CollectedScalarParameters[15] =
+    {
+        Value = 20
+        Name = PlayerInteractionRadius
+        Group = None
+    }
+    CollectedScalarParameters[16] = { Value=0, Name=DispersityMin, Group=None }
+    CollectedScalarParameters[17] = { Value=0, Name=SpeedMin, Group=None }
+    CollectedScalarParameters[18] = { Value=1, Name=DissolveTimePow, Group=None }
+    CollectedScalarParameters[19] = { Value=0, Name=DispersityMax, Group=None }
+    CollectedScalarParameters[20] = { Value=0, Name=DissolveNoiseSize, Group=None }
+    CollectedScalarParameters[21] = { Value=0, Name=ScalePow, Group=None }
+    CollectedScalarParameters[22] = { Value=0, Name=FileTilt, Group=None }
+    CollectedScalarParameters[23] = { Value=0, Name=RotationFixLockZ, Group=None }
+    CollectedScalarParameters[24] = { Value=0, Name=DissolveMin, Group=None }
+    CollectedScalarParameters[25] = { Value=0, Name=NoiseSize, Group=None }
+    CollectedScalarParameters[26] = { Value=0, Name=SpeedPow, Group=None }
+}
+CollectedVectorParameters[9] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = TargetSize
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = NoiseScaleSpeed
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = DissolveScaleSpeed
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = NoiseUVScaleSpeed
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = EmissiveAtMaxWind
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = ParticleEmission
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=-10, G=10, B=0, A=0 }
+        Name = SourceSize
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = EmissiveAtMinWind
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = BaseOffset
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

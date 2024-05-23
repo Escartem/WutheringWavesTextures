@@ -1,0 +1,4 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T_DefaultNormal_N
+Cube=TC_DefaultWaterCube
+Other[0]=T_Default_SceneMask_M

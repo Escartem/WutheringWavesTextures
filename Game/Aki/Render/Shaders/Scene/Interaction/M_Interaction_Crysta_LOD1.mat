@@ -1,0 +1,12 @@
+Diffuse=T_DefaultColorBlack_Linear_D
+Normal=T_DefaultNormal_N
+Other[0]=Good64x64TilingNoiseHighFreq
+Other[1]=Gradient
+Other[2]=Greyscale
+Other[3]=T_Mask_Scan_002
+Other[4]=T_Cloud_50005
+Other[5]=CommonBtnBg2
+Other[6]=T_DefaultColorWhite_D
+Other[7]=T_DefaultMaskGreen_M
+Other[8]=T_FlareNoise_M
+Other[9]=T_wide_street_02_2k_CUBE

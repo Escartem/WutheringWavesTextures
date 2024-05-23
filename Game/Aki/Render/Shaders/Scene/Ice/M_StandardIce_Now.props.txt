@@ -1,0 +1,347 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[9] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+    ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+    ReferencedTextures[5] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise_M.T_Foliage_Noise_M'
+    ReferencedTextures[6] = Texture2D'/Game/Aki/Render/Common/T_Noise_Stormy.T_Noise_Stormy'
+    ReferencedTextures[7] = Texture2D'/Game/Aki/Render/Common/T_soft_smoke.T_soft_smoke'
+    ReferencedTextures[8] = TextureCube4'/Game/Aki/Scene/Cubemaps/T_Zbudio_0011_CUBE.T_Zbudio_0011_CUBE'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[39] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=LandscapeBlendHeightContrast }
+                    ParameterInfos[2] = { Name=EmissiveIntensty }
+                    ParameterInfos[3] = { Name=Metallic }
+                    ParameterInfos[4] = { Name=MaxRadius }
+                    ParameterInfos[5] = { Name=LandscapeFadeDistance }
+                    ParameterInfos[6] = { Name=CheapSSS_Power }
+                    ParameterInfos[7] = { Name=NormalTili }
+                    ParameterInfos[8] = { Name=zUp Contrast }
+                    ParameterInfos[9] = { Name=DepthIntensty }
+                    ParameterInfos[10] = { Name=CheapSssOffset }
+                    ParameterInfos[11] = { Name=LandscapeBlendHeightTillingR }
+                    ParameterInfos[12] = { Name=DitherProcess }
+                    ParameterInfos[13] = { Name=FresnelScope }
+                    ParameterInfos[14] = { Name=LandscapeBlendHeightTillingG }
+                    ParameterInfos[15] = { Name=LandscapeDepthBias }
+                    ParameterInfos[16] = { Name=BlendSkyColor }
+                    ParameterInfos[17] = { Name=Ice_Depth_Weight }
+                    ParameterInfos[18] = { Name=LandscapeFadeHardness }
+                    ParameterInfos[19] = { Name=Param }
+                    ParameterInfos[20] = { Name=Base UV0 Or UV1 }
+                    ParameterInfos[21] = { Name=maxBaseClamp }
+                    ParameterInfos[22] = { Name=Normal UV0 Or UV1 }
+                    ParameterInfos[23] = { Name=LandBlendMaxDis }
+                    ParameterInfos[24] = { Name=UV0 or UV1 }
+                    ParameterInfos[25] = { Name=MidRoughness }
+                    ParameterInfos[26] = { Name=Depth UV0 Or UV1 }
+                    ParameterInfos[27] = { Name=MaskThickness }
+                    ParameterInfos[28] = { Name=NormalIntensity }
+                    ParameterInfos[29] = { Name=DepthOffset }
+                    ParameterInfos[30] = { Name=FresnelIntensty }
+                    ParameterInfos[31] = { Name=DepthTexSize }
+                    ParameterInfos[32] = { Name=BaseTili }
+                    ParameterInfos[33] = { Name=SubsurfaceIntensty }
+                    ParameterInfos[34] = { Name=Ice_Depth_Wight }
+                    ParameterInfos[35] = { Name=DepthTili }
+                    ParameterInfos[36] = { Name=zUp Scop }
+                    ParameterInfos[37] = { Name=CheapSSS_Inten }
+                    ParameterInfos[38] = { Name=BlendlayerTili }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=EmissiveColor }
+                    ParameterInfos[1] = { Name=SubsurfaceColor }
+                    ParameterInfos[2] = { Name=FresnelColor }
+                    ParameterInfos[3] = { Name=IceColor1 }
+                    ParameterInfos[4] = { Name=SphereMaskParameters }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=Normalll }
+                    ParameterInfos[1] = { Name=MidBaseTex }
+                    ParameterInfos[2] = { Name=MidNormalTex }
+                    ParameterInfos[3] = { Name=Ice_Depth_Tex }
+                    ParameterInfos[4] = { Name=DepthWeight_Tex }
+                    ParameterInfos[5] = { Name=NormalTex }
+                    ParameterInfos[6] = { Name=BaseTex }
+                    ParameterInfos[7] = { Name=LandscapeBlendHeight }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[39] =
+        {
+            ScalarValues[0] = 0.4
+            ScalarValues[1] = 1
+            ScalarValues[2] = 1.25
+            ScalarValues[3] = 0.1
+            ScalarValues[4] = 0
+            ScalarValues[5] = 50
+            ScalarValues[6] = 2
+            ScalarValues[7] = 1
+            ScalarValues[8] = 2
+            ScalarValues[9] = 0.025
+            ScalarValues[10] = 0.8
+            ScalarValues[11] = 1000
+            ScalarValues[12] = 1
+            ScalarValues[13] = 5
+            ScalarValues[14] = 1000
+            ScalarValues[15] = 1
+            ScalarValues[16] = 0
+            ScalarValues[17] = 0.2
+            ScalarValues[18] = 0
+            ScalarValues[19] = 1
+            ScalarValues[20] = 0
+            ScalarValues[21] = 1
+            ScalarValues[22] = 0
+            ScalarValues[23] = 65000
+            ScalarValues[24] = 1
+            ScalarValues[25] = 1
+            ScalarValues[26] = 0
+            ScalarValues[27] = 0
+            ScalarValues[28] = 1
+            ScalarValues[29] = 0
+            ScalarValues[30] = 3
+            ScalarValues[31] = 512
+            ScalarValues[32] = 1
+            ScalarValues[33] = 2
+            ScalarValues[34] = 1
+            ScalarValues[35] = 1
+            ScalarValues[36] = 1
+            ScalarValues[37] = 10
+            ScalarValues[38] = 1
+        }
+        VectorValues[5] =
+        {
+            VectorValues[0] = { R=0.337862, G=0.496578, B=0.8125, A=1 }
+            VectorValues[1] = { R=0.15, G=0.25, B=0.3, A=1 }
+            VectorValues[2] = { R=0.584899, G=0.878752, B=1, A=1 }
+            VectorValues[3] = { R=0.8, G=1.25, B=1.45, A=0 }
+            VectorValues[4] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[8] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+            TextureValues[3] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise_M.T_Foliage_Noise_M'
+            TextureValues[4] = Texture2D'/Game/Aki/Render/Common/T_Noise_Stormy.T_Noise_Stormy'
+            TextureValues[5] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+            TextureValues[6] = Texture2D'/Game/Aki/Render/Common/T_soft_smoke.T_soft_smoke'
+            TextureValues[7] = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+        }
+    }
+    ReferencedTextures[10] =
+    {
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise_M.T_Foliage_Noise_M'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_soft_smoke.T_soft_smoke'
+        ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+        ReferencedTextures[4] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+        ReferencedTextures[5] = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+        ReferencedTextures[6] = TextureCube4'/Game/Aki/Scene/Cubemaps/T_Zbudio_0011_CUBE.T_Zbudio_0011_CUBE'
+        ReferencedTextures[7] = Texture2D'/Game/Aki/Render/Common/T_Noise_Stormy.T_Noise_Stormy'
+        ReferencedTextures[8] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+        ReferencedTextures[9] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[8] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+        Name = Normalll
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = MidBaseTex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+        Name = MidNormalTex
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise_M.T_Foliage_Noise_M'
+        Name = Ice_Depth_Tex
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_Noise_Stormy.T_Noise_Stormy'
+        Name = DepthWeight_Tex
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultNormalMask_M.T_DefaultNormalMask_M'
+        Name = NormalTex
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_soft_smoke.T_soft_smoke'
+        Name = BaseTex
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+        Name = LandscapeBlendHeight
+        Group = None
+    }
+}
+CollectedScalarParameters[39] =
+{
+    CollectedScalarParameters[0] = { Value=0.4, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 1
+        Name = LandscapeBlendHeightContrast
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=1.25, Name=EmissiveIntensty, Group=None }
+    CollectedScalarParameters[3] = { Value=0.1, Name=Metallic, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=MaxRadius, Group=None }
+    CollectedScalarParameters[5] = { Value=50, Name=LandscapeFadeDistance, Group=None }
+    CollectedScalarParameters[6] = { Value=2, Name=CheapSSS_Power, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=NormalTili, Group=None }
+    CollectedScalarParameters[8] = { Value=2, Name=zUp Contrast, Group=None }
+    CollectedScalarParameters[9] = { Value=0.025, Name=DepthIntensty, Group=None }
+    CollectedScalarParameters[10] = { Value=0.8, Name=CheapSssOffset, Group=None }
+    CollectedScalarParameters[11] =
+    {
+        Value = 1000
+        Name = LandscapeBlendHeightTillingR
+        Group = None
+    }
+    CollectedScalarParameters[12] = { Value=1, Name=DitherProcess, Group=None }
+    CollectedScalarParameters[13] = { Value=5, Name=FresnelScope, Group=None }
+    CollectedScalarParameters[14] =
+    {
+        Value = 1000
+        Name = LandscapeBlendHeightTillingG
+        Group = None
+    }
+    CollectedScalarParameters[15] = { Value=1, Name=LandscapeDepthBias, Group=None }
+    CollectedScalarParameters[16] = { Value=0, Name=BlendSkyColor, Group=None }
+    CollectedScalarParameters[17] = { Value=0.2, Name=Ice_Depth_Weight, Group=None }
+    CollectedScalarParameters[18] = { Value=0, Name=LandscapeFadeHardness, Group=None }
+    CollectedScalarParameters[19] = { Value=1, Name=Param, Group=None }
+    CollectedScalarParameters[20] = { Value=0, Name=Base UV0 Or UV1, Group=None }
+    CollectedScalarParameters[21] = { Value=1, Name=maxBaseClamp, Group=None }
+    CollectedScalarParameters[22] = { Value=0, Name=Normal UV0 Or UV1, Group=None }
+    CollectedScalarParameters[23] = { Value=65000, Name=LandBlendMaxDis, Group=None }
+    CollectedScalarParameters[24] = { Value=1, Name=UV0 or UV1, Group=None }
+    CollectedScalarParameters[25] = { Value=1, Name=MidRoughness, Group=None }
+    CollectedScalarParameters[26] = { Value=0, Name=Depth UV0 Or UV1, Group=None }
+    CollectedScalarParameters[27] = { Value=0, Name=MaskThickness, Group=None }
+    CollectedScalarParameters[28] = { Value=1, Name=NormalIntensity, Group=None }
+    CollectedScalarParameters[29] = { Value=0, Name=DepthOffset, Group=None }
+    CollectedScalarParameters[30] = { Value=3, Name=FresnelIntensty, Group=None }
+    CollectedScalarParameters[31] = { Value=512, Name=DepthTexSize, Group=None }
+    CollectedScalarParameters[32] = { Value=1, Name=BaseTili, Group=None }
+    CollectedScalarParameters[33] = { Value=2, Name=SubsurfaceIntensty, Group=None }
+    CollectedScalarParameters[34] = { Value=1, Name=Ice_Depth_Wight, Group=None }
+    CollectedScalarParameters[35] = { Value=1, Name=DepthTili, Group=None }
+    CollectedScalarParameters[36] = { Value=1, Name=zUp Scop, Group=None }
+    CollectedScalarParameters[37] = { Value=10, Name=CheapSSS_Inten, Group=None }
+    CollectedScalarParameters[38] = { Value=1, Name=BlendlayerTili, Group=None }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.337862, G=0.496578, B=0.8125, A=1 }
+        Name = EmissiveColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.15, G=0.25, B=0.3, A=1 }
+        Name = SubsurfaceColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.584899, G=0.878752, B=1, A=1 }
+        Name = FresnelColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.8, G=1.25, B=1.45, A=0 }
+        Name = IceColor1
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = SphereMaskParameters
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultNormal_N
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 1
+        TextureName = T_DefaultNormalMask_M
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Noise_Stormy
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 0.015625
+        UVChannelIndex = 2
+        TextureName = T_soft_smoke
+    }
+}

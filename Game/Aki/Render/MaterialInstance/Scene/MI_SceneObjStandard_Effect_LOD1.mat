@@ -1,0 +1,10 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T_DefaultNormal_N
+Other[0]=Good64x64TilingNoiseHighFreq
+Other[1]=T_Caustic_001
+Other[2]=T_Default_SceneMask_M
+Other[3]=T_FlareNoise_M
+Other[4]=T_Foliage_Noise_M
+Other[5]=T_Ice_A_Sub
+Other[6]=T_SingleLayerWaterNoise
+Other[7]=T_WaterNormal_Rain

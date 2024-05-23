@@ -1,0 +1,313 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[9] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/LowResBlurredNoise.LowResBlurredNoise'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_Ocean_Foam_M.T_Ocean_Foam_M'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterFall_Foam.T_WaterFall_Foam'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterfallMask_M.T_WaterfallMask_M'
+    ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterfallNoise.T_WaterfallNoise'
+    ReferencedTextures[5] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterFalls_atlas.T_WaterFalls_atlas'
+    ReferencedTextures[6] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterNoise_02_M.T_WaterNoise_02_M'
+    ReferencedTextures[7] = TextureCube4'/Game/Aki/Render/Common/TC_DefaultWaterCube.TC_DefaultWaterCube'
+    ReferencedTextures[8] = TextureCube4'/Game/Aki/Scene/Cubemaps/T_NoonSky_CUBE.T_NoonSky_CUBE'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[23] =
+                {
+                    ParameterInfos[0] = { Name=Roughness }
+                    ParameterInfos[1] = { Name=Refraction }
+                    ParameterInfos[2] = { Name=BaseFoamSpeed }
+                    ParameterInfos[3] = { Name=BaseNormalSpeed }
+                    ParameterInfos[4] = { Name=LargeaNormaIntensity }
+                    ParameterInfos[5] = { Name=EdgeLgiheRange }
+                    ParameterInfos[6] = { Name=MidHeightOffset }
+                    ParameterInfos[7] = { Name=BaseFoamUV_Y }
+                    ParameterInfos[8] = { Name=UVWarpSpeed }
+                    ParameterInfos[9] = { Name=EdgeOpacityFade }
+                    ParameterInfos[10] = { Name=WaterfallNormalIntensity }
+                    ParameterInfos[11] = { Name=BaseNormalUV_Y }
+                    ParameterInfos[12] = { Name=BaseFoamUV_X }
+                    ParameterInfos[13] = { Name=TopHeightBlendContrast }
+                    ParameterInfos[14] = { Name=EdgeFoamRange }
+                    ParameterInfos[15] = { Name=PositionOffset }
+                    ParameterInfos[16] = { Name=IBLRoughness }
+                    ParameterInfos[17] = { Name=UVWarpTile }
+                    ParameterInfos[18] = { Name=UVWarpStrength }
+                    ParameterInfos[19] = { Name=TopHeightOffset }
+                    ParameterInfos[20] = { Name=MidHeightBlendContrast }
+                    ParameterInfos[21] = { Name=cubemapInter }
+                    ParameterInfos[22] = { Name=BaseNormalUV_X }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=InsideColor }
+                    ParameterInfos[1] = { Name=WaterEdgeColor }
+                    ParameterInfos[2] = { Name=MidFoam }
+                    ParameterInfos[3] = { Name=UVMaskTex_NoiseWarp }
+                    ParameterInfos[4] = { Name=TopFoam }
+                    ParameterInfos[5] = { Name=WaterColor }
+                    ParameterInfos[6] = { Name=foamcolor }
+                    ParameterInfos[7] = { Name=foamcolor_Top }
+                    ParameterInfos[8] = { Name=WaterSSSColor }
+                    ParameterInfos[9] = { Name=BaseFoam }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=UVNoiseTex }
+                    ParameterInfos[1] = { Name=UVMaskTex }
+                    ParameterInfos[2] = { Name=Cubemap }
+                    ParameterInfos[3] = { Name=LargeaNormalTex }
+                    ParameterInfos[4] = { Name=FoamTex }
+                    ParameterInfos[5] = { Name=BaseNormalTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[23] =
+        {
+            ScalarValues[0] = 0.03
+            ScalarValues[1] = 1
+            ScalarValues[2] = -0.06
+            ScalarValues[3] = -0.05
+            ScalarValues[4] = 0.2
+            ScalarValues[5] = 5
+            ScalarValues[6] = 1
+            ScalarValues[7] = 3
+            ScalarValues[8] = 0.03
+            ScalarValues[9] = 100
+            ScalarValues[10] = 0.2
+            ScalarValues[11] = 1
+            ScalarValues[12] = 3
+            ScalarValues[13] = 0
+            ScalarValues[14] = 50
+            ScalarValues[15] = 0
+            ScalarValues[16] = 1
+            ScalarValues[17] = 8
+            ScalarValues[18] = 0.03
+            ScalarValues[19] = 1
+            ScalarValues[20] = 0
+            ScalarValues[21] = 0.35
+            ScalarValues[22] = 1
+        }
+        VectorValues[10] =
+        {
+            VectorValues[0] = { R=0.087624, G=0.203, B=0.139543, A=1 }
+            VectorValues[1] = { R=0.023959, G=0.089861, B=0.1, A=1 }
+            VectorValues[2] = { R=1, G=0, B=1, A=0 }
+            VectorValues[3] = { R=8, G=8, B=0.03, A=0.03 }
+            VectorValues[4] = { R=0, G=0, B=1, A=0 }
+            VectorValues[5] = { R=0.019167, G=0.071889, B=0.08, A=1 }
+            VectorValues[6] = { R=0.44, G=0.599553, B=0.8, A=0.098039 }
+            VectorValues[7] = { R=0.6, G=0.73578, B=1, A=0.098039 }
+            VectorValues[8] = { R=0.019168, G=0.071889, B=0.1, A=1 }
+            VectorValues[9] = { R=0, G=0.7, B=3, A=0 }
+        }
+        TextureValues[6] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterfallNoise.T_WaterfallNoise'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterfallMask_M.T_WaterfallMask_M'
+            TextureValues[2] = TextureCube4'/Game/Aki/Render/Common/TC_DefaultWaterCube.TC_DefaultWaterCube'
+            TextureValues[3] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterNoise_02_M.T_WaterNoise_02_M'
+            TextureValues[4] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterFall_Foam.T_WaterFall_Foam'
+            TextureValues[5] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterNoise_02_M.T_WaterNoise_02_M'
+        }
+    }
+    ReferencedTextures[9] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterfallMask_M.T_WaterfallMask_M'
+        ReferencedTextures[1] = TextureCube4'/Game/Aki/Render/Common/TC_DefaultWaterCube.TC_DefaultWaterCube'
+        ReferencedTextures[2] = TextureCube4'/Game/Aki/Scene/Cubemaps/T_NoonSky_CUBE.T_NoonSky_CUBE'
+        ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_Ocean_Foam_M.T_Ocean_Foam_M'
+        ReferencedTextures[4] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/LowResBlurredNoise.LowResBlurredNoise'
+        ReferencedTextures[5] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterFalls_atlas.T_WaterFalls_atlas'
+        ReferencedTextures[6] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterfallNoise.T_WaterfallNoise'
+        ReferencedTextures[7] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterNoise_02_M.T_WaterNoise_02_M'
+        ReferencedTextures[8] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterFall_Foam.T_WaterFall_Foam'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[6] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterfallNoise.T_WaterfallNoise'
+        Name = UVNoiseTex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterfallMask_M.T_WaterfallMask_M'
+        Name = UVMaskTex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = TextureCube4'/Game/Aki/Render/Common/TC_DefaultWaterCube.TC_DefaultWaterCube'
+        Name = Cubemap
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterNoise_02_M.T_WaterNoise_02_M'
+        Name = LargeaNormalTex
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterFall_Foam.T_WaterFall_Foam'
+        Name = FoamTex
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterNoise_02_M.T_WaterNoise_02_M'
+        Name = BaseNormalTex
+        Group = None
+    }
+}
+CollectedScalarParameters[23] =
+{
+    CollectedScalarParameters[0] = { Value=0.03, Name=Roughness, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Refraction, Group=None }
+    CollectedScalarParameters[2] = { Value=-0.06, Name=BaseFoamSpeed, Group=None }
+    CollectedScalarParameters[3] = { Value=-0.05, Name=BaseNormalSpeed, Group=None }
+    CollectedScalarParameters[4] = { Value=0.2, Name=LargeaNormaIntensity, Group=None }
+    CollectedScalarParameters[5] = { Value=5, Name=EdgeLgiheRange, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=MidHeightOffset, Group=None }
+    CollectedScalarParameters[7] = { Value=3, Name=BaseFoamUV_Y, Group=None }
+    CollectedScalarParameters[8] = { Value=0.03, Name=UVWarpSpeed, Group=None }
+    CollectedScalarParameters[9] = { Value=100, Name=EdgeOpacityFade, Group=None }
+    CollectedScalarParameters[10] =
+    {
+        Value = 0.2
+        Name = WaterfallNormalIntensity
+        Group = None
+    }
+    CollectedScalarParameters[11] = { Value=1, Name=BaseNormalUV_Y, Group=None }
+    CollectedScalarParameters[12] = { Value=3, Name=BaseFoamUV_X, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=TopHeightBlendContrast, Group=None }
+    CollectedScalarParameters[14] = { Value=50, Name=EdgeFoamRange, Group=None }
+    CollectedScalarParameters[15] = { Value=0, Name=PositionOffset, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=IBLRoughness, Group=None }
+    CollectedScalarParameters[17] = { Value=8, Name=UVWarpTile, Group=None }
+    CollectedScalarParameters[18] = { Value=0.03, Name=UVWarpStrength, Group=None }
+    CollectedScalarParameters[19] = { Value=1, Name=TopHeightOffset, Group=None }
+    CollectedScalarParameters[20] = { Value=0, Name=MidHeightBlendContrast, Group=None }
+    CollectedScalarParameters[21] = { Value=0.35, Name=cubemapInter, Group=None }
+    CollectedScalarParameters[22] = { Value=1, Name=BaseNormalUV_X, Group=None }
+}
+CollectedVectorParameters[10] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.087624, G=0.203, B=0.139543, A=1 }
+        Name = InsideColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.023959, G=0.089861, B=0.1, A=1 }
+        Name = WaterEdgeColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=0, B=1, A=0 }
+        Name = MidFoam
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=8, G=8, B=0.03, A=0.03 }
+        Name = UVMaskTex_NoiseWarp
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=1, A=0 }
+        Name = TopFoam
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0.019167, G=0.071889, B=0.08, A=1 }
+        Name = WaterColor
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0.44, G=0.599553, B=0.8, A=0.098039 }
+        Name = foamcolor
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0.6, G=0.73578, B=1, A=0.098039 }
+        Name = foamcolor_Top
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0.019168, G=0.071889, B=0.1, A=1 }
+        Name = WaterSSSColor
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=0, G=0.7, B=3, A=0 }
+        Name = BaseFoam
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[4] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 3
+        UVChannelIndex = 0
+        TextureName = T_WaterFall_Foam
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 1
+        TextureName = T_WaterfallMask_M
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 8
+        UVChannelIndex = 0
+        TextureName = T_WaterfallNoise
+    }
+    TextureStreamingData[3] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_WaterNoise_02_M
+    }
+}

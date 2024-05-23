@@ -1,0 +1,84 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=RegardedAsBanked }
+                    ParameterInfos[1] = { Name=DistanceU }
+                    ParameterInfos[2] = { Name=Radial Offset (S) }
+                    ParameterInfos[3] = { Name=DistanceV }
+                    ParameterInfos[4] = { Name=Radial Steps (S) }
+                    ParameterInfos[5] = { Name=BankedOffset }
+                    ParameterInfos[6] = { Name=HeightOffset }
+                    ParameterInfos[7] = { Name=Kernel Power (S) }
+                    ParameterInfos[8] = { Name=Distance Steps (S) }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[9] = { 1.1, 0.005, 0.62, 0.005, 8, 0, 0, 1, 16 }
+        VectorValues[0] = {}
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M'
+        Name = Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] = { Value=1.1, Name=RegardedAsBanked, Group=None }
+    CollectedScalarParameters[1] = { Value=0.005, Name=DistanceU, Group=None }
+    CollectedScalarParameters[2] = { Value=0.62, Name=Radial Offset (S), Group=None }
+    CollectedScalarParameters[3] = { Value=0.005, Name=DistanceV, Group=None }
+    CollectedScalarParameters[4] = { Value=8, Name=Radial Steps (S), Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=BankedOffset, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=HeightOffset, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Kernel Power (S), Group=None }
+    CollectedScalarParameters[8] = { Value=16, Name=Distance Steps (S), Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

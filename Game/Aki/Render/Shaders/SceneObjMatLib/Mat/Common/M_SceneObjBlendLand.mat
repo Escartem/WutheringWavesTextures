@@ -1,0 +1,6 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T_DefaultNormal_N
+Other[0]=Good64x64TilingNoiseHighFreq
+Other[1]=T_Default_SceneMask_M
+Other[2]=T_DefaultColorBlack_D1
+Other[3]=T_FlareNoise_M

@@ -1,0 +1,15 @@
+Diffuse=BlendFunc_DefBase
+Other[0]=T_MilkyWayMask_01
+Other[1]=T_Galaxy02
+Other[2]=T_SkyNoise_01
+Other[3]=BlendFunc_DefBlend
+Other[4]=Black
+Other[5]=Black_Low
+Other[6]=T_flowmap
+Other[7]=T_skybox_01_top
+Other[8]=T_skybox_06
+Other[9]=T_WindNoise_M
+Other[10]=T_CloudsBig_01
+Other[11]=T_Background
+Other[12]=T_CloudNoise_Curl
+Other[13]=T_Moon

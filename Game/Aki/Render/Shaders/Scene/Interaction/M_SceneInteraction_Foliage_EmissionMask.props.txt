@@ -1,0 +1,604 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[8] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Gradient.Gradient'
+    ReferencedTextures[1] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Greyscale.Greyscale'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Effect/Texture/Mask/T_Mask_Scan_002.T_Mask_Scan_002'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Effect/Texture/Wenli/T_Cloud_50005.T_Cloud_50005'
+    ReferencedTextures[4] = Texture2D'/Game/Aki/HotPatch/Ui/HotFix/Image/CommonBtnBg2.CommonBtnBg2'
+    ReferencedTextures[5] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_Linear_D.T_DefaultColorBlack_Linear_D'
+    ReferencedTextures[6] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    ReferencedTextures[7] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[62] =
+                {
+                    ParameterInfos[0] = { Name=E_Action_ScanningOutlineStrength }
+                    ParameterInfos[1] = { Name=Roughness }
+                    ParameterInfos[2] = { Name=Fresnel_Mult }
+                    ParameterInfos[3] = { Name=Wind Noise }
+                    ParameterInfos[4] = { Name=E_Action_UseRimLight }
+                    ParameterInfos[5] = { Name=Tree Sway Speed }
+                    ParameterInfos[6] = { Name=E_Action_UseBaseColorScale }
+                    ParameterInfos[7] = { Name=EffectEmissionSpeed }
+                    ParameterInfos[8] = { Name=ShadeHardness }
+                    ParameterInfos[9] = { Name=Base Saturation }
+                    ParameterInfos[10] = { Name=Bottom Hue }
+                    ParameterInfos[11] = { Name=E_Action_ScanningOutlineMixNoiseStrength }
+                    ParameterInfos[12] = { Name=Random Hue }
+                    ParameterInfos[13] = { Name=RandomLightness }
+                    ParameterInfos[14] = { Name=Metallic }
+                    ParameterInfos[15] = { Name=Top Lightness }
+                    ParameterInfos[16] = { Name=Specular }
+                    ParameterInfos[17] = { Name=SphereHardness }
+                    ParameterInfos[18] = { Name=Base Hue }
+                    ParameterInfos[19] = { Name=Random Saturation }
+                    ParameterInfos[20] = { Name=E_Action_UseEmissionChange }
+                    ParameterInfos[21] = { Name=Leave Wind Weight }
+                    ParameterInfos[22] = { Name=Top Down Position }
+                    ParameterInfos[23] = { Name=Bottom Saturation }
+                    ParameterInfos[24] = { Name=E_Action_UseWPO }
+                    ParameterInfos[25] = { Name=DynamicRandomValue }
+                    ParameterInfos[26] = { Name=BaseEmission }
+                    ParameterInfos[27] = { Name=E_Action_UseScanning }
+                    ParameterInfos[28] = { Name=E_Action_DissolveAdjustment }
+                    ParameterInfos[29] = { Name=ShadeRadius }
+                    ParameterInfos[30] = { Name=Ambient Occlusion }
+                    ParameterInfos[31] = { Name=E_Action_EmissionLightColorChangeProgress }
+                    ParameterInfos[32] = { Name=Top Hue }
+                    ParameterInfos[33] = { Name=Emissive intensity }
+                    ParameterInfos[34] = { Name=Top Down Color Step }
+                    ParameterInfos[35] = { Name=Base Lightness }
+                    ParameterInfos[36] = { Name=E_Action_UseDissolve }
+                    ParameterInfos[37] = { Name=Tree Sway Amount }
+                    ParameterInfos[38] = { Name=E_Action_DisableFoliageEffect }
+                    ParameterInfos[39] = { Name=DynamicWidth }
+                    ParameterInfos[40] = { Name=E_Action_VertexAnim_TimeDebug }
+                    ParameterInfos[41] = { Name=Top Down Falloff }
+                    ParameterInfos[42] = { Name=BaseDesaturation }
+                    ParameterInfos[43] = { Name=E_Action_DissolveEdageStrength }
+                    ParameterInfos[44] = { Name=DynamicRandomValueSpecil }
+                    ParameterInfos[45] = { Name=SSS Intenisty }
+                    ParameterInfos[46] = { Name=E_Action_BaseColorScale }
+                    ParameterInfos[47] = { Name=Bottom Lightness }
+                    ParameterInfos[48] = { Name=Leave Wind Strenght }
+                    ParameterInfos[49] = { Name=Top Saturation }
+                    ParameterInfos[50] = { Name=E_Action_DissolveProgress }
+                    ParameterInfos[51] = { Name=ShadeSpherePositionCorrect }
+                    ParameterInfos[52] = { Name=E_Action_RimPower }
+                    ParameterInfos[53] = { Name=E_Action_VertexAnim_Frame }
+                    ParameterInfos[54] = { Name=FaceSunRange }
+                    ParameterInfos[55] = { Name=E_Action_SimpleWPO_Normal }
+                    ParameterInfos[56] = { Name=Top Down Fade }
+                    ParameterInfos[57] = { Name=SphereRadius }
+                    ParameterInfos[58] = { Name=E_Action_EmissionLightColorChangeStrength }
+                    ParameterInfos[59] = { Name=E_Action_UseEmissionColor }
+                    ParameterInfos[60] = { Name=SpherePositionCorrectSpecil }
+                    ParameterInfos[61] = { Name=E_Action_DissolveEdageWidth }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[23] =
+                {
+                    ParameterInfos[0] = { Name=EmissiveColor }
+                    ParameterInfos[1] = { Name=Color_Fresnel }
+                    ParameterInfos[2] = { Name=Base Color Multiplier }
+                    ParameterInfos[3] = { Name=E_Action_DissolveEdageColor }
+                    ParameterInfos[4] = { Name=E_Action_SimpleWPO_Offset }
+                    ParameterInfos[5] = { Name=E_Action_EmissionLightColorChangeColor }
+                    ParameterInfos[6] = { Name=E_Action_EmissionColor }
+                    ParameterInfos[7] = { Name=SpherePositionCorrect }
+                    ParameterInfos[8] = { Name=EmissionColor }
+                    ParameterInfos[9] = { Name=E_Action_RimLightColor }
+                    ParameterInfos[10] = { Name=Base Color }
+                    ParameterInfos[11] = { Name=E_Action_ScanningOutlineColor }
+                    ParameterInfos[12] = { Name=Top Color Multiplier }
+                    ParameterInfos[13] = { Name=ShadeSpherePosition }
+                    ParameterInfos[14] = { Name=EmissionDynamicColor }
+                    ParameterInfos[15] = { Name=E_Action_ScanningTex_S_O }
+                    ParameterInfos[16] = { Name=E_Action_DissolveTexSpeed }
+                    ParameterInfos[17] = { Name=E_Action_DissolveTex_S_O }
+                    ParameterInfos[18] = { Name=Bottom Color Multiplier }
+                    ParameterInfos[19] = { Name=Random Color Multiplier }
+                    ParameterInfos[20] = { Name=Wind Seed }
+                    ParameterInfos[21] = { Name=Wind Seed 2 }
+                    ParameterInfos[22] = { Name=E_Tex_DissolveTexUVSwitch }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Base Color Map }
+                    ParameterInfos[1] = { Name=Emissive mask }
+                    ParameterInfos[2] = { Name=ScanningTexParam }
+                    ParameterInfos[3] = { Name=E_Action_DissolveTex }
+                    ParameterInfos[4] = { Name=Normal_EmissionMask }
+                    ParameterInfos[5] = { Name=E_Action_MorphTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[62] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 1
+            ScalarValues[2] = 1
+            ScalarValues[3] = 4.2
+            ScalarValues[4] = 0
+            ScalarValues[5] = 1.1
+            ScalarValues[6] = 0
+            ScalarValues[7] = 1
+            ScalarValues[8] = 0
+            ScalarValues[9] = 1
+            ScalarValues[10] = 0
+            ScalarValues[11] = 0
+            ScalarValues[12] = 0
+            ScalarValues[13] = 1
+            ScalarValues[14] = 0
+            ScalarValues[15] = 1
+            ScalarValues[16] = 0.1
+            ScalarValues[17] = 1
+            ScalarValues[18] = 0
+            ScalarValues[19] = 1
+            ScalarValues[20] = 0
+            ScalarValues[21] = 0.34
+            ScalarValues[22] = 0
+            ScalarValues[23] = 1
+            ScalarValues[24] = 0
+            ScalarValues[25] = 80
+            ScalarValues[26] = 0.2
+            ScalarValues[27] = 0
+            ScalarValues[28] = 0
+            ScalarValues[29] = 0
+            ScalarValues[30] = 0.1
+            ScalarValues[31] = 0
+            ScalarValues[32] = 0
+            ScalarValues[33] = 0
+            ScalarValues[34] = 5
+            ScalarValues[35] = 0.2
+            ScalarValues[36] = 0
+            ScalarValues[37] = 0.015
+            ScalarValues[38] = 1
+            ScalarValues[39] = 0
+            ScalarValues[40] = 1
+            ScalarValues[41] = 1
+            ScalarValues[42] = 0.3
+            ScalarValues[43] = 1
+            ScalarValues[44] = 0.5
+            ScalarValues[45] = 1
+            ScalarValues[46] = 1
+            ScalarValues[47] = 1
+            ScalarValues[48] = 0.14
+            ScalarValues[49] = 1
+            ScalarValues[50] = 0
+            ScalarValues[51] = 0
+            ScalarValues[52] = 1
+            ScalarValues[53] = 1
+            ScalarValues[54] = 1
+            ScalarValues[55] = 0
+            ScalarValues[56] = 1
+            ScalarValues[57] = 1
+            ScalarValues[58] = 1
+            ScalarValues[59] = 0
+            ScalarValues[60] = 0
+            ScalarValues[61] = 0
+        }
+        VectorValues[23] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+            VectorValues[1] = { R=0.154595, G=0.213542, B=0.161344, A=0 }
+            VectorValues[2] = { R=1, G=1, B=1, A=1 }
+            VectorValues[3] = { R=1, G=0.76752, B=0, A=0 }
+            VectorValues[4] = { R=0, G=0, B=0, A=0 }
+            VectorValues[5] = { R=0, G=0, B=0, A=0 }
+            VectorValues[6] = { R=0, G=0, B=0, A=0 }
+            VectorValues[7] = { R=0, G=0, B=0, A=1 }
+            VectorValues[8] = { R=0, G=0, B=0, A=0 }
+            VectorValues[9] = { R=0, G=0, B=0, A=0 }
+            VectorValues[10] = { R=0.097587, G=0.198069, B=0.002732, A=1 }
+            VectorValues[11] = { R=0, G=0, B=0, A=0 }
+            VectorValues[12] = { R=1, G=1, B=1, A=1 }
+            VectorValues[13] = { R=0, G=0, B=0, A=1 }
+            VectorValues[14] = { R=1, G=1, B=1, A=1 }
+            VectorValues[15] = { R=0, G=0, B=0, A=0 }
+            VectorValues[16] = { R=0, G=0, B=0, A=0 }
+            VectorValues[17] = { R=1, G=1, B=0, A=0 }
+            VectorValues[18] = { R=1, G=1, B=1, A=1 }
+            VectorValues[19] = { R=1, G=1, B=1, A=1 }
+            VectorValues[20] = { R=0.022971, G=0.024178, B=0.065, A=0.1 }
+            VectorValues[21] = { R=0.041, G=0.044132, B=0.045, A=0.486239 }
+            VectorValues[22] = { R=1, G=0, B=0, A=0 }
+        }
+        TextureValues[6] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+            TextureValues[2] = Texture2D'/Game/Aki/Effect/Texture/Mask/T_Mask_Scan_002.T_Mask_Scan_002'
+            TextureValues[3] = Texture2D'/Game/Aki/Effect/Texture/Wenli/T_Cloud_50005.T_Cloud_50005'
+            TextureValues[4] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[5] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_Linear_D.T_DefaultColorBlack_Linear_D'
+        }
+    }
+    ReferencedTextures[9] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Effect/Texture/Wenli/T_Cloud_50005.T_Cloud_50005'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/HotPatch/Ui/HotFix/Image/CommonBtnBg2.CommonBtnBg2'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Effect/Texture/Mask/T_Mask_Scan_002.T_Mask_Scan_002'
+        ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        ReferencedTextures[6] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Gradient.Gradient'
+        ReferencedTextures[7] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Greyscale.Greyscale'
+        ReferencedTextures[8] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_Linear_D.T_DefaultColorBlack_Linear_D'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[6] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Base Color Map
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        Name = Emissive mask
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Effect/Texture/Mask/T_Mask_Scan_002.T_Mask_Scan_002'
+        Name = ScanningTexParam
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Effect/Texture/Wenli/T_Cloud_50005.T_Cloud_50005'
+        Name = E_Action_DissolveTex
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Normal_EmissionMask
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_Linear_D.T_DefaultColorBlack_Linear_D'
+        Name = E_Action_MorphTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[62] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 0
+        Name = E_Action_ScanningOutlineStrength
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=1, Name=Roughness, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Fresnel_Mult, Group=None }
+    CollectedScalarParameters[3] = { Value=4.2, Name=Wind Noise, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=E_Action_UseRimLight, Group=None }
+    CollectedScalarParameters[5] = { Value=1.1, Name=Tree Sway Speed, Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = 0
+        Name = E_Action_UseBaseColorScale
+        Group = None
+    }
+    CollectedScalarParameters[7] = { Value=1, Name=EffectEmissionSpeed, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=ShadeHardness, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Base Saturation, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=Bottom Hue, Group=None }
+    CollectedScalarParameters[11] =
+    {
+        Value = 0
+        Name = E_Action_ScanningOutlineMixNoiseStrength
+        Group = None
+    }
+    CollectedScalarParameters[12] = { Value=0, Name=Random Hue, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=RandomLightness, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=Metallic, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=Top Lightness, Group=None }
+    CollectedScalarParameters[16] = { Value=0.1, Name=Specular, Group=None }
+    CollectedScalarParameters[17] = { Value=1, Name=SphereHardness, Group=None }
+    CollectedScalarParameters[18] = { Value=0, Name=Base Hue, Group=None }
+    CollectedScalarParameters[19] = { Value=1, Name=Random Saturation, Group=None }
+    CollectedScalarParameters[20] =
+    {
+        Value = 0
+        Name = E_Action_UseEmissionChange
+        Group = None
+    }
+    CollectedScalarParameters[21] = { Value=0.34, Name=Leave Wind Weight, Group=None }
+    CollectedScalarParameters[22] = { Value=0, Name=Top Down Position, Group=None }
+    CollectedScalarParameters[23] = { Value=1, Name=Bottom Saturation, Group=None }
+    CollectedScalarParameters[24] = { Value=0, Name=E_Action_UseWPO, Group=None }
+    CollectedScalarParameters[25] = { Value=80, Name=DynamicRandomValue, Group=None }
+    CollectedScalarParameters[26] = { Value=0.2, Name=BaseEmission, Group=None }
+    CollectedScalarParameters[27] = { Value=0, Name=E_Action_UseScanning, Group=None }
+    CollectedScalarParameters[28] =
+    {
+        Value = 0
+        Name = E_Action_DissolveAdjustment
+        Group = None
+    }
+    CollectedScalarParameters[29] = { Value=0, Name=ShadeRadius, Group=None }
+    CollectedScalarParameters[30] = { Value=0.1, Name=Ambient Occlusion, Group=None }
+    CollectedScalarParameters[31] =
+    {
+        Value = 0
+        Name = E_Action_EmissionLightColorChangeProgress
+        Group = None
+    }
+    CollectedScalarParameters[32] = { Value=0, Name=Top Hue, Group=None }
+    CollectedScalarParameters[33] = { Value=0, Name=Emissive intensity, Group=None }
+    CollectedScalarParameters[34] = { Value=5, Name=Top Down Color Step, Group=None }
+    CollectedScalarParameters[35] = { Value=0.2, Name=Base Lightness, Group=None }
+    CollectedScalarParameters[36] = { Value=0, Name=E_Action_UseDissolve, Group=None }
+    CollectedScalarParameters[37] = { Value=0.015, Name=Tree Sway Amount, Group=None }
+    CollectedScalarParameters[38] =
+    {
+        Value = 1
+        Name = E_Action_DisableFoliageEffect
+        Group = None
+    }
+    CollectedScalarParameters[39] = { Value=0, Name=DynamicWidth, Group=None }
+    CollectedScalarParameters[40] =
+    {
+        Value = 1
+        Name = E_Action_VertexAnim_TimeDebug
+        Group = None
+    }
+    CollectedScalarParameters[41] = { Value=1, Name=Top Down Falloff, Group=None }
+    CollectedScalarParameters[42] = { Value=0.3, Name=BaseDesaturation, Group=None }
+    CollectedScalarParameters[43] =
+    {
+        Value = 1
+        Name = E_Action_DissolveEdageStrength
+        Group = None
+    }
+    CollectedScalarParameters[44] =
+    {
+        Value = 0.5
+        Name = DynamicRandomValueSpecil
+        Group = None
+    }
+    CollectedScalarParameters[45] = { Value=1, Name=SSS Intenisty, Group=None }
+    CollectedScalarParameters[46] =
+    {
+        Value = 1
+        Name = E_Action_BaseColorScale
+        Group = None
+    }
+    CollectedScalarParameters[47] = { Value=1, Name=Bottom Lightness, Group=None }
+    CollectedScalarParameters[48] = { Value=0.14, Name=Leave Wind Strenght, Group=None }
+    CollectedScalarParameters[49] = { Value=1, Name=Top Saturation, Group=None }
+    CollectedScalarParameters[50] =
+    {
+        Value = 0
+        Name = E_Action_DissolveProgress
+        Group = None
+    }
+    CollectedScalarParameters[51] =
+    {
+        Value = 0
+        Name = ShadeSpherePositionCorrect
+        Group = None
+    }
+    CollectedScalarParameters[52] = { Value=1, Name=E_Action_RimPower, Group=None }
+    CollectedScalarParameters[53] =
+    {
+        Value = 1
+        Name = E_Action_VertexAnim_Frame
+        Group = None
+    }
+    CollectedScalarParameters[54] = { Value=1, Name=FaceSunRange, Group=None }
+    CollectedScalarParameters[55] =
+    {
+        Value = 0
+        Name = E_Action_SimpleWPO_Normal
+        Group = None
+    }
+    CollectedScalarParameters[56] = { Value=1, Name=Top Down Fade, Group=None }
+    CollectedScalarParameters[57] = { Value=1, Name=SphereRadius, Group=None }
+    CollectedScalarParameters[58] =
+    {
+        Value = 1
+        Name = E_Action_EmissionLightColorChangeStrength
+        Group = None
+    }
+    CollectedScalarParameters[59] =
+    {
+        Value = 0
+        Name = E_Action_UseEmissionColor
+        Group = None
+    }
+    CollectedScalarParameters[60] =
+    {
+        Value = 0
+        Name = SpherePositionCorrectSpecil
+        Group = None
+    }
+    CollectedScalarParameters[61] =
+    {
+        Value = 0
+        Name = E_Action_DissolveEdageWidth
+        Group = None
+    }
+}
+CollectedVectorParameters[23] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = EmissiveColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.154595, G=0.213542, B=0.161344, A=0 }
+        Name = Color_Fresnel
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Base Color Multiplier
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=0.76752, B=0, A=0 }
+        Name = E_Action_DissolveEdageColor
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Action_SimpleWPO_Offset
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Action_EmissionLightColorChangeColor
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Action_EmissionColor
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = SpherePositionCorrect
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = EmissionColor
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Action_RimLightColor
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=0.097587, G=0.198069, B=0.002732, A=1 }
+        Name = Base Color
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Action_ScanningOutlineColor
+        Group = None
+    }
+    CollectedVectorParameters[12] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Top Color Multiplier
+        Group = None
+    }
+    CollectedVectorParameters[13] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = ShadeSpherePosition
+        Group = None
+    }
+    CollectedVectorParameters[14] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = EmissionDynamicColor
+        Group = None
+    }
+    CollectedVectorParameters[15] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Action_ScanningTex_S_O
+        Group = None
+    }
+    CollectedVectorParameters[16] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Action_DissolveTexSpeed
+        Group = None
+    }
+    CollectedVectorParameters[17] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = E_Action_DissolveTex_S_O
+        Group = None
+    }
+    CollectedVectorParameters[18] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Bottom Color Multiplier
+        Group = None
+    }
+    CollectedVectorParameters[19] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Random Color Multiplier
+        Group = None
+    }
+    CollectedVectorParameters[20] =
+    {
+        Value = { R=0.022971, G=0.024178, B=0.065, A=0.1 }
+        Name = Wind Seed
+        Group = None
+    }
+    CollectedVectorParameters[21] =
+    {
+        Value = { R=0.041, G=0.044132, B=0.045, A=0.486239 }
+        Name = Wind Seed 2
+        Group = None
+    }
+    CollectedVectorParameters[22] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = E_Tex_DissolveTexUVSwitch
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultColorWhite_D
+    }
+}

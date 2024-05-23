@@ -1,0 +1,337 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[7] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_Ground_Grass_D.T_Ground_Grass_D'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_Ground_Grass_N.T_Ground_Grass_N'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_Ground_Gravel_N.T_Ground_Gravel_N'
+    ReferencedTextures[4] = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_Ground_Moss_N.T_Ground_Moss_N'
+    ReferencedTextures[5] = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M'
+    ReferencedTextures[6] = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_White.T_White'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[35] =
+                {
+                    ParameterInfos[0] = { Name=LandTexUV }
+                    ParameterInfos[1] = { Name=Metallic_land }
+                    ParameterInfos[2] = { Name=NormalFlatnessSnow }
+                    ParameterInfos[3] = { Name=Thickness }
+                    ParameterInfos[4] = { Name=Opacity_snow }
+                    ParameterInfos[5] = { Name=Normal Map Intensity (S) }
+                    ParameterInfos[6] = { Name=DistanceEXP (S) }
+                    ParameterInfos[7] = { Name=SnowTexUV }
+                    ParameterInfos[8] = { Name=multi }
+                    ParameterInfos[9] = { Name=NormalFlatness (S) }
+                    ParameterInfos[10] = { Name=ExpLandBlend }
+                    ParameterInfos[11] = { Name=Specular_land }
+                    ParameterInfos[12] = { Name=BankedNoiseTexUV }
+                    ParameterInfos[13] = { Name=LerpDistande (S) }
+                    ParameterInfos[14] = { Name=Specular_snow }
+                    ParameterInfos[15] = { Name=SnowNoiseTexUV }
+                    ParameterInfos[16] = { Name=BankedNoiseMult (S) }
+                    ParameterInfos[17] = { Name=LandMin }
+                    ParameterInfos[18] = { Name=Metallic_snow }
+                    ParameterInfos[19] = { Name=BankedMult (S) }
+                    ParameterInfos[20] = { Name=BankedTessellationAddition }
+                    ParameterInfos[21] = { Name=SnowNoiseMult (S) }
+                    ParameterInfos[22] = { Name=Opacity_land }
+                    ParameterInfos[23] = { Name=LandMax }
+                    ParameterInfos[24] = { Name=BankedLerpDistance (S) }
+                    ParameterInfos[25] = { Name=SelfShadowRangeMin }
+                    ParameterInfos[26] = { Name=SelfShadowRangeMax }
+                    ParameterInfos[27] = { Name=MaxTessellationMult (S) }
+                    ParameterInfos[28] = { Name=HeightOffset }
+                    ParameterInfos[29] = { Name=NormalFlatnessBanked }
+                    ParameterInfos[30] = { Name=HeightExp }
+                    ParameterInfos[31] = { Name=SnowNormalTexUV }
+                    ParameterInfos[32] = { Name=MinTessellationMult(S) }
+                    ParameterInfos[33] = { Name=BankedNormalTexUV }
+                    ParameterInfos[34] = { Name=HeightMapUVoffset_Normal (S) }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Subsurface Land }
+                    ParameterInfos[1] = { Name=ShadowColor }
+                    ParameterInfos[2] = { Name=LightColor }
+                    ParameterInfos[3] = { Name=ColorTint }
+                    ParameterInfos[4] = { Name=Subsurface Snow }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=SnowNormal }
+                    ParameterInfos[1] = { Name=SnowNoise (T2d) }
+                    ParameterInfos[2] = { Name=BankedNormal }
+                    ParameterInfos[3] = { Name=BankedNoise (T2d) }
+                    ParameterInfos[4] = { Name=LandNormal }
+                    ParameterInfos[5] = { Name=SnowTexRoughness }
+                    ParameterInfos[6] = { Name=LandTexRoughness }
+                    ParameterInfos[7] = { Name=SnowTex }
+                    ParameterInfos[8] = { Name=LandTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[35] =
+        {
+            ScalarValues[0] = 1024
+            ScalarValues[1] = 0
+            ScalarValues[2] = 0
+            ScalarValues[3] = 30
+            ScalarValues[4] = 1
+            ScalarValues[5] = 1
+            ScalarValues[6] = 0.5
+            ScalarValues[7] = 1024
+            ScalarValues[8] = 0
+            ScalarValues[9] = 0
+            ScalarValues[10] = 1
+            ScalarValues[11] = 0
+            ScalarValues[12] = 1024
+            ScalarValues[13] = 4096
+            ScalarValues[14] = 0
+            ScalarValues[15] = 1024
+            ScalarValues[16] = 0.3
+            ScalarValues[17] = 0.3
+            ScalarValues[18] = 0
+            ScalarValues[19] = 1
+            ScalarValues[20] = 1
+            ScalarValues[21] = 0.3
+            ScalarValues[22] = 1
+            ScalarValues[23] = 0.5
+            ScalarValues[24] = 0.5
+            ScalarValues[25] = 0
+            ScalarValues[26] = 1
+            ScalarValues[27] = 3
+            ScalarValues[28] = 0
+            ScalarValues[29] = 0
+            ScalarValues[30] = 1
+            ScalarValues[31] = 1024
+            ScalarValues[32] = 0
+            ScalarValues[33] = 1024
+            ScalarValues[34] = 0.003
+        }
+        VectorValues[5] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=0 }
+            VectorValues[1] = { R=0.920833, G=0, B=0, A=0 }
+            VectorValues[2] = { R=0.920833, G=0.920833, B=0.920833, A=0 }
+            VectorValues[3] = { R=0.395833, G=0.395833, B=0.395833, A=0 }
+            VectorValues[4] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[9] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_Ground_Moss_N.T_Ground_Moss_N'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_Ground_Gravel_N.T_Ground_Gravel_N'
+            TextureValues[3] = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M'
+            TextureValues[4] = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_Ground_Grass_N.T_Ground_Grass_N'
+            TextureValues[5] = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_White.T_White'
+            TextureValues[6] = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_Ground_Grass_D.T_Ground_Grass_D'
+            TextureValues[7] = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_White.T_White'
+            TextureValues[8] = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_Ground_Grass_D.T_Ground_Grass_D'
+        }
+    }
+    ReferencedTextures[9] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_Ground_Grass_D.T_Ground_Grass_D'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_Ground_Moss_N.T_Ground_Moss_N'
+        ReferencedTextures[3] = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_Ground_Gravel_N.T_Ground_Gravel_N'
+        ReferencedTextures[5] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        ReferencedTextures[6] = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M'
+        ReferencedTextures[7] = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_White.T_White'
+        ReferencedTextures[8] = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_Ground_Grass_N.T_Ground_Grass_N'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[9] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_Ground_Moss_N.T_Ground_Moss_N'
+        Name = SnowNormal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M'
+        Name = SnowNoise (T2d)
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_Ground_Gravel_N.T_Ground_Gravel_N'
+        Name = BankedNormal
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M'
+        Name = BankedNoise (T2d)
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_Ground_Grass_N.T_Ground_Grass_N'
+        Name = LandNormal
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_White.T_White'
+        Name = SnowTexRoughness
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_Ground_Grass_D.T_Ground_Grass_D'
+        Name = LandTexRoughness
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_White.T_White'
+        Name = SnowTex
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_Ground_Grass_D.T_Ground_Grass_D'
+        Name = LandTex
+        Group = None
+    }
+}
+CollectedScalarParameters[35] =
+{
+    CollectedScalarParameters[0] = { Value=1024, Name=LandTexUV, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Metallic_land, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=NormalFlatnessSnow, Group=None }
+    CollectedScalarParameters[3] = { Value=30, Name=Thickness, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Opacity_snow, Group=None }
+    CollectedScalarParameters[5] =
+    {
+        Value = 1
+        Name = Normal Map Intensity (S)
+        Group = None
+    }
+    CollectedScalarParameters[6] = { Value=0.5, Name=DistanceEXP (S), Group=None }
+    CollectedScalarParameters[7] = { Value=1024, Name=SnowTexUV, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=multi, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=NormalFlatness (S), Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=ExpLandBlend, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=Specular_land, Group=None }
+    CollectedScalarParameters[12] = { Value=1024, Name=BankedNoiseTexUV, Group=None }
+    CollectedScalarParameters[13] = { Value=4096, Name=LerpDistande (S), Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=Specular_snow, Group=None }
+    CollectedScalarParameters[15] = { Value=1024, Name=SnowNoiseTexUV, Group=None }
+    CollectedScalarParameters[16] = { Value=0.3, Name=BankedNoiseMult (S), Group=None }
+    CollectedScalarParameters[17] = { Value=0.3, Name=LandMin, Group=None }
+    CollectedScalarParameters[18] = { Value=0, Name=Metallic_snow, Group=None }
+    CollectedScalarParameters[19] = { Value=1, Name=BankedMult (S), Group=None }
+    CollectedScalarParameters[20] =
+    {
+        Value = 1
+        Name = BankedTessellationAddition
+        Group = None
+    }
+    CollectedScalarParameters[21] = { Value=0.3, Name=SnowNoiseMult (S), Group=None }
+    CollectedScalarParameters[22] = { Value=1, Name=Opacity_land, Group=None }
+    CollectedScalarParameters[23] = { Value=0.5, Name=LandMax, Group=None }
+    CollectedScalarParameters[24] =
+    {
+        Value = 0.5
+        Name = BankedLerpDistance (S)
+        Group = None
+    }
+    CollectedScalarParameters[25] = { Value=0, Name=SelfShadowRangeMin, Group=None }
+    CollectedScalarParameters[26] = { Value=1, Name=SelfShadowRangeMax, Group=None }
+    CollectedScalarParameters[27] =
+    {
+        Value = 3
+        Name = MaxTessellationMult (S)
+        Group = None
+    }
+    CollectedScalarParameters[28] = { Value=0, Name=HeightOffset, Group=None }
+    CollectedScalarParameters[29] = { Value=0, Name=NormalFlatnessBanked, Group=None }
+    CollectedScalarParameters[30] = { Value=1, Name=HeightExp, Group=None }
+    CollectedScalarParameters[31] = { Value=1024, Name=SnowNormalTexUV, Group=None }
+    CollectedScalarParameters[32] = { Value=0, Name=MinTessellationMult(S), Group=None }
+    CollectedScalarParameters[33] = { Value=1024, Name=BankedNormalTexUV, Group=None }
+    CollectedScalarParameters[34] =
+    {
+        Value = 0.003
+        Name = HeightMapUVoffset_Normal (S)
+        Group = None
+    }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Subsurface Land
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.920833, G=0, B=0, A=0 }
+        Name = ShadowColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.920833, G=0.920833, B=0.920833, A=0 }
+        Name = LightColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.395833, G=0.395833, B=0.395833, A=0 }
+        Name = ColorTint
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Subsurface Snow
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Ground_Gravel_N
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_White
+    }
+}

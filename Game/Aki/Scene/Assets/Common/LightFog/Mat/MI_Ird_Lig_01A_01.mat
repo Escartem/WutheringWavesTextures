@@ -1,0 +1,4 @@
+Diffuse=T_Default_SceneMask_M
+Other[0]=T_PerlinNoise
+Other[1]=T_Ird_Lig_01A_D
+Other[2]=T_EV_LightBeam_Falloff_02

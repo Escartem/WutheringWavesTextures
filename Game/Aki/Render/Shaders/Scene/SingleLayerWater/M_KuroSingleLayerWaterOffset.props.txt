@@ -1,0 +1,537 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[12] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Effect/MaterialController/Texture/T_Noise_2.T_Noise_2'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_Caustics_Animated_01_M.T_Caustics_Animated_01_M'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_Caustics_Animated_07_M.T_Caustics_Animated_07_M'
+    ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_SpecularHighlights_M.T_SpecularHighlights_M'
+    ReferencedTextures[5] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterTIlling_Default_M.T_WaterTIlling_Default_M'
+    ReferencedTextures[6] = Texture2D'/Game/Aki/Render/Common/T_Blur_14.T_Blur_14'
+    ReferencedTextures[7] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    ReferencedTextures[8] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+    ReferencedTextures[9] = Texture2D'/Game/Aki/Render/Common/T_SingleLayerWaterNoise.T_SingleLayerWaterNoise'
+    ReferencedTextures[10] = TextureCube4'/Game/Aki/Render/Common/TC_DefaultWaterCube.TC_DefaultWaterCube'
+    ReferencedTextures[11] = TextureCube4'/Game/Aki/Scene/Cubemaps/T_NoonSky_CUBE.T_NoonSky_CUBE'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[71] =
+                {
+                    ParameterInfos[0] = { Name=WaterColorIntensity }
+                    ParameterInfos[1] = { Name=FD }
+                    ParameterInfos[2] = { Name=SpecularNormalScalar }
+                    ParameterInfos[3] = { Name=ColorScaleBehindWaterIntensity }
+                    ParameterInfos[4] = { Name=Speed_X }
+                    ParameterInfos[5] = { Name=Water Distant Normal Offset }
+                    ParameterInfos[6] = { Name=Intensty }
+                    ParameterInfos[7] = { Name=Speed_Y }
+                    ParameterInfos[8] = { Name=FakeSpec_UVScale }
+                    ParameterInfos[9] = { Name=VertexColorR_Intensity }
+                    ParameterInfos[10] = { Name=FakeSpec_Speed }
+                    ParameterInfos[11] = { Name=WaterRoughnessMax }
+                    ParameterInfos[12] = { Name=Refraction }
+                    ParameterInfos[13] = { Name=SurfacePlants_NoiseSpeed }
+                    ParameterInfos[14] = { Name=SpecNormalNearStrength }
+                    ParameterInfos[15] = { Name=Water ScaleX }
+                    ParameterInfos[16] = { Name=SpecularStrength }
+                    ParameterInfos[17] = { Name=CausticTilling }
+                    ParameterInfos[18] = { Name=Metallic }
+                    ParameterInfos[19] = { Name=FarStrength }
+                    ParameterInfos[20] = { Name=BF_Width }
+                    ParameterInfos[21] = { Name=SurfacePlants_ScaleFar }
+                    ParameterInfos[22] = { Name=Water Fresnel Roughness }
+                    ParameterInfos[23] = { Name=Caustics Fade In Distance }
+                    ParameterInfos[24] = { Name=Caustics Shore Mip }
+                    ParameterInfos[25] = { Name=Anisotropy }
+                    ParameterInfos[26] = { Name=OverlayMetallic }
+                    ParameterInfos[27] = { Name=SurfaceMask_Scale1 }
+                    ParameterInfos[28] = { Name=LightDirVerticalScalar }
+                    ParameterInfos[29] = { Name=BF_Intensity }
+                    ParameterInfos[30] = { Name=Water Roughness }
+                    ParameterInfos[31] = { Name=FakeSpeRoughness }
+                    ParameterInfos[32] = { Name=Default Disant Water Speed }
+                    ParameterInfos[33] = { Name=BF_Reducer }
+                    ParameterInfos[34] = { Name=FakeSpec_Intensity }
+                    ParameterInfos[35] = { Name=BF_Scale }
+                    ParameterInfos[36] = { Name=BF_FlowSpeed }
+                    ParameterInfos[37] = { Name=Water Distant Normal Length }
+                    ParameterInfos[38] = { Name=SpecNormalFarStrength }
+                    ParameterInfos[39] = { Name=CausticsFarFadeDistance }
+                    ParameterInfos[40] = { Name=WaterRoughnessMin }
+                    ParameterInfos[41] = { Name=Depth for Min Refraction }
+                    ParameterInfos[42] = { Name=SpecRoughnessNear }
+                    ParameterInfos[43] = { Name=SurfacePlants_NoiseIntensity }
+                    ParameterInfos[44] = { Name=SurfacePlants_NoiseScale }
+                    ParameterInfos[45] = { Name=AbsorptionFactor }
+                    ParameterInfos[46] = { Name=CubemapMipCount }
+                    ParameterInfos[47] = { Name=KuroWaterFresnelPower }
+                    ParameterInfos[48] = { Name=Interaction Intensity }
+                    ParameterInfos[49] = { Name=ScatteringFactor }
+                    ParameterInfos[50] = { Name=FarD }
+                    ParameterInfos[51] = { Name=Foam Dpeth Min }
+                    ParameterInfos[52] = { Name=Multiply Refraction }
+                    ParameterInfos[53] = { Name=CausticsFarFadeHardness }
+                    ParameterInfos[54] = { Name=CubemapColorIntensity }
+                    ParameterInfos[55] = { Name=Caustics Playback FPS }
+                    ParameterInfos[56] = { Name=FakeNormalDisort }
+                    ParameterInfos[57] = { Name=SurfacePlants_Scale }
+                    ParameterInfos[58] = { Name=Normal Strength }
+                    ParameterInfos[59] = { Name=SurfaceMask_Pow }
+                    ParameterInfos[60] = { Name=SurfacePlants_DistanceScale }
+                    ParameterInfos[61] = { Name=WaterRoughnessContrast }
+                    ParameterInfos[62] = { Name=Refraction Far }
+                    ParameterInfos[63] = { Name=Water Specular }
+                    ParameterInfos[64] = { Name=NearD }
+                    ParameterInfos[65] = { Name=SpecRoughnessFar }
+                    ParameterInfos[66] = { Name=SurfaceMask_Intensity1 }
+                    ParameterInfos[67] = { Name=NearStrength }
+                    ParameterInfos[68] = { Name=Tili }
+                    ParameterInfos[69] = { Name=Water ScaleY }
+                    ParameterInfos[70] = { Name=CausticBrightness }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=ScatteringColor }
+                    ParameterInfos[1] = { Name=AbsorptionColor }
+                    ParameterInfos[2] = { Name=SubUVFrames }
+                    ParameterInfos[3] = { Name=ColorScaleBehindWater }
+                    ParameterInfos[4] = { Name=WaterColorTint }
+                    ParameterInfos[5] = { Name=Water Albedo }
+                    ParameterInfos[6] = { Name=ChangeColor }
+                    ParameterInfos[7] = { Name=Emissive Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=SurfacePlants }
+                    ParameterInfos[1] = { Name=FoamNoise }
+                    ParameterInfos[2] = { Name=WaterNoise }
+                    ParameterInfos[3] = { Name=Caustics }
+                    ParameterInfos[4] = { Name=WaterWaveTexture }
+                    ParameterInfos[5] = { Name=OverlayMainTex }
+                    ParameterInfos[6] = { Name=NormalMap }
+                    ParameterInfos[7] = { Name=VertexOffset Texture }
+                    ParameterInfos[8] = { Name=Cubemap }
+                    ParameterInfos[9] = { Name=SpecularMap }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[71] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 1
+            ScalarValues[2] = 2
+            ScalarValues[3] = 1
+            ScalarValues[4] = -0.2
+            ScalarValues[5] = 5000
+            ScalarValues[6] = 80
+            ScalarValues[7] = 0.2
+            ScalarValues[8] = 1024
+            ScalarValues[9] = 1
+            ScalarValues[10] = 0.5
+            ScalarValues[11] = 1
+            ScalarValues[12] = 1.15
+            ScalarValues[13] = 1
+            ScalarValues[14] = 1
+            ScalarValues[15] = 2048
+            ScalarValues[16] = 1
+            ScalarValues[17] = 500
+            ScalarValues[18] = 0.1
+            ScalarValues[19] = 1
+            ScalarValues[20] = 0.5
+            ScalarValues[21] = 1024
+            ScalarValues[22] = 0.1
+            ScalarValues[23] = 200
+            ScalarValues[24] = 2
+            ScalarValues[25] = 0.1
+            ScalarValues[26] = 0
+            ScalarValues[27] = 20000
+            ScalarValues[28] = 1
+            ScalarValues[29] = 0.2
+            ScalarValues[30] = 0.02
+            ScalarValues[31] = 0
+            ScalarValues[32] = 0.4
+            ScalarValues[33] = 0.17
+            ScalarValues[34] = 1
+            ScalarValues[35] = 0.8
+            ScalarValues[36] = 0.3
+            ScalarValues[37] = 25000
+            ScalarValues[38] = 20
+            ScalarValues[39] = 5000
+            ScalarValues[40] = 0
+            ScalarValues[41] = 5000
+            ScalarValues[42] = 0.02
+            ScalarValues[43] = 3
+            ScalarValues[44] = 1024
+            ScalarValues[45] = 8
+            ScalarValues[46] = 6
+            ScalarValues[47] = 5
+            ScalarValues[48] = 0.06
+            ScalarValues[49] = 0.5
+            ScalarValues[50] = 10000
+            ScalarValues[51] = 64
+            ScalarValues[52] = 1
+            ScalarValues[53] = 0.8
+            ScalarValues[54] = 1
+            ScalarValues[55] = 30
+            ScalarValues[56] = 0
+            ScalarValues[57] = 200
+            ScalarValues[58] = 0.6
+            ScalarValues[59] = 1.5
+            ScalarValues[60] = 3000
+            ScalarValues[61] = 0
+            ScalarValues[62] = 1.02
+            ScalarValues[63] = 0.225
+            ScalarValues[64] = 5000
+            ScalarValues[65] = 0.2
+            ScalarValues[66] = 1
+            ScalarValues[67] = 0
+            ScalarValues[68] = 40
+            ScalarValues[69] = 2048
+            ScalarValues[70] = 10
+        }
+        VectorValues[8] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=0.5 }
+            VectorValues[1] = { R=10, G=150, B=350, A=8 }
+            VectorValues[2] = { R=5, G=5, B=0, A=0 }
+            VectorValues[3] = { R=1, G=1, B=1, A=1 }
+            VectorValues[4] = { R=1, G=1, B=1, A=1 }
+            VectorValues[5] = { R=0.85, G=0.85, B=0.85, A=0.5 }
+            VectorValues[6] = { R=1, G=1, B=1, A=0 }
+            VectorValues[7] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[10] =
+        {
+            TextureValues[1] = Texture2D'/Game/Aki/Effect/MaterialController/Texture/T_Noise_2.T_Noise_2'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_SingleLayerWaterNoise.T_SingleLayerWaterNoise'
+            TextureValues[3] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_Caustics_Animated_07_M.T_Caustics_Animated_07_M'
+            TextureValues[4] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterTIlling_Default_M.T_WaterTIlling_Default_M'
+            TextureValues[5] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[6] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+            TextureValues[7] = Texture2D'/Game/Aki/Render/Common/T_Blur_14.T_Blur_14'
+            TextureValues[8] = TextureCube4'/Game/Aki/Render/Common/TC_DefaultWaterCube.TC_DefaultWaterCube'
+            TextureValues[9] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_SpecularHighlights_M.T_SpecularHighlights_M'
+        }
+    }
+    ReferencedTextures[13] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+        ReferencedTextures[3] = Texture2D'/Game/Aki/Effect/MaterialController/Texture/T_Noise_2.T_Noise_2'
+        ReferencedTextures[4] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        ReferencedTextures[5] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterTIlling_Default_M.T_WaterTIlling_Default_M'
+        ReferencedTextures[6] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_SpecularHighlights_M.T_SpecularHighlights_M'
+        ReferencedTextures[7] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_Caustics_Animated_07_M.T_Caustics_Animated_07_M'
+        ReferencedTextures[8] = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_Caustics_Animated_01_M.T_Caustics_Animated_01_M'
+        ReferencedTextures[9] = TextureCube4'/Game/Aki/Render/Common/TC_DefaultWaterCube.TC_DefaultWaterCube'
+        ReferencedTextures[10] = TextureCube4'/Game/Aki/Scene/Cubemaps/T_NoonSky_CUBE.T_NoonSky_CUBE'
+        ReferencedTextures[11] = Texture2D'/Game/Aki/Render/Common/T_SingleLayerWaterNoise.T_SingleLayerWaterNoise'
+        ReferencedTextures[12] = Texture2D'/Game/Aki/Render/Common/T_Blur_14.T_Blur_14'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[10] =
+{
+    CollectedTextureParameters[0] = { Texture=None, Name=SurfacePlants, Group=None }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Effect/MaterialController/Texture/T_Noise_2.T_Noise_2'
+        Name = FoamNoise
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_SingleLayerWaterNoise.T_SingleLayerWaterNoise'
+        Name = WaterNoise
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_Caustics_Animated_07_M.T_Caustics_Animated_07_M'
+        Name = Caustics
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_WaterTIlling_Default_M.T_WaterTIlling_Default_M'
+        Name = WaterWaveTexture
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = OverlayMainTex
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+        Name = NormalMap
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_Blur_14.T_Blur_14'
+        Name = VertexOffset Texture
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = TextureCube4'/Game/Aki/Render/Common/TC_DefaultWaterCube.TC_DefaultWaterCube'
+        Name = Cubemap
+        Group = None
+    }
+    CollectedTextureParameters[9] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_SpecularHighlights_M.T_SpecularHighlights_M'
+        Name = SpecularMap
+        Group = None
+    }
+}
+CollectedScalarParameters[71] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=WaterColorIntensity, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=FD, Group=None }
+    CollectedScalarParameters[2] = { Value=2, Name=SpecularNormalScalar, Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = 1
+        Name = ColorScaleBehindWaterIntensity
+        Group = None
+    }
+    CollectedScalarParameters[4] = { Value=-0.2, Name=Speed_X, Group=None }
+    CollectedScalarParameters[5] =
+    {
+        Value = 5000
+        Name = Water Distant Normal Offset
+        Group = None
+    }
+    CollectedScalarParameters[6] = { Value=80, Name=Intensty, Group=None }
+    CollectedScalarParameters[7] = { Value=0.2, Name=Speed_Y, Group=None }
+    CollectedScalarParameters[8] = { Value=1024, Name=FakeSpec_UVScale, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=VertexColorR_Intensity, Group=None }
+    CollectedScalarParameters[10] = { Value=0.5, Name=FakeSpec_Speed, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=WaterRoughnessMax, Group=None }
+    CollectedScalarParameters[12] = { Value=1.15, Name=Refraction, Group=None }
+    CollectedScalarParameters[13] =
+    {
+        Value = 1
+        Name = SurfacePlants_NoiseSpeed
+        Group = None
+    }
+    CollectedScalarParameters[14] = { Value=1, Name=SpecNormalNearStrength, Group=None }
+    CollectedScalarParameters[15] = { Value=2048, Name=Water ScaleX, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=SpecularStrength, Group=None }
+    CollectedScalarParameters[17] = { Value=500, Name=CausticTilling, Group=None }
+    CollectedScalarParameters[18] = { Value=0.1, Name=Metallic, Group=None }
+    CollectedScalarParameters[19] = { Value=1, Name=FarStrength, Group=None }
+    CollectedScalarParameters[20] = { Value=0.5, Name=BF_Width, Group=None }
+    CollectedScalarParameters[21] =
+    {
+        Value = 1024
+        Name = SurfacePlants_ScaleFar
+        Group = None
+    }
+    CollectedScalarParameters[22] =
+    {
+        Value = 0.1
+        Name = Water Fresnel Roughness
+        Group = None
+    }
+    CollectedScalarParameters[23] =
+    {
+        Value = 200
+        Name = Caustics Fade In Distance
+        Group = None
+    }
+    CollectedScalarParameters[24] = { Value=2, Name=Caustics Shore Mip, Group=None }
+    CollectedScalarParameters[25] = { Value=0.1, Name=Anisotropy, Group=None }
+    CollectedScalarParameters[26] = { Value=0, Name=OverlayMetallic, Group=None }
+    CollectedScalarParameters[27] = { Value=20000, Name=SurfaceMask_Scale1, Group=None }
+    CollectedScalarParameters[28] = { Value=1, Name=LightDirVerticalScalar, Group=None }
+    CollectedScalarParameters[29] = { Value=0.2, Name=BF_Intensity, Group=None }
+    CollectedScalarParameters[30] = { Value=0.02, Name=Water Roughness, Group=None }
+    CollectedScalarParameters[31] = { Value=0, Name=FakeSpeRoughness, Group=None }
+    CollectedScalarParameters[32] =
+    {
+        Value = 0.4
+        Name = Default Disant Water Speed
+        Group = None
+    }
+    CollectedScalarParameters[33] = { Value=0.17, Name=BF_Reducer, Group=None }
+    CollectedScalarParameters[34] = { Value=1, Name=FakeSpec_Intensity, Group=None }
+    CollectedScalarParameters[35] = { Value=0.8, Name=BF_Scale, Group=None }
+    CollectedScalarParameters[36] = { Value=0.3, Name=BF_FlowSpeed, Group=None }
+    CollectedScalarParameters[37] =
+    {
+        Value = 25000
+        Name = Water Distant Normal Length
+        Group = None
+    }
+    CollectedScalarParameters[38] = { Value=20, Name=SpecNormalFarStrength, Group=None }
+    CollectedScalarParameters[39] =
+    {
+        Value = 5000
+        Name = CausticsFarFadeDistance
+        Group = None
+    }
+    CollectedScalarParameters[40] = { Value=0, Name=WaterRoughnessMin, Group=None }
+    CollectedScalarParameters[41] =
+    {
+        Value = 5000
+        Name = Depth for Min Refraction
+        Group = None
+    }
+    CollectedScalarParameters[42] = { Value=0.02, Name=SpecRoughnessNear, Group=None }
+    CollectedScalarParameters[43] =
+    {
+        Value = 3
+        Name = SurfacePlants_NoiseIntensity
+        Group = None
+    }
+    CollectedScalarParameters[44] =
+    {
+        Value = 1024
+        Name = SurfacePlants_NoiseScale
+        Group = None
+    }
+    CollectedScalarParameters[45] = { Value=8, Name=AbsorptionFactor, Group=None }
+    CollectedScalarParameters[46] = { Value=6, Name=CubemapMipCount, Group=None }
+    CollectedScalarParameters[47] = { Value=5, Name=KuroWaterFresnelPower, Group=None }
+    CollectedScalarParameters[48] =
+    {
+        Value = 0.06
+        Name = Interaction Intensity
+        Group = None
+    }
+    CollectedScalarParameters[49] = { Value=0.5, Name=ScatteringFactor, Group=None }
+    CollectedScalarParameters[50] = { Value=10000, Name=FarD, Group=None }
+    CollectedScalarParameters[51] = { Value=64, Name=Foam Dpeth Min, Group=None }
+    CollectedScalarParameters[52] = { Value=1, Name=Multiply Refraction, Group=None }
+    CollectedScalarParameters[53] =
+    {
+        Value = 0.8
+        Name = CausticsFarFadeHardness
+        Group = None
+    }
+    CollectedScalarParameters[54] = { Value=1, Name=CubemapColorIntensity, Group=None }
+    CollectedScalarParameters[55] = { Value=30, Name=Caustics Playback FPS, Group=None }
+    CollectedScalarParameters[56] = { Value=0, Name=FakeNormalDisort, Group=None }
+    CollectedScalarParameters[57] = { Value=200, Name=SurfacePlants_Scale, Group=None }
+    CollectedScalarParameters[58] = { Value=0.6, Name=Normal Strength, Group=None }
+    CollectedScalarParameters[59] = { Value=1.5, Name=SurfaceMask_Pow, Group=None }
+    CollectedScalarParameters[60] =
+    {
+        Value = 3000
+        Name = SurfacePlants_DistanceScale
+        Group = None
+    }
+    CollectedScalarParameters[61] = { Value=0, Name=WaterRoughnessContrast, Group=None }
+    CollectedScalarParameters[62] = { Value=1.02, Name=Refraction Far, Group=None }
+    CollectedScalarParameters[63] = { Value=0.225, Name=Water Specular, Group=None }
+    CollectedScalarParameters[64] = { Value=5000, Name=NearD, Group=None }
+    CollectedScalarParameters[65] = { Value=0.2, Name=SpecRoughnessFar, Group=None }
+    CollectedScalarParameters[66] = { Value=1, Name=SurfaceMask_Intensity1, Group=None }
+    CollectedScalarParameters[67] = { Value=0, Name=NearStrength, Group=None }
+    CollectedScalarParameters[68] = { Value=40, Name=Tili, Group=None }
+    CollectedScalarParameters[69] = { Value=2048, Name=Water ScaleY, Group=None }
+    CollectedScalarParameters[70] = { Value=10, Name=CausticBrightness, Group=None }
+}
+CollectedVectorParameters[8] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=0.5 }
+        Name = ScatteringColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=10, G=150, B=350, A=8 }
+        Name = AbsorptionColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=5, G=5, B=0, A=0 }
+        Name = SubUVFrames
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = ColorScaleBehindWater
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = WaterColorTint
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0.85, G=0.85, B=0.85, A=0.5 }
+        Name = Water Albedo
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = ChangeColor
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Emissive Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Caustics_Animated_07_M
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Noise_2
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_SingleLayerWaterNoise
+    }
+}

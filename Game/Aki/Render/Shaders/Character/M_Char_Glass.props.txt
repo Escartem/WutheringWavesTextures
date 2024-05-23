@@ -1,0 +1,258 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[32] =
+                {
+                    ParameterInfos[0] = { Name=ThickExponentIn }
+                    ParameterInfos[1] = { Name=HLScale }
+                    ParameterInfos[2] = { Name=ThickBaseReflectFractionIn }
+                    ParameterInfos[3] = { Name=E_Dither_DitherValue }
+                    ParameterInfos[4] = { Name=E_Tex_MaskRange }
+                    ParameterInfos[5] = { Name=EdgeColorScale }
+                    ParameterInfos[6] = { Name=EdgeColorWidth }
+                    ParameterInfos[7] = { Name=EdgeOpacityInt }
+                    ParameterInfos[8] = { Name=ReflectColorInt }
+                    ParameterInfos[9] = { Name=ThickColorWidth }
+                    ParameterInfos[10] = { Name=E_Tex_UseTex }
+                    ParameterInfos[11] = { Name=E_Dissolve_Smooth }
+                    ParameterInfos[12] = { Name=E_Dissolve_UseDissolve }
+                    ParameterInfos[13] = { Name=MatCapOpacityInt }
+                    ParameterInfos[14] = { Name=E_Dissolve_Progress }
+                    ParameterInfos[15] = { Name=ReflecOpacityInt }
+                    ParameterInfos[16] = { Name=ReflectScale }
+                    ParameterInfos[17] = { Name=EnvironmentColorInt }
+                    ParameterInfos[18] = { Name=ThickColorScale }
+                    ParameterInfos[19] = { Name=HLpositionY }
+                    ParameterInfos[20] = { Name=E_Tex_UseScreenUV }
+                    ParameterInfos[21] = { Name=E_Dither_UseDither }
+                    ParameterInfos[22] = { Name=E_Dissolve_Multi }
+                    ParameterInfos[23] = { Name=E_Tex_UseMask }
+                    ParameterInfos[24] = { Name=HLOpacityInt }
+                    ParameterInfos[25] = { Name=E_Tex_UseVCMask_Set }
+                    ParameterInfos[26] = { Name=ThickColorInt }
+                    ParameterInfos[27] = { Name=HLpositionX }
+                    ParameterInfos[28] = { Name=HLmoveSpeed }
+                    ParameterInfos[29] = { Name=E_Tex_Rotation }
+                    ParameterInfos[30] = { Name=MaCapColortInt }
+                    ParameterInfos[31] = { Name=OpacityScale }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=E_Dissolve_Emission }
+                    ParameterInfos[1] = { Name=E_Tex_Speed }
+                    ParameterInfos[2] = { Name=E_Tex_UVSwitch }
+                    ParameterInfos[3] = { Name=E_Tex_ScaleAndOffset }
+                    ParameterInfos[4] = { Name=E_Dissolve_Channel }
+                    ParameterInfos[5] = { Name=BaseColor }
+                    ParameterInfos[6] = { Name=E_Tex_Color }
+                    ParameterInfos[7] = { Name=HLColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=E_Tex_NoiseTex }
+                    ParameterInfos[1] = { Name=HeightLightTex }
+                    ParameterInfos[2] = { Name=MatCapTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[32] =
+        {
+            ScalarValues[0] = 0.3
+            ScalarValues[1] = 1
+            ScalarValues[2] = 0.6
+            ScalarValues[3] = 1.2
+            ScalarValues[4] = 1
+            ScalarValues[5] = 0
+            ScalarValues[6] = 1
+            ScalarValues[7] = 0
+            ScalarValues[8] = 0
+            ScalarValues[9] = 1
+            ScalarValues[10] = 0
+            ScalarValues[11] = 5
+            ScalarValues[12] = 0
+            ScalarValues[13] = 1
+            ScalarValues[14] = 0
+            ScalarValues[15] = 1
+            ScalarValues[16] = 0.04
+            ScalarValues[17] = 1
+            ScalarValues[18] = 0
+            ScalarValues[19] = 0
+            ScalarValues[20] = 0
+            ScalarValues[21] = 0
+            ScalarValues[22] = 100
+            ScalarValues[23] = 0
+            ScalarValues[24] = 1
+            ScalarValues[25] = 0
+            ScalarValues[26] = 1
+            ScalarValues[27] = 0
+            ScalarValues[28] = 0
+            ScalarValues[29] = 0
+            ScalarValues[30] = 1
+            ScalarValues[31] = 1
+        }
+        VectorValues[8] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=0 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+            VectorValues[2] = { R=1, G=0, B=0, A=0 }
+            VectorValues[3] = { R=1, G=1, B=0, A=0 }
+            VectorValues[4] = { R=1, G=0, B=0, A=0 }
+            VectorValues[5] = { R=1, G=1, B=1, A=1 }
+            VectorValues[6] = { R=1, G=1, B=1, A=1 }
+            VectorValues[7] = { R=1, G=1, B=1, A=0 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = E_Tex_NoiseTex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = HeightLightTex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = MatCapTex
+        Group = None
+    }
+}
+CollectedScalarParameters[32] =
+{
+    CollectedScalarParameters[0] = { Value=0.3, Name=ThickExponentIn, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=HLScale, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 0.6
+        Name = ThickBaseReflectFractionIn
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=1.2, Name=E_Dither_DitherValue, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=E_Tex_MaskRange, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=EdgeColorScale, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=EdgeColorWidth, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=EdgeOpacityInt, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=ReflectColorInt, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=ThickColorWidth, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=E_Tex_UseTex, Group=None }
+    CollectedScalarParameters[11] = { Value=5, Name=E_Dissolve_Smooth, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=E_Dissolve_UseDissolve, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=MatCapOpacityInt, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=E_Dissolve_Progress, Group=None }
+    CollectedScalarParameters[15] = { Value=1, Name=ReflecOpacityInt, Group=None }
+    CollectedScalarParameters[16] = { Value=0.04, Name=ReflectScale, Group=None }
+    CollectedScalarParameters[17] = { Value=1, Name=EnvironmentColorInt, Group=None }
+    CollectedScalarParameters[18] = { Value=0, Name=ThickColorScale, Group=None }
+    CollectedScalarParameters[19] = { Value=0, Name=HLpositionY, Group=None }
+    CollectedScalarParameters[20] = { Value=0, Name=E_Tex_UseScreenUV, Group=None }
+    CollectedScalarParameters[21] = { Value=0, Name=E_Dither_UseDither, Group=None }
+    CollectedScalarParameters[22] = { Value=100, Name=E_Dissolve_Multi, Group=None }
+    CollectedScalarParameters[23] = { Value=0, Name=E_Tex_UseMask, Group=None }
+    CollectedScalarParameters[24] = { Value=1, Name=HLOpacityInt, Group=None }
+    CollectedScalarParameters[25] = { Value=0, Name=E_Tex_UseVCMask_Set, Group=None }
+    CollectedScalarParameters[26] = { Value=1, Name=ThickColorInt, Group=None }
+    CollectedScalarParameters[27] = { Value=0, Name=HLpositionX, Group=None }
+    CollectedScalarParameters[28] = { Value=0, Name=HLmoveSpeed, Group=None }
+    CollectedScalarParameters[29] = { Value=0, Name=E_Tex_Rotation, Group=None }
+    CollectedScalarParameters[30] = { Value=1, Name=MaCapColortInt, Group=None }
+    CollectedScalarParameters[31] = { Value=1, Name=OpacityScale, Group=None }
+}
+CollectedVectorParameters[8] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Dissolve_Emission
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Tex_Speed
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = E_Tex_UVSwitch
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = E_Tex_ScaleAndOffset
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = E_Dissolve_Channel
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = BaseColor
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = E_Tex_Color
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = HLColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

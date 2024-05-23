@@ -1,0 +1,313 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Character/Monster/Boss/MB1SuiguangMd00501/Model/SuiGuangWPO/T_Noise_Fire_D.T_Noise_Fire_D'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Character/Monster/Boss/MB1SuiguangMd00501/Model/T_MB1SuiguangMd00501Hair_D.T_MB1SuiguangMd00501Hair_D'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Character/Monster/Boss/MB1SuiguangMd00501/Model/T_MB1SuiguangMd00501Hair_Noise_D.T_MB1SuiguangMd00501Hair_Noise_D'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[20] =
+                {
+                    ParameterInfos[0] = { Name=ShowMask }
+                    ParameterInfos[1] = { Name=E_Dither_DitherValue }
+                    ParameterInfos[2] = { Name=E_Tex_MaskRange }
+                    ParameterInfos[3] = { Name=RootPosition }
+                    ParameterInfos[4] = { Name=E_Tex_UseTex }
+                    ParameterInfos[5] = { Name=E_Dissolve_Smooth }
+                    ParameterInfos[6] = { Name=E_Dissolve_UseDissolve }
+                    ParameterInfos[7] = { Name=E_Dissolve_Progress }
+                    ParameterInfos[8] = { Name=RootScale }
+                    ParameterInfos[9] = { Name=RandomIntensity }
+                    ParameterInfos[10] = { Name=NoiseBlend }
+                    ParameterInfos[11] = { Name=BaseColorInt }
+                    ParameterInfos[12] = { Name=E_Tex_UseScreenUV }
+                    ParameterInfos[13] = { Name=E_Dither_UseDither }
+                    ParameterInfos[14] = { Name=E_Dissolve_Multi }
+                    ParameterInfos[15] = { Name=E_Tex_UseMask }
+                    ParameterInfos[16] = { Name=E_Tex_UseVCMask_Set }
+                    ParameterInfos[17] = { Name=Speed }
+                    ParameterInfos[18] = { Name=E_Tex_Rotation }
+                    ParameterInfos[19] = { Name=RandomPosition }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[16] =
+                {
+                    ParameterInfos[0] = { Name=NoiseOffsetSpeed }
+                    ParameterInfos[1] = { Name=E_Dissolve_Emission }
+                    ParameterInfos[2] = { Name=FlowColor }
+                    ParameterInfos[3] = { Name=NoiseTilingShort }
+                    ParameterInfos[4] = { Name=E_Tex_Speed }
+                    ParameterInfos[5] = { Name=E_Tex_UVSwitch }
+                    ParameterInfos[6] = { Name=WorldOffsetSpeed }
+                    ParameterInfos[7] = { Name=E_Tex_ScaleAndOffset }
+                    ParameterInfos[8] = { Name=WorldOffsetOffsetIntensity }
+                    ParameterInfos[9] = { Name=E_Dissolve_Channel }
+                    ParameterInfos[10] = { Name=NoiseOffsetSpeedShort }
+                    ParameterInfos[11] = { Name=NoiseOffsetIntensityShort }
+                    ParameterInfos[12] = { Name=NoiseOffsetIntensity }
+                    ParameterInfos[13] = { Name=NoiseTiling }
+                    ParameterInfos[14] = { Name=BaseColor }
+                    ParameterInfos[15] = { Name=E_Tex_Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=TilingMap }
+                    ParameterInfos[1] = { Name=MainTex }
+                    ParameterInfos[2] = { Name=E_Tex_NoiseTex }
+                    ParameterInfos[3] = { Name=NoiseD }
+                    ParameterInfos[4] = { Name=NoiseTex }
+                    ParameterInfos[5] = { Name=Random }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[20] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 1.2
+            ScalarValues[2] = 1
+            ScalarValues[3] = 0
+            ScalarValues[4] = 0
+            ScalarValues[5] = 5
+            ScalarValues[6] = 0
+            ScalarValues[7] = 0
+            ScalarValues[8] = 1
+            ScalarValues[9] = 0
+            ScalarValues[10] = 0
+            ScalarValues[11] = 1
+            ScalarValues[12] = 0
+            ScalarValues[13] = 0
+            ScalarValues[14] = 100
+            ScalarValues[15] = 0
+            ScalarValues[16] = 0
+            ScalarValues[17] = 2
+            ScalarValues[18] = 0
+            ScalarValues[19] = 1
+        }
+        VectorValues[16] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+            VectorValues[1] = { R=0, G=0, B=0, A=0 }
+            VectorValues[2] = { R=0, G=0, B=0, A=1 }
+            VectorValues[3] = { R=1, G=1, B=1, A=1 }
+            VectorValues[4] = { R=0, G=0, B=0, A=0 }
+            VectorValues[5] = { R=1, G=0, B=0, A=0 }
+            VectorValues[6] = { R=0, G=0, B=0, A=1 }
+            VectorValues[7] = { R=1, G=1, B=0, A=0 }
+            VectorValues[8] = { R=0, G=0, B=0, A=1 }
+            VectorValues[9] = { R=1, G=0, B=0, A=0 }
+            VectorValues[10] = { R=0, G=0, B=0, A=1 }
+            VectorValues[11] = { R=1, G=1, B=1, A=1 }
+            VectorValues[12] = { R=1, G=1, B=1, A=1 }
+            VectorValues[13] = { R=1, G=1, B=1, A=1 }
+            VectorValues[14] = { R=0, G=0, B=0, A=1 }
+            VectorValues[15] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[6] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+            TextureValues[1] = Texture2D'/Game/Aki/Character/Monster/Boss/MB1SuiguangMd00501/Model/T_MB1SuiguangMd00501Hair_D.T_MB1SuiguangMd00501Hair_D'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[3] = Texture2D'/Game/Aki/Character/Monster/Boss/MB1SuiguangMd00501/Model/T_MB1SuiguangMd00501Hair_Noise_D.T_MB1SuiguangMd00501Hair_Noise_D'
+            TextureValues[4] = Texture2D'/Game/Aki/Character/Monster/Boss/MB1SuiguangMd00501/Model/T_MB1SuiguangMd00501Hair_Noise_D.T_MB1SuiguangMd00501Hair_Noise_D'
+            TextureValues[5] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+        }
+    }
+    ReferencedTextures[5] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Character/Monster/Boss/MB1SuiguangMd00501/Model/SuiGuangWPO/T_Noise_Fire_D.T_Noise_Fire_D'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Character/Monster/Boss/MB1SuiguangMd00501/Model/T_MB1SuiguangMd00501Hair_Noise_D.T_MB1SuiguangMd00501Hair_Noise_D'
+        ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        ReferencedTextures[4] = Texture2D'/Game/Aki/Character/Monster/Boss/MB1SuiguangMd00501/Model/T_MB1SuiguangMd00501Hair_D.T_MB1SuiguangMd00501Hair_D'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[6] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+        Name = TilingMap
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Character/Monster/Boss/MB1SuiguangMd00501/Model/T_MB1SuiguangMd00501Hair_D.T_MB1SuiguangMd00501Hair_D'
+        Name = MainTex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = E_Tex_NoiseTex
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Character/Monster/Boss/MB1SuiguangMd00501/Model/T_MB1SuiguangMd00501Hair_Noise_D.T_MB1SuiguangMd00501Hair_Noise_D'
+        Name = NoiseD
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Aki/Character/Monster/Boss/MB1SuiguangMd00501/Model/T_MB1SuiguangMd00501Hair_Noise_D.T_MB1SuiguangMd00501Hair_Noise_D'
+        Name = NoiseTex
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+        Name = Random
+        Group = None
+    }
+}
+CollectedScalarParameters[20] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=ShowMask, Group=None }
+    CollectedScalarParameters[1] = { Value=1.2, Name=E_Dither_DitherValue, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=E_Tex_MaskRange, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=RootPosition, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=E_Tex_UseTex, Group=None }
+    CollectedScalarParameters[5] = { Value=5, Name=E_Dissolve_Smooth, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=E_Dissolve_UseDissolve, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=E_Dissolve_Progress, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=RootScale, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=RandomIntensity, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=NoiseBlend, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=BaseColorInt, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=E_Tex_UseScreenUV, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=E_Dither_UseDither, Group=None }
+    CollectedScalarParameters[14] = { Value=100, Name=E_Dissolve_Multi, Group=None }
+    CollectedScalarParameters[15] = { Value=0, Name=E_Tex_UseMask, Group=None }
+    CollectedScalarParameters[16] = { Value=0, Name=E_Tex_UseVCMask_Set, Group=None }
+    CollectedScalarParameters[17] = { Value=2, Name=Speed, Group=None }
+    CollectedScalarParameters[18] = { Value=0, Name=E_Tex_Rotation, Group=None }
+    CollectedScalarParameters[19] = { Value=1, Name=RandomPosition, Group=None }
+}
+CollectedVectorParameters[16] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = NoiseOffsetSpeed
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Dissolve_Emission
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = FlowColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = NoiseTilingShort
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Tex_Speed
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = E_Tex_UVSwitch
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = WorldOffsetSpeed
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = E_Tex_ScaleAndOffset
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = WorldOffsetOffsetIntensity
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = E_Dissolve_Channel
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = NoiseOffsetSpeedShort
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = NoiseOffsetIntensityShort
+        Group = None
+    }
+    CollectedVectorParameters[12] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = NoiseOffsetIntensity
+        Group = None
+    }
+    CollectedVectorParameters[13] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = NoiseTiling
+        Group = None
+    }
+    CollectedVectorParameters[14] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = BaseColor
+        Group = None
+    }
+    CollectedVectorParameters[15] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = E_Tex_Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

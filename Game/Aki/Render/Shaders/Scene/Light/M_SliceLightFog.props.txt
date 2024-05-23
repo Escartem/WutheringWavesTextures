@@ -1,0 +1,134 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineVolumetrics/LightBeam/Materials/T_EV_LightBeam_Falloff_02.T_EV_LightBeam_Falloff_02'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_Default_SceneMask_M.T_Default_SceneMask_M'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[13] =
+                {
+                    ParameterInfos[0] = { Name=PanningSpeed }
+                    ParameterInfos[1] = { Name=DepthFade }
+                    ParameterInfos[2] = { Name=ScreenFade }
+                    ParameterInfos[3] = { Name=ContrastInt }
+                    ParameterInfos[4] = { Name=DisturbanceTili_X }
+                    ParameterInfos[5] = { Name=LightColorStrength }
+                    ParameterInfos[6] = { Name=BrightLenght }
+                    ParameterInfos[7] = { Name=DisturbanceTili_Y }
+                    ParameterInfos[8] = { Name=FlickerTime }
+                    ParameterInfos[9] = { Name=Opacity }
+                    ParameterInfos[10] = { Name=LengthFade }
+                    ParameterInfos[11] = { Name=DisturbanceWight }
+                    ParameterInfos[12] = { Name=ViewTime }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Falloff }
+                    ParameterInfos[1] = { Name=NoiseTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[13] =
+        {
+            ScalarValues[0] = 0.5
+            ScalarValues[1] = 100
+            ScalarValues[2] = 1
+            ScalarValues[3] = 4
+            ScalarValues[4] = 0.5
+            ScalarValues[5] = 0.1
+            ScalarValues[6] = 0.1
+            ScalarValues[7] = 0.5
+            ScalarValues[8] = 1
+            ScalarValues[9] = 0.5
+            ScalarValues[10] = 0.5
+            ScalarValues[11] = 1
+            ScalarValues[12] = 0.75
+        }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_Default_SceneMask_M.T_Default_SceneMask_M'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_Default_SceneMask_M.T_Default_SceneMask_M'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_Default_SceneMask_M.T_Default_SceneMask_M'
+        ReferencedTextures[1] = Texture2D'/Engine/EngineVolumetrics/LightBeam/Materials/T_EV_LightBeam_Falloff_02.T_EV_LightBeam_Falloff_02'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_Default_SceneMask_M.T_Default_SceneMask_M'
+        Name = Falloff
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_Default_SceneMask_M.T_Default_SceneMask_M'
+        Name = NoiseTex
+        Group = None
+    }
+}
+CollectedScalarParameters[13] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=PanningSpeed, Group=None }
+    CollectedScalarParameters[1] = { Value=100, Name=DepthFade, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=ScreenFade, Group=None }
+    CollectedScalarParameters[3] = { Value=4, Name=ContrastInt, Group=None }
+    CollectedScalarParameters[4] = { Value=0.5, Name=DisturbanceTili_X, Group=None }
+    CollectedScalarParameters[5] = { Value=0.1, Name=LightColorStrength, Group=None }
+    CollectedScalarParameters[6] = { Value=0.1, Name=BrightLenght, Group=None }
+    CollectedScalarParameters[7] = { Value=0.5, Name=DisturbanceTili_Y, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=FlickerTime, Group=None }
+    CollectedScalarParameters[9] = { Value=0.5, Name=Opacity, Group=None }
+    CollectedScalarParameters[10] = { Value=0.5, Name=LengthFade, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=DisturbanceWight, Group=None }
+    CollectedScalarParameters[12] = { Value=0.75, Name=ViewTime, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

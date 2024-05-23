@@ -1,0 +1,631 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[13] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineVolumetrics/Fogsheet/Materials/T_EV_BlankWhite_01.T_EV_BlankWhite_01'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_Caustic_001.T_Caustic_001'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_D1.T_DefaultColorBlack_D1'
+    ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    ReferencedTextures[5] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+    ReferencedTextures[6] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskBlack_M.T_DefaultMaskBlack_M'
+    ReferencedTextures[7] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+    ReferencedTextures[8] = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+    ReferencedTextures[9] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise_M.T_Foliage_Noise_M'
+    ReferencedTextures[10] = Texture2D'/Game/Aki/Render/Common/T_Ice_A_Sub.T_Ice_A_Sub'
+    ReferencedTextures[11] = Texture2D'/Game/Aki/Render/Common/T_SingleLayerWaterNoise.T_SingleLayerWaterNoise'
+    ReferencedTextures[12] = Texture2D'/Game/Aki/Render/Common/T_WaterNormal_Rain.T_WaterNormal_Rain'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[72] =
+                {
+                    ParameterInfos[0] = { Name=FlowLightStrength }
+                    ParameterInfos[1] = { Name=Top Layer UVS - V Tiling }
+                    ParameterInfos[2] = { Name=Mid Layer UVS - U Tiling }
+                    ParameterInfos[3] = { Name=TopDiffuseMetallic }
+                    ParameterInfos[4] = { Name=TopAmount }
+                    ParameterInfos[5] = { Name=Max Steps (S) }
+                    ParameterInfos[6] = { Name=Top Layer UVS - U Tiling }
+                    ParameterInfos[7] = { Name=Down_Slope_Scope }
+                    ParameterInfos[8] = { Name=TopMetallic }
+                    ParameterInfos[9] = { Name=LandscapeBlendHeightContrast }
+                    ParameterInfos[10] = { Name=EmissiveIntensty }
+                    ParameterInfos[11] = { Name=WaterNormalSpeed (S) }
+                    ParameterInfos[12] = { Name=TopEdgeHeight }
+                    ParameterInfos[13] = { Name=TopZUPBias }
+                    ParameterInfos[14] = { Name=Specular }
+                    ParameterInfos[15] = { Name=MidUp_Sharpen }
+                    ParameterInfos[16] = { Name=NoiseIntensity }
+                    ParameterInfos[17] = { Name=Max Expensive Steps Debug Color }
+                    ParameterInfos[18] = { Name=UV_Tili }
+                    ParameterInfos[19] = { Name=AOScopeMin }
+                    ParameterInfos[20] = { Name=LandscapeFadeDistance }
+                    ParameterInfos[21] = { Name=TopNormalIntencity }
+                    ParameterInfos[22] = { Name=LODMetallic }
+                    ParameterInfos[23] = { Name=Min Steps (S) }
+                    ParameterInfos[24] = { Name=MidMetal }
+                    ParameterInfos[25] = { Name=Mid Layer UVS - V Tiling }
+                    ParameterInfos[26] = { Name=Use_VertexColorBlend }
+                    ParameterInfos[27] = { Name=AOScopeMax }
+                    ParameterInfos[28] = { Name=HeightBlendContrast }
+                    ParameterInfos[29] = { Name=TopUp_Scope }
+                    ParameterInfos[30] =
+                    {
+                        Name = Mid Layer UV Index (False=Channel 0, True=Channel 1)_DYN
+                    }
+                    ParameterInfos[31] = { Name=Blend Mask U Tiling }
+                    ParameterInfos[32] = { Name=LandscapeBlendHeightTillingR }
+                    ParameterInfos[33] = { Name=Height Ratio (S) }
+                    ParameterInfos[34] = { Name=Blend Mask V Tiling }
+                    ParameterInfos[35] = { Name=LandscapeBlendHeightTillingG }
+                    ParameterInfos[36] = { Name=OverallNormal UV Index }
+                    ParameterInfos[37] = { Name=LandscapeDepthBias }
+                    ParameterInfos[38] = { Name=NoiseIntensty }
+                    ParameterInfos[39] = { Name=TopBoundaryNoise_Inten }
+                    ParameterInfos[40] = { Name=MidUp_Scope }
+                    ParameterInfos[41] = { Name=LandscapeFadeHardness }
+                    ParameterInfos[42] = { Name=WaterPuddleNormalIntensity }
+                    ParameterInfos[43] = { Name=Base Layer UV Index }
+                    ParameterInfos[44] = { Name=maxBaseClamp }
+                    ParameterInfos[45] = { Name=HeightBlend }
+                    ParameterInfos[46] = { Name=Base Layer UVS - U Tiling }
+                    ParameterInfos[47] = { Name=InitialIntensity }
+                    ParameterInfos[48] = { Name=$$$$ }
+                    ParameterInfos[49] = { Name=MidZUPBias }
+                    ParameterInfos[50] = { Name=LandBlendMaxDis }
+                    ParameterInfos[51] = { Name=TopZUPSharpness }
+                    ParameterInfos[52] = { Name=AddTopRoughness }
+                    ParameterInfos[53] = { Name=Base Layer UVS - V Tiling }
+                    ParameterInfos[54] = { Name=MidBoundaryNoiseInten }
+                    ParameterInfos[55] = { Name=BaseOverallNormal UVS - V Tiling }
+                    ParameterInfos[56] = { Name=WaterNormal_Scale (S) }
+                    ParameterInfos[57] = { Name=HeightOffset }
+                    ParameterInfos[58] = { Name=MidRoughness }
+                    ParameterInfos[59] = { Name=DepthOffset }
+                    ParameterInfos[60] = { Name=NormalIntensity (S) }
+                    ParameterInfos[61] = { Name=MidZUPShapness }
+                    ParameterInfos[62] = { Name=TopRoughness }
+                    ParameterInfos[63] = { Name=WaterPuddleRoughness }
+                    ParameterInfos[64] = { Name=Distance }
+                    ParameterInfos[65] = { Name=Down_Slope_Sharpen }
+                    ParameterInfos[66] = { Name=BaseOverallNormal UVS - U Tiling }
+                    ParameterInfos[67] = { Name=MidUseNormal Wight }
+                    ParameterInfos[68] = { Name=AddTopMetallic }
+                    ParameterInfos[69] = { Name=WaterPuddleReflectionIntensity }
+                    ParameterInfos[70] = { Name=MidAmount }
+                    ParameterInfos[71] = { Name=TopUp_Sharpen }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[12] =
+                {
+                    ParameterInfos[0] = { Name=MainUV }
+                    ParameterInfos[1] = { Name=BasColorTint }
+                    ParameterInfos[2] = { Name=DepthTex Channel }
+                    ParameterInfos[3] = { Name=NoiseUV }
+                    ParameterInfos[4] = { Name=MidColorTint }
+                    ParameterInfos[5] = { Name=FlowMapUV }
+                    ParameterInfos[6] = { Name=TopColorTint }
+                    ParameterInfos[7] = { Name=WaterPuddleColorTint }
+                    ParameterInfos[8] = { Name=AddTopColor }
+                    ParameterInfos[9] = { Name=ColorTint }
+                    ParameterInfos[10] = { Name=Emissive Far }
+                    ParameterInfos[11] = { Name=$$UV }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[17] =
+                {
+                    ParameterInfos[0] = { Name=MidDiffuseTex }
+                    ParameterInfos[1] = { Name=MainTex }
+                    ParameterInfos[2] = { Name=TopMaskTex }
+                    ParameterInfos[3] = { Name=MidMaskTex }
+                    ParameterInfos[4] = { Name=BaseDiffTexArray }
+                    ParameterInfos[5] = { Name=BaseDiffTex }
+                    ParameterInfos[6] = { Name=MidNormalTex }
+                    ParameterInfos[7] = { Name=DepthTex }
+                    ParameterInfos[8] = { Name=HeightBlendTex }
+                    ParameterInfos[9] = { Name=BlendMaskTexture }
+                    ParameterInfos[10] = { Name=$$$$ }
+                    ParameterInfos[11] = { Name=BaseOverallNormalTexture }
+                    ParameterInfos[12] = { Name=TopDiffuseTex }
+                    ParameterInfos[13] = { Name=BaseMaskTexArray }
+                    ParameterInfos[14] = { Name=LandscapeBlendHeight }
+                    ParameterInfos[15] = { Name=RainNormal }
+                    ParameterInfos[16] = { Name=BaseMaskTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[72] =
+        {
+            ScalarValues[0] = 5
+            ScalarValues[1] = 1
+            ScalarValues[2] = 1
+            ScalarValues[3] = 0
+            ScalarValues[4] = 1
+            ScalarValues[5] = 3
+            ScalarValues[6] = 1
+            ScalarValues[7] = 20
+            ScalarValues[8] = 0
+            ScalarValues[9] = 1
+            ScalarValues[10] = 0.2
+            ScalarValues[11] = 30
+            ScalarValues[12] = 0
+            ScalarValues[13] = -1
+            ScalarValues[14] = 0.5
+            ScalarValues[15] = 2
+            ScalarValues[16] = 0.75
+            ScalarValues[17] = 32
+            ScalarValues[18] = 1
+            ScalarValues[19] = 0.7
+            ScalarValues[20] = 50
+            ScalarValues[21] = 0.6429
+            ScalarValues[22] = 0
+            ScalarValues[23] = 2
+            ScalarValues[24] = 0.5
+            ScalarValues[25] = 1
+            ScalarValues[26] = 0
+            ScalarValues[27] = 1
+            ScalarValues[28] = 0
+            ScalarValues[29] = 3
+            ScalarValues[30] = 0
+            ScalarValues[31] = 1
+            ScalarValues[32] = 1000
+            ScalarValues[33] = 0.04
+            ScalarValues[34] = 1
+            ScalarValues[35] = 1000
+            ScalarValues[36] = 0
+            ScalarValues[37] = 1
+            ScalarValues[38] = 0.2
+            ScalarValues[39] = 2
+            ScalarValues[40] = 3
+            ScalarValues[41] = 0
+            ScalarValues[42] = 1
+            ScalarValues[43] = 0
+            ScalarValues[44] = 1
+            ScalarValues[45] = 0.17
+            ScalarValues[46] = 1
+            ScalarValues[47] = 1.2
+            ScalarValues[48] = 0
+            ScalarValues[49] = -1
+            ScalarValues[50] = 65000
+            ScalarValues[51] = 2
+            ScalarValues[52] = 1
+            ScalarValues[53] = 1
+            ScalarValues[54] = 2
+            ScalarValues[55] = 1
+            ScalarValues[56] = 100
+            ScalarValues[57] = 1.6
+            ScalarValues[58] = 0.5
+            ScalarValues[59] = 0
+            ScalarValues[60] = 10
+            ScalarValues[61] = 2
+            ScalarValues[62] = 0.5
+            ScalarValues[63] = 0.1
+            ScalarValues[64] = 5000
+            ScalarValues[65] = 1
+            ScalarValues[66] = 1
+            ScalarValues[67] = 0
+            ScalarValues[68] = 0
+            ScalarValues[69] = 0.2
+            ScalarValues[70] = 1
+            ScalarValues[71] = 2
+        }
+        VectorValues[12] =
+        {
+            VectorValues[0] = { R=10, G=10, B=0.1, A=0.1 }
+            VectorValues[1] = { R=1, G=1, B=1, A=1 }
+            VectorValues[2] = { R=0, G=0, B=0, A=1 }
+            VectorValues[3] = { R=10, G=10, B=0.1, A=-0.1 }
+            VectorValues[4] = { R=1, G=1, B=1, A=1 }
+            VectorValues[5] = { R=1, G=1, B=0, A=0 }
+            VectorValues[6] = { R=1, G=1, B=1, A=1 }
+            VectorValues[7] = { R=0.5, G=0.5, B=0.5, A=0 }
+            VectorValues[8] = { R=1, G=1, B=1, A=1 }
+            VectorValues[9] = { R=1, G=1, B=1, A=1 }
+            VectorValues[10] = { R=0, G=0, B=0, A=0 }
+            VectorValues[11] = { R=1, G=1, B=0, A=0 }
+        }
+        TextureValues[17] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_Caustic_001.T_Caustic_001'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+            TextureValues[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+            TextureValues[5] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[6] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+            TextureValues[7] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskBlack_M.T_DefaultMaskBlack_M'
+            TextureValues[8] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+            TextureValues[9] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_D1.T_DefaultColorBlack_D1'
+            TextureValues[10] = Texture2D'/Game/Aki/Render/Common/T_Ice_A_Sub.T_Ice_A_Sub'
+            TextureValues[11] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+            TextureValues[12] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[14] = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+            TextureValues[15] = Texture2D'/Game/Aki/Render/Common/T_WaterNormal_Rain.T_WaterNormal_Rain'
+            TextureValues[16] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+        }
+    }
+    ReferencedTextures[14] =
+    {
+        ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+        ReferencedTextures[3] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_D1.T_DefaultColorBlack_D1'
+        ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+        ReferencedTextures[5] = Texture2D'/Engine/EngineVolumetrics/Fogsheet/Materials/T_EV_BlankWhite_01.T_EV_BlankWhite_01'
+        ReferencedTextures[6] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskBlack_M.T_DefaultMaskBlack_M'
+        ReferencedTextures[7] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        ReferencedTextures[9] = Texture2D'/Game/Aki/Render/Common/T_WaterNormal_Rain.T_WaterNormal_Rain'
+        ReferencedTextures[10] = Texture2D'/Game/Aki/Render/Common/T_Foliage_Noise_M.T_Foliage_Noise_M'
+        ReferencedTextures[11] = Texture2D'/Game/Aki/Render/Common/T_Caustic_001.T_Caustic_001'
+        ReferencedTextures[12] = Texture2D'/Game/Aki/Render/Common/T_SingleLayerWaterNoise.T_SingleLayerWaterNoise'
+        ReferencedTextures[13] = Texture2D'/Game/Aki/Render/Common/T_Ice_A_Sub.T_Ice_A_Sub'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[17] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = MidDiffuseTex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_Caustic_001.T_Caustic_001'
+        Name = MainTex
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+        Name = TopMaskTex
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+        Name = MidMaskTex
+        Group = None
+    }
+    CollectedTextureParameters[4] = { Texture=None, Name=BaseDiffTexArray, Group=None }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = BaseDiffTex
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+        Name = MidNormalTex
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskBlack_M.T_DefaultMaskBlack_M'
+        Name = DepthTex
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+        Name = HeightBlendTex
+        Group = None
+    }
+    CollectedTextureParameters[9] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorBlack_D1.T_DefaultColorBlack_D1'
+        Name = BlendMaskTexture
+        Group = None
+    }
+    CollectedTextureParameters[10] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_Ice_A_Sub.T_Ice_A_Sub'
+        Name = $$$$
+        Group = None
+    }
+    CollectedTextureParameters[11] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+        Name = BaseOverallNormalTexture
+        Group = None
+    }
+    CollectedTextureParameters[12] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = TopDiffuseTex
+        Group = None
+    }
+    CollectedTextureParameters[13] = { Texture=None, Name=BaseMaskTexArray, Group=None }
+    CollectedTextureParameters[14] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+        Name = LandscapeBlendHeight
+        Group = None
+    }
+    CollectedTextureParameters[15] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_WaterNormal_Rain.T_WaterNormal_Rain'
+        Name = RainNormal
+        Group = None
+    }
+    CollectedTextureParameters[16] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+        Name = BaseMaskTex
+        Group = None
+    }
+}
+CollectedScalarParameters[72] =
+{
+    CollectedScalarParameters[0] = { Value=5, Name=FlowLightStrength, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 1
+        Name = Top Layer UVS - V Tiling
+        Group = None
+    }
+    CollectedScalarParameters[2] =
+    {
+        Value = 1
+        Name = Mid Layer UVS - U Tiling
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=0, Name=TopDiffuseMetallic, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=TopAmount, Group=None }
+    CollectedScalarParameters[5] = { Value=3, Name=Max Steps (S), Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = 1
+        Name = Top Layer UVS - U Tiling
+        Group = None
+    }
+    CollectedScalarParameters[7] = { Value=20, Name=Down_Slope_Scope, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=TopMetallic, Group=None }
+    CollectedScalarParameters[9] =
+    {
+        Value = 1
+        Name = LandscapeBlendHeightContrast
+        Group = None
+    }
+    CollectedScalarParameters[10] = { Value=0.2, Name=EmissiveIntensty, Group=None }
+    CollectedScalarParameters[11] = { Value=30, Name=WaterNormalSpeed (S), Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=TopEdgeHeight, Group=None }
+    CollectedScalarParameters[13] = { Value=-1, Name=TopZUPBias, Group=None }
+    CollectedScalarParameters[14] = { Value=0.5, Name=Specular, Group=None }
+    CollectedScalarParameters[15] = { Value=2, Name=MidUp_Sharpen, Group=None }
+    CollectedScalarParameters[16] = { Value=0.75, Name=NoiseIntensity, Group=None }
+    CollectedScalarParameters[17] =
+    {
+        Value = 32
+        Name = Max Expensive Steps Debug Color
+        Group = None
+    }
+    CollectedScalarParameters[18] = { Value=1, Name=UV_Tili, Group=None }
+    CollectedScalarParameters[19] = { Value=0.7, Name=AOScopeMin, Group=None }
+    CollectedScalarParameters[20] = { Value=50, Name=LandscapeFadeDistance, Group=None }
+    CollectedScalarParameters[21] =
+    {
+        Value = 0.6429
+        Name = TopNormalIntencity
+        Group = None
+    }
+    CollectedScalarParameters[22] = { Value=0, Name=LODMetallic, Group=None }
+    CollectedScalarParameters[23] = { Value=2, Name=Min Steps (S), Group=None }
+    CollectedScalarParameters[24] = { Value=0.5, Name=MidMetal, Group=None }
+    CollectedScalarParameters[25] =
+    {
+        Value = 1
+        Name = Mid Layer UVS - V Tiling
+        Group = None
+    }
+    CollectedScalarParameters[26] = { Value=0, Name=Use_VertexColorBlend, Group=None }
+    CollectedScalarParameters[27] = { Value=1, Name=AOScopeMax, Group=None }
+    CollectedScalarParameters[28] = { Value=0, Name=HeightBlendContrast, Group=None }
+    CollectedScalarParameters[29] = { Value=3, Name=TopUp_Scope, Group=None }
+    CollectedScalarParameters[30] =
+    {
+        Value = 0
+        Name = Mid Layer UV Index (False=Channel 0, True=Channel 1)_DYN
+        Group = None
+    }
+    CollectedScalarParameters[31] = { Value=1, Name=Blend Mask U Tiling, Group=None }
+    CollectedScalarParameters[32] =
+    {
+        Value = 1000
+        Name = LandscapeBlendHeightTillingR
+        Group = None
+    }
+    CollectedScalarParameters[33] = { Value=0.04, Name=Height Ratio (S), Group=None }
+    CollectedScalarParameters[34] = { Value=1, Name=Blend Mask V Tiling, Group=None }
+    CollectedScalarParameters[35] =
+    {
+        Value = 1000
+        Name = LandscapeBlendHeightTillingG
+        Group = None
+    }
+    CollectedScalarParameters[36] = { Value=0, Name=OverallNormal UV Index, Group=None }
+    CollectedScalarParameters[37] = { Value=1, Name=LandscapeDepthBias, Group=None }
+    CollectedScalarParameters[38] = { Value=0.2, Name=NoiseIntensty, Group=None }
+    CollectedScalarParameters[39] = { Value=2, Name=TopBoundaryNoise_Inten, Group=None }
+    CollectedScalarParameters[40] = { Value=3, Name=MidUp_Scope, Group=None }
+    CollectedScalarParameters[41] = { Value=0, Name=LandscapeFadeHardness, Group=None }
+    CollectedScalarParameters[42] =
+    {
+        Value = 1
+        Name = WaterPuddleNormalIntensity
+        Group = None
+    }
+    CollectedScalarParameters[43] = { Value=0, Name=Base Layer UV Index, Group=None }
+    CollectedScalarParameters[44] = { Value=1, Name=maxBaseClamp, Group=None }
+    CollectedScalarParameters[45] = { Value=0.17, Name=HeightBlend, Group=None }
+    CollectedScalarParameters[46] =
+    {
+        Value = 1
+        Name = Base Layer UVS - U Tiling
+        Group = None
+    }
+    CollectedScalarParameters[47] = { Value=1.2, Name=InitialIntensity, Group=None }
+    CollectedScalarParameters[48] = { Value=0, Name=$$$$, Group=None }
+    CollectedScalarParameters[49] = { Value=-1, Name=MidZUPBias, Group=None }
+    CollectedScalarParameters[50] = { Value=65000, Name=LandBlendMaxDis, Group=None }
+    CollectedScalarParameters[51] = { Value=2, Name=TopZUPSharpness, Group=None }
+    CollectedScalarParameters[52] = { Value=1, Name=AddTopRoughness, Group=None }
+    CollectedScalarParameters[53] =
+    {
+        Value = 1
+        Name = Base Layer UVS - V Tiling
+        Group = None
+    }
+    CollectedScalarParameters[54] = { Value=2, Name=MidBoundaryNoiseInten, Group=None }
+    CollectedScalarParameters[55] =
+    {
+        Value = 1
+        Name = BaseOverallNormal UVS - V Tiling
+        Group = None
+    }
+    CollectedScalarParameters[56] =
+    {
+        Value = 100
+        Name = WaterNormal_Scale (S)
+        Group = None
+    }
+    CollectedScalarParameters[57] = { Value=1.6, Name=HeightOffset, Group=None }
+    CollectedScalarParameters[58] = { Value=0.5, Name=MidRoughness, Group=None }
+    CollectedScalarParameters[59] = { Value=0, Name=DepthOffset, Group=None }
+    CollectedScalarParameters[60] = { Value=10, Name=NormalIntensity (S), Group=None }
+    CollectedScalarParameters[61] = { Value=2, Name=MidZUPShapness, Group=None }
+    CollectedScalarParameters[62] = { Value=0.5, Name=TopRoughness, Group=None }
+    CollectedScalarParameters[63] = { Value=0.1, Name=WaterPuddleRoughness, Group=None }
+    CollectedScalarParameters[64] = { Value=5000, Name=Distance, Group=None }
+    CollectedScalarParameters[65] = { Value=1, Name=Down_Slope_Sharpen, Group=None }
+    CollectedScalarParameters[66] =
+    {
+        Value = 1
+        Name = BaseOverallNormal UVS - U Tiling
+        Group = None
+    }
+    CollectedScalarParameters[67] = { Value=0, Name=MidUseNormal Wight, Group=None }
+    CollectedScalarParameters[68] = { Value=0, Name=AddTopMetallic, Group=None }
+    CollectedScalarParameters[69] =
+    {
+        Value = 0.2
+        Name = WaterPuddleReflectionIntensity
+        Group = None
+    }
+    CollectedScalarParameters[70] = { Value=1, Name=MidAmount, Group=None }
+    CollectedScalarParameters[71] = { Value=2, Name=TopUp_Sharpen, Group=None }
+}
+CollectedVectorParameters[12] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=10, G=10, B=0.1, A=0.1 }
+        Name = MainUV
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = BasColorTint
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = DepthTex Channel
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=10, G=10, B=0.1, A=-0.1 }
+        Name = NoiseUV
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = MidColorTint
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = FlowMapUV
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = TopColorTint
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0.5, G=0.5, B=0.5, A=0 }
+        Name = WaterPuddleColorTint
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = AddTopColor
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = ColorTint
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Emissive Far
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = $$UV
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultColorWhite_D
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultColorWhite_Linear_D
+    }
+}

@@ -1,0 +1,7 @@
+Diffuse=DefaultDiffuse
+Normal=T_Normal_Flowmap_40001
+Other[0]=T_flowmap
+Other[1]=T_skybox_01
+Other[2]=T_skybox_01_top
+Other[3]=T_Foliage_Noise_Mip
+Other[4]=T_WindNoise_M

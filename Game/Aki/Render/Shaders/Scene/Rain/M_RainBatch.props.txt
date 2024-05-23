@@ -1,0 +1,168 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/Rain/T_RainGradient.T_RainGradient'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[19] =
+                {
+                    ParameterInfos[0] = { Name=StretchMin }
+                    ParameterInfos[1] = { Name=SpeedMax }
+                    ParameterInfos[2] = { Name=CameraDistanceMax }
+                    ParameterInfos[3] = { Name=MaxScretch }
+                    ParameterInfos[4] = { Name=OpacityMax }
+                    ParameterInfos[5] = { Name=ScaleThreshold }
+                    ParameterInfos[6] = { Name=StretchMax }
+                    ParameterInfos[7] = { Name=WidthScretchScaleMin }
+                    ParameterInfos[8] = { Name=ScalePower }
+                    ParameterInfos[9] = { Name=OpacityMin }
+                    ParameterInfos[10] = { Name=DepthCullFar }
+                    ParameterInfos[11] = { Name=ScaleRate }
+                    ParameterInfos[12] = { Name=SpeedMin }
+                    ParameterInfos[13] = { Name=DepthCullNear }
+                    ParameterInfos[14] = { Name=CameraDistanceMin }
+                    ParameterInfos[15] = { Name=HightlightSmooth }
+                    ParameterInfos[16] = { Name=DebugSpeed }
+                    ParameterInfos[17] = { Name=WidthScretchScaleMax }
+                    ParameterInfos[18] = { Name=HightlightThreshold }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=DebugVelocity }
+                    ParameterInfos[1] = { Name=HighlightRelativePosition }
+                    ParameterInfos[2] = { Name=LongEmissive }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Gradient }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[19] =
+        {
+            ScalarValues[0] = 0.1
+            ScalarValues[1] = 1000
+            ScalarValues[2] = 1000
+            ScalarValues[3] = 5
+            ScalarValues[4] = 0
+            ScalarValues[5] = 0.0001
+            ScalarValues[6] = 1
+            ScalarValues[7] = 0.05
+            ScalarValues[8] = 1
+            ScalarValues[9] = 0
+            ScalarValues[10] = 50
+            ScalarValues[11] = 0.0001
+            ScalarValues[12] = 100
+            ScalarValues[13] = 30
+            ScalarValues[14] = 50
+            ScalarValues[15] = 0.152381
+            ScalarValues[16] = 0
+            ScalarValues[17] = 0.2
+            ScalarValues[18] = 0
+        }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+            VectorValues[1] = { R=0, G=0, B=0, A=1 }
+            VectorValues[2] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/Rain/T_RainGradient.T_RainGradient'
+        }
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/Rain/T_RainGradient.T_RainGradient'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/Rain/T_RainGradient.T_RainGradient'
+        Name = Gradient
+        Group = None
+    }
+}
+CollectedScalarParameters[19] =
+{
+    CollectedScalarParameters[0] = { Value=0.1, Name=StretchMin, Group=None }
+    CollectedScalarParameters[1] = { Value=1000, Name=SpeedMax, Group=None }
+    CollectedScalarParameters[2] = { Value=1000, Name=CameraDistanceMax, Group=None }
+    CollectedScalarParameters[3] = { Value=5, Name=MaxScretch, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=OpacityMax, Group=None }
+    CollectedScalarParameters[5] = { Value=0.0001, Name=ScaleThreshold, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=StretchMax, Group=None }
+    CollectedScalarParameters[7] =
+    {
+        Value = 0.05
+        Name = WidthScretchScaleMin
+        Group = None
+    }
+    CollectedScalarParameters[8] = { Value=1, Name=ScalePower, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=OpacityMin, Group=None }
+    CollectedScalarParameters[10] = { Value=50, Name=DepthCullFar, Group=None }
+    CollectedScalarParameters[11] = { Value=0.0001, Name=ScaleRate, Group=None }
+    CollectedScalarParameters[12] = { Value=100, Name=SpeedMin, Group=None }
+    CollectedScalarParameters[13] = { Value=30, Name=DepthCullNear, Group=None }
+    CollectedScalarParameters[14] = { Value=50, Name=CameraDistanceMin, Group=None }
+    CollectedScalarParameters[15] =
+    {
+        Value = 0.152381
+        Name = HightlightSmooth
+        Group = None
+    }
+    CollectedScalarParameters[16] = { Value=0, Name=DebugSpeed, Group=None }
+    CollectedScalarParameters[17] = { Value=0.2, Name=WidthScretchScaleMax, Group=None }
+    CollectedScalarParameters[18] = { Value=0, Name=HightlightThreshold, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = DebugVelocity
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = HighlightRelativePosition
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = LongEmissive
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

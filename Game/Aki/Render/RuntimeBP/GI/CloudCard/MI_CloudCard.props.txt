@@ -1,0 +1,206 @@
+Parent = Material3'/Game/Aki/Render/RuntimeBP/GI/CloudCard/M_CloudCard.M_CloudCard'
+ScalarParameterValues[19] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=AlphaControl }
+        ParameterValue = 1.80835
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=AlphaMax }
+        ParameterValue = 0.761905
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=AlphaMin }
+        ParameterValue = 0.295238
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Ambient }
+        ParameterValue = 1.39393
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=AtmoLightScale }
+        ParameterValue = 0.880219
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Contrast }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=DarkBrightness }
+        ParameterValue = 0.885998
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=Exp }
+        ParameterValue = 1.27825
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=HorizonFalloff }
+        ParameterValue = 0.933061
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=HorizonMax }
+        ParameterValue = 0.752291
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=HorizonMin }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=Lit }
+        ParameterValue = 0.038095
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=CloudNoiseIntensity }
+        ParameterValue = 0.429486
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=CloudNoiseTiling }
+        ParameterValue = 0.588995
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=NoiseRadius (S) }
+        ParameterValue = 0.4
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=NoiseSpeed }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=UVNoiseStrength }
+        ParameterValue = 0.092521
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=UVNoiseTiling }
+        ParameterValue = 4.43234
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=CloudNoise }
+        ParameterValue = Texture2D'/Game/Aki/Render/RuntimeBP/GI/CloudLayer/T_CloudsSmall_02.T_CloudsSmall_02'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=CloudTex }
+        ParameterValue = Texture2D'/Game/Aki/Render/RuntimeBP/GI/CloudCard/T_Cloud_01.T_Cloud_01'
+        ParameterName = None
+    }
+}
+VectorParameterValues[4] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=BaseColor }
+        ParameterValue = { R=1, G=1, B=1, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=DarkColor }
+        ParameterValue = { R=0.43713, G=0.50252, B=0.661458, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=LightColor }
+        ParameterValue = { R=1, G=1, B=1, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=UVNoiseSpped }
+        ParameterValue = { R=0.038095, G=-0.057143, B=0, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_AlphaComposite (5)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.959473
+        UVChannelIndex = 0
+        TextureName = T_Cloud_01
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 4.4375
+        UVChannelIndex = 0
+        TextureName = T_CloudNoise_Curl
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 0.59375
+        UVChannelIndex = 0
+        TextureName = T_CloudsSmall_02
+    }
+}

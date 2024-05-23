@@ -1,0 +1,128 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineVolumetrics/Fogsheet/Materials/T_EV_BlankWhite_01.T_EV_BlankWhite_01'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskBlack_M.T_DefaultMaskBlack_M'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=Max Expensive Steps Debug Color }
+                    ParameterInfos[1] = { Name=Opactiy }
+                    ParameterInfos[2] = { Name=Height Ratio Bumpoffset }
+                    ParameterInfos[3] = { Name=Height Ratio }
+                    ParameterInfos[4] = { Name=Reference Plane }
+                    ParameterInfos[5] = { Name=Normal 1 Intensity }
+                    ParameterInfos[6] = { Name=POM Distance }
+                    ParameterInfos[7] = { Name=Min Steps }
+                    ParameterInfos[8] = { Name=DisappearSpeed }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Opactiy }
+                    ParameterInfos[1] = { Name=HeightMap }
+                    ParameterInfos[2] = { Name=Normal 1 }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[9] = { 32, 1, 0.05, 0.05, 0.72, 1, 3000, 1, 1 }
+        VectorValues[0] = {}
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskBlack_M.T_DefaultMaskBlack_M'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskBlack_M.T_DefaultMaskBlack_M'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskBlack_M.T_DefaultMaskBlack_M'
+        ReferencedTextures[1] = Texture2D'/Engine/EngineVolumetrics/Fogsheet/Materials/T_EV_BlankWhite_01.T_EV_BlankWhite_01'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskBlack_M.T_DefaultMaskBlack_M'
+        Name = Opactiy
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskBlack_M.T_DefaultMaskBlack_M'
+        Name = HeightMap
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+        Name = Normal 1
+        Group = None
+    }
+}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 32
+        Name = Max Expensive Steps Debug Color
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=1, Name=Opactiy, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 0.05
+        Name = Height Ratio Bumpoffset
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=0.05, Name=Height Ratio, Group=None }
+    CollectedScalarParameters[4] = { Value=0.72, Name=Reference Plane, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Normal 1 Intensity, Group=None }
+    CollectedScalarParameters[6] = { Value=3000, Name=POM Distance, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Min Steps, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=DisappearSpeed, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_DefaultMaskBlack_M
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 1.01965
+        UVChannelIndex = 0
+        TextureName = T_DefaultNormal_N
+    }
+}

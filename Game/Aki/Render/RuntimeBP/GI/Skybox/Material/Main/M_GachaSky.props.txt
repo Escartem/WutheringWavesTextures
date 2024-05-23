@@ -1,0 +1,135 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/Tex_Tile_01.Tex_Tile_01'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Scene/NewGacha/Textures/T_Star.T_Star'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=MainNoiseScale1 }
+                    ParameterInfos[1] = { Name=NebularAlpha }
+                    ParameterInfos[2] = { Name=StarScale }
+                    ParameterInfos[3] = { Name=TexMainNoiseAmount }
+                    ParameterInfos[4] = { Name=Desaturation }
+                    ParameterInfos[5] = { Name=MainNoiseSpeed }
+                    ParameterInfos[6] = { Name=UpdownMaskAmount }
+                    ParameterInfos[7] = { Name=SkyRotate }
+                    ParameterInfos[8] = { Name=ColorTexRotate }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=SkyColor }
+                    ParameterInfos[1] = { Name=SkyBaseColor }
+                    ParameterInfos[2] = { Name=NebularColor }
+                    ParameterInfos[3] = { Name=BaseColor }
+                    ParameterInfos[4] = { Name=ColorTexBaseUV }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=ColorTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[9] = { 8.50694, 10, 5, 0.4, 0, 0, 1, 0, 0 }
+        VectorValues[5] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=0 }
+            VectorValues[1] = { R=1, G=1, B=1, A=1 }
+            VectorValues[2] = { R=1, G=1, B=1, A=0 }
+            VectorValues[3] = { R=0, G=0, B=0, A=0 }
+            VectorValues[4] = { R=1, G=1, B=0, A=0 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/Tex_Tile_01.Tex_Tile_01'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/Tex_Tile_01.Tex_Tile_01'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Scene/NewGacha/Textures/T_Star.T_Star'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/Tex_Tile_01.Tex_Tile_01'
+        Name = ColorTex
+        Group = None
+    }
+}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] = { Value=8.50694, Name=MainNoiseScale1, Group=None }
+    CollectedScalarParameters[1] = { Value=10, Name=NebularAlpha, Group=None }
+    CollectedScalarParameters[2] = { Value=5, Name=StarScale, Group=None }
+    CollectedScalarParameters[3] = { Value=0.4, Name=TexMainNoiseAmount, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Desaturation, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=MainNoiseSpeed, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=UpdownMaskAmount, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=SkyRotate, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=ColorTexRotate, Group=None }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = SkyColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = SkyBaseColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = NebularColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = BaseColor
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = ColorTexBaseUV
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

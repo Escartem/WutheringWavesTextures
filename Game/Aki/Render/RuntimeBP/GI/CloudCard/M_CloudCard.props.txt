@@ -1,0 +1,220 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineResources/WhiteSquareTexture.WhiteSquareTexture'
+    ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+    ReferencedTextures[3] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+    ReferencedTextures[4] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/CloudCard/T_Cloud_01.T_Cloud_01'
+    ReferencedTextures[5] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/T_CloudNoise_Curl.T_CloudNoise_Curl'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[21] =
+                {
+                    ParameterInfos[0] = { Name=AlphaMax }
+                    ParameterInfos[1] = { Name=Exp }
+                    ParameterInfos[2] = { Name=HorizonMin }
+                    ParameterInfos[3] = { Name=Contrast }
+                    ParameterInfos[4] = { Name=HorizonOffset }
+                    ParameterInfos[5] = { Name=UVNoiseStrength }
+                    ParameterInfos[6] = { Name=AlphaControl }
+                    ParameterInfos[7] = { Name=UVNoiseTiling }
+                    ParameterInfos[8] = { Name=NoiseRadius (S) }
+                    ParameterInfos[9] = { Name=DarkBrightness }
+                    ParameterInfos[10] = { Name=NoiseSpeed }
+                    ParameterInfos[11] = { Name=Translucency }
+                    ParameterInfos[12] = { Name=HorizonMax }
+                    ParameterInfos[13] = { Name=CloudNoiseIntensity }
+                    ParameterInfos[14] = { Name=LightBrightness }
+                    ParameterInfos[15] = { Name=HorizonFalloff }
+                    ParameterInfos[16] = { Name=Lit }
+                    ParameterInfos[17] = { Name=AtmoLightScale }
+                    ParameterInfos[18] = { Name=AlphaMin }
+                    ParameterInfos[19] = { Name=CloudNoiseTiling }
+                    ParameterInfos[20] = { Name=LitOffset }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=Emissive }
+                    ParameterInfos[1] = { Name=Offset }
+                    ParameterInfos[2] = { Name=LightColor }
+                    ParameterInfos[3] = { Name=UVNoiseSpped }
+                    ParameterInfos[4] = { Name=DarkColor }
+                    ParameterInfos[5] = { Name=BaseColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=CloudTex }
+                    ParameterInfos[1] = { Name=CloudNoise }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[21] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 1
+            ScalarValues[2] = 0
+            ScalarValues[3] = 0
+            ScalarValues[4] = 0
+            ScalarValues[5] = 0.1
+            ScalarValues[6] = 1
+            ScalarValues[7] = 4
+            ScalarValues[8] = 0.4
+            ScalarValues[9] = 1
+            ScalarValues[10] = 0
+            ScalarValues[11] = 1
+            ScalarValues[12] = 1
+            ScalarValues[13] = 1
+            ScalarValues[14] = 1
+            ScalarValues[15] = 0.7
+            ScalarValues[16] = 0
+            ScalarValues[17] = 0.1
+            ScalarValues[18] = 0
+            ScalarValues[19] = 2
+            ScalarValues[20] = 0
+        }
+        VectorValues[6] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+            VectorValues[1] = { R=0, G=0, B=0, A=1 }
+            VectorValues[2] = { R=1, G=1, B=1, A=1 }
+            VectorValues[3] = { R=0, G=0, B=0, A=1 }
+            VectorValues[4] = { R=1, G=1, B=1, A=1 }
+            VectorValues[5] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/CloudCard/T_Cloud_01.T_Cloud_01'
+            TextureValues[1] = Texture2D'/Engine/EngineResources/WhiteSquareTexture.WhiteSquareTexture'
+        }
+    }
+    ReferencedTextures[7] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/T_CloudNoise_Curl.T_CloudNoise_Curl'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/CloudCard/T_Cloud_01.T_Cloud_01'
+        ReferencedTextures[2] = Texture2D'/Engine/EngineResources/WhiteSquareTexture.WhiteSquareTexture'
+        ReferencedTextures[4] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[5] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+        ReferencedTextures[6] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+    }
+}
+BlendMode = BLEND_AlphaComposite (5)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/GI/CloudCard/T_Cloud_01.T_Cloud_01'
+        Name = CloudTex
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Engine/EngineResources/WhiteSquareTexture.WhiteSquareTexture'
+        Name = CloudNoise
+        Group = None
+    }
+}
+CollectedScalarParameters[21] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=AlphaMax, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Exp, Group=None }
+    CollectedScalarParameters[2] = { Value=0, Name=HorizonMin, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Contrast, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=HorizonOffset, Group=None }
+    CollectedScalarParameters[5] = { Value=0.1, Name=UVNoiseStrength, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=AlphaControl, Group=None }
+    CollectedScalarParameters[7] = { Value=4, Name=UVNoiseTiling, Group=None }
+    CollectedScalarParameters[8] = { Value=0.4, Name=NoiseRadius (S), Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=DarkBrightness, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=NoiseSpeed, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=Translucency, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=HorizonMax, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=CloudNoiseIntensity, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=LightBrightness, Group=None }
+    CollectedScalarParameters[15] = { Value=0.7, Name=HorizonFalloff, Group=None }
+    CollectedScalarParameters[16] = { Value=0, Name=Lit, Group=None }
+    CollectedScalarParameters[17] = { Value=0.1, Name=AtmoLightScale, Group=None }
+    CollectedScalarParameters[18] = { Value=0, Name=AlphaMin, Group=None }
+    CollectedScalarParameters[19] = { Value=2, Name=CloudNoiseTiling, Group=None }
+    CollectedScalarParameters[20] = { Value=0, Name=LitOffset, Group=None }
+}
+CollectedVectorParameters[6] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Emissive
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Offset
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = LightColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = UVNoiseSpped
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = DarkColor
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = BaseColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.965576
+        UVChannelIndex = 0
+        TextureName = T_Cloud_01
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 4
+        UVChannelIndex = 0
+        TextureName = T_CloudNoise_Curl
+    }
+}

@@ -1,0 +1,1280 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[14] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    ReferencedTextures[2] = Texture2D'/Engine/EngineVolumetrics/Fogsheet/Materials/T_EV_BlankWhite_01.T_EV_BlankWhite_01'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Eyes/T_EyesSecondHeightLight02_EG.T_EyesSecondHeightLight02_EG'
+    ReferencedTextures[4] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Eyes/T_HDMF_EM.T_HDMF_EM'
+    ReferencedTextures[5] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_3XingStar_D.T_3XingStar_D'
+    ReferencedTextures[6] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_3XingStar_SDF.T_3XingStar_SDF'
+    ReferencedTextures[7] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_XingHenShakeNoise_D.T_XingHenShakeNoise_D'
+    ReferencedTextures[8] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_XingHenSoundNoise.T_XingHenSoundNoise'
+    ReferencedTextures[9] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_XingHenSoundNoise02.T_XingHenSoundNoise02'
+    ReferencedTextures[10] = Texture2D'/Game/Aki/Render/Common/T_Caustic_001.T_Caustic_001'
+    ReferencedTextures[11] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    ReferencedTextures[12] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+    ReferencedTextures[13] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[174] =
+                {
+                    ParameterInfos[0] = { Name=XingHenControl }
+                    ParameterInfos[1] = { Name=E_Hologram_JitterStrength }
+                    ParameterInfos[2] = { Name=ShadowUpDown }
+                    ParameterInfos[3] = { Name=SoundWaveInt02 }
+                    ParameterInfos[4] = { Name=E_Hologram_Inverse }
+                    ParameterInfos[5] = { Name=HeightLight_PositionX }
+                    ParameterInfos[6] = { Name=ShapeScaleY }
+                    ParameterInfos[7] = { Name=BreatheStrength }
+                    ParameterInfos[8] = { Name=E_Hologram_MaskIntensity }
+                    ParameterInfos[9] = { Name=ToonRimWidth }
+                    ParameterInfos[10] = { Name=E_Rim_RimRange }
+                    ParameterInfos[11] = { Name=LightShakeSpeed }
+                    ParameterInfos[12] = { Name=BreathePropotion }
+                    ParameterInfos[13] = { Name=RampShadowRange }
+                    ParameterInfos[14] = { Name=UseLightOffset_Pitch_DYN }
+                    ParameterInfos[15] = { Name=E_Dither_DitherValue }
+                    ParameterInfos[16] = { Name=E_Tex_MaskRange }
+                    ParameterInfos[17] = { Name=LightShakeScale }
+                    ParameterInfos[18] = { Name=E_Hologram_MaskUVRotation }
+                    ParameterInfos[19] = { Name=SolidShadowView }
+                    ParameterInfos[20] = { Name=SolidShadowProcess }
+                    ParameterInfos[21] = { Name=AniScaleCenterY }
+                    ParameterInfos[22] = { Name=E_Hologram_NoiseStrength }
+                    ParameterInfos[23] = { Name=LightOffset_Yaw }
+                    ParameterInfos[24] = { Name=ParallaxScale }
+                    ParameterInfos[25] = { Name=FresnelRim_Smooth }
+                    ParameterInfos[26] = { Name=HeightLight_WidthY }
+                    ParameterInfos[27] = { Name=UVScaleY }
+                    ParameterInfos[28] = { Name=ShakeNoiseTilingX }
+                    ParameterInfos[29] = { Name=ParallaxHeight }
+                    ParameterInfos[30] = { Name=E_Rim_UseRim }
+                    ParameterInfos[31] = { Name=NorWS/ZVector }
+                    ParameterInfos[32] = { Name=MotionBlurIntensity }
+                    ParameterInfos[33] = { Name=XHTimeSpeed }
+                    ParameterInfos[34] = { Name=E_Rim_Intensity }
+                    ParameterInfos[35] = { Name=Radius }
+                    ParameterInfos[36] = { Name=E_Hologram_UVRotation }
+                    ParameterInfos[37] = { Name=Second_HeightRadio }
+                    ParameterInfos[38] = { Name=E_Motion_DitherPow }
+                    ParameterInfos[39] = { Name=Intensity }
+                    ParameterInfos[40] = { Name=SolidShadowStrength }
+                    ParameterInfos[41] = { Name=LightDifferentScale }
+                    ParameterInfos[42] = { Name=TransEdgeProcess }
+                    ParameterInfos[43] = { Name=E_Hologram_RampPow }
+                    ParameterInfos[44] = { Name=LightDisableSwitch }
+                    ParameterInfos[45] = { Name=SecondLight_WidthY }
+                    ParameterInfos[46] = { Name=ShapePosition01X }
+                    ParameterInfos[47] = { Name=E_Tex_UseTex }
+                    ParameterInfos[48] = { Name=TransTimeSpeed }
+                    ParameterInfos[49] = { Name=ParallaxOffsetCenterY }
+                    ParameterInfos[50] = { Name=E_Dissolve_Smooth }
+                    ParameterInfos[51] = { Name=E_Dissolve_UseDissolve }
+                    ParameterInfos[52] = { Name=LightOffset_Pitch }
+                    ParameterInfos[53] = { Name=E_Emission_Intensity }
+                    ParameterInfos[54] = { Name=E_Hologram_EmissionIntensity }
+                    ParameterInfos[55] = { Name=E_Motion_NoiseSpeed }
+                    ParameterInfos[56] = { Name=E_Base_UseTex }
+                    ParameterInfos[57] = { Name=Main_EmissionPower }
+                    ParameterInfos[58] = { Name=SecondLight_Width02Y }
+                    ParameterInfos[59] = { Name=FresnelRim_Reverse }
+                    ParameterInfos[60] = { Name=E_Emission_UseTex }
+                    ParameterInfos[61] = { Name=EmissionBreathThreshold }
+                    ParameterInfos[62] = { Name=EyeScale }
+                    ParameterInfos[63] = { Name=E_Dither_DitherValue2 }
+                    ParameterInfos[64] = { Name=E_Dissolve_Progress }
+                    ParameterInfos[65] = { Name=ShadowOffset }
+                    ParameterInfos[66] = { Name=E_MotionRange }
+                    ParameterInfos[67] = { Name=FaceLightYaw }
+                    ParameterInfos[68] = { Name=UVScaleX }
+                    ParameterInfos[69] = { Name=OpacityIntensity }
+                    ParameterInfos[70] = { Name=DepthRimIntensity }
+                    ParameterInfos[71] = { Name=HeightLightMin }
+                    ParameterInfos[72] = { Name=E_Rim_UseTex }
+                    ParameterInfos[73] = { Name=Hardness }
+                    ParameterInfos[74] = { Name=UseCameraTangent }
+                    ParameterInfos[75] = { Name=XingHenUV }
+                    ParameterInfos[76] = { Name=LightNormlScale }
+                    ParameterInfos[77] = { Name=SecondLight_Width02X }
+                    ParameterInfos[78] = { Name=BreatheFrequency }
+                    ParameterInfos[79] = { Name=LightShakPositionX }
+                    ParameterInfos[80] = { Name=USE Hologram }
+                    ParameterInfos[81] = { Name=ShakeNoiseInt }
+                    ParameterInfos[82] = { Name=NoiseStrength }
+                    ParameterInfos[83] = { Name=Effect_Progress }
+                    ParameterInfos[84] = { Name=LightEmissiveInt }
+                    ParameterInfos[85] = { Name=UseProLight }
+                    ParameterInfos[86] = { Name=CustomLightDir }
+                    ParameterInfos[87] = { Name=E_Hologram_Opactiy }
+                    ParameterInfos[88] = { Name=ShakeNoiseX_Speed }
+                    ParameterInfos[89] = { Name=SecondLight_Position02X }
+                    ParameterInfos[90] = { Name=E_Hologram_Hight }
+                    ParameterInfos[91] = { Name=SecondLight_Position_02Y }
+                    ParameterInfos[92] = { Name=SecondLight_PositionX }
+                    ParameterInfos[93] = { Name=Second_Height }
+                    ParameterInfos[94] = { Name=ShadowRange }
+                    ParameterInfos[95] = { Name=HeightRatioInput }
+                    ParameterInfos[96] = { Name=AniSpeed }
+                    ParameterInfos[97] = { Name=E_Motion_DitherMin }
+                    ParameterInfos[98] = { Name=XHIntensity }
+                    ParameterInfos[99] = { Name=FresnelRim_RimRange }
+                    ParameterInfos[100] = { Name=RampShadowColorScale }
+                    ParameterInfos[101] = { Name=ShapePosition01Y }
+                    ParameterInfos[102] = { Name=SoundWaveSpeed02 }
+                    ParameterInfos[103] = { Name=Second_UseObjectScreenUV }
+                    ParameterInfos[104] = { Name=E_Base_Intensity }
+                    ParameterInfos[105] = { Name=FlowEffectEdge_Strength }
+                    ParameterInfos[106] = { Name=SoundWaveInt01 }
+                    ParameterInfos[107] = { Name=E_Hologram_HightOffset }
+                    ParameterInfos[108] = { Name=SecondLight_Position_02X }
+                    ParameterInfos[109] = { Name=HeightLightMax }
+                    ParameterInfos[110] = { Name=E_Tex_UseScreenUV }
+                    ParameterInfos[111] = { Name=E_Dither_UseDither }
+                    ParameterInfos[112] = { Name=RotationAnlgle01 }
+                    ParameterInfos[113] = { Name=E_Dissolve_Multi }
+                    ParameterInfos[114] = { Name=ShakeNoiseTilingY }
+                    ParameterInfos[115] = { Name=E_Tex_UseMask }
+                    ParameterInfos[116] = { Name=SoundWaveTiling01 }
+                    ParameterInfos[117] = { Name=ParallaxOffsetCenterX }
+                    ParameterInfos[118] = { Name=Width }
+                    ParameterInfos[119] = { Name=AniScaleCenterX }
+                    ParameterInfos[120] = { Name=HeightLight_PositionY }
+                    ParameterInfos[121] = { Name=SecondLight_PositionY }
+                    ParameterInfos[122] = { Name=LightPositionY }
+                    ParameterInfos[123] = { Name=RotateAngle }
+                    ParameterInfos[124] = { Name=UseUpAndDown }
+                    ParameterInfos[125] = { Name=LightShakPositionY }
+                    ParameterInfos[126] = { Name=LightPositionX }
+                    ParameterInfos[127] = { Name=E_Tex_UseVCMask_Set }
+                    ParameterInfos[128] = { Name=HeightLightScale }
+                    ParameterInfos[129] = { Name=ShadowWidth }
+                    ParameterInfos[130] = { Name=UseLightOffset_Yaw_DYN }
+                    ParameterInfos[131] = { Name=E_Hologram_HightPow }
+                    ParameterInfos[132] = { Name=LightPitch(False=30,True=45)_DYN }
+                    ParameterInfos[133] = { Name=UVpositionX }
+                    ParameterInfos[134] = { Name=SolidShadowSaturation }
+                    ParameterInfos[135] = { Name=Second_NoiseStrength }
+                    ParameterInfos[136] = { Name=SolidShadowThreshold }
+                    ParameterInfos[137] = { Name=EmissionStrength }
+                    ParameterInfos[138] = { Name=RampScale }
+                    ParameterInfos[139] = { Name=HeightLight_WidthX }
+                    ParameterInfos[140] = { Name=ShapeScaleX }
+                    ParameterInfos[141] = { Name=E_Tex_Rotation }
+                    ParameterInfos[142] = { Name=ParallaxOffsetScaleMin }
+                    ParameterInfos[143] = { Name=SDFStart }
+                    ParameterInfos[144] = { Name=Custom0(Yaw) }
+                    ParameterInfos[145] = { Name=SecondLight_WidthX }
+                    ParameterInfos[146] = { Name=FlipBook }
+                    ParameterInfos[147] = { Name=Noise_UseScreenUV }
+                    ParameterInfos[148] = { Name=SecondLight_Position02Y }
+                    ParameterInfos[149] = { Name=EdgeWidth }
+                    ParameterInfos[150] = { Name=XHPower }
+                    ParameterInfos[151] = { Name=LightDisableDistanceMax }
+                    ParameterInfos[152] = { Name=ShadowProcess }
+                    ParameterInfos[153] = { Name=E_Motion_DitherMax }
+                    ParameterInfos[154] = { Name=SDFSmoothness }
+                    ParameterInfos[155] = { Name=RampShadowIntensity }
+                    ParameterInfos[156] = { Name=XHMax }
+                    ParameterInfos[157] = { Name=TransEdgeWidth }
+                    ParameterInfos[158] = { Name=HeightLightRotate }
+                    ParameterInfos[159] = { Name=SDFPitchPosition }
+                    ParameterInfos[160] = { Name=SoundWaveSpeed01 }
+                    ParameterInfos[161] = { Name=LightDisable }
+                    ParameterInfos[162] = { Name=SoundWaveTiling02 }
+                    ParameterInfos[163] = { Name=UVpositionY }
+                    ParameterInfos[164] = { Name=Second_UseScreenUV }
+                    ParameterInfos[165] = { Name=Rotation Angle (0-1) (S) }
+                    ParameterInfos[166] = { Name=ShakeNoise_YSpeed }
+                    ParameterInfos[167] = { Name=RotationAnlgle02 }
+                    ParameterInfos[168] = { Name=E_Dither_UseDither2 }
+                    ParameterInfos[169] = { Name=ParallaxOffsetScaleMax }
+                    ParameterInfos[170] = { Name=UseZVector }
+                    ParameterInfos[171] = { Name=UseFaceLightYaw }
+                    ParameterInfos[172] = { Name=RotateAngle02 }
+                    ParameterInfos[173] = { Name=LightDisableDistance }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[48] =
+                {
+                    ParameterInfos[0] = { Name=E_Hologram_BaseRefine }
+                    ParameterInfos[1] = { Name=EdgeColor }
+                    ParameterInfos[2] = { Name=E_Dissolve_Emission }
+                    ParameterInfos[3] = { Name=EffectMaskChannel_Vector }
+                    ParameterInfos[4] = { Name=E_Hologram_BaseUV }
+                    ParameterInfos[5] = { Name=AniShapeColor }
+                    ParameterInfos[6] = { Name=MainTexColorTint }
+                    ParameterInfos[7] = { Name=E_Tex_Speed }
+                    ParameterInfos[8] = { Name=NoiseUV }
+                    ParameterInfos[9] = { Name=E_Hologram_WPOVector }
+                    ParameterInfos[10] = { Name=E_Rim_RimColor }
+                    ParameterInfos[11] = { Name=Second_ScreenObjectUV }
+                    ParameterInfos[12] = { Name=SubsurfaceColor }
+                    ParameterInfos[13] = { Name=HeightLight_Color }
+                    ParameterInfos[14] = { Name=E_Tex_UVSwitch }
+                    ParameterInfos[15] = { Name=E_Hologram_Color }
+                    ParameterInfos[16] = { Name=FresnelRim_RimColor }
+                    ParameterInfos[17] = { Name=E_Tex_ScaleAndOffset }
+                    ParameterInfos[18] = { Name=Second_ColorTint }
+                    ParameterInfos[19] = { Name=ActorPosition }
+                    ParameterInfos[20] = { Name=EmissionColor }
+                    ParameterInfos[21] = { Name=SDFColor }
+                    ParameterInfos[22] = { Name=ShadowColor }
+                    ParameterInfos[23] = { Name=Second_UV }
+                    ParameterInfos[24] = { Name=E_Rim_Channel }
+                    ParameterInfos[25] = { Name=Second_Refine }
+                    ParameterInfos[26] = { Name=E_Hologram_HightColor }
+                    ParameterInfos[27] = { Name=E_Hologram_RampColor }
+                    ParameterInfos[28] = { Name=HeightLightColor }
+                    ParameterInfos[29] = { Name=SecondTex_UVSwitch }
+                    ParameterInfos[30] = { Name=E_Dissolve_Channel }
+                    ParameterInfos[31] = { Name=E_Hologram_MaskUV }
+                    ParameterInfos[32] = { Name=OutLineColor }
+                    ParameterInfos[33] = { Name=E_Base_Color }
+                    ParameterInfos[34] = { Name=ParallaxOffset }
+                    ParameterInfos[35] = { Name=Noise_UVSwitch }
+                    ParameterInfos[36] = { Name=ZVector }
+                    ParameterInfos[37] = { Name=TransEdgeColor }
+                    ParameterInfos[38] = { Name=E_Motion_Emissive }
+                    ParameterInfos[39] = { Name=SDFColor02 }
+                    ParameterInfos[40] = { Name=E_Hologram_NoiseUV }
+                    ParameterInfos[41] = { Name=YBasis }
+                    ParameterInfos[42] = { Name=XBasis }
+                    ParameterInfos[43] = { Name=E_Motion_Offset }
+                    ParameterInfos[44] = { Name=E_Tex_Color }
+                    ParameterInfos[45] = { Name=MainTexScaleOffset }
+                    ParameterInfos[46] = { Name=ZBasis }
+                    ParameterInfos[47] = { Name=E_Emission_Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[17] =
+                {
+                    ParameterInfos[0] = { Name=Noise }
+                    ParameterInfos[1] = { Name=R_Noise_A_Mask }
+                    ParameterInfos[2] = { Name=MainTex }
+                    ParameterInfos[3] = { Name=D }
+                    ParameterInfos[4] = { Name=E_Tex_NoiseTex }
+                    ParameterInfos[5] = { Name=EM }
+                    ParameterInfos[6] = { Name=MaskTex }
+                    ParameterInfos[7] = { Name=Noise02 }
+                    ParameterInfos[8] = { Name=E_Hologram_NoiseTex }
+                    ParameterInfos[9] = { Name=ShakeNoise }
+                    ParameterInfos[10] = { Name=SDF }
+                    ParameterInfos[11] = { Name=EyeTransformSDF }
+                    ParameterInfos[12] = { Name=E_Hologram_MainTex }
+                    ParameterInfos[13] = { Name=HeightLightMap }
+                    ParameterInfos[14] = { Name=E_Hologram_MaskTex }
+                    ParameterInfos[15] = { Name=SecondTex }
+                    ParameterInfos[16] = { Name=Second_RGB }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[174] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 1500
+            ScalarValues[2] = 0
+            ScalarValues[3] = 0
+            ScalarValues[4] = 1
+            ScalarValues[5] = 0.6
+            ScalarValues[6] = 12
+            ScalarValues[7] = 2
+            ScalarValues[8] = 0
+            ScalarValues[9] = 0.1
+            ScalarValues[10] = 0.5
+            ScalarValues[11] = 10
+            ScalarValues[12] = 0.5
+            ScalarValues[13] = 0.5
+            ScalarValues[14] = 0
+            ScalarValues[15] = 1.2
+            ScalarValues[16] = 1
+            ScalarValues[17] = 0.01
+            ScalarValues[18] = 0
+            ScalarValues[19] = 0.6
+            ScalarValues[20] = 0.2
+            ScalarValues[21] = 0.5
+            ScalarValues[22] = 0.15
+            ScalarValues[23] = 0
+            ScalarValues[24] = 1
+            ScalarValues[25] = 0
+            ScalarValues[26] = 0.6
+            ScalarValues[27] = 1
+            ScalarValues[28] = 1
+            ScalarValues[29] = 0.25
+            ScalarValues[30] = 0
+            ScalarValues[31] = 0
+            ScalarValues[32] = 5
+            ScalarValues[33] = 3
+            ScalarValues[34] = 1
+            ScalarValues[35] = 0.5
+            ScalarValues[36] = 0
+            ScalarValues[37] = 0
+            ScalarValues[38] = 0.5
+            ScalarValues[39] = 1
+            ScalarValues[40] = 1
+            ScalarValues[41] = 1
+            ScalarValues[42] = 0.552381
+            ScalarValues[43] = 1
+            ScalarValues[44] = 1
+            ScalarValues[45] = 1
+            ScalarValues[46] = 0.68
+            ScalarValues[47] = 0
+            ScalarValues[48] = 0.3
+            ScalarValues[49] = 0.5
+            ScalarValues[50] = 5
+            ScalarValues[51] = 0
+            ScalarValues[52] = 0
+            ScalarValues[53] = 1
+            ScalarValues[54] = 1
+            ScalarValues[55] = 0
+            ScalarValues[56] = 0
+            ScalarValues[57] = 0.25
+            ScalarValues[58] = 0.3
+            ScalarValues[59] = 0
+            ScalarValues[60] = 0
+            ScalarValues[61] = 0.9
+            ScalarValues[62] = 0.8
+            ScalarValues[63] = 1.2
+            ScalarValues[64] = 0
+            ScalarValues[65] = 0
+            ScalarValues[66] = 0.5
+            ScalarValues[67] = 0
+            ScalarValues[68] = 1
+            ScalarValues[69] = 1
+            ScalarValues[70] = 0.2
+            ScalarValues[71] = 0
+            ScalarValues[72] = 1
+            ScalarValues[73] = 0.95
+            ScalarValues[74] = 1
+            ScalarValues[75] = 1
+            ScalarValues[76] = 0
+            ScalarValues[77] = 0.5
+            ScalarValues[78] = 0
+            ScalarValues[79] = 0
+            ScalarValues[80] = 0
+            ScalarValues[81] = 0
+            ScalarValues[82] = 1
+            ScalarValues[83] = 0
+            ScalarValues[84] = 4
+            ScalarValues[85] = 1
+            ScalarValues[86] = 0
+            ScalarValues[87] = 0.09
+            ScalarValues[88] = 0
+            ScalarValues[89] = 0.42
+            ScalarValues[90] = 0
+            ScalarValues[91] = 0
+            ScalarValues[92] = 0.25
+            ScalarValues[93] = 0
+            ScalarValues[94] = 0.015
+            ScalarValues[95] = 0.4
+            ScalarValues[96] = 15
+            ScalarValues[97] = -0.1
+            ScalarValues[98] = 3
+            ScalarValues[99] = 5
+            ScalarValues[100] = 5
+            ScalarValues[101] = 0.75
+            ScalarValues[102] = -0.57
+            ScalarValues[103] = 0
+            ScalarValues[104] = 0
+            ScalarValues[105] = 0.2
+            ScalarValues[106] = 0
+            ScalarValues[107] = 0
+            ScalarValues[108] = 0
+            ScalarValues[109] = 1
+            ScalarValues[110] = 0
+            ScalarValues[111] = 0
+            ScalarValues[112] = 0
+            ScalarValues[113] = 100
+            ScalarValues[114] = 1
+            ScalarValues[115] = 0
+            ScalarValues[116] = 3.8
+            ScalarValues[117] = 0.5
+            ScalarValues[118] = 0.2
+            ScalarValues[119] = 0.5
+            ScalarValues[120] = 0.6
+            ScalarValues[121] = 0.4
+            ScalarValues[122] = 0
+            ScalarValues[123] = 0
+            ScalarValues[124] = 0
+            ScalarValues[125] = 0
+            ScalarValues[126] = 0
+            ScalarValues[127] = 0
+            ScalarValues[128] = 0.45
+            ScalarValues[129] = 0.001
+            ScalarValues[130] = 0
+            ScalarValues[131] = 1
+            ScalarValues[132] = 1
+            ScalarValues[133] = 0
+            ScalarValues[134] = 1.4
+            ScalarValues[135] = 0.15
+            ScalarValues[136] = 0
+            ScalarValues[137] = 1
+            ScalarValues[138] = 1
+            ScalarValues[139] = 0.6
+            ScalarValues[140] = 6
+            ScalarValues[141] = 0
+            ScalarValues[142] = 0
+            ScalarValues[143] = -0.2
+            ScalarValues[144] = 0
+            ScalarValues[145] = 1
+            ScalarValues[146] = 0
+            ScalarValues[147] = 0
+            ScalarValues[148] = 0.45
+            ScalarValues[149] = 0.6
+            ScalarValues[150] = 2.2
+            ScalarValues[151] = 5
+            ScalarValues[152] = 0.5
+            ScalarValues[153] = 0.5
+            ScalarValues[154] = 0.02
+            ScalarValues[155] = 0.1
+            ScalarValues[156] = 0.45
+            ScalarValues[157] = 0.05
+            ScalarValues[158] = 0
+            ScalarValues[159] = 0
+            ScalarValues[160] = -0.2
+            ScalarValues[161] = 0
+            ScalarValues[162] = 7.8
+            ScalarValues[163] = 0
+            ScalarValues[164] = 0
+            ScalarValues[165] = 0.25
+            ScalarValues[166] = 0
+            ScalarValues[167] = -0.5
+            ScalarValues[168] = 0
+            ScalarValues[169] = 0.6
+            ScalarValues[170] = 0
+            ScalarValues[171] = 0
+            ScalarValues[172] = 0
+            ScalarValues[173] = 1
+        }
+        VectorValues[48] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=0.5 }
+            VectorValues[1] = { R=0, G=0, B=0, A=1 }
+            VectorValues[2] = { R=0, G=0, B=0, A=0 }
+            VectorValues[3] = { R=0, G=0, B=0, A=0 }
+            VectorValues[4] = { R=0, G=0, B=0, A=0 }
+            VectorValues[5] = { R=1, G=1, B=1, A=0 }
+            VectorValues[6] = { R=1, G=1, B=1, A=1 }
+            VectorValues[7] = { R=0, G=0, B=0, A=0 }
+            VectorValues[8] = { R=1, G=1, B=0, A=0 }
+            VectorValues[9] = { R=1, G=0, B=0, A=1 }
+            VectorValues[10] = { R=0, G=0, B=0, A=1 }
+            VectorValues[11] = { R=0, G=0, B=1, A=1 }
+            VectorValues[12] = { R=0.4, G=0.4, B=0.4, A=0 }
+            VectorValues[13] = { R=1, G=1, B=1, A=1 }
+            VectorValues[14] = { R=1, G=0, B=0, A=0 }
+            VectorValues[15] = { R=1, G=1, B=1, A=1 }
+            VectorValues[16] = { R=1, G=0, B=0, A=1 }
+            VectorValues[17] = { R=1, G=1, B=0, A=0 }
+            VectorValues[18] = { R=1, G=1, B=1, A=1 }
+            VectorValues[19] = { R=0, G=0, B=100, A=1 }
+            VectorValues[20] = { R=0, G=0, B=0, A=0 }
+            VectorValues[21] = { R=0, G=0, B=0, A=0 }
+            VectorValues[22] = { R=0.65, G=0.65, B=0.65, A=0 }
+            VectorValues[23] = { R=1, G=1, B=0, A=0 }
+            VectorValues[24] = { R=1, G=0, B=0, A=0 }
+            VectorValues[25] = { R=1, G=1, B=1, A=0 }
+            VectorValues[26] = { R=1, G=1, B=1, A=1 }
+            VectorValues[27] = { R=1, G=1, B=1, A=0 }
+            VectorValues[28] = { R=1, G=1, B=1, A=1 }
+            VectorValues[29] = { R=1, G=0, B=0, A=0 }
+            VectorValues[30] = { R=1, G=0, B=0, A=0 }
+            VectorValues[31] = { R=1, G=1, B=0, A=0 }
+            VectorValues[32] = { R=0, G=0, B=0, A=1 }
+            VectorValues[33] = { R=0, G=0, B=0, A=0 }
+            VectorValues[34] = { R=0, G=0, B=0, A=0 }
+            VectorValues[35] = { R=1, G=0, B=0, A=0 }
+            VectorValues[36] = { R=1, G=1, B=1, A=1 }
+            VectorValues[37] = { R=0.113053, G=0.164842, B=1, A=1 }
+            VectorValues[38] = { R=0, G=0, B=0, A=1 }
+            VectorValues[39] = { R=0, G=0, B=0, A=0 }
+            VectorValues[40] = { R=1, G=1, B=1, A=0 }
+            VectorValues[41] = { R=0, G=0, B=0, A=0 }
+            VectorValues[42] = { R=0, G=0, B=0, A=0 }
+            VectorValues[43] = { R=0, G=0, B=0, A=0 }
+            VectorValues[44] = { R=1, G=1, B=1, A=1 }
+            VectorValues[45] = { R=1, G=1, B=0, A=0 }
+            VectorValues[46] = { R=0, G=0, B=0, A=0 }
+            VectorValues[47] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[17] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_XingHenSoundNoise.T_XingHenSoundNoise'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[3] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_3XingStar_D.T_3XingStar_D'
+            TextureValues[4] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[5] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Eyes/T_HDMF_EM.T_HDMF_EM'
+            TextureValues[6] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+            TextureValues[7] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_XingHenSoundNoise02.T_XingHenSoundNoise02'
+            TextureValues[8] = Texture2D'/Game/Aki/Render/Common/T_Caustic_001.T_Caustic_001'
+            TextureValues[9] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_XingHenShakeNoise_D.T_XingHenShakeNoise_D'
+            TextureValues[10] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_3XingStar_SDF.T_3XingStar_SDF'
+            TextureValues[11] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+            TextureValues[12] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[13] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Eyes/T_EyesSecondHeightLight02_EG.T_EyesSecondHeightLight02_EG'
+            TextureValues[14] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[15] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[16] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        }
+    }
+    ReferencedTextures[15] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        ReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+        ReferencedTextures[4] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+        ReferencedTextures[5] = Texture2D'/Game/Aki/Render/Common/T_Caustic_001.T_Caustic_001'
+        ReferencedTextures[6] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Eyes/T_HDMF_EM.T_HDMF_EM'
+        ReferencedTextures[7] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+        ReferencedTextures[8] = Texture2D'/Engine/EngineVolumetrics/Fogsheet/Materials/T_EV_BlankWhite_01.T_EV_BlankWhite_01'
+        ReferencedTextures[9] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Eyes/T_EyesSecondHeightLight02_EG.T_EyesSecondHeightLight02_EG'
+        ReferencedTextures[10] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_3XingStar_D.T_3XingStar_D'
+        ReferencedTextures[11] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_XingHenSoundNoise.T_XingHenSoundNoise'
+        ReferencedTextures[12] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_3XingStar_SDF.T_3XingStar_SDF'
+        ReferencedTextures[13] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_XingHenSoundNoise02.T_XingHenSoundNoise02'
+        ReferencedTextures[14] = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_XingHenShakeNoise_D.T_XingHenShakeNoise_D'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[17] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_XingHenSoundNoise.T_XingHenSoundNoise'
+        Name = Noise
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        Name = R_Noise_A_Mask
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = MainTex
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_3XingStar_D.T_3XingStar_D'
+        Name = D
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = E_Tex_NoiseTex
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Aki/Character/Role/CommonTexture/Eyes/T_HDMF_EM.T_HDMF_EM'
+        Name = EM
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+        Name = MaskTex
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_XingHenSoundNoise02.T_XingHenSoundNoise02'
+        Name = Noise02
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_Caustic_001.T_Caustic_001'
+        Name = E_Hologram_NoiseTex
+        Group = None
+    }
+    CollectedTextureParameters[9] =
+    {
+        Texture = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_XingHenShakeNoise_D.T_XingHenShakeNoise_D'
+        Name = ShakeNoise
+        Group = None
+    }
+    CollectedTextureParameters[10] =
+    {
+        Texture = Texture2D'/Game/Aki/Character/Role/CommonTexture/Star/T_3XingStar_SDF.T_3XingStar_SDF'
+        Name = SDF
+        Group = None
+    }
+    CollectedTextureParameters[11] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_Linear_D.T_DefaultColorWhite_Linear_D'
+        Name = EyeTransformSDF
+        Group = None
+    }
+    CollectedTextureParameters[12] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = E_Hologram_MainTex
+        Group = None
+    }
+    CollectedTextureParameters[13] =
+    {
+        Texture = Texture2D'/Game/Aki/Character/Role/CommonTexture/Eyes/T_EyesSecondHeightLight02_EG.T_EyesSecondHeightLight02_EG'
+        Name = HeightLightMap
+        Group = None
+    }
+    CollectedTextureParameters[14] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = E_Hologram_MaskTex
+        Group = None
+    }
+    CollectedTextureParameters[15] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = SecondTex
+        Group = None
+    }
+    CollectedTextureParameters[16] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Second_RGB
+        Group = None
+    }
+}
+CollectedScalarParameters[174] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=XingHenControl, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 1500
+        Name = E_Hologram_JitterStrength
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=0, Name=ShadowUpDown, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=SoundWaveInt02, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=E_Hologram_Inverse, Group=None }
+    CollectedScalarParameters[5] =
+    {
+        Value = 0.6
+        Name = HeightLight_PositionX
+        Group = None
+    }
+    CollectedScalarParameters[6] = { Value=12, Name=ShapeScaleY, Group=None }
+    CollectedScalarParameters[7] = { Value=2, Name=BreatheStrength, Group=None }
+    CollectedScalarParameters[8] =
+    {
+        Value = 0
+        Name = E_Hologram_MaskIntensity
+        Group = None
+    }
+    CollectedScalarParameters[9] = { Value=0.1, Name=ToonRimWidth, Group=None }
+    CollectedScalarParameters[10] = { Value=0.5, Name=E_Rim_RimRange, Group=None }
+    CollectedScalarParameters[11] = { Value=10, Name=LightShakeSpeed, Group=None }
+    CollectedScalarParameters[12] = { Value=0.5, Name=BreathePropotion, Group=None }
+    CollectedScalarParameters[13] = { Value=0.5, Name=RampShadowRange, Group=None }
+    CollectedScalarParameters[14] =
+    {
+        Value = 0
+        Name = UseLightOffset_Pitch_DYN
+        Group = None
+    }
+    CollectedScalarParameters[15] = { Value=1.2, Name=E_Dither_DitherValue, Group=None }
+    CollectedScalarParameters[16] = { Value=1, Name=E_Tex_MaskRange, Group=None }
+    CollectedScalarParameters[17] = { Value=0.01, Name=LightShakeScale, Group=None }
+    CollectedScalarParameters[18] =
+    {
+        Value = 0
+        Name = E_Hologram_MaskUVRotation
+        Group = None
+    }
+    CollectedScalarParameters[19] = { Value=0.6, Name=SolidShadowView, Group=None }
+    CollectedScalarParameters[20] = { Value=0.2, Name=SolidShadowProcess, Group=None }
+    CollectedScalarParameters[21] = { Value=0.5, Name=AniScaleCenterY, Group=None }
+    CollectedScalarParameters[22] =
+    {
+        Value = 0.15
+        Name = E_Hologram_NoiseStrength
+        Group = None
+    }
+    CollectedScalarParameters[23] = { Value=0, Name=LightOffset_Yaw, Group=None }
+    CollectedScalarParameters[24] = { Value=1, Name=ParallaxScale, Group=None }
+    CollectedScalarParameters[25] = { Value=0, Name=FresnelRim_Smooth, Group=None }
+    CollectedScalarParameters[26] = { Value=0.6, Name=HeightLight_WidthY, Group=None }
+    CollectedScalarParameters[27] = { Value=1, Name=UVScaleY, Group=None }
+    CollectedScalarParameters[28] = { Value=1, Name=ShakeNoiseTilingX, Group=None }
+    CollectedScalarParameters[29] = { Value=0.25, Name=ParallaxHeight, Group=None }
+    CollectedScalarParameters[30] = { Value=0, Name=E_Rim_UseRim, Group=None }
+    CollectedScalarParameters[31] = { Value=0, Name=NorWS/ZVector, Group=None }
+    CollectedScalarParameters[32] = { Value=5, Name=MotionBlurIntensity, Group=None }
+    CollectedScalarParameters[33] = { Value=3, Name=XHTimeSpeed, Group=None }
+    CollectedScalarParameters[34] = { Value=1, Name=E_Rim_Intensity, Group=None }
+    CollectedScalarParameters[35] = { Value=0.5, Name=Radius, Group=None }
+    CollectedScalarParameters[36] = { Value=0, Name=E_Hologram_UVRotation, Group=None }
+    CollectedScalarParameters[37] = { Value=0, Name=Second_HeightRadio, Group=None }
+    CollectedScalarParameters[38] = { Value=0.5, Name=E_Motion_DitherPow, Group=None }
+    CollectedScalarParameters[39] = { Value=1, Name=Intensity, Group=None }
+    CollectedScalarParameters[40] = { Value=1, Name=SolidShadowStrength, Group=None }
+    CollectedScalarParameters[41] = { Value=1, Name=LightDifferentScale, Group=None }
+    CollectedScalarParameters[42] =
+    {
+        Value = 0.552381
+        Name = TransEdgeProcess
+        Group = None
+    }
+    CollectedScalarParameters[43] = { Value=1, Name=E_Hologram_RampPow, Group=None }
+    CollectedScalarParameters[44] = { Value=1, Name=LightDisableSwitch, Group=None }
+    CollectedScalarParameters[45] = { Value=1, Name=SecondLight_WidthY, Group=None }
+    CollectedScalarParameters[46] = { Value=0.68, Name=ShapePosition01X, Group=None }
+    CollectedScalarParameters[47] = { Value=0, Name=E_Tex_UseTex, Group=None }
+    CollectedScalarParameters[48] = { Value=0.3, Name=TransTimeSpeed, Group=None }
+    CollectedScalarParameters[49] =
+    {
+        Value = 0.5
+        Name = ParallaxOffsetCenterY
+        Group = None
+    }
+    CollectedScalarParameters[50] = { Value=5, Name=E_Dissolve_Smooth, Group=None }
+    CollectedScalarParameters[51] = { Value=0, Name=E_Dissolve_UseDissolve, Group=None }
+    CollectedScalarParameters[52] = { Value=0, Name=LightOffset_Pitch, Group=None }
+    CollectedScalarParameters[53] = { Value=1, Name=E_Emission_Intensity, Group=None }
+    CollectedScalarParameters[54] =
+    {
+        Value = 1
+        Name = E_Hologram_EmissionIntensity
+        Group = None
+    }
+    CollectedScalarParameters[55] = { Value=0, Name=E_Motion_NoiseSpeed, Group=None }
+    CollectedScalarParameters[56] = { Value=0, Name=E_Base_UseTex, Group=None }
+    CollectedScalarParameters[57] = { Value=0.25, Name=Main_EmissionPower, Group=None }
+    CollectedScalarParameters[58] = { Value=0.3, Name=SecondLight_Width02Y, Group=None }
+    CollectedScalarParameters[59] = { Value=0, Name=FresnelRim_Reverse, Group=None }
+    CollectedScalarParameters[60] = { Value=0, Name=E_Emission_UseTex, Group=None }
+    CollectedScalarParameters[61] =
+    {
+        Value = 0.9
+        Name = EmissionBreathThreshold
+        Group = None
+    }
+    CollectedScalarParameters[62] = { Value=0.8, Name=EyeScale, Group=None }
+    CollectedScalarParameters[63] =
+    {
+        Value = 1.2
+        Name = E_Dither_DitherValue2
+        Group = None
+    }
+    CollectedScalarParameters[64] = { Value=0, Name=E_Dissolve_Progress, Group=None }
+    CollectedScalarParameters[65] = { Value=0, Name=ShadowOffset, Group=None }
+    CollectedScalarParameters[66] = { Value=0.5, Name=E_MotionRange, Group=None }
+    CollectedScalarParameters[67] = { Value=0, Name=FaceLightYaw, Group=None }
+    CollectedScalarParameters[68] = { Value=1, Name=UVScaleX, Group=None }
+    CollectedScalarParameters[69] = { Value=1, Name=OpacityIntensity, Group=None }
+    CollectedScalarParameters[70] = { Value=0.2, Name=DepthRimIntensity, Group=None }
+    CollectedScalarParameters[71] = { Value=0, Name=HeightLightMin, Group=None }
+    CollectedScalarParameters[72] = { Value=1, Name=E_Rim_UseTex, Group=None }
+    CollectedScalarParameters[73] = { Value=0.95, Name=Hardness, Group=None }
+    CollectedScalarParameters[74] = { Value=1, Name=UseCameraTangent, Group=None }
+    CollectedScalarParameters[75] = { Value=1, Name=XingHenUV, Group=None }
+    CollectedScalarParameters[76] = { Value=0, Name=LightNormlScale, Group=None }
+    CollectedScalarParameters[77] = { Value=0.5, Name=SecondLight_Width02X, Group=None }
+    CollectedScalarParameters[78] = { Value=0, Name=BreatheFrequency, Group=None }
+    CollectedScalarParameters[79] = { Value=0, Name=LightShakPositionX, Group=None }
+    CollectedScalarParameters[80] = { Value=0, Name=USE Hologram, Group=None }
+    CollectedScalarParameters[81] = { Value=0, Name=ShakeNoiseInt, Group=None }
+    CollectedScalarParameters[82] = { Value=1, Name=NoiseStrength, Group=None }
+    CollectedScalarParameters[83] = { Value=0, Name=Effect_Progress, Group=None }
+    CollectedScalarParameters[84] = { Value=4, Name=LightEmissiveInt, Group=None }
+    CollectedScalarParameters[85] = { Value=1, Name=UseProLight, Group=None }
+    CollectedScalarParameters[86] = { Value=0, Name=CustomLightDir, Group=None }
+    CollectedScalarParameters[87] = { Value=0.09, Name=E_Hologram_Opactiy, Group=None }
+    CollectedScalarParameters[88] = { Value=0, Name=ShakeNoiseX_Speed, Group=None }
+    CollectedScalarParameters[89] =
+    {
+        Value = 0.42
+        Name = SecondLight_Position02X
+        Group = None
+    }
+    CollectedScalarParameters[90] = { Value=0, Name=E_Hologram_Hight, Group=None }
+    CollectedScalarParameters[91] =
+    {
+        Value = 0
+        Name = SecondLight_Position_02Y
+        Group = None
+    }
+    CollectedScalarParameters[92] =
+    {
+        Value = 0.25
+        Name = SecondLight_PositionX
+        Group = None
+    }
+    CollectedScalarParameters[93] = { Value=0, Name=Second_Height, Group=None }
+    CollectedScalarParameters[94] = { Value=0.015, Name=ShadowRange, Group=None }
+    CollectedScalarParameters[95] = { Value=0.4, Name=HeightRatioInput, Group=None }
+    CollectedScalarParameters[96] = { Value=15, Name=AniSpeed, Group=None }
+    CollectedScalarParameters[97] = { Value=-0.1, Name=E_Motion_DitherMin, Group=None }
+    CollectedScalarParameters[98] = { Value=3, Name=XHIntensity, Group=None }
+    CollectedScalarParameters[99] = { Value=5, Name=FresnelRim_RimRange, Group=None }
+    CollectedScalarParameters[100] = { Value=5, Name=RampShadowColorScale, Group=None }
+    CollectedScalarParameters[101] = { Value=0.75, Name=ShapePosition01Y, Group=None }
+    CollectedScalarParameters[102] = { Value=-0.57, Name=SoundWaveSpeed02, Group=None }
+    CollectedScalarParameters[103] =
+    {
+        Value = 0
+        Name = Second_UseObjectScreenUV
+        Group = None
+    }
+    CollectedScalarParameters[104] = { Value=0, Name=E_Base_Intensity, Group=None }
+    CollectedScalarParameters[105] =
+    {
+        Value = 0.2
+        Name = FlowEffectEdge_Strength
+        Group = None
+    }
+    CollectedScalarParameters[106] = { Value=0, Name=SoundWaveInt01, Group=None }
+    CollectedScalarParameters[107] = { Value=0, Name=E_Hologram_HightOffset, Group=None }
+    CollectedScalarParameters[108] =
+    {
+        Value = 0
+        Name = SecondLight_Position_02X
+        Group = None
+    }
+    CollectedScalarParameters[109] = { Value=1, Name=HeightLightMax, Group=None }
+    CollectedScalarParameters[110] = { Value=0, Name=E_Tex_UseScreenUV, Group=None }
+    CollectedScalarParameters[111] = { Value=0, Name=E_Dither_UseDither, Group=None }
+    CollectedScalarParameters[112] = { Value=0, Name=RotationAnlgle01, Group=None }
+    CollectedScalarParameters[113] = { Value=100, Name=E_Dissolve_Multi, Group=None }
+    CollectedScalarParameters[114] = { Value=1, Name=ShakeNoiseTilingY, Group=None }
+    CollectedScalarParameters[115] = { Value=0, Name=E_Tex_UseMask, Group=None }
+    CollectedScalarParameters[116] = { Value=3.8, Name=SoundWaveTiling01, Group=None }
+    CollectedScalarParameters[117] =
+    {
+        Value = 0.5
+        Name = ParallaxOffsetCenterX
+        Group = None
+    }
+    CollectedScalarParameters[118] = { Value=0.2, Name=Width, Group=None }
+    CollectedScalarParameters[119] = { Value=0.5, Name=AniScaleCenterX, Group=None }
+    CollectedScalarParameters[120] =
+    {
+        Value = 0.6
+        Name = HeightLight_PositionY
+        Group = None
+    }
+    CollectedScalarParameters[121] =
+    {
+        Value = 0.4
+        Name = SecondLight_PositionY
+        Group = None
+    }
+    CollectedScalarParameters[122] = { Value=0, Name=LightPositionY, Group=None }
+    CollectedScalarParameters[123] = { Value=0, Name=RotateAngle, Group=None }
+    CollectedScalarParameters[124] = { Value=0, Name=UseUpAndDown, Group=None }
+    CollectedScalarParameters[125] = { Value=0, Name=LightShakPositionY, Group=None }
+    CollectedScalarParameters[126] = { Value=0, Name=LightPositionX, Group=None }
+    CollectedScalarParameters[127] = { Value=0, Name=E_Tex_UseVCMask_Set, Group=None }
+    CollectedScalarParameters[128] = { Value=0.45, Name=HeightLightScale, Group=None }
+    CollectedScalarParameters[129] = { Value=0.001, Name=ShadowWidth, Group=None }
+    CollectedScalarParameters[130] = { Value=0, Name=UseLightOffset_Yaw_DYN, Group=None }
+    CollectedScalarParameters[131] = { Value=1, Name=E_Hologram_HightPow, Group=None }
+    CollectedScalarParameters[132] =
+    {
+        Value = 1
+        Name = LightPitch(False=30,True=45)_DYN
+        Group = None
+    }
+    CollectedScalarParameters[133] = { Value=0, Name=UVpositionX, Group=None }
+    CollectedScalarParameters[134] =
+    {
+        Value = 1.4
+        Name = SolidShadowSaturation
+        Group = None
+    }
+    CollectedScalarParameters[135] =
+    {
+        Value = 0.15
+        Name = Second_NoiseStrength
+        Group = None
+    }
+    CollectedScalarParameters[136] = { Value=0, Name=SolidShadowThreshold, Group=None }
+    CollectedScalarParameters[137] = { Value=1, Name=EmissionStrength, Group=None }
+    CollectedScalarParameters[138] = { Value=1, Name=RampScale, Group=None }
+    CollectedScalarParameters[139] = { Value=0.6, Name=HeightLight_WidthX, Group=None }
+    CollectedScalarParameters[140] = { Value=6, Name=ShapeScaleX, Group=None }
+    CollectedScalarParameters[141] = { Value=0, Name=E_Tex_Rotation, Group=None }
+    CollectedScalarParameters[142] = { Value=0, Name=ParallaxOffsetScaleMin, Group=None }
+    CollectedScalarParameters[143] = { Value=-0.2, Name=SDFStart, Group=None }
+    CollectedScalarParameters[144] = { Value=0, Name=Custom0(Yaw), Group=None }
+    CollectedScalarParameters[145] = { Value=1, Name=SecondLight_WidthX, Group=None }
+    CollectedScalarParameters[146] = { Value=0, Name=FlipBook, Group=None }
+    CollectedScalarParameters[147] = { Value=0, Name=Noise_UseScreenUV, Group=None }
+    CollectedScalarParameters[148] =
+    {
+        Value = 0.45
+        Name = SecondLight_Position02Y
+        Group = None
+    }
+    CollectedScalarParameters[149] = { Value=0.6, Name=EdgeWidth, Group=None }
+    CollectedScalarParameters[150] = { Value=2.2, Name=XHPower, Group=None }
+    CollectedScalarParameters[151] =
+    {
+        Value = 5
+        Name = LightDisableDistanceMax
+        Group = None
+    }
+    CollectedScalarParameters[152] = { Value=0.5, Name=ShadowProcess, Group=None }
+    CollectedScalarParameters[153] = { Value=0.5, Name=E_Motion_DitherMax, Group=None }
+    CollectedScalarParameters[154] = { Value=0.02, Name=SDFSmoothness, Group=None }
+    CollectedScalarParameters[155] = { Value=0.1, Name=RampShadowIntensity, Group=None }
+    CollectedScalarParameters[156] = { Value=0.45, Name=XHMax, Group=None }
+    CollectedScalarParameters[157] = { Value=0.05, Name=TransEdgeWidth, Group=None }
+    CollectedScalarParameters[158] = { Value=0, Name=HeightLightRotate, Group=None }
+    CollectedScalarParameters[159] = { Value=0, Name=SDFPitchPosition, Group=None }
+    CollectedScalarParameters[160] = { Value=-0.2, Name=SoundWaveSpeed01, Group=None }
+    CollectedScalarParameters[161] = { Value=0, Name=LightDisable, Group=None }
+    CollectedScalarParameters[162] = { Value=7.8, Name=SoundWaveTiling02, Group=None }
+    CollectedScalarParameters[163] = { Value=0, Name=UVpositionY, Group=None }
+    CollectedScalarParameters[164] = { Value=0, Name=Second_UseScreenUV, Group=None }
+    CollectedScalarParameters[165] =
+    {
+        Value = 0.25
+        Name = Rotation Angle (0-1) (S)
+        Group = None
+    }
+    CollectedScalarParameters[166] = { Value=0, Name=ShakeNoise_YSpeed, Group=None }
+    CollectedScalarParameters[167] = { Value=-0.5, Name=RotationAnlgle02, Group=None }
+    CollectedScalarParameters[168] = { Value=0, Name=E_Dither_UseDither2, Group=None }
+    CollectedScalarParameters[169] =
+    {
+        Value = 0.6
+        Name = ParallaxOffsetScaleMax
+        Group = None
+    }
+    CollectedScalarParameters[170] = { Value=0, Name=UseZVector, Group=None }
+    CollectedScalarParameters[171] = { Value=0, Name=UseFaceLightYaw, Group=None }
+    CollectedScalarParameters[172] = { Value=0, Name=RotateAngle02, Group=None }
+    CollectedScalarParameters[173] = { Value=1, Name=LightDisableDistance, Group=None }
+}
+CollectedVectorParameters[48] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=0.5 }
+        Name = E_Hologram_BaseRefine
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = EdgeColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Dissolve_Emission
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = EffectMaskChannel_Vector
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Hologram_BaseUV
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = AniShapeColor
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = MainTexColorTint
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Tex_Speed
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = NoiseUV
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=1, G=0, B=0, A=1 }
+        Name = E_Hologram_WPOVector
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = E_Rim_RimColor
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=0, G=0, B=1, A=1 }
+        Name = Second_ScreenObjectUV
+        Group = None
+    }
+    CollectedVectorParameters[12] =
+    {
+        Value = { R=0.4, G=0.4, B=0.4, A=0 }
+        Name = SubsurfaceColor
+        Group = None
+    }
+    CollectedVectorParameters[13] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = HeightLight_Color
+        Group = None
+    }
+    CollectedVectorParameters[14] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = E_Tex_UVSwitch
+        Group = None
+    }
+    CollectedVectorParameters[15] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = E_Hologram_Color
+        Group = None
+    }
+    CollectedVectorParameters[16] =
+    {
+        Value = { R=1, G=0, B=0, A=1 }
+        Name = FresnelRim_RimColor
+        Group = None
+    }
+    CollectedVectorParameters[17] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = E_Tex_ScaleAndOffset
+        Group = None
+    }
+    CollectedVectorParameters[18] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Second_ColorTint
+        Group = None
+    }
+    CollectedVectorParameters[19] =
+    {
+        Value = { R=0, G=0, B=100, A=1 }
+        Name = ActorPosition
+        Group = None
+    }
+    CollectedVectorParameters[20] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = EmissionColor
+        Group = None
+    }
+    CollectedVectorParameters[21] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = SDFColor
+        Group = None
+    }
+    CollectedVectorParameters[22] =
+    {
+        Value = { R=0.65, G=0.65, B=0.65, A=0 }
+        Name = ShadowColor
+        Group = None
+    }
+    CollectedVectorParameters[23] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = Second_UV
+        Group = None
+    }
+    CollectedVectorParameters[24] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = E_Rim_Channel
+        Group = None
+    }
+    CollectedVectorParameters[25] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Second_Refine
+        Group = None
+    }
+    CollectedVectorParameters[26] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = E_Hologram_HightColor
+        Group = None
+    }
+    CollectedVectorParameters[27] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = E_Hologram_RampColor
+        Group = None
+    }
+    CollectedVectorParameters[28] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = HeightLightColor
+        Group = None
+    }
+    CollectedVectorParameters[29] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = SecondTex_UVSwitch
+        Group = None
+    }
+    CollectedVectorParameters[30] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = E_Dissolve_Channel
+        Group = None
+    }
+    CollectedVectorParameters[31] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = E_Hologram_MaskUV
+        Group = None
+    }
+    CollectedVectorParameters[32] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = OutLineColor
+        Group = None
+    }
+    CollectedVectorParameters[33] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Base_Color
+        Group = None
+    }
+    CollectedVectorParameters[34] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = ParallaxOffset
+        Group = None
+    }
+    CollectedVectorParameters[35] =
+    {
+        Value = { R=1, G=0, B=0, A=0 }
+        Name = Noise_UVSwitch
+        Group = None
+    }
+    CollectedVectorParameters[36] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = ZVector
+        Group = None
+    }
+    CollectedVectorParameters[37] =
+    {
+        Value = { R=0.113053, G=0.164842, B=1, A=1 }
+        Name = TransEdgeColor
+        Group = None
+    }
+    CollectedVectorParameters[38] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = E_Motion_Emissive
+        Group = None
+    }
+    CollectedVectorParameters[39] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = SDFColor02
+        Group = None
+    }
+    CollectedVectorParameters[40] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = E_Hologram_NoiseUV
+        Group = None
+    }
+    CollectedVectorParameters[41] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = YBasis
+        Group = None
+    }
+    CollectedVectorParameters[42] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = XBasis
+        Group = None
+    }
+    CollectedVectorParameters[43] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Motion_Offset
+        Group = None
+    }
+    CollectedVectorParameters[44] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = E_Tex_Color
+        Group = None
+    }
+    CollectedVectorParameters[45] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = MainTexScaleOffset
+        Group = None
+    }
+    CollectedVectorParameters[46] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = ZBasis
+        Group = None
+    }
+    CollectedVectorParameters[47] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = E_Emission_Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_HDMF_EM
+    }
+}

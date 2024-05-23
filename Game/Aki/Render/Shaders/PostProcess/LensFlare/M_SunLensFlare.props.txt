@@ -1,0 +1,502 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[75] =
+                {
+                    ParameterInfos[0] = { Name=SunGhost3Offset_Pentagon }
+                    ParameterInfos[1] = { Name=HaloLenPosFade1 }
+                    ParameterInfos[2] = { Name=SunGhost3Size_Pentagon }
+                    ParameterInfos[3] = { Name=SunGhost1Offset_Hex }
+                    ParameterInfos[4] = { Name=HaloColorOne2 }
+                    ParameterInfos[5] = { Name=SunGhost1Size_Hex }
+                    ParameterInfos[6] = { Name=SunGhost3Size_Hex }
+                    ParameterInfos[7] = { Name=SunGhost3Brightness_Hex }
+                    ParameterInfos[8] = { Name=SunGhost2Size_Hex }
+                    ParameterInfos[9] = { Name=HaloColorOne1 }
+                    ParameterInfos[10] = { Name=SunGhost2Brightness_Hex }
+                    ParameterInfos[11] = { Name=HaloColorPow2 }
+                    ParameterInfos[12] = { Name=SunIntensity }
+                    ParameterInfos[13] = { Name=HaloAttenIntensity2 }
+                    ParameterInfos[14] = { Name=SunGhost2Offset_Hex }
+                    ParameterInfos[15] = { Name=SunGhost3Brightness_Octogon }
+                    ParameterInfos[16] = { Name=SunGhost3Offset_Octogon }
+                    ParameterInfos[17] = { Name=SunCoronaRays2Intensity }
+                    ParameterInfos[18] = { Name=GlobalIntensity }
+                    ParameterInfos[19] = { Name=HaloAmplitude1 }
+                    ParameterInfos[20] = { Name=SunGhost2Size_Octogon }
+                    ParameterInfos[21] = { Name=HaloLenPosFade2 }
+                    ParameterInfos[22] = { Name=SunGhost2Offset_Pentagon }
+                    ParameterInfos[23] = { Name=SunGhost2Size_Circular }
+                    ParameterInfos[24] = { Name=SunGhost3Brightness_Pentagon }
+                    ParameterInfos[25] = { Name=HaloOffset1 }
+                    ParameterInfos[26] = { Name=SunGhost3Brightness_Circular }
+                    ParameterInfos[27] = { Name=HaloWidth1 }
+                    ParameterInfos[28] = { Name=HaloAmplitude2 }
+                    ParameterInfos[29] = { Name=SunCoronaRays2Streaks }
+                    ParameterInfos[30] = { Name=SunCoronaRays1Intensity }
+                    ParameterInfos[31] = { Name=SunCoronaRays1Streaks }
+                    ParameterInfos[32] = { Name=SunGhost2Brightness_Pentagon }
+                    ParameterInfos[33] = { Name=SunGhost1Brightness_Hex }
+                    ParameterInfos[34] = { Name=SunSolarWindSpeed }
+                    ParameterInfos[35] = { Name=SunCoronaRays2Angle }
+                    ParameterInfos[36] = { Name=SunGhost3Offset_Hex }
+                    ParameterInfos[37] = { Name=SunGhost1Brightness_Circular }
+                    ParameterInfos[38] = { Name=SunGhost2Brightness_Octogon }
+                    ParameterInfos[39] = { Name=SunGhost2Offset_Circular }
+                    ParameterInfos[40] = { Name=SunGhost2Size_Pentagon }
+                    ParameterInfos[41] = { Name=HaloColorTwo2 }
+                    ParameterInfos[42] = { Name=SunGhost1Offset_Octogon }
+                    ParameterInfos[43] = { Name=SunLightDiffractionThreshold }
+                    ParameterInfos[44] = { Name=HaloColorTwo1 }
+                    ParameterInfos[45] = { Name=HaloColorPow1 }
+                    ParameterInfos[46] = { Name=SunGhost1Size_Pentagon }
+                    ParameterInfos[47] = { Name=HaloOffset2 }
+                    ParameterInfos[48] = { Name=Param }
+                    ParameterInfos[49] = { Name=Max }
+                    ParameterInfos[50] = { Name=SampleRadius }
+                    ParameterInfos[51] = { Name=SunGhost2Offset_Octogon }
+                    ParameterInfos[52] = { Name=SunCoronaRays1Length }
+                    ParameterInfos[53] = { Name=SunGhost1Size_Octogon }
+                    ParameterInfos[54] = { Name=SunLightDiffractionIntensity }
+                    ParameterInfos[55] = { Name=SunGhost1Size_Circular }
+                    ParameterInfos[56] = { Name=SkyDepth }
+                    ParameterInfos[57] = { Name=SunGhost1Brightness_Octogon }
+                    ParameterInfos[58] = { Name=SunCoronaRays1Angle }
+                    ParameterInfos[59] = { Name=CloudOcclusion }
+                    ParameterInfos[60] = { Name=HaloWidth2 }
+                    ParameterInfos[61] = { Name=SunGhost3Size_Circular }
+                    ParameterInfos[62] = { Name=SunCoronaRays2Length }
+                    ParameterInfos[63] = { Name=DiskSize }
+                    ParameterInfos[64] = { Name=HaloIntensity2 }
+                    ParameterInfos[65] = { Name=HaloAttenIntensity1 }
+                    ParameterInfos[66] = { Name=SunGhost3Offset_Circular }
+                    ParameterInfos[67] = { Name=SunGhost2Brightness_Circular }
+                    ParameterInfos[68] = { Name=HaloIntensity1 }
+                    ParameterInfos[69] = { Name=SunCoronaRays2Spread }
+                    ParameterInfos[70] = { Name=SunGhost1Brightness_Pentagon }
+                    ParameterInfos[71] = { Name=SunGhost3Size_Octogon }
+                    ParameterInfos[72] = { Name=SunGhost1Offset_Circular }
+                    ParameterInfos[73] = { Name=SunGhost1Offset_Pentagon }
+                    ParameterInfos[74] = { Name=SunCoronaRays1Spread }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=TintColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=FlareNoiseTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[75] =
+        {
+            ScalarValues[0] = 1.04
+            ScalarValues[1] = 1
+            ScalarValues[2] = 0.03
+            ScalarValues[3] = 1.04
+            ScalarValues[4] = 0.1
+            ScalarValues[5] = 0.03
+            ScalarValues[6] = 0.03
+            ScalarValues[7] = 0.037
+            ScalarValues[8] = 0.03
+            ScalarValues[9] = 0.1
+            ScalarValues[10] = 0.037
+            ScalarValues[11] = 20
+            ScalarValues[12] = 0.1
+            ScalarValues[13] = 13
+            ScalarValues[14] = 1.04
+            ScalarValues[15] = 0.037
+            ScalarValues[16] = 1.04
+            ScalarValues[17] = 1
+            ScalarValues[18] = 1
+            ScalarValues[19] = 15.1415
+            ScalarValues[20] = 0.03
+            ScalarValues[21] = 1
+            ScalarValues[22] = 1.04
+            ScalarValues[23] = 0.03
+            ScalarValues[24] = 0.037
+            ScalarValues[25] = 0.22
+            ScalarValues[26] = 0.037
+            ScalarValues[27] = 0.1
+            ScalarValues[28] = 15.1415
+            ScalarValues[29] = 12
+            ScalarValues[30] = 1
+            ScalarValues[31] = 12
+            ScalarValues[32] = 0.037
+            ScalarValues[33] = 0.037
+            ScalarValues[34] = 0.01
+            ScalarValues[35] = 0
+            ScalarValues[36] = 1.04
+            ScalarValues[37] = 0.037
+            ScalarValues[38] = 0.037
+            ScalarValues[39] = 1.04
+            ScalarValues[40] = 0.03
+            ScalarValues[41] = 0.2
+            ScalarValues[42] = 1.04
+            ScalarValues[43] = 0.25
+            ScalarValues[44] = 0.2
+            ScalarValues[45] = 20
+            ScalarValues[46] = 0.03
+            ScalarValues[47] = 0.22
+            ScalarValues[48] = 0
+            ScalarValues[49] = 0.707
+            ScalarValues[50] = 12
+            ScalarValues[51] = 1.04
+            ScalarValues[52] = 0.02
+            ScalarValues[53] = 0.03
+            ScalarValues[54] = 4
+            ScalarValues[55] = 0.03
+            ScalarValues[56] = 500000
+            ScalarValues[57] = 0.037
+            ScalarValues[58] = 0
+            ScalarValues[59] = 0
+            ScalarValues[60] = 0.1
+            ScalarValues[61] = 0.03
+            ScalarValues[62] = 0.04
+            ScalarValues[63] = 0.05
+            ScalarValues[64] = 1.5
+            ScalarValues[65] = 13
+            ScalarValues[66] = 1.04
+            ScalarValues[67] = 0.037
+            ScalarValues[68] = 1.5
+            ScalarValues[69] = 0.05
+            ScalarValues[70] = 0.037
+            ScalarValues[71] = 0.03
+            ScalarValues[72] = 1.04
+            ScalarValues[73] = 1.04
+            ScalarValues[74] = 0.001
+        }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/Good64x64TilingNoiseHighFreq.Good64x64TilingNoiseHighFreq'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_FlareNoise_M.T_FlareNoise_M'
+        Name = FlareNoiseTex
+        Group = None
+    }
+}
+CollectedScalarParameters[75] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 1.04
+        Name = SunGhost3Offset_Pentagon
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=1, Name=HaloLenPosFade1, Group=None }
+    CollectedScalarParameters[2] =
+    {
+        Value = 0.03
+        Name = SunGhost3Size_Pentagon
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=1.04, Name=SunGhost1Offset_Hex, Group=None }
+    CollectedScalarParameters[4] = { Value=0.1, Name=HaloColorOne2, Group=None }
+    CollectedScalarParameters[5] = { Value=0.03, Name=SunGhost1Size_Hex, Group=None }
+    CollectedScalarParameters[6] = { Value=0.03, Name=SunGhost3Size_Hex, Group=None }
+    CollectedScalarParameters[7] =
+    {
+        Value = 0.037
+        Name = SunGhost3Brightness_Hex
+        Group = None
+    }
+    CollectedScalarParameters[8] = { Value=0.03, Name=SunGhost2Size_Hex, Group=None }
+    CollectedScalarParameters[9] = { Value=0.1, Name=HaloColorOne1, Group=None }
+    CollectedScalarParameters[10] =
+    {
+        Value = 0.037
+        Name = SunGhost2Brightness_Hex
+        Group = None
+    }
+    CollectedScalarParameters[11] = { Value=20, Name=HaloColorPow2, Group=None }
+    CollectedScalarParameters[12] = { Value=0.1, Name=SunIntensity, Group=None }
+    CollectedScalarParameters[13] = { Value=13, Name=HaloAttenIntensity2, Group=None }
+    CollectedScalarParameters[14] = { Value=1.04, Name=SunGhost2Offset_Hex, Group=None }
+    CollectedScalarParameters[15] =
+    {
+        Value = 0.037
+        Name = SunGhost3Brightness_Octogon
+        Group = None
+    }
+    CollectedScalarParameters[16] =
+    {
+        Value = 1.04
+        Name = SunGhost3Offset_Octogon
+        Group = None
+    }
+    CollectedScalarParameters[17] =
+    {
+        Value = 1
+        Name = SunCoronaRays2Intensity
+        Group = None
+    }
+    CollectedScalarParameters[18] = { Value=1, Name=GlobalIntensity, Group=None }
+    CollectedScalarParameters[19] = { Value=15.1415, Name=HaloAmplitude1, Group=None }
+    CollectedScalarParameters[20] =
+    {
+        Value = 0.03
+        Name = SunGhost2Size_Octogon
+        Group = None
+    }
+    CollectedScalarParameters[21] = { Value=1, Name=HaloLenPosFade2, Group=None }
+    CollectedScalarParameters[22] =
+    {
+        Value = 1.04
+        Name = SunGhost2Offset_Pentagon
+        Group = None
+    }
+    CollectedScalarParameters[23] =
+    {
+        Value = 0.03
+        Name = SunGhost2Size_Circular
+        Group = None
+    }
+    CollectedScalarParameters[24] =
+    {
+        Value = 0.037
+        Name = SunGhost3Brightness_Pentagon
+        Group = None
+    }
+    CollectedScalarParameters[25] = { Value=0.22, Name=HaloOffset1, Group=None }
+    CollectedScalarParameters[26] =
+    {
+        Value = 0.037
+        Name = SunGhost3Brightness_Circular
+        Group = None
+    }
+    CollectedScalarParameters[27] = { Value=0.1, Name=HaloWidth1, Group=None }
+    CollectedScalarParameters[28] = { Value=15.1415, Name=HaloAmplitude2, Group=None }
+    CollectedScalarParameters[29] = { Value=12, Name=SunCoronaRays2Streaks, Group=None }
+    CollectedScalarParameters[30] =
+    {
+        Value = 1
+        Name = SunCoronaRays1Intensity
+        Group = None
+    }
+    CollectedScalarParameters[31] = { Value=12, Name=SunCoronaRays1Streaks, Group=None }
+    CollectedScalarParameters[32] =
+    {
+        Value = 0.037
+        Name = SunGhost2Brightness_Pentagon
+        Group = None
+    }
+    CollectedScalarParameters[33] =
+    {
+        Value = 0.037
+        Name = SunGhost1Brightness_Hex
+        Group = None
+    }
+    CollectedScalarParameters[34] = { Value=0.01, Name=SunSolarWindSpeed, Group=None }
+    CollectedScalarParameters[35] = { Value=0, Name=SunCoronaRays2Angle, Group=None }
+    CollectedScalarParameters[36] = { Value=1.04, Name=SunGhost3Offset_Hex, Group=None }
+    CollectedScalarParameters[37] =
+    {
+        Value = 0.037
+        Name = SunGhost1Brightness_Circular
+        Group = None
+    }
+    CollectedScalarParameters[38] =
+    {
+        Value = 0.037
+        Name = SunGhost2Brightness_Octogon
+        Group = None
+    }
+    CollectedScalarParameters[39] =
+    {
+        Value = 1.04
+        Name = SunGhost2Offset_Circular
+        Group = None
+    }
+    CollectedScalarParameters[40] =
+    {
+        Value = 0.03
+        Name = SunGhost2Size_Pentagon
+        Group = None
+    }
+    CollectedScalarParameters[41] = { Value=0.2, Name=HaloColorTwo2, Group=None }
+    CollectedScalarParameters[42] =
+    {
+        Value = 1.04
+        Name = SunGhost1Offset_Octogon
+        Group = None
+    }
+    CollectedScalarParameters[43] =
+    {
+        Value = 0.25
+        Name = SunLightDiffractionThreshold
+        Group = None
+    }
+    CollectedScalarParameters[44] = { Value=0.2, Name=HaloColorTwo1, Group=None }
+    CollectedScalarParameters[45] = { Value=20, Name=HaloColorPow1, Group=None }
+    CollectedScalarParameters[46] =
+    {
+        Value = 0.03
+        Name = SunGhost1Size_Pentagon
+        Group = None
+    }
+    CollectedScalarParameters[47] = { Value=0.22, Name=HaloOffset2, Group=None }
+    CollectedScalarParameters[48] = { Value=0, Name=Param, Group=None }
+    CollectedScalarParameters[49] = { Value=0.707, Name=Max, Group=None }
+    CollectedScalarParameters[50] = { Value=12, Name=SampleRadius, Group=None }
+    CollectedScalarParameters[51] =
+    {
+        Value = 1.04
+        Name = SunGhost2Offset_Octogon
+        Group = None
+    }
+    CollectedScalarParameters[52] =
+    {
+        Value = 0.02
+        Name = SunCoronaRays1Length
+        Group = None
+    }
+    CollectedScalarParameters[53] =
+    {
+        Value = 0.03
+        Name = SunGhost1Size_Octogon
+        Group = None
+    }
+    CollectedScalarParameters[54] =
+    {
+        Value = 4
+        Name = SunLightDiffractionIntensity
+        Group = None
+    }
+    CollectedScalarParameters[55] =
+    {
+        Value = 0.03
+        Name = SunGhost1Size_Circular
+        Group = None
+    }
+    CollectedScalarParameters[56] = { Value=500000, Name=SkyDepth, Group=None }
+    CollectedScalarParameters[57] =
+    {
+        Value = 0.037
+        Name = SunGhost1Brightness_Octogon
+        Group = None
+    }
+    CollectedScalarParameters[58] = { Value=0, Name=SunCoronaRays1Angle, Group=None }
+    CollectedScalarParameters[59] = { Value=0, Name=CloudOcclusion, Group=None }
+    CollectedScalarParameters[60] = { Value=0.1, Name=HaloWidth2, Group=None }
+    CollectedScalarParameters[61] =
+    {
+        Value = 0.03
+        Name = SunGhost3Size_Circular
+        Group = None
+    }
+    CollectedScalarParameters[62] =
+    {
+        Value = 0.04
+        Name = SunCoronaRays2Length
+        Group = None
+    }
+    CollectedScalarParameters[63] = { Value=0.05, Name=DiskSize, Group=None }
+    CollectedScalarParameters[64] = { Value=1.5, Name=HaloIntensity2, Group=None }
+    CollectedScalarParameters[65] = { Value=13, Name=HaloAttenIntensity1, Group=None }
+    CollectedScalarParameters[66] =
+    {
+        Value = 1.04
+        Name = SunGhost3Offset_Circular
+        Group = None
+    }
+    CollectedScalarParameters[67] =
+    {
+        Value = 0.037
+        Name = SunGhost2Brightness_Circular
+        Group = None
+    }
+    CollectedScalarParameters[68] = { Value=1.5, Name=HaloIntensity1, Group=None }
+    CollectedScalarParameters[69] =
+    {
+        Value = 0.05
+        Name = SunCoronaRays2Spread
+        Group = None
+    }
+    CollectedScalarParameters[70] =
+    {
+        Value = 0.037
+        Name = SunGhost1Brightness_Pentagon
+        Group = None
+    }
+    CollectedScalarParameters[71] =
+    {
+        Value = 0.03
+        Name = SunGhost3Size_Octogon
+        Group = None
+    }
+    CollectedScalarParameters[72] =
+    {
+        Value = 1.04
+        Name = SunGhost1Offset_Circular
+        Group = None
+    }
+    CollectedScalarParameters[73] =
+    {
+        Value = 1.04
+        Name = SunGhost1Offset_Pentagon
+        Group = None
+    }
+    CollectedScalarParameters[74] =
+    {
+        Value = 0.001
+        Name = SunCoronaRays1Spread
+        Group = None
+    }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = TintColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

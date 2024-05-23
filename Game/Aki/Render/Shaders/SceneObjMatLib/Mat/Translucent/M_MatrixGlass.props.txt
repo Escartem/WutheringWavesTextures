@@ -1,0 +1,165 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[8] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[1] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+    ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+    ReferencedTextures[3] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.flipbook'
+    ReferencedTextures[4] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoise.BasicNoise'
+    ReferencedTextures[5] = Texture2D'/Game/Aki/Scene/Assets/Temp/Textures/T_Matirx_D.T_Matirx_D'
+    ReferencedTextures[6] = Texture2D'/Game/Aki/Scene/Assets/Temp/Textures/T_Matirx_M.T_Matirx_M'
+    ReferencedTextures[7] = TextureCube4'/Game/Aki/Scene/Cubemaps/T_Zbudio_0011_CUBE.T_Zbudio_0011_CUBE'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=RFL_Intensity }
+                    ParameterInfos[1] = { Name=Intensity }
+                    ParameterInfos[2] = { Name=$$$$ }
+                    ParameterInfos[3] = { Name=POW }
+                    ParameterInfos[4] = { Name=RFL_Angle }
+                    ParameterInfos[5] = { Name=Opacity }
+                    ParameterInfos[6] = { Name=$$ }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=FlowTill }
+                    ParameterInfos[1] = { Name=Tilling }
+                    ParameterInfos[2] = { Name=Color }
+                    ParameterInfos[3] = { Name=TexUVs }
+                    ParameterInfos[4] = { Name=Speed }
+                    ParameterInfos[5] = { Name=FlowSpeed }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=RFL_Cubemap }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[7] = { 1, 2, 0.2, 2, 0, 0.5, 0.1 }
+        VectorValues[6] =
+        {
+            VectorValues[0] = { R=1, G=0.5, B=0, A=1 }
+            VectorValues[1] = { R=4, G=4, B=0, A=1 }
+            VectorValues[2] = { R=1, G=0.691013, B=0.27333, A=1 }
+            VectorValues[3] = { R=4, G=4, B=0, A=1 }
+            VectorValues[4] = { R=0.15, G=0.15, B=0, A=1 }
+            VectorValues[5] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = TextureCube4'/Game/Aki/Scene/Cubemaps/T_Zbudio_0011_CUBE.T_Zbudio_0011_CUBE'
+        }
+    }
+    ReferencedTextures[9] =
+    {
+        ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+        ReferencedTextures[3] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+        ReferencedTextures[4] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.flipbook'
+        ReferencedTextures[5] = Texture2D'/Game/Aki/Scene/Assets/Temp/Textures/T_Matirx_D.T_Matirx_D'
+        ReferencedTextures[6] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoise.BasicNoise'
+        ReferencedTextures[7] = Texture2D'/Game/Aki/Scene/Assets/Temp/Textures/T_Matirx_M.T_Matirx_M'
+        ReferencedTextures[8] = TextureCube4'/Game/Aki/Scene/Cubemaps/T_Zbudio_0011_CUBE.T_Zbudio_0011_CUBE'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = TextureCube4'/Game/Aki/Scene/Cubemaps/T_Zbudio_0011_CUBE.T_Zbudio_0011_CUBE'
+        Name = RFL_Cubemap
+        Group = None
+    }
+}
+CollectedScalarParameters[7] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=RFL_Intensity, Group=None }
+    CollectedScalarParameters[1] = { Value=2, Name=Intensity, Group=None }
+    CollectedScalarParameters[2] = { Value=0.2, Name=$$$$, Group=None }
+    CollectedScalarParameters[3] = { Value=2, Name=POW, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=RFL_Angle, Group=None }
+    CollectedScalarParameters[5] = { Value=0.5, Name=Opacity, Group=None }
+    CollectedScalarParameters[6] = { Value=0.1, Name=$$, Group=None }
+}
+CollectedVectorParameters[6] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0.5, B=0, A=1 }
+        Name = FlowTill
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=4, G=4, B=0, A=1 }
+        Name = Tilling
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=0.691013, B=0.27333, A=1 }
+        Name = Color
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=4, G=4, B=0, A=1 }
+        Name = TexUVs
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.15, G=0.15, B=0, A=1 }
+        Name = Speed
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = FlowSpeed
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Matirx_D
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.5
+        UVChannelIndex = 0
+        TextureName = T_Matirx_M
+    }
+}

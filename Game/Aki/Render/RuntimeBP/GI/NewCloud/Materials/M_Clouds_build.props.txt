@@ -1,0 +1,98 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoise.BasicNoise'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/T_Cloud_TianCheng_D_Col.T_Cloud_TianCheng_D_Col'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[11] =
+                {
+                    ParameterInfos[0] = { Name=DepthFade }
+                    ParameterInfos[1] = { Name=OpacityForSwitch }
+                    ParameterInfos[2] = { Name=NoiseSpeed }
+                    ParameterInfos[3] = { Name=UVAmount }
+                    ParameterInfos[4] = { Name=UVSpeed }
+                    ParameterInfos[5] = { Name=NoiseTilling }
+                    ParameterInfos[6] = { Name=NoiseStrength }
+                    ParameterInfos[7] = { Name=U }
+                    ParameterInfos[8] = { Name=V }
+                    ParameterInfos[9] = { Name=Opacity }
+                    ParameterInfos[10] = { Name=luminance }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Noise }
+                    ParameterInfos[1] = { Name=CloudTex }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[11] = { 829.379, 1, 1, 0.05, 0.01, 1, 1, 0, 1, 1, 1 }
+        VectorValues[0] = {}
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoise.BasicNoise'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/T_Cloud_TianCheng_D_Col.T_Cloud_TianCheng_D_Col'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/T_Cloud_TianCheng_D_Col.T_Cloud_TianCheng_D_Col'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoise.BasicNoise'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoise.BasicNoise'
+        Name = Noise
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/T_Cloud_TianCheng_D_Col.T_Cloud_TianCheng_D_Col'
+        Name = CloudTex
+        Group = None
+    }
+}
+CollectedScalarParameters[11] =
+{
+    CollectedScalarParameters[0] = { Value=829.379, Name=DepthFade, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=OpacityForSwitch, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=NoiseSpeed, Group=None }
+    CollectedScalarParameters[3] = { Value=0.05, Name=UVAmount, Group=None }
+    CollectedScalarParameters[4] = { Value=0.01, Name=UVSpeed, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=NoiseTilling, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=NoiseStrength, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=U, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=V, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=luminance, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

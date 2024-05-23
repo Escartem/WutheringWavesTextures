@@ -1,0 +1,273 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Effect/Texture/Mask/T_Mask_10002.T_Mask_10002'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Scene/Assets/Common/Obj/Tex/T_Gla_03A_D.T_Gla_03A_D'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_1_UI.T_IconRoleHead256_1_UI'
+    ReferencedTextures[4] = TextureCube4'/Game/Aki/Scene/Cubemaps/T_Zbudio_0011_CUBE.T_Zbudio_0011_CUBE'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[15] =
+                {
+                    ParameterInfos[0] = { Name=OverallOpacityAdd }
+                    ParameterInfos[1] = { Name=RFL_Intensity }
+                    ParameterInfos[2] = { Name=Ratio }
+                    ParameterInfos[3] = { Name=Roughness }
+                    ParameterInfos[4] = { Name=RimRange }
+                    ParameterInfos[5] = { Name=RimPow }
+                    ParameterInfos[6] = { Name=Thickness }
+                    ParameterInfos[7] = { Name=MaskIntensity }
+                    ParameterInfos[8] = { Name=RFL_Angle }
+                    ParameterInfos[9] = { Name=Base_Alpha_Multiply }
+                    ParameterInfos[10] = { Name=Att }
+                    ParameterInfos[11] = { Name=MaskPow }
+                    ParameterInfos[12] = { Name=OverallOpacity }
+                    ParameterInfos[13] = { Name=RimIntensity }
+                    ParameterInfos[14] = { Name=SpecularIntensity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[17] =
+                {
+                    ParameterInfos[0] = { Name=EdgeColor }
+                    ParameterInfos[1] = { Name=Base_Refine }
+                    ParameterInfos[2] = { Name=Base_Tint }
+                    ParameterInfos[3] = { Name=OverallTint }
+                    ParameterInfos[4] = { Name=MainLightTint }
+                    ParameterInfos[5] = { Name=OverlayColor }
+                    ParameterInfos[6] = { Name=UVSpeed }
+                    ParameterInfos[7] = { Name=OverlayUVScaleBias }
+                    ParameterInfos[8] = { Name=Base_Emissive_Add }
+                    ParameterInfos[9] = { Name=MaskUVScaleBias }
+                    ParameterInfos[10] = { Name=Base_SingleChannelSelect }
+                    ParameterInfos[11] = { Name=UVRangeMap }
+                    ParameterInfos[12] = { Name=BaseAlphaSelect }
+                    ParameterInfos[13] = { Name=Overall_Emissive_Add }
+                    ParameterInfos[14] = { Name=UVScaleBias }
+                    ParameterInfos[15] = { Name=Overlay_Refine }
+                    ParameterInfos[16] = { Name=RimColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=RFL_Cubemap }
+                    ParameterInfos[1] = { Name=BaseTexture }
+                    ParameterInfos[2] = { Name=MaskTex }
+                    ParameterInfos[3] = { Name=OverlayTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[15] = { 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0 }
+        VectorValues[17] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+            VectorValues[1] = { R=1, G=1, B=1, A=0.5 }
+            VectorValues[2] = { R=1, G=1, B=1, A=1 }
+            VectorValues[3] = { R=0, G=0, B=0, A=1 }
+            VectorValues[4] = { R=1, G=1, B=1, A=1 }
+            VectorValues[5] = { R=1, G=1, B=1, A=1 }
+            VectorValues[6] = { R=0, G=0, B=0, A=0 }
+            VectorValues[7] = { R=1, G=1, B=0, A=0 }
+            VectorValues[8] = { R=0, G=0, B=0, A=1 }
+            VectorValues[9] = { R=1, G=1, B=0, A=0 }
+            VectorValues[10] = { R=0, G=0, B=0, A=1 }
+            VectorValues[11] = { R=0, G=0, B=1, A=1 }
+            VectorValues[12] = { R=0, G=0, B=0, A=1 }
+            VectorValues[13] = { R=0, G=0, B=0, A=1 }
+            VectorValues[14] = { R=1, G=1, B=0, A=0 }
+            VectorValues[15] = { R=1, G=1, B=1, A=0.5 }
+            VectorValues[16] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[4] =
+        {
+            TextureValues[0] = TextureCube4'/Game/Aki/Scene/Cubemaps/T_Zbudio_0011_CUBE.T_Zbudio_0011_CUBE'
+            TextureValues[1] = Texture2D'/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_1_UI.T_IconRoleHead256_1_UI'
+            TextureValues[2] = Texture2D'/Game/Aki/Effect/Texture/Mask/T_Mask_10002.T_Mask_10002'
+            TextureValues[3] = Texture2D'/Game/Aki/Scene/Assets/Common/Obj/Tex/T_Gla_03A_D.T_Gla_03A_D'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_1_UI.T_IconRoleHead256_1_UI'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Scene/Assets/Common/Obj/Tex/T_Gla_03A_D.T_Gla_03A_D'
+        ReferencedTextures[3] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        ReferencedTextures[4] = Texture2D'/Game/Aki/Effect/Texture/Mask/T_Mask_10002.T_Mask_10002'
+        ReferencedTextures[5] = TextureCube4'/Game/Aki/Scene/Cubemaps/T_Zbudio_0011_CUBE.T_Zbudio_0011_CUBE'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[4] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = TextureCube4'/Game/Aki/Scene/Cubemaps/T_Zbudio_0011_CUBE.T_Zbudio_0011_CUBE'
+        Name = RFL_Cubemap
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_1_UI.T_IconRoleHead256_1_UI'
+        Name = BaseTexture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Effect/Texture/Mask/T_Mask_10002.T_Mask_10002'
+        Name = MaskTex
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Scene/Assets/Common/Obj/Tex/T_Gla_03A_D.T_Gla_03A_D'
+        Name = OverlayTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[15] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=OverallOpacityAdd, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=RFL_Intensity, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Ratio, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Roughness, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=RimRange, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=RimPow, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Thickness, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=MaskIntensity, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=RFL_Angle, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=Base_Alpha_Multiply, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=Att, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=MaskPow, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=OverallOpacity, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=RimIntensity, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=SpecularIntensity, Group=None }
+}
+CollectedVectorParameters[17] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = EdgeColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=0.5 }
+        Name = Base_Refine
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Base_Tint
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = OverallTint
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = MainLightTint
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = OverlayColor
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = UVSpeed
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = OverlayUVScaleBias
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Base_Emissive_Add
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = MaskUVScaleBias
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Base_SingleChannelSelect
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=0, G=0, B=1, A=1 }
+        Name = UVRangeMap
+        Group = None
+    }
+    CollectedVectorParameters[12] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = BaseAlphaSelect
+        Group = None
+    }
+    CollectedVectorParameters[13] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Overall_Emissive_Add
+        Group = None
+    }
+    CollectedVectorParameters[14] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = UVScaleBias
+        Group = None
+    }
+    CollectedVectorParameters[15] =
+    {
+        Value = { R=1, G=1, B=1, A=0.5 }
+        Name = Overlay_Refine
+        Group = None
+    }
+    CollectedVectorParameters[16] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = RimColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

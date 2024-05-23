@@ -1,0 +1,5 @@
+Normal=water_new_height
+Other[0]=T_PerlinNoiseSmall
+Other[1]=T_Foliage_Noise_M1
+Other[2]=T_Ocean02_N
+Other[3]=T_SkyOcean01_N

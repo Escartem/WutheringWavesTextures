@@ -1,0 +1,153 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoise.BasicNoise'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/Common/wow.wow'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Scene/Assets/SkyBox/World/T_Com_Sky_20B_M.T_Com_Sky_20B_M'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[16] =
+                {
+                    ParameterInfos[0] = { Name=DepthFade }
+                    ParameterInfos[1] = { Name=Rotation }
+                    ParameterInfos[2] = { Name=OpacityForSwitch }
+                    ParameterInfos[3] = { Name=NoiseSpeed }
+                    ParameterInfos[4] = { Name=SDF? }
+                    ParameterInfos[5] = { Name=SDFSpeed }
+                    ParameterInfos[6] = { Name=$$$$ }
+                    ParameterInfos[7] = { Name=LightBrightness }
+                    ParameterInfos[8] = { Name=NoiseTilling }
+                    ParameterInfos[9] = { Name=NoiseStrength }
+                    ParameterInfos[10] = { Name=UVTiling }
+                    ParameterInfos[11] = { Name=Opacity }
+                    ParameterInfos[12] = { Name=LightRange }
+                    ParameterInfos[13] = { Name=UV1UV2 }
+                    ParameterInfos[14] = { Name=CloudSpeed }
+                    ParameterInfos[15] = { Name=InscatteringPower }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=DissloveMapUV }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Noise }
+                    ParameterInfos[1] = { Name=CloudMask }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[16] =
+        {
+            ScalarValues[0] = 829.379
+            ScalarValues[1] = 0
+            ScalarValues[2] = 1
+            ScalarValues[3] = 1
+            ScalarValues[4] = 0
+            ScalarValues[5] = 10
+            ScalarValues[6] = 0
+            ScalarValues[7] = 1
+            ScalarValues[8] = 1
+            ScalarValues[9] = 1
+            ScalarValues[10] = 1
+            ScalarValues[11] = 1
+            ScalarValues[12] = 2
+            ScalarValues[13] = 0
+            ScalarValues[14] = 1
+            ScalarValues[15] = 3
+        }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+        }
+        TextureValues[2] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoise.BasicNoise'
+            TextureValues[1] = Texture2D'/Game/Aki/Scene/Assets/SkyBox/World/T_Com_Sky_20B_M.T_Com_Sky_20B_M'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Scene/Assets/SkyBox/World/T_Com_Sky_20B_M.T_Com_Sky_20B_M'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoise.BasicNoise'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/Common/wow.wow'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/GI/NewCloud/Textures/BasicNoise.BasicNoise'
+        Name = Noise
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Scene/Assets/SkyBox/World/T_Com_Sky_20B_M.T_Com_Sky_20B_M'
+        Name = CloudMask
+        Group = None
+    }
+}
+CollectedScalarParameters[16] =
+{
+    CollectedScalarParameters[0] = { Value=829.379, Name=DepthFade, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Rotation, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=OpacityForSwitch, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=NoiseSpeed, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=SDF?, Group=None }
+    CollectedScalarParameters[5] = { Value=10, Name=SDFSpeed, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=$$$$, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=LightBrightness, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=NoiseTilling, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=NoiseStrength, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=UVTiling, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[12] = { Value=2, Name=LightRange, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=UV1UV2, Group=None }
+    CollectedScalarParameters[14] = { Value=1, Name=CloudSpeed, Group=None }
+    CollectedScalarParameters[15] = { Value=3, Name=InscatteringPower, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = DissloveMapUV
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.988953
+        UVChannelIndex = 0
+        TextureName = wow
+    }
+}

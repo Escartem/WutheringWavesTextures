@@ -1,0 +1,75 @@
+TwoSided = true
+bDisableDepthTest = true
+bIsMasked = false
+ReferencedTextures[6] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[1] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+    ReferencedTextures[2] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+    ReferencedTextures[3] = Texture2D'/Game/Aki/Render/RuntimeBP/Weather/LensDroplet/Tex/T_Env.T_Env'
+    ReferencedTextures[4] = Texture2D'/Game/Aki/Render/RuntimeBP/Weather/LensDroplet/Tex/T_RainDropNoise.T_RainDropNoise'
+    ReferencedTextures[5] = Texture2D'/Game/Aki/Render/RuntimeBP/Weather/LensDroplet/Tex/T_RainDropNormal.T_RainDropNormal'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[8] =
+                {
+                    ParameterInfos[0] = { Name=Jiggle }
+                    ParameterInfos[1] = { Name=Reflection }
+                    ParameterInfos[2] = { Name=SingleScale }
+                    ParameterInfos[3] = { Name=OpacityMat }
+                    ParameterInfos[4] = { Name=Scale }
+                    ParameterInfos[5] = { Name=Time }
+                    ParameterInfos[6] = { Name=Opacity }
+                    ParameterInfos[7] = { Name=Distance }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[8] = { 0, 0.05, 0.45, 0.7, 213.489, 0, 1, 111 }
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[7] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/RuntimeBP/Weather/LensDroplet/Tex/T_Env.T_Env'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/RuntimeBP/Weather/LensDroplet/Tex/T_RainDropNormal.T_RainDropNormal'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Render/RuntimeBP/Weather/LensDroplet/Tex/T_RainDropNoise.T_RainDropNoise'
+        ReferencedTextures[4] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[5] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.DebugNumberStrip'
+        ReferencedTextures[6] = Texture2D'/Engine/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.DebugNumberPeriod'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[8] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=Jiggle, Group=None }
+    CollectedScalarParameters[1] = { Value=0.05, Name=Reflection, Group=None }
+    CollectedScalarParameters[2] = { Value=0.45, Name=SingleScale, Group=None }
+    CollectedScalarParameters[3] = { Value=0.7, Name=OpacityMat, Group=None }
+    CollectedScalarParameters[4] = { Value=213.489, Name=Scale, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Time, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[7] = { Value=111, Name=Distance, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

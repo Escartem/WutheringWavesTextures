@@ -1,0 +1,9 @@
+Diffuse=T_Com_Veg_12A_D
+Normal=T_Com_Veg_12A_N
+Other[0]=T_Com_Veg_12A_M
+Other[1]=T_DefaultColorBlack_D1
+Other[2]=T_DefaultColorWhite_D
+Other[3]=T_DefaultNormal_N
+Other[4]=T_Default_SceneMask_M
+Other[5]=Good64x64TilingNoiseHighFreq
+Other[6]=T_FlareNoise_M

@@ -1,0 +1,197 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[4] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+    ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+    ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+    ReferencedTextures[3] = TextureCube4'/Game/Aki/Scene/Cubemaps/T_wide_street_02_2k_CUBE.T_wide_street_02_2k_CUBE'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=Diff_Emission_Intenstiy }
+                    ParameterInfos[1] = { Name=SpecularIntensty }
+                    ParameterInfos[2] = { Name=ReflectionIntenty }
+                    ParameterInfos[3] = { Name=SpecularFocus }
+                    ParameterInfos[4] = { Name=Fresnel_scope }
+                    ParameterInfos[5] = { Name=Rounghness_Intenstiy }
+                    ParameterInfos[6] = { Name=AO_Intenstiy }
+                    ParameterInfos[7] = { Name=Disparity_Emission_Ins }
+                    ParameterInfos[8] = { Name=Fresnel_Intenstiy }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=SpecularColor }
+                    ParameterInfos[1] = { Name=Disparity_color }
+                    ParameterInfos[2] = { Name=Solid Color }
+                    ParameterInfos[3] = { Name=Disparity_Tiling }
+                    ParameterInfos[4] = { Name=Base Tiling }
+                    ParameterInfos[5] = { Name=Disparity_speed }
+                    ParameterInfos[6] = { Name=Fresnel Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Normal }
+                    ParameterInfos[1] = { Name=Diff }
+                    ParameterInfos[2] = { Name=Disparity map }
+                    ParameterInfos[3] = { Name=CubeMap }
+                    ParameterInfos[4] = { Name=Mask1 }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[9] = { 0.35, 1, 1, 16, 3, 1, 1, 0.5, 1 }
+        VectorValues[7] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+            VectorValues[1] = { R=1, G=1, B=1, A=0 }
+            VectorValues[2] = { R=1, G=1, B=1, A=0 }
+            VectorValues[3] = { R=1, G=1, B=1, A=1 }
+            VectorValues[4] = { R=1, G=1, B=1, A=1 }
+            VectorValues[5] = { R=1, G=1, B=1, A=1 }
+            VectorValues[6] = { R=0.776647, G=1, B=0.633043, A=0 }
+        }
+        TextureValues[5] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+            TextureValues[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+            TextureValues[3] = TextureCube4'/Game/Aki/Scene/Cubemaps/T_wide_street_02_2k_CUBE.T_wide_street_02_2k_CUBE'
+            TextureValues[4] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        }
+    }
+    ReferencedTextures[5] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        ReferencedTextures[1] = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+        ReferencedTextures[4] = TextureCube4'/Game/Aki/Scene/Cubemaps/T_wide_street_02_2k_CUBE.T_wide_street_02_2k_CUBE'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultNormal_N.T_DefaultNormal_N'
+        Name = Normal
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Diff
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultColorWhite_D.T_DefaultColorWhite_D'
+        Name = Disparity map
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = TextureCube4'/Game/Aki/Scene/Cubemaps/T_wide_street_02_2k_CUBE.T_wide_street_02_2k_CUBE'
+        Name = CubeMap
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/T_DefaultMaskGreen_M.T_DefaultMaskGreen_M'
+        Name = Mask1
+        Group = None
+    }
+}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 0.35
+        Name = Diff_Emission_Intenstiy
+        Group = None
+    }
+    CollectedScalarParameters[1] = { Value=1, Name=SpecularIntensty, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=ReflectionIntenty, Group=None }
+    CollectedScalarParameters[3] = { Value=16, Name=SpecularFocus, Group=None }
+    CollectedScalarParameters[4] = { Value=3, Name=Fresnel_scope, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Rounghness_Intenstiy, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=AO_Intenstiy, Group=None }
+    CollectedScalarParameters[7] =
+    {
+        Value = 0.5
+        Name = Disparity_Emission_Ins
+        Group = None
+    }
+    CollectedScalarParameters[8] = { Value=1, Name=Fresnel_Intenstiy, Group=None }
+}
+CollectedVectorParameters[7] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = SpecularColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Disparity_color
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = Solid Color
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Disparity_Tiling
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Base Tiling
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Disparity_speed
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0.776647, G=1, B=0.633043, A=0 }
+        Name = Fresnel Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

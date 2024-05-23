@@ -1,0 +1,581 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[14] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    ReferencedTextures[2] = Texture2D'/Engine/EngineResources/Black.Black'
+    ReferencedTextures[3] = Texture2D'/Engine/EngineResources/Black_Low.Black_Low'
+    ReferencedTextures[4] = Texture2D'/Game/Aki/Render/Common/Skybox/T_ExtremeWeather/T_flowmap.T_flowmap'
+    ReferencedTextures[5] = Texture2D'/Game/Aki/Render/Common/Skybox/T_ExtremeWeather/T_skybox_01_top.T_skybox_01_top'
+    ReferencedTextures[6] = Texture2D'/Game/Aki/Render/Common/Skybox/T_ExtremeWeather/T_skybox_06.T_skybox_06'
+    ReferencedTextures[7] = Texture2D'/Game/Aki/Render/Common/T_WindNoise_M.T_WindNoise_M'
+    ReferencedTextures[8] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/CloudLayer/T_CloudsBig_01.T_CloudsBig_01'
+    ReferencedTextures[9] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/T_Background.T_Background'
+    ReferencedTextures[10] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/T_CloudNoise_Curl.T_CloudNoise_Curl'
+    ReferencedTextures[11] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/T_Galaxy02.T_Galaxy02'
+    ReferencedTextures[12] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/T_MilkyWayMask_01.T_MilkyWayMask_01'
+    ReferencedTextures[13] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/T_Moon.T_Moon'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[44] =
+                {
+                    ParameterInfos[0] = { Name=NebulaBrightness0 }
+                    ParameterInfos[1] = { Name=PlaneHeight }
+                    ParameterInfos[2] = { Name=CloudHardness2 }
+                    ParameterInfos[3] = { Name=CloudsHorizonScattering }
+                    ParameterInfos[4] = { Name=UVDisortionStrength }
+                    ParameterInfos[5] = { Name=EclipseAngle }
+                    ParameterInfos[6] = { Name=CloudsDistortion }
+                    ParameterInfos[7] = { Name=PlaneOffset }
+                    ParameterInfos[8] = { Name=LayerPhase }
+                    ParameterInfos[9] = { Name=SkyTintScale }
+                    ParameterInfos[10] = { Name=CloudsAmbient }
+                    ParameterInfos[11] = { Name=FinalColorScale }
+                    ParameterInfos[12] = { Name=MilkyWayBlend }
+                    ParameterInfos[13] = { Name=UseFlowmapSkybox }
+                    ParameterInfos[14] = { Name=LowerColorFalloff }
+                    ParameterInfos[15] = { Name=UVDisortionTiling }
+                    ParameterInfos[16] = { Name=PlaneHorizon }
+                    ParameterInfos[17] = { Name=CloudsScattering }
+                    ParameterInfos[18] = { Name=EclipseHardness }
+                    ParameterInfos[19] = { Name=CloudsHorizonDensity }
+                    ParameterInfos[20] = { Name=MilkyWayStarBoost }
+                    ParameterInfos[21] = { Name=MilkyWayWidth }
+                    ParameterInfos[22] = { Name=EclipseRadius }
+                    ParameterInfos[23] = { Name=TimeOfDay }
+                    ParameterInfos[24] = { Name=CloudsShadowSize }
+                    ParameterInfos[25] = { Name=NebulaBrightness1 }
+                    ParameterInfos[26] = { Name=CloudHardness1 }
+                    ParameterInfos[27] = { Name=BlueSaturation }
+                    ParameterInfos[28] = { Name=MoonScattering }
+                    ParameterInfos[29] = { Name=CloudsFluffy }
+                    ParameterInfos[30] = { Name=MoonClouds }
+                    ParameterInfos[31] = { Name=CloudsHorizon }
+                    ParameterInfos[32] = { Name=LightningScattering }
+                    ParameterInfos[33] = { Name=LightningClouds }
+                    ParameterInfos[34] = { Name=MilkyWayAngle }
+                    ParameterInfos[35] = { Name=Layer2Phase }
+                    ParameterInfos[36] = { Name=SunShine }
+                    ParameterInfos[37] = { Name=SunHardness }
+                    ParameterInfos[38] = { Name=SunRadius }
+                    ParameterInfos[39] = { Name=MilkyWayColorExp }
+                    ParameterInfos[40] = { Name=ShiftLen }
+                    ParameterInfos[41] = { Name=EclipseOffset }
+                    ParameterInfos[42] = { Name=EclipseLevel }
+                    ParameterInfos[43] = { Name=CloudsBloom }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[33] =
+                {
+                    ParameterInfos[0] = { Name=UVDisortionSpped }
+                    ParameterInfos[1] = { Name=SkyLightColor }
+                    ParameterInfos[2] = { Name=LightningColor }
+                    ParameterInfos[3] = { Name=MilkyWayTint }
+                    ParameterInfos[4] = { Name=UV2Offset }
+                    ParameterInfos[5] = { Name=WorldLayerSettings }
+                    ParameterInfos[6] = { Name=MilkyWayUVScale }
+                    ParameterInfos[7] = { Name=StarsColor }
+                    ParameterInfos[8] = { Name=LightningColorDebug }
+                    ParameterInfos[9] = { Name=CloudsLowerColor }
+                    ParameterInfos[10] = { Name=NebulaUVScale }
+                    ParameterInfos[11] = { Name=MilkyWayUVOffset }
+                    ParameterInfos[12] = { Name=SunDirection }
+                    ParameterInfos[13] = { Name=SunDirectionUp }
+                    ParameterInfos[14] = { Name=ST_TopColor }
+                    ParameterInfos[15] = { Name=MoonLightingDirection }
+                    ParameterInfos[16] = { Name=HorizonLowerColor }
+                    ParameterInfos[17] = { Name=StarTiling }
+                    ParameterInfos[18] = { Name=HorizonFalloff }
+                    ParameterInfos[19] = { Name=CloudsMultilayeredColor }
+                    ParameterInfos[20] = { Name=HorizonUpperColor }
+                    ParameterInfos[21] = { Name=MoonColor }
+                    ParameterInfos[22] = { Name=CloudsBackgroundColor }
+                    ParameterInfos[23] = { Name=SunDirectionSide }
+                    ParameterInfos[24] = { Name=MoonDirectionUp }
+                    ParameterInfos[25] = { Name=LightningPosition }
+                    ParameterInfos[26] = { Name=CloudsUpperColor }
+                    ParameterInfos[27] = { Name=VertexOffsetScale }
+                    ParameterInfos[28] = { Name=MoonDirectionFront }
+                    ParameterInfos[29] = { Name=SkyColorShift }
+                    ParameterInfos[30] = { Name=NebulaOffset }
+                    ParameterInfos[31] = { Name=SunColor }
+                    ParameterInfos[32] = { Name=MoonDirectionSide }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=ST_TopMap }
+                    ParameterInfos[1] = { Name=NebulaTex1 }
+                    ParameterInfos[2] = { Name=MilkWayMaskTex }
+                    ParameterInfos[3] = { Name=NebulaTex0 }
+                    ParameterInfos[4] = { Name=SK_SkyMap }
+                    ParameterInfos[5] = { Name=CloudsTexture1 }
+                    ParameterInfos[6] = { Name=MoonTexture }
+                    ParameterInfos[7] = { Name=CloudsTexture2 }
+                    ParameterInfos[8] = { Name=WorldLayer }
+                    ParameterInfos[9] = { Name=SK_FlowMap }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[44] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 1
+            ScalarValues[2] = 2.8
+            ScalarValues[3] = 0.03
+            ScalarValues[4] = 0.1
+            ScalarValues[5] = 1.13031
+            ScalarValues[6] = 0.7
+            ScalarValues[7] = -0.01
+            ScalarValues[8] = 0
+            ScalarValues[9] = 0
+            ScalarValues[10] = 0.5
+            ScalarValues[11] = 0
+            ScalarValues[12] = 1
+            ScalarValues[13] = 0
+            ScalarValues[14] = 0.710171
+            ScalarValues[15] = 4
+            ScalarValues[16] = 0.05
+            ScalarValues[17] = 0.3
+            ScalarValues[18] = 0.733336
+            ScalarValues[19] = 0.5
+            ScalarValues[20] = 50
+            ScalarValues[21] = 0.5
+            ScalarValues[22] = 0.880952
+            ScalarValues[23] = 0
+            ScalarValues[24] = 0.2
+            ScalarValues[25] = 1
+            ScalarValues[26] = 6
+            ScalarValues[27] = 1
+            ScalarValues[28] = 1
+            ScalarValues[29] = 0
+            ScalarValues[30] = 1
+            ScalarValues[31] = 0.13
+            ScalarValues[32] = 1
+            ScalarValues[33] = 1
+            ScalarValues[34] = 0
+            ScalarValues[35] = 0
+            ScalarValues[36] = 0.04
+            ScalarValues[37] = 0
+            ScalarValues[38] = 0.002
+            ScalarValues[39] = 1
+            ScalarValues[40] = 2
+            ScalarValues[41] = -0.742136
+            ScalarValues[42] = 0
+            ScalarValues[43] = 1
+        }
+        VectorValues[33] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=1 }
+            VectorValues[1] = { R=0.620833, G=0.442136, B=0.397344, A=1 }
+            VectorValues[2] = { R=0, G=0, B=0, A=0 }
+            VectorValues[3] = { R=1, G=1, B=1, A=1 }
+            VectorValues[4] = { R=0.001, G=-0.002, B=-0.0013, A=0.0024 }
+            VectorValues[5] = { R=0.15, G=2, B=5, A=1 }
+            VectorValues[6] = { R=1, G=1, B=0, A=0 }
+            VectorValues[7] = { R=0.5, G=0.5, B=0.5, A=1 }
+            VectorValues[8] = { R=0.330729, G=0.330729, B=0.661458, A=0.15 }
+            VectorValues[9] = { R=0.253193, G=0.261468, B=0.316667, A=0.5 }
+            VectorValues[10] = { R=1, G=1, B=0, A=0 }
+            VectorValues[11] = { R=0, G=0, B=0, A=1 }
+            VectorValues[12] = { R=-0.578, G=-0.578, B=-0.578, A=1 }
+            VectorValues[13] = { R=0.334084, G=0.334084, B=-0.668168, A=0 }
+            VectorValues[14] = { R=2.39583, G=20, B=19.7066, A=1 }
+            VectorValues[15] = { R=0, G=0.5, B=-0.1, A=1 }
+            VectorValues[16] = { R=1, G=0.204778, B=0, A=1 }
+            VectorValues[17] = { R=1, G=1, B=0, A=0 }
+            VectorValues[18] = { R=0.06, G=0.06, B=-0.5, A=0.7 }
+            VectorValues[19] = { R=1.1, G=1.1, B=1.1, A=0.1 }
+            VectorValues[20] = { R=0.002361, G=0.028884, B=0.070834, A=0.342 }
+            VectorValues[21] = { R=0.5, G=0.5, B=0.5, A=0.1 }
+            VectorValues[22] = { R=0.466667, G=0.159765, B=0.114722, A=1 }
+            VectorValues[23] = { R=-0.578, G=0.578, B=0, A=0 }
+            VectorValues[24] = { R=2, G=0, B=2, A=0 }
+            VectorValues[25] = { R=1, G=1, B=2, A=0 }
+            VectorValues[26] = { R=1.5, G=0.5, B=0, A=0 }
+            VectorValues[27] = { R=0, G=0, B=0, A=1 }
+            VectorValues[28] = { R=0.65, G=0, B=-0.65, A=0 }
+            VectorValues[29] = { R=0, G=0, B=0, A=1 }
+            VectorValues[30] = { R=0, G=0, B=0, A=0 }
+            VectorValues[31] = { R=1, G=0.7, B=0.5, A=0.15 }
+            VectorValues[32] = { R=0, G=2, B=0, A=0 }
+        }
+        TextureValues[10] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/Common/Skybox/T_ExtremeWeather/T_skybox_01_top.T_skybox_01_top'
+            TextureValues[1] = Texture2D'/Engine/EngineResources/Black_Low.Black_Low'
+            TextureValues[2] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/T_MilkyWayMask_01.T_MilkyWayMask_01'
+            TextureValues[3] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/T_Galaxy02.T_Galaxy02'
+            TextureValues[4] = Texture2D'/Game/Aki/Render/Common/Skybox/T_ExtremeWeather/T_skybox_06.T_skybox_06'
+            TextureValues[5] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/CloudLayer/T_CloudsBig_01.T_CloudsBig_01'
+            TextureValues[6] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/T_Moon.T_Moon'
+            TextureValues[7] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/CloudLayer/T_CloudsBig_01.T_CloudsBig_01'
+            TextureValues[8] = Texture2D'/Engine/EngineResources/Black.Black'
+            TextureValues[9] = Texture2D'/Game/Aki/Render/Common/Skybox/T_ExtremeWeather/T_flowmap.T_flowmap'
+        }
+    }
+    ReferencedTextures[15] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/T_Background.T_Background'
+        ReferencedTextures[2] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/T_Moon.T_Moon'
+        ReferencedTextures[3] = Texture2D'/Engine/EngineResources/Black.Black'
+        ReferencedTextures[4] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/CloudLayer/T_CloudsBig_01.T_CloudsBig_01'
+        ReferencedTextures[5] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+        ReferencedTextures[6] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+        ReferencedTextures[7] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/T_Galaxy02.T_Galaxy02'
+        ReferencedTextures[8] = Texture2D'/Engine/EngineResources/Black_Low.Black_Low'
+        ReferencedTextures[9] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/T_MilkyWayMask_01.T_MilkyWayMask_01'
+        ReferencedTextures[10] = Texture2D'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/T_CloudNoise_Curl.T_CloudNoise_Curl'
+        ReferencedTextures[11] = Texture2D'/Game/Aki/Render/Common/T_WindNoise_M.T_WindNoise_M'
+        ReferencedTextures[12] = Texture2D'/Game/Aki/Render/Common/Skybox/T_ExtremeWeather/T_skybox_06.T_skybox_06'
+        ReferencedTextures[13] = Texture2D'/Game/Aki/Render/Common/Skybox/T_ExtremeWeather/T_skybox_01_top.T_skybox_01_top'
+        ReferencedTextures[14] = Texture2D'/Game/Aki/Render/Common/Skybox/T_ExtremeWeather/T_flowmap.T_flowmap'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[10] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/Skybox/T_ExtremeWeather/T_skybox_01_top.T_skybox_01_top'
+        Name = ST_TopMap
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Engine/EngineResources/Black_Low.Black_Low'
+        Name = NebulaTex1
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/T_MilkyWayMask_01.T_MilkyWayMask_01'
+        Name = MilkWayMaskTex
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/T_Galaxy02.T_Galaxy02'
+        Name = NebulaTex0
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/Skybox/T_ExtremeWeather/T_skybox_06.T_skybox_06'
+        Name = SK_SkyMap
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/GI/CloudLayer/T_CloudsBig_01.T_CloudsBig_01'
+        Name = CloudsTexture1
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/GI/Skybox/Texture/T_Moon.T_Moon'
+        Name = MoonTexture
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/GI/CloudLayer/T_CloudsBig_01.T_CloudsBig_01'
+        Name = CloudsTexture2
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'/Engine/EngineResources/Black.Black'
+        Name = WorldLayer
+        Group = None
+    }
+    CollectedTextureParameters[9] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/Common/Skybox/T_ExtremeWeather/T_flowmap.T_flowmap'
+        Name = SK_FlowMap
+        Group = None
+    }
+}
+CollectedScalarParameters[44] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=NebulaBrightness0, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=PlaneHeight, Group=None }
+    CollectedScalarParameters[2] = { Value=2.8, Name=CloudHardness2, Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = 0.03
+        Name = CloudsHorizonScattering
+        Group = None
+    }
+    CollectedScalarParameters[4] = { Value=0.1, Name=UVDisortionStrength, Group=None }
+    CollectedScalarParameters[5] = { Value=1.13031, Name=EclipseAngle, Group=None }
+    CollectedScalarParameters[6] = { Value=0.7, Name=CloudsDistortion, Group=None }
+    CollectedScalarParameters[7] = { Value=-0.01, Name=PlaneOffset, Group=None }
+    CollectedScalarParameters[8] = { Value=0, Name=LayerPhase, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=SkyTintScale, Group=None }
+    CollectedScalarParameters[10] = { Value=0.5, Name=CloudsAmbient, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=FinalColorScale, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=MilkyWayBlend, Group=None }
+    CollectedScalarParameters[13] = { Value=0, Name=UseFlowmapSkybox, Group=None }
+    CollectedScalarParameters[14] =
+    {
+        Value = 0.710171
+        Name = LowerColorFalloff
+        Group = None
+    }
+    CollectedScalarParameters[15] = { Value=4, Name=UVDisortionTiling, Group=None }
+    CollectedScalarParameters[16] = { Value=0.05, Name=PlaneHorizon, Group=None }
+    CollectedScalarParameters[17] = { Value=0.3, Name=CloudsScattering, Group=None }
+    CollectedScalarParameters[18] = { Value=0.733336, Name=EclipseHardness, Group=None }
+    CollectedScalarParameters[19] = { Value=0.5, Name=CloudsHorizonDensity, Group=None }
+    CollectedScalarParameters[20] = { Value=50, Name=MilkyWayStarBoost, Group=None }
+    CollectedScalarParameters[21] = { Value=0.5, Name=MilkyWayWidth, Group=None }
+    CollectedScalarParameters[22] = { Value=0.880952, Name=EclipseRadius, Group=None }
+    CollectedScalarParameters[23] = { Value=0, Name=TimeOfDay, Group=None }
+    CollectedScalarParameters[24] = { Value=0.2, Name=CloudsShadowSize, Group=None }
+    CollectedScalarParameters[25] = { Value=1, Name=NebulaBrightness1, Group=None }
+    CollectedScalarParameters[26] = { Value=6, Name=CloudHardness1, Group=None }
+    CollectedScalarParameters[27] = { Value=1, Name=BlueSaturation, Group=None }
+    CollectedScalarParameters[28] = { Value=1, Name=MoonScattering, Group=None }
+    CollectedScalarParameters[29] = { Value=0, Name=CloudsFluffy, Group=None }
+    CollectedScalarParameters[30] = { Value=1, Name=MoonClouds, Group=None }
+    CollectedScalarParameters[31] = { Value=0.13, Name=CloudsHorizon, Group=None }
+    CollectedScalarParameters[32] = { Value=1, Name=LightningScattering, Group=None }
+    CollectedScalarParameters[33] = { Value=1, Name=LightningClouds, Group=None }
+    CollectedScalarParameters[34] = { Value=0, Name=MilkyWayAngle, Group=None }
+    CollectedScalarParameters[35] = { Value=0, Name=Layer2Phase, Group=None }
+    CollectedScalarParameters[36] = { Value=0.04, Name=SunShine, Group=None }
+    CollectedScalarParameters[37] = { Value=0, Name=SunHardness, Group=None }
+    CollectedScalarParameters[38] = { Value=0.002, Name=SunRadius, Group=None }
+    CollectedScalarParameters[39] = { Value=1, Name=MilkyWayColorExp, Group=None }
+    CollectedScalarParameters[40] = { Value=2, Name=ShiftLen, Group=None }
+    CollectedScalarParameters[41] = { Value=-0.742136, Name=EclipseOffset, Group=None }
+    CollectedScalarParameters[42] = { Value=0, Name=EclipseLevel, Group=None }
+    CollectedScalarParameters[43] = { Value=1, Name=CloudsBloom, Group=None }
+}
+CollectedVectorParameters[33] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = UVDisortionSpped
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.620833, G=0.442136, B=0.397344, A=1 }
+        Name = SkyLightColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = LightningColor
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = MilkyWayTint
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.001, G=-0.002, B=-0.0013, A=0.0024 }
+        Name = UV2Offset
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0.15, G=2, B=5, A=1 }
+        Name = WorldLayerSettings
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = MilkyWayUVScale
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0.5, G=0.5, B=0.5, A=1 }
+        Name = StarsColor
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0.330729, G=0.330729, B=0.661458, A=0.15 }
+        Name = LightningColorDebug
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=0.253193, G=0.261468, B=0.316667, A=0.5 }
+        Name = CloudsLowerColor
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = NebulaUVScale
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = MilkyWayUVOffset
+        Group = None
+    }
+    CollectedVectorParameters[12] =
+    {
+        Value = { R=-0.578, G=-0.578, B=-0.578, A=1 }
+        Name = SunDirection
+        Group = None
+    }
+    CollectedVectorParameters[13] =
+    {
+        Value = { R=0.334084, G=0.334084, B=-0.668168, A=0 }
+        Name = SunDirectionUp
+        Group = None
+    }
+    CollectedVectorParameters[14] =
+    {
+        Value = { R=2.39583, G=20, B=19.7066, A=1 }
+        Name = ST_TopColor
+        Group = None
+    }
+    CollectedVectorParameters[15] =
+    {
+        Value = { R=0, G=0.5, B=-0.1, A=1 }
+        Name = MoonLightingDirection
+        Group = None
+    }
+    CollectedVectorParameters[16] =
+    {
+        Value = { R=1, G=0.204778, B=0, A=1 }
+        Name = HorizonLowerColor
+        Group = None
+    }
+    CollectedVectorParameters[17] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = StarTiling
+        Group = None
+    }
+    CollectedVectorParameters[18] =
+    {
+        Value = { R=0.06, G=0.06, B=-0.5, A=0.7 }
+        Name = HorizonFalloff
+        Group = None
+    }
+    CollectedVectorParameters[19] =
+    {
+        Value = { R=1.1, G=1.1, B=1.1, A=0.1 }
+        Name = CloudsMultilayeredColor
+        Group = None
+    }
+    CollectedVectorParameters[20] =
+    {
+        Value = { R=0.002361, G=0.028884, B=0.070834, A=0.342 }
+        Name = HorizonUpperColor
+        Group = None
+    }
+    CollectedVectorParameters[21] =
+    {
+        Value = { R=0.5, G=0.5, B=0.5, A=0.1 }
+        Name = MoonColor
+        Group = None
+    }
+    CollectedVectorParameters[22] =
+    {
+        Value = { R=0.466667, G=0.159765, B=0.114722, A=1 }
+        Name = CloudsBackgroundColor
+        Group = None
+    }
+    CollectedVectorParameters[23] =
+    {
+        Value = { R=-0.578, G=0.578, B=0, A=0 }
+        Name = SunDirectionSide
+        Group = None
+    }
+    CollectedVectorParameters[24] =
+    {
+        Value = { R=2, G=0, B=2, A=0 }
+        Name = MoonDirectionUp
+        Group = None
+    }
+    CollectedVectorParameters[25] =
+    {
+        Value = { R=1, G=1, B=2, A=0 }
+        Name = LightningPosition
+        Group = None
+    }
+    CollectedVectorParameters[26] =
+    {
+        Value = { R=1.5, G=0.5, B=0, A=0 }
+        Name = CloudsUpperColor
+        Group = None
+    }
+    CollectedVectorParameters[27] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = VertexOffsetScale
+        Group = None
+    }
+    CollectedVectorParameters[28] =
+    {
+        Value = { R=0.65, G=0, B=-0.65, A=0 }
+        Name = MoonDirectionFront
+        Group = None
+    }
+    CollectedVectorParameters[29] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = SkyColorShift
+        Group = None
+    }
+    CollectedVectorParameters[30] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = NebulaOffset
+        Group = None
+    }
+    CollectedVectorParameters[31] =
+    {
+        Value = { R=1, G=0.7, B=0.5, A=0.15 }
+        Name = SunColor
+        Group = None
+    }
+    CollectedVectorParameters[32] =
+    {
+        Value = { R=0, G=2, B=0, A=0 }
+        Name = MoonDirectionSide
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,109 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[11] =
+                {
+                    ParameterInfos[0] = { Name=BankedExp }
+                    ParameterInfos[1] = { Name=DistanceU }
+                    ParameterInfos[2] = { Name=Radial Offset (S) }
+                    ParameterInfos[3] = { Name=DistanceV }
+                    ParameterInfos[4] = { Name=OutsideRidgeScale }
+                    ParameterInfos[5] = { Name=Radial Steps (S) }
+                    ParameterInfos[6] = { Name=Ridge }
+                    ParameterInfos[7] = { Name=Kernel Power (S) }
+                    ParameterInfos[8] = { Name=HeightExp }
+                    ParameterInfos[9] = { Name=Distance Steps (S) }
+                    ParameterInfos[10] = { Name=InsideRidgeScale }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[11] =
+        {
+            ScalarValues[0] = 0.5
+            ScalarValues[1] = 0.05
+            ScalarValues[2] = 0.62
+            ScalarValues[3] = 0.05
+            ScalarValues[4] = 10
+            ScalarValues[5] = 8
+            ScalarValues[6] = 0.3
+            ScalarValues[7] = 0
+            ScalarValues[8] = 2
+            ScalarValues[9] = 16
+            ScalarValues[10] = 1
+        }
+        VectorValues[0] = {}
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Aki/Render/RuntimeBP/TrailFields/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M'
+        Name = Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[11] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=BankedExp, Group=None }
+    CollectedScalarParameters[1] = { Value=0.05, Name=DistanceU, Group=None }
+    CollectedScalarParameters[2] = { Value=0.62, Name=Radial Offset (S), Group=None }
+    CollectedScalarParameters[3] = { Value=0.05, Name=DistanceV, Group=None }
+    CollectedScalarParameters[4] = { Value=10, Name=OutsideRidgeScale, Group=None }
+    CollectedScalarParameters[5] = { Value=8, Name=Radial Steps (S), Group=None }
+    CollectedScalarParameters[6] = { Value=0.3, Name=Ridge, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=Kernel Power (S), Group=None }
+    CollectedScalarParameters[8] = { Value=2, Name=HeightExp, Group=None }
+    CollectedScalarParameters[9] = { Value=16, Name=Distance Steps (S), Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=InsideRidgeScale, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_Perlin_Noise_M
+    }
+}

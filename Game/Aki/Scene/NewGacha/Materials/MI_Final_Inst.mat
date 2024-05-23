@@ -1,0 +1,9 @@
+Diffuse=T_DefaultColorBlack_D
+SpecPower=T_SpecularHighlights_M
+Other[0]=T_Normal_20001
+Other[1]=T_Nebula_15005
+Other[2]=T_Tile_30197
+Other[3]=T_SpecularHighlights_M
+Other[4]=T_DefaultColorWhite_D
+Other[5]=T_Com_Sky_01A_D
+Other[6]=T_MiscNoise_46

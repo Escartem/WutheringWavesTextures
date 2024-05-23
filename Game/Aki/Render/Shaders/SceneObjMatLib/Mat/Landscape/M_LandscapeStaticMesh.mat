@@ -1,0 +1,4 @@
+Diffuse=DefaultDiffuse
+Other[0]=DebugNumberStrip
+Other[1]=DebugNumberPeriod
+Other[2]=T_DefaultColorWhite_D

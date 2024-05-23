@@ -1,0 +1,6 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T_DefaultNormal_N
+Other[0]=DefaultTexture
+Other[1]=CommonBtnBg2
+Other[2]=T_Default_SceneMask_M
+Other[3]=T_DefaultColorBlack_D1

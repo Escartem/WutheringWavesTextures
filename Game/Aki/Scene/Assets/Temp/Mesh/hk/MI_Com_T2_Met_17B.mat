@@ -1,0 +1,11 @@
+Diffuse=T2_Com_Met_17A_D
+Normal=T2_Com_Met_17A_N
+Other[0]=T2_Com_Met_17A_M
+Other[1]=Good64x64TilingNoiseHighFreq
+Other[2]=T_Mask_Scan_002
+Other[3]=CommonBtnBg2
+Other[4]=T_Default_SceneMask_M
+Other[5]=T_DefaultColorWhite_D
+Other[6]=T_DefaultNormal_N
+Other[7]=T_FlareNoise_M
+Other[8]=T_WaterNormal_Rain
