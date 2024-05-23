@@ -1,0 +1,10 @@
+Diffuse=T_Noi_Roc_30A_D
+Normal=T_Noi_Roc_30A_N
+Other[0]=T_Noi_Roc_30A_M
+Other[1]=DefaultDiffuse
+Other[2]=DebugNumberStrip
+Other[3]=DebugNumberPeriod
+Other[4]=T_BlueNoise
+Other[5]=T_CellsBall_05
+Other[6]=T_Foliage_Noise_M
+Other[7]=T_CenterMask

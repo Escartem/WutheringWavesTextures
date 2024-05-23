@@ -1,0 +1,112 @@
+Parent = MaterialInstanceConstant'/Game/Aki/Render/MaterialInstance/Scene/MI_Parallax.MI_Parallax'
+ScalarParameterValues[9] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Scale 3rd layer }
+        ParameterValue = 1.5
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Scale 4th layer }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Scale 5th layer }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Scale 6th layer }
+        ParameterValue = 110
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Parallax 3th layer }
+        ParameterValue = -10
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Parallax 4th layer }
+        ParameterValue = -12.5
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Parallax 5th layer }
+        ParameterValue = -15
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=Parallax 6th layer }
+        ParameterValue = -10
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[4] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=3 }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Levels/HuangLong/YuanNiaoze/Tex/T_Res_Doo_02C_D.T_Res_Doo_02C_D'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=4 }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Levels/HuangLong/YuanNiaoze/Tex/T_Res_Doo_02D_D.T_Res_Doo_02D_D'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=5 }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Levels/HuangLong/YuanNiaoze/Tex/T_Res_Doo_02E_D.T_Res_Doo_02E_D'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=6 }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Levels/HuangLong/YuanNiaoze/Tex/T_Res_Doo_02F_D.T_Res_Doo_02F_D'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,14 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T4_Tig_Cry_01A_N
+Other[0]=T4_Tig_Cry_01A_D
+Other[1]=T4_Tig_Ice_01A_MA
+Other[2]=T4_Tig_Cry_01A_MA
+Other[3]=T4_Com_Con_27A_DB
+Other[4]=T4_Com_Con_27A_N
+Other[5]=Good64x64TilingNoiseHighFreq
+Other[6]=T_DefaultMaskGreen_M
+Other[7]=T_DefaultNormal_N
+Other[8]=T_DefaultNormalMask_M
+Other[9]=T_FlareNoise_M
+Other[10]=T_soft_smoke
+Other[11]=T_Zbudio_0011_CUBE

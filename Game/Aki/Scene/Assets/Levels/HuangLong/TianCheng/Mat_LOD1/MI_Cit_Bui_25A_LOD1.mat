@@ -1,0 +1,9 @@
+Diffuse=T_Cit_Bui_25A_D_LOD1
+Normal=T4_Com_Bri_04A_N
+Other[0]=T_Cit_Bui_25A_M_LOD1
+Other[1]=T_DefaultColorWhite_D
+Other[2]=T_DefaultNormal_N
+Other[3]=T_Default_SceneMask_M
+Other[4]=Good64x64TilingNoiseHighFreq
+Other[5]=T_FlareNoise_M
+Other[6]=T_WaterNormal_Rain

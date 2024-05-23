@@ -1,0 +1,10 @@
+Diffuse=T_Cit_Box_66A_D
+Normal=T_Cit_Box_66A_N
+Other[0]=T_Cit_Box_66A_M
+Other[1]=T_DefaultColorBlack_D1
+Other[2]=T_DefaultColorWhite_D
+Other[3]=T_DefaultNormal_N
+Other[4]=T_Default_SceneMask_M
+Other[5]=Good64x64TilingNoiseHighFreq
+Other[6]=T_FlareNoise_M
+Other[7]=T_WaterNormal_Rain

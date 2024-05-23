@@ -1,0 +1,166 @@
+Parent = MaterialInstanceConstant'/Game/Aki/Scene/Assets/Common/Water/Mat_01/MI_Com_T4_Wat_01E.MI_Com_T4_Wat_01E'
+ScalarParameterValues[11] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=BF_Reducer }
+        ParameterValue = 0.17
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=BF_Width }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Foam Dpeth Min }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=CausticBrightness }
+        ParameterValue = 20
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Caustics Fade In Distance }
+        ParameterValue = 300
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Caustics Playback FPS }
+        ParameterValue = 10
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=CubemapColorIntensity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=Default Disant Water Speed }
+        ParameterValue = 0.4
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=FakeSpec_Intensity }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=FakeSpec_Speed }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Caustics }
+        ParameterValue = Texture2D'/Game/Aki/Render/Common/SingleLayerWater/T_Caustics_AnimatedColored1_M.T_Caustics_AnimatedColored1_M'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Cubemap }
+        ParameterValue = TextureCube4'/Game/Aki/Scene/ReflectionCubemaps/HeiHaiAn/T_HeiHaiAn_01_RCUBE.T_HeiHaiAn_01_RCUBE'
+        ParameterName = None
+    }
+}
+VectorParameterValues[5] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Water Albedo }
+        ParameterValue = { R=0.28125, G=0.28125, B=0.28125, A=0.5 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=ScatteringColor }
+        ParameterValue = { R=1, G=1, B=1, A=0.5 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=AbsorptionColor }
+        ParameterValue = { R=0.54, G=0.6, B=0.57, A=8 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=ColorScaleBehindWater }
+        ParameterValue = { R=0.278906, G=0.299566, B=0.309896, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = { Name=WaterColorTint }
+        ParameterValue = { R=0.9, G=0.966667, B=1, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=EnableCaustic }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[2] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.015625
+        UVChannelIndex = 0
+        TextureName = T_EdgeFoamNoise
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.125
+        UVChannelIndex = 0
+        TextureName = T_RainRipples
+    }
+}

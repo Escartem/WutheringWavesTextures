@@ -1,0 +1,7 @@
+Diffuse=T4_Cit_Gla_01A_D
+Normal=T4_Cit_Gla_01A_N
+Cube=TC_DefaultWaterCube
+Other[0]=T4_Cit_Gla_01A_M
+Other[1]=T_DefaultColorWhite_D
+Other[2]=T_DefaultNormal_N
+Other[3]=T_Default_SceneMask_M

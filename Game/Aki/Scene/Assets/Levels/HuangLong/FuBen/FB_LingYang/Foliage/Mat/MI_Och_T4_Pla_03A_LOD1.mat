@@ -1,0 +1,9 @@
+Diffuse=T_DefaultColorWhite_D
+Normal=T_Com_Cor_05A_N
+Other[0]=T_Com_Cor_06A_D
+Other[1]=T_Com_Cor_06A_M
+Other[2]=T_Crystal_B_M
+Other[3]=T_DefaultNormal_N
+Other[4]=T_FlareNoise_M
+Other[5]=T_Foliage_Noise_M
+Other[6]=T_WindNoise_M

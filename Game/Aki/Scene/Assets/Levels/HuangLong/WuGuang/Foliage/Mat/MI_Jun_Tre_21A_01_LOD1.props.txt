@@ -1,0 +1,152 @@
+Parent = MaterialInstanceConstant'/Game/Aki/Render/MaterialInstance/Foliage/Foliage_Trunk/MI_Foliage_BigTrunk_LOD1.MI_Foliage_BigTrunk_LOD1'
+ScalarParameterValues[9] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Tex Tili }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Use uvo uv1 }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Blend Weight }
+        ParameterValue = 0.8
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Ao MaskInstensty }
+        ParameterValue = 1.5
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Start Distence }
+        ParameterValue = 150
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Mid Tili }
+        ParameterValue = 10
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Mid Blend Weight }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=1 Use Mid Blend Weight }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[7] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Tex Base Color }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Common/Foliage/Tex/T4_Com_Tre_06A_D.T4_Com_Tre_06A_D'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Tex Base Normal }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Common/Foliage/Tex/T4_Com_Tre_06C_N.T4_Com_Tre_06C_N'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Tex Structure Color }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Levels/HuangLong/WuGuang/Foliage/Tex/T_Jun_Tre_21A_D.T_Jun_Tre_21A_D'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Tex Structure Mask }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Levels/HuangLong/WuGuang/Foliage/Tex/T_Jun_Tre_21A_N.T_Jun_Tre_21A_N'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=Tex Mid Color }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Common/Foliage/Tex/T4_Com_Pla_01A_D.T4_Com_Pla_01A_D'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=Tex Mid Normal }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Common/Foliage/Tex/T4_Com_Pla_01A_N.T4_Com_Pla_01A_N'
+        ParameterName = None
+    }
+    TextureParameterValues[6] =
+    {
+        ParameterInfo = { Name=TexNormalBlend }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Common/Foliage/Tex/T4_Com_Pla_02D_M.T4_Com_Pla_02D_M'
+        ParameterName = None
+    }
+}
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Structure Edge Color }
+        ParameterValue = { R=1.3, G=1.2935, B=1.03285, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=BaseColor Tint }
+        ParameterValue = { R=0.274677, G=0.412543, B=0.242281, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[1] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use Mid }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

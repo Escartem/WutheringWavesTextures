@@ -1,0 +1,13 @@
+Diffuse=T_TianCheng_01_RCUBE
+Normal=T_Ocean_Foam_M
+Cube=T_TianCheng_01_RCUBE
+Other[0]=T_cubemap_03_CUBE
+Other[1]=T_WaterFall_Foam
+Other[2]=T_WaterfallNoise
+Other[3]=T_WaterfallMask_04_M
+Other[4]=LowResBlurredNoise
+Other[5]=T_WaterfallMask_M
+Other[6]=T_WaterFalls_atlas
+Other[7]=T_WaterNoise_02_M
+Other[8]=TC_DefaultWaterCube
+Other[9]=T_NoonSky_CUBE

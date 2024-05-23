@@ -1,0 +1,14 @@
+Diffuse=T4_Com_Tre_05A_D
+Normal=T4_Com_Tre_05A_N
+Other[0]=T4_Com_Tre_05A_M
+Other[1]=T4_Com_Pla_01A_D
+Other[2]=T4_Com_Pla_01A_N
+Other[3]=T4_Com_Gra_02A_M
+Other[4]=T_Tile_60030
+Other[5]=T_Mask_Scan_002
+Other[6]=T_Cloud_50005
+Other[7]=CommonBtnBg2
+Other[8]=T_Default_SceneMask_M
+Other[9]=T_DefaultColorBlack_D1
+Other[10]=T_DefaultColorWhite_D
+Other[11]=T_DefaultNormal_N

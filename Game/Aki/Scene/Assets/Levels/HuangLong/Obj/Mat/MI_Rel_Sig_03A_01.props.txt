@@ -1,0 +1,84 @@
+Parent = MaterialInstanceConstant'/Game/Aki/Render/MaterialInstance/Mask/MI_Scene_Mask.MI_Scene_Mask'
+ScalarParameterValues[4] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=LP_Radius }
+        ParameterValue = 4975.63
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=UseBaseColorAOrVertexColorR }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=UseWholeDayEmission }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[3] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Tex_Diffuse }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Levels/HuangLong/Obj/Tex/T_Rel_Sig_03A_D.T_Rel_Sig_03A_D'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Tex_M }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Levels/HuangLong/Obj/Tex/T_Rel_Sig_03A_M.T_Rel_Sig_03A_M'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Tex_Normal }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Levels/HuangLong/Obj/Tex/T_Rel_Sig_03A_N.T_Rel_Sig_03A_N'
+        ParameterName = None
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=LP_Offset }
+        ParameterValue = { R=2, G=-65.8348, B=-116.769, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Masked (1)
+    bOverride_TwoSided = false
+    TwoSided = true
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[0] = {}
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

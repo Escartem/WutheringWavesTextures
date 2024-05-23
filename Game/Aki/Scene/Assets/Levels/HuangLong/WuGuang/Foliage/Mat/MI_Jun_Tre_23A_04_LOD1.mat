@@ -1,0 +1,12 @@
+Diffuse=T4_Com_Tre_06A_D
+Normal=T4_Com_Tre_06C_N
+Other[0]=T_Jun_Tre_23D_D
+Other[1]=T_Jun_Tre_23D_N
+Other[2]=T4_Com_Pla_01A_D
+Other[3]=T4_Com_Pla_01A_N
+Other[4]=T_DefaultMaskGreen_M
+Other[5]=T_DefaultColorWhite_D
+Other[6]=T_DefaultNormal_N
+Other[7]=Good64x64TilingNoiseHighFreq
+Other[8]=T_DefaultColorWhite_Linear_D
+Other[9]=T_FlareNoise_M

@@ -1,0 +1,12 @@
+Diffuse=T_Res_Roc_07C_D
+Normal=T_DefaultNormal_N
+Other[0]=T_Res_Roc_07C_M
+Other[1]=Good64x64TilingNoiseHighFreq
+Other[2]=T_Caustic_001
+Other[3]=T_Default_SceneMask_M
+Other[4]=T_DefaultColorWhite_D
+Other[5]=T_FlareNoise_M
+Other[6]=T_Foliage_Noise_M
+Other[7]=T_Ice_A_Sub
+Other[8]=T_SingleLayerWaterNoise
+Other[9]=T_WaterNormal_Rain

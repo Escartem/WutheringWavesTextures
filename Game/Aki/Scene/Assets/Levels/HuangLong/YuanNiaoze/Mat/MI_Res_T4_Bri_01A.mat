@@ -1,0 +1,10 @@
+Diffuse=T4_Res_Bri_01A_D
+Normal=T4_Res_Bri_01A_N
+Other[0]=T4_Res_Bri_01A_M
+Other[1]=T_DefaultNormalMask_M
+Other[2]=T_DefaultColorWhite_D
+Other[3]=T_DefaultNormal_N
+Other[4]=T_Default_SceneMask_M
+Other[5]=Good64x64TilingNoiseHighFreq
+Other[6]=T_FlareNoise_M
+Other[7]=T_WaterNormal_Rain

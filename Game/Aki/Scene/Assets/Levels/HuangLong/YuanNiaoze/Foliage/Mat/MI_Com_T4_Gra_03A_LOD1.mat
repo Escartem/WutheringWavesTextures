@@ -1,0 +1,8 @@
+Diffuse=T_RandomColorTex
+Normal=T_WaterNormal_Rain
+Other[0]=T_Foliage_Noise_M
+Other[1]=BlendFunc_DefBase
+Other[2]=BlendFunc_DefBlend
+Other[3]=T_Foliage_Noise02_M
+Other[4]=T_RandomColorTex_test02
+Other[5]=T_LandscapeColorMap_D

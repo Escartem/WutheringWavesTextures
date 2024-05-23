@@ -1,0 +1,9 @@
+Diffuse=T_Val_Box_01A_D
+Normal=T_Val_Box_01A_N
+Other[0]=T_Val_Box_01A_M
+Other[1]=T_DefaultColorWhite_D
+Other[2]=T_DefaultMaskGreen_M
+Other[3]=T_DefaultNormal_N
+Other[4]=Good64x64TilingNoiseHighFreq
+Other[5]=T_FlareNoise_M
+Other[6]=T_WaterNormal_Rain

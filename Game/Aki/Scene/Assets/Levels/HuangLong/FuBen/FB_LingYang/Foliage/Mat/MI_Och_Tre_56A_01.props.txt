@@ -1,0 +1,146 @@
+Parent = MaterialInstanceConstant'/Game/Aki/Render/MaterialInstance/Foliage/Foliage_Trunk/MI_FoliageTrunk_Task.MI_FoliageTrunk_Task'
+ScalarParameterValues[6] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Tex Tili }
+        ParameterValue = 0.9
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=UV0 or UV1 }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Mid Tili }
+        ParameterValue = 7
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=ZUP Distance }
+        ParameterValue = 0.085714
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=ZUP Sparpen }
+        ParameterValue = 10.2366
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[8] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Tex Base Color }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Common/Foliage/Tex/T4_Com_Tre_06A_D.T4_Com_Tre_06A_D'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Tex Base Normal }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Common/Foliage/Tex/T4_Com_Tre_06C_N.T4_Com_Tre_06C_N'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Tex Sturcture Normal }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Common/Foliage/Tex/T_Com_Tre_56A_N.T_Com_Tre_56A_N'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Tex Mid Color }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Common/Foliage/Tex/T4_Com_Pla_01C_D.T4_Com_Pla_01C_D'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=Tex Mid Normal }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Common/Foliage/Tex/T4_Com_Pla_01A_N.T4_Com_Pla_01A_N'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=TexNormalBlend }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Common/Foliage/Tex/T4_Com_Pla_01D_M.T4_Com_Pla_01D_M'
+        ParameterName = None
+    }
+    TextureParameterValues[6] =
+    {
+        ParameterInfo = { Name=TaskColorMap }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Levels/HuangLong/FuBen/Landscape/ColorMap/Lingyang/T_Lingyang_LandscapeColorMap_D.T_Lingyang_LandscapeColorMap_D'
+        ParameterName = None
+    }
+    TextureParameterValues[7] =
+    {
+        ParameterInfo = { Name=WorldColorMap }
+        ParameterValue = Texture2D'/Game/Aki/Scene/Assets/Levels/HuangLong/FuBen/Landscape/ColorMap/Lingyang/T_Lingyang_LandscapeColorMap_D.T_Lingyang_LandscapeColorMap_D'
+        ParameterName = None
+    }
+}
+VectorParameterValues[2] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=EdgeColor }
+        ParameterValue = { R=2.2, G=2.19649, B=1.74801, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=BaseColor Tint }
+        ParameterValue = { R=1, G=1, B=1, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Opaque (0)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[2] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use StructureNormal }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use OverlayColorMap }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
