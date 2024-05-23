@@ -1,0 +1,2 @@
+# WutheringWavesTextures
+Wuthering waves textures
